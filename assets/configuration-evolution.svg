@@ -29,7 +29,7 @@
 <text x="1150" y="473" text-anchor="middle" class="t">separate prototype / evaluation</text>
 <text x="1150" y="503" text-anchor="middle" class="t">path</text>
 <text x="1150" y="528" text-anchor="middle" class="t">archived variant kept at</text>
-<text x="1150" y="556" text-anchor="middle" class="t">family level until directly evidenced</text>
+<text x="1150" y="556" text-anchor="middle" class="t">family level</text><text x="1150" y="584" text-anchor="middle" class="t">until directly evidenced</text>
 
 <path d="M830 255 H900 V230 H980" class="line"/>
 <path d="M830 255 H900 V495 H980" class="line"/>

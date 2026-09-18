@@ -28,8 +28,8 @@
 <text x="1150" y="437" text-anchor="middle" class="h">Garmin G900X/G950 family</text>
 <text x="1150" y="473" text-anchor="middle" class="t">separate prototype / evaluation</text>
 <text x="1150" y="503" text-anchor="middle" class="t">path</text>
-<text x="1150" y="533" text-anchor="middle" class="t">archived variant kept at family level</text>
-<text x="1150" y="563" text-anchor="middle" class="t">until directly evidenced</text>
+<text x="1150" y="528" text-anchor="middle" class="t">archived variant kept at</text>
+<text x="1150" y="556" text-anchor="middle" class="t">family level until directly evidenced</text>
 
 <path d="M830 255 H900 V230 H980" class="line"/>
 <path d="M830 255 H900 V495 H980" class="line"/>
@@ -53,7 +53,7 @@
 <text x="1580" y="472" text-anchor="middle" class="t">10-aircraft public sale</text>
 <text x="1580" y="500" text-anchor="middle" class="t">operator use verified by</text>
 <text x="1580" y="528" text-anchor="middle" class="t">independent MOD sources</text>
-<text x="1580" y="556" text-anchor="middle" class="t">avionics selection not asserted</text>
+<text x="1580" y="556" text-anchor="middle" class="t">avionics selection unknown</text>
 
 <rect x="1070" y="690" width="660" height="120" rx="14" class="b"/>
 <text x="1400" y="732" text-anchor="middle" class="h">Configuration-control rule</text>

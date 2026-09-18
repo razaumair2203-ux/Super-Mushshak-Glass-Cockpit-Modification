@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <style>
+    .title{font:700 30px Arial,sans-serif;fill:#111}
+    .sub{font:400 16px Arial,sans-serif;fill:#444}
+    .h{font:700 18px Arial,sans-serif;fill:#111}
+    .t{font:400 15px Arial,sans-serif;fill:#222}
+    .box{fill:#fff;stroke:#222;stroke-width:2;rx:14}
+    .core{fill:#f4f4f4;stroke:#111;stroke-width:3;rx:18}
+    .arrow{stroke:#333;stroke-width:2.5;fill:none;marker-end:url(#a)}
+  </style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#333"/></marker></defs>
+  <text x="50" y="52" class="title">Public system-level architecture — Super Mushshak glass-cockpit retrofit</text>
+  <text x="50" y="82" class="sub">Sanitized portfolio view: functional domains only; no proprietary pinouts, wiring, test limits or configuration data.</text>
+
+  <rect x="55" y="135" width="245" height="105" class="box"/>
+  <text x="78" y="170" class="h">Flight-state sensing</text>
+  <text x="78" y="200" class="t">Air data • attitude • heading</text>
+  <text x="78" y="224" class="t">temperature • acceleration</text>
+
+  <rect x="55" y="285" width="245" height="105" class="box"/>
+  <text x="78" y="320" class="h">Engine / airframe</text>
+  <text x="78" y="350" class="t">Engine and aircraft sensors</text>
+  <text x="78" y="374" class="t">indications • alerts</text>
+
+  <rect x="55" y="435" width="245" height="105" class="box"/>
+  <text x="78" y="470" class="h">CNS / external inputs</text>
+  <text x="78" y="500" class="t">GPS • NAV • COM • audio</text>
+  <text x="78" y="524" class="t">transponder / antennas</text>
+
+  <rect x="455" y="225" width="300" height="220" class="core"/>
+  <text x="500" y="275" class="h">Avionics integration layer</text>
+  <text x="490" y="315" class="t">Interface management</text>
+  <text x="490" y="345" class="t">Data conversion / distribution</text>
+  <text x="490" y="375" class="t">Configuration / calibration</text>
+  <text x="490" y="405" class="t">Power / discretes / protection</text>
+
+  <rect x="900" y="160" width="245" height="115" class="box"/>
+  <text x="925" y="198" class="h">Pilot / instructor HMI</text>
+  <text x="925" y="228" class="t">PFD • MFD • alerts</text>
+  <text x="925" y="252" class="t">training usability</text>
+
+  <rect x="900" y="335" width="245" height="115" class="box"/>
+  <text x="925" y="373" class="h">Aircraft installation</text>
+  <text x="925" y="403" class="t">Panel • harness • equipment</text>
+  <text x="925" y="427" class="t">mounting • maintainability</text>
+
+  <rect x="900" y="510" width="245" height="105" class="box"/>
+  <text x="925" y="548" class="h">Verification closure</text>
+  <text x="925" y="578" class="t">Ground test • ground run</text>
+  <text x="925" y="602" class="t">flight test • defect closure</text>
+
+  <path d="M300 187 C365 187,390 275,455 290" class="arrow"/>
+  <path d="M300 337 C365 337,390 337,455 337" class="arrow"/>
+  <path d="M300 487 C365 487,390 400,455 390" class="arrow"/>
+  <path d="M755 285 C820 260,845 220,900 220" class="arrow"/>
+  <path d="M755 340 C820 350,845 390,900 392" class="arrow"/>
+  <path d="M755 398 C825 440,850 545,900 560" class="arrow"/>
+
+  <text x="55" y="650" class="sub">Portfolio abstraction created from public system concepts and personally supplied project context. It is not an aircraft wiring or certification drawing.</text>
+</svg>

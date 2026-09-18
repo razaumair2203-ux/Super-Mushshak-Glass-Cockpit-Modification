@@ -1,39 +1,30 @@
 # Visual Assets
 
-## Project photographs
+## Original project photographs
 
 | File | What it shows | Allowed processing |
 |---|---|---|
 | `dynon-skyview-installed-prototype.jpg` | installed Dynon SkyView prototype cockpit | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
 | `dynon-skyview-flight-test.jpg` | installed Dynon cockpit operating in flight | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
-| `international-customer-evaluation.jpg` | customer-evaluation-period project context | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
+| `international-customer-evaluation.jpg` | international customer-evaluation-period project context | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
 
-**Rule:** aircraft, cockpit, people, displays and test scenes remain original. No generative replacement is permitted.
+**Image integrity rule:** aircraft, cockpit, people, displays and test scenes remain original. No generative replacement is permitted.
 
-The recruiter-facing collage/gallery is built directly from these project images in [docs/media-gallery.md](../docs/media-gallery.md) and the main [README](../README.md).
-
-## Independent public media
-
-The repository also embeds a small number of licence-cleared Wikimedia Commons photographs so the later product story is visible rather than buried in text:
-
-- Super Mushshak at **Dubai Airshow 2011** — Kurush Pawar / DXBSpotter, CC BY-SA 2.0;
-- Super Mushshak cockpit at **Dubai Airshow 2017** — Mztourist, CC BY-SA 4.0;
-- **Turkish Air Force** Super Mushshak — CeeGee, Wikimedia Commons; licence on source page.
-
-Source pages and programme evidence are listed in [docs/references.md](../docs/references.md).
+The main [README](../README.md) and [Project Media Gallery](../docs/media-gallery.md) use only repository-local project imagery. Public third-party images are source-linked rather than hot-linked into recruiter-facing pages.
 
 ## Systems-engineering visuals
 
 | File | Purpose |
 |---|---|
+| `programme-impact.svg` | programme role, public export scale and transparent value benchmark |
 | `system-context.svg` | aircraft/system boundary and external actors |
 | `functional-decomposition.svg` | aircraft-level functional hierarchy |
-| `systems-engineering-lifecycle.svg` | systems-engineering lifecycle view |
+| `systems-engineering-lifecycle.svg` | engineering lifecycle / V-model |
 | `mbse-system-architecture.svg` | public-release logical architecture |
 | `mbse-verification-thread.svg` | verification and discrepancy-closure flow |
 | `configuration-evolution.svg` | prototype/configuration separation |
 | `traceability-matrix.svg` | recruiter-facing traceability slice |
-| `programme-context.svg` | later programme/export context |
-| `digital-twin-roadmap.svg` | historical digital thread to executable twin |
+| `programme-context.svg` | prototype-to-international-product-line progression |
+| `digital-twin-roadmap.svg` | project evidence → digital thread → executable twin |
 
-The diagrams are current systems-engineering representations of the executed retrofit programme. They intentionally remain at logical/interface level; controlled installation detail is outside the public release.
+The diagrams are current systems-engineering representations of the executed retrofit programme. They remain at architecture/interface level; controlled installation detail is outside the public release.

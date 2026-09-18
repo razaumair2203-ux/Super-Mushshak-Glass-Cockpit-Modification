@@ -22,3 +22,6 @@ jobs:
 
       - name: Validate traceability, links and image paths
         run: python tools/validate_model.py
+
+      - name: Build graph-ready digital thread
+        run: python tools/export_digital_thread.py --output /tmp/digital-thread.json

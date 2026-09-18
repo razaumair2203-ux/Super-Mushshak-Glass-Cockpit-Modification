@@ -6,9 +6,9 @@ The reconstruction uses five source classes:
 
 1. **direct project evidence** — authentic photographs, period engineering correspondence, test/status records and surviving programme documents;
 2. **OEM/reference documentation** — vendor manuals and architecture material;
-3. **public programme reporting** — later contract/operator context;
-4. **retrospective programme-lead statements** — explicitly labelled recollection/scope information supplied for reconstruction;
-5. **retrospective engineering derivation** — public-safe requirements, functions, interfaces and traceability generated from identified evidence.
+3. **public programme reporting** — later contract/operator/commercial context;
+4. **retrospective programme-lead statements** — explicitly labelled role/scope information supplied for reconstruction;
+5. **retrospective engineering derivation** — public-safe requirements, functions, interfaces, risks and traceability generated from identified evidence.
 
 ## Supplied project material
 
@@ -36,6 +36,12 @@ The programme lead has supplied scope information identifying sensor-suite repla
 
 Because the surviving public-safe period sources available here do not independently reconstruct every detail of that executed harness state, the claim is explicitly tagged as **retrospective direct statement (E-24)** rather than being attributed to an unpublished drawing.
 
+### Retrospective role statement
+
+The programme lead identifies his role on the retrofit as **Lead Systems Engineer**, covering aircraft-level architecture/integration, prototype testing and troubleshooting, OEM technical coordination and customer-evaluation support.
+
+This is controlled as **E-25**. Formal appointment material is not published.
+
 ### Project photographs
 
 Authentic supplied photographs include installed cockpit, in-flight display, customer-evaluation, cockpit-in-flight, aerial test-flight and test-engineer imagery.
@@ -50,59 +56,67 @@ Private correspondence bodies and personal data are not uploaded.
 
 ## Public programme sources
 
-The public-evidence layer deliberately separates **first-party / official operator evidence**, **configuration-specialist reporting** and **external image sources**.
+The public-evidence layer deliberately separates **first-party / official operator evidence**, **configuration-specialist reporting**, **commercial-context reporting** and **external image sources**.
 
 ### First-party / official programme and operator sources
 
-- Pakistan Defence Export Promotion Organisation — Super Mushshak product page; optional glass-cockpit provisioning:
+- Pakistan Defence Export Promotion Organisation — Super Mushshak product page; optional glass-cockpit provisioning:  
   https://www.depo.gov.pk/airSystem.php?page=11
-- Associated Press of Pakistan — Nigeria delivery; aircraft explicitly described as glass-cockpit equipped; ten-aircraft programme:
+- Associated Press of Pakistan — Nigeria delivery; aircraft explicitly described as glass-cockpit equipped; ten-aircraft programme:  
   https://www.app.com.pk/national/pakistan-supplies-four-super-mushshak-to-naf/
-- Nigerian Air Force — official inventory narrative recording ten Super Mushshak trainers:
+- Nigerian Air Force — official inventory narrative recording ten Super Mushshak trainers:  
   https://airforce.mil.ng/news/naf-day-2021-ends-with-induction-of-jf-17-multi-role-thunder-aircraft1424548808
-- Associated Press of Pakistan — Qatar, eight-aircraft contract:
+- Associated Press of Pakistan — Qatar, eight-aircraft contract:  
   https://www.app.com.pk/national/pakistan-inks-accord-to-supply-8-mushshak-aircraft-to-qatar/
-- Qatar News Agency — Super Mushshak trainers in Al Zaeem Air Academy flying activity:
+- Qatar News Agency — Super Mushshak trainers in Al Zaeem Air Academy flying activity:  
   https://qna.org.qa/en/news/news-details?date=23%2F01%2F2024&id=0033-hh%C2%A0the-amir-patronizes%C2%A0graduation-ceremony-of%C2%A0al-zaeem-air-academy
-- Associated Press of Pakistan — Türkiye, signed 52-aircraft contract:
+- Amiri Diwan — Al Zaeem Air Academy flying activity including Super Mushshak trainers:  
+  https://www.diwan.gov.qa/briefing-room/news/activities-and-occasions/2024/january/23/hh-the-amir-patronizes-graduation-ceremony-of-11th-batch-of-alzaeem-air-college-cadets?sc_lang=en
+- Associated Press of Pakistan — Türkiye, signed 52-aircraft contract:  
   https://www.app.com.pk/national/pakistan-to-supply-52-trainer-aircraft-to-turkey/
-- Republic of Türkiye Ministry of National Defence — five Super Mushshaks inducted into Air Force inventory on 21 March 2024:
+- Republic of Türkiye Ministry of National Defence — Super Mushshak induction:  
   https://www.msb.gov.tr/SlaytHaber/1d609ba0df7c40039347230972cec89b
-- Associated Press of Pakistan — Azerbaijan, ten-aircraft sale:
+- Associated Press of Pakistan — Azerbaijan, ten-aircraft sale:  
   https://www.app.com.pk/national/pakistan-signs-agreement-with-azerbaijan-for-sale-of-10-super-mushshak-aircraft/
-- Ministry of Defence of Azerbaijan — 2019 and 2025 Super Mushshak training activity:
-  https://mod.gov.az/en/news/azerbaijani-military-pilots-started-training-flights-on-super-mushshak-l-39-aircraft-and-mi-series-helicopters-26567.html
+- Ministry of Defence of Azerbaijan — Super Mushshak training activity:  
   https://mod.gov.az/en/news/azerbaijani-military-pilots-conduct-the-next-training-flights-video-54557.html
 
-APP's 2016–2017 reporting also identifies **Saudi Arabia, Oman, Iran and South Africa** as earlier Super Mushshak users; an APP Qatar report additionally referenced Syria. These are retained as historical context rather than presented as a current fleet-strength statement.
+The four new-customer contracts above total **80 aircraft** in the 2016–2017 sequence.
+
+### Commercial-context reporting
+
+Commercial values are kept separate from the technical traceability model and are attributed to their public sources.
+
+- Geo News — Nigerian Air Force order of up to ten Super Mushshaks, estimated at **US$10.2M**:  
+  https://www.geo.tv/latest/110046-Three-countries-to-buy-Super-Mushshaq-training-aircraft-from-Pakistan
+- Business Recorder — Türkiye agreement reported at around **US$50M** for 52 aircraft:  
+  https://www.brecorder.com/news/4454451/pakistan-to-supply-52-trainer-aircraft-to-turkey-20161124106085
+
+The repository therefore states only that these two reported values together exceed **US$60M**. It does not invent values for Qatar or Azerbaijan.
 
 ### Configuration-specialist reporting
 
-- Asian Military Review — identifies the export glass-cockpit mapping used in this reconstruction: Qatar **Garmin 950**, Nigeria **Dynon**, Türkiye **Garmin 950**, while Azerbaijan's selection was not identified in that report:
+- Asian Military Review — identifies the export glass-cockpit mapping used in this reconstruction: Qatar **Garmin 950**, Nigeria **Dynon**, Türkiye **Garmin 950**, while Azerbaijan's selection was not identified in that report:  
   https://www.asianmilitaryreview.com/2019/01/super-mushshaks-super-popular/
-- Times Aerospace — reports the public emergence of the two-display glass-cockpit Super Mushshak at Dubai Airshow 2011 and the availability of Dynon and Garmin configurations:
+- Times Aerospace — reports the public emergence of the two-display glass-cockpit Super Mushshak at Dubai Airshow 2011 and the availability of Dynon and Garmin configurations:  
   https://www.timesaerospace.aero/features/defence/nigeria-opts-for-super-mushshaks
-- Defence Journal — independently records overseas preference for Garmin 950 or Dynon SkyView and PAF use of a Dynon suite:
+- Defence Journal — independently records overseas preference for Garmin 950 or Dynon SkyView and PAF use of a Dynon suite:  
   https://www.defencejournal.com/2018/09/10/super-mushshak/
-- Second To None — records Garmin 950 and Dynon as Super Mushshak glass-cockpit configurations and later Genesys integration:
+- Second To None — records Garmin 950 and Dynon as Super Mushshak glass-cockpit configurations and later Genesys integration:  
   https://secondtonone.com.pk/2023/09/18/super-men-producing-super-mushshak/
 
 ### External image-source register
 
-Third-party images are source-linked for independent visual context and are **not mirrored into the project-evidence archive unless the licence explicitly permits local reuse**.
+Third-party images are source-linked for independent visual context and are **not hot-linked into the README or operator-evidence page**. Earlier hot-linking produced broken images because source sites changed URLs or blocked embedded requests.
 
-- Wikimedia Commons — Super Mushshak cockpit, Dubai Air Show 2017; Mztourist; CC BY-SA 4.0:
+- Wikimedia Commons — Super Mushshak cockpit, Dubai Air Show 2017; Mztourist; CC BY-SA 4.0:  
   https://commons.wikimedia.org/wiki/File:PAC_Super_Mushshak_cockpit.jpg
-- Defense News — Nigerian delivery image:
+- Defense News — Nigerian delivery image:  
   https://www.defensenews.com/training-sim/2016/12/07/nigeria-takes-delivery-of-pakistani-made-super-mushshak-trainer-aircraft/
-- AirHistory.net — Qatar Emiri Air Force Super Mushshak formation; photographer copyright:
+- AirHistory.net — Qatar Emiri Air Force Super Mushshak formation; photographer copyright:  
   https://www.airhistory.net/photo/417432/QA306
-- Yeni Birlik — Turkish Air Force Super Mushshak image:
-  https://www.gazetebirlik.com/teknoloji/turk-hava-kuvvetlerinde-devir-teslim-super-mushshaklar-goreve-girdi/919032
-- Ministry of Defence of Azerbaijan — official Super Mushshak training imagery:
+- Ministry of Defence of Azerbaijan — official Super Mushshak training imagery:  
   https://mod.gov.az/en/news/azerbaijani-military-pilots-conduct-the-next-training-flights-video-54557.html
-
-Commercial-value references are retained only for evidence-ID continuity and are not used in the current technical narrative.
 
 ## OEM architecture rule
 

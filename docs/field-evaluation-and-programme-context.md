@@ -12,6 +12,21 @@ By 12 November 2012, a surviving status record documents **10 evaluation sorties
 
 *Authentic project photograph from the evaluation period. It is used as customer/field context; it is not treated as proof of a result that is not visible in the image.*
 
+## Lead Systems Engineer contribution represented
+
+The programme lead identifies his role on this retrofit as **Lead Systems Engineer**, spanning the aircraft-level integration problem rather than a single display or LRU.
+
+The public-safe responsibility statement covers:
+
+- system boundary and architecture/trade-space definition;
+- integration of glass-cockpit functions with revised sensing, aircraft power, retained avionics and the modification harness;
+- prototype ground/flight test and discrepancy investigation;
+- configuration restoration and re-verification after hardware changes;
+- OEM technical coordination;
+- customer-evaluation support.
+
+This role statement is controlled as **E-25**. It is explicitly retrospective; formal appointment material is not published.
+
 ## Validation versus verification
 
 Customer evaluation is treated as **validation context**:
@@ -33,26 +48,35 @@ Public records document four new-customer contracts during 2016–2017:
 | Customer | Publicly reported quantity | Public glass-cockpit / avionics evidence | Independent operator evidence |
 |---|---:|---|---|
 | Nigeria | 10 | APP: delivered aircraft were glass-cockpit equipped; Asian Military Review: **Dynon** | Nigerian Air Force records ten Super Mushshaks in inventory |
-| Qatar | 8 | Asian Military Review: **Garmin 950** | Qatar News Agency documents Super Mushshak use at Al Zaeem Air Academy |
-| Türkiye | 52 | Asian Military Review: **Garmin 950** | Turkish Ministry of National Defence confirmed initial induction in 2024 |
-| Azerbaijan | 10 | cited configuration report does **not identify** the selected avionics | Azerbaijan Ministry of Defence documents training use in 2019 and 2025 |
+| Qatar | 8 | Asian Military Review: **Garmin 950** | Qatar News Agency / Amiri Diwan document continuing Super Mushshak use at Al Zaeem Air Academy |
+| Türkiye | 52 | Asian Military Review: **Garmin 950** | Turkish Ministry of National Defence confirmed initial induction |
+| Azerbaijan | 10 | cited configuration report does **not identify** the selected avionics | Azerbaijan Ministry of Defence documents training use |
 | **Total contracted in this 2016–2017 sequence** | **80** |  |  |
 
-This is stronger than a simple sales list because it provides three separate evidence lines: **contract / delivery reporting**, **configuration reporting**, and **independent operator use**.
+The commercial significance is also material. Public reporting placed:
 
-APP's contemporary reports also identify Saudi Arabia, Oman, Iran and South Africa as earlier Super Mushshak users. Those older statements are retained as historical context and are not presented as current fleet-strength claims.
+- the **Nigeria** ten-aircraft order at an estimated **US$10.2M**; and
+- the **Türkiye** 52-aircraft agreement at around **US$50M**.
 
-This later record demonstrates that glass-cockpit modernisation became part of subsequent exported product configurations. It does **not** establish that the early prototype was reproduced unchanged, and it does not support sole-causation by an individual engineer or prototype team.
+Those two reported values alone exceed **US$60M**. Qatar and Azerbaijan values are deliberately not added because equivalent public values are not used in this reconstruction.
+
+This is stronger than a simple sales list because it combines three separate evidence lines: **contract/delivery reporting**, **configuration reporting**, and **independent operator use**.
+
+## What this outcome does — and does not — establish
+
+The later record demonstrates that glass-cockpit modernisation became part of a commercially significant international product path and that the same two avionics families represented in the retrofit archive later appeared in export service.
+
+It does **not** establish that:
+
+- an early prototype was reproduced unchanged;
+- one individual caused later contracts;
+- every export aircraft shared the same detailed installation baseline.
+
+The engineering contribution and the later commercial outcome are therefore presented together, but with causation controlled.
 
 ![Programme context](../assets/programme-context.svg)
 
-See [Independent public glass-cockpit and operator evidence](public-operator-evidence.md) for the source-linked cockpit image, export/operator gallery and source-by-source cross-check.
-
-## Attribution boundary
-
-The technical contribution represented by this repository remains bounded to the evidence-backed early systems engineering, avionics integration, installed-aircraft test/trials, OEM coordination and customer-evaluation activity.
-
-Later contracts are programme context only.
+See [Independent public glass-cockpit and operator evidence](public-operator-evidence.md) for source-by-source cross-checks.
 
 ## Sources
 

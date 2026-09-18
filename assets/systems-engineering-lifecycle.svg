@@ -1,32 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="980" viewBox="0 0 1800 980">
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/></marker><style>
-.ti{font:700 38px Arial,sans-serif;fill:#111827}.su{font:20px Arial,sans-serif;fill:#4b5563}
-.h{font:700 22px Arial,sans-serif;fill:#111827}.t{font:18px Arial,sans-serif;fill:#374151}.sm{font:16px Arial,sans-serif;fill:#4b5563}
-.b{fill:#f9fafb;stroke:#374151;stroke-width:2.5}.blue{fill:#eef6ff;stroke:#1f4b7a;stroke-width:3}.violet{fill:#f5f3ff;stroke:#5b4b8a;stroke-width:3}.green{fill:#f0fdf4;stroke:#39764b;stroke-width:3}.amber{fill:#fff7ed;stroke:#9a5b13;stroke-width:2.5}.head{fill:#f3f4f6}
-.line{stroke:#1f2937;stroke-width:3;fill:none;marker-end:url(#arrow)}.dash{stroke:#6b7280;stroke-width:2.5;fill:none;stroke-dasharray:8 7;marker-end:url(#arrow)}
-.grid{stroke:#c7cdd4;stroke-width:1}.dot{fill:#1f4b7a}
-</style></defs>
-<rect width="1800" height="980" fill="white"/>
-<text x="60" y="58" class="ti">Systems-Engineering Lifecycle — Retrofit to Verified Aircraft</text>
-<text x="60" y="94" class="su">Aircraft-level lifecycle; configuration control and evidence provenance remain cross-cutting controls.</text>
-<rect x="55" y="170" width="265" height="180" rx="14" class="b"/>
-<text x="187.5" y="212" text-anchor="middle" class="h">Need / constraints</text>
-<text x="187.5" y="256" text-anchor="middle" class="t">training mission</text><text x="187.5" y="287" text-anchor="middle" class="t">legacy aircraft</text><text x="187.5" y="318" text-anchor="middle" class="t">acceptance / lifecycle</text><path d="M320 260 H340" class="line"/>
-<rect x="340" y="170" width="265" height="180" rx="14" class="b"/>
-<text x="472.5" y="212" text-anchor="middle" class="h">Requirements</text><text x="472.5" y="256" text-anchor="middle" class="t">flight + engine data</text><text x="472.5" y="287" text-anchor="middle" class="t">NAV/COM + HMI</text><text x="472.5" y="318" text-anchor="middle" class="t">power + maintainability</text><path d="M605 260 H625" class="line"/>
-<rect x="625" y="170" width="265" height="180" rx="14" class="blue"/>
-<text x="757.5" y="212" text-anchor="middle" class="h">Architecture</text><text x="757.5" y="256" text-anchor="middle" class="t">sensors · displays</text><text x="757.5" y="287" text-anchor="middle" class="t">interfaces</text><text x="757.5" y="318" text-anchor="middle" class="t">prototype alternatives</text><path d="M890 260 H910" class="line"/>
-<rect x="910" y="170" width="265" height="180" rx="14" class="blue"/>
-<text x="1042.5" y="212" text-anchor="middle" class="h">Integration</text><text x="1042.5" y="252" text-anchor="middle" class="t">installation + harness</text><text x="1042.5" y="281" text-anchor="middle" class="t">configuration</text><text x="1042.5" y="310" text-anchor="middle" class="t">retained-system</text><text x="1042.5" y="337" text-anchor="middle" class="t">interfaces</text><path d="M1175 260 H1195" class="line"/>
-<rect x="1195" y="170" width="265" height="180" rx="14" class="green"/>
-<text x="1327.5" y="212" text-anchor="middle" class="h">Verification</text><text x="1327.5" y="256" text-anchor="middle" class="t">ground checks</text><text x="1327.5" y="287" text-anchor="middle" class="t">flight test</text><text x="1327.5" y="318" text-anchor="middle" class="t">discrepancy closure</text><path d="M1460 260 H1480" class="line"/>
-<rect x="1480" y="170" width="265" height="180" rx="14" class="green"/>
-<text x="1612.5" y="212" text-anchor="middle" class="h">Validation</text><text x="1612.5" y="256" text-anchor="middle" class="t">customer / field</text><text x="1612.5" y="287" text-anchor="middle" class="t">evaluation</text><text x="1612.5" y="318" text-anchor="middle" class="t">operational feedback</text>
-<rect x="250" y="430" width="1300" height="120" rx="14" class="violet"/>
-<text x="900.0" y="472" text-anchor="middle" class="h">Cross-cutting controls</text><text x="900.0" y="502" text-anchor="middle" class="t">configuration identity · evidence provenance · change / decision history</text><text x="900.0" y="533" text-anchor="middle" class="t">software / settings / database state · public-release boundary</text>
-<path d="M472.5 350 V430" class="dash"/><path d="M757.5 350 V430" class="dash"/><path d="M1042.5 350 V430" class="dash"/><path d="M1327.5 350 V430" class="dash"/><path d="M1612.5 350 V430" class="dash"/>
-<rect x="330" y="650" width="1140" height="180" rx="14" class="blue"/>
-<text x="900.0" y="692" text-anchor="middle" class="h">Installed-aircraft discrepancy loop</text><text x="900.0" y="734" text-anchor="middle" class="t">test / flight observation → isolate affected interface or configuration state</text><text x="900.0" y="768" text-anchor="middle" class="t">engineering / OEM analysis → disposition / hardware or configuration change</text><text x="900.0" y="802" text-anchor="middle" class="t">restore settings / databases → re-test / re-flight</text>
-<path d="M1350 350 V610 H1320" class="dash"/><path d="M480 650 V610 H1030 V350" class="dash"/>
-<text x="60" y="915" text-anchor="start" class="su">Evidence rule: derived engineering views are allowed; invented aircraft data or cross-configuration test claims are not.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1440 980" preserveAspectRatio="xMidYMid meet">
+<style>.title{font:700 34px Arial,sans-serif;fill:#111827}.sub{font:17px Arial,sans-serif;fill:#4b5563}.h{font:700 19px Arial,sans-serif;fill:#111827}.t{font:16px Arial,sans-serif;fill:#374151}.sm{font:14px Arial,sans-serif;fill:#4b5563}.box{fill:#fff;stroke:#475569;stroke-width:2}.blue{fill:#eff6ff;stroke:#315b8c;stroke-width:2.5}.green{fill:#f0fdf4;stroke:#3f7c52;stroke-width:2.5}.violet{fill:#f5f3ff;stroke:#6554a1;stroke-width:2.5}.slate{fill:#f8fafc;stroke:#64748b;stroke-width:2}.strong{stroke:#334155;stroke-width:2.4;fill:none}.dash{stroke:#94a3b8;stroke-width:2;fill:none;stroke-dasharray:7 6}</style>
+<rect width="1440" height="980" fill="white"/><text x="40" y="52" class="title">Retrofit Systems-Engineering V-Model</text><text x="40" y="82" class="sub">Retrospective engineering view: left side defines the solution; right side closes evidence against the identified configuration.</text>
+<text x="95" y="132" class="sm">DEFINE / DECOMPOSE</text><text x="1125" y="132" class="sm">INTEGRATE / VERIFY / VALIDATE</text>
+<rect x="70" y="165" width="300" height="105" rx="13" class="box"/><text x="220" y="205" text-anchor="middle" class="h">Operational need &amp; constraints</text><text x="220" y="237" text-anchor="middle" class="t">training mission · legacy aircraft · acceptance</text>
+<rect x="150" y="315" width="300" height="105" rx="13" class="box"/><text x="300" y="355" text-anchor="middle" class="h">Aircraft-level requirements</text><text x="300" y="387" text-anchor="middle" class="t">functions · supportability · verification</text>
+<rect x="230" y="465" width="300" height="105" rx="13" class="blue"/><text x="380" y="505" text-anchor="middle" class="h">Architecture &amp; interfaces</text><text x="380" y="537" text-anchor="middle" class="t">trade space · logical I/F · configuration</text>
+<rect x="310" y="615" width="300" height="105" rx="13" class="blue"/><text x="460" y="655" text-anchor="middle" class="h">Integration definition</text><text x="460" y="687" text-anchor="middle" class="t">installation · harness · data / settings</text>
+<rect x="570" y="765" width="300" height="105" rx="13" class="violet"/><text x="720" y="805" text-anchor="middle" class="h">Prototype integration baseline</text><text x="720" y="837" text-anchor="middle" class="t">identified hardware + configuration state</text>
+<rect x="830" y="615" width="300" height="105" rx="13" class="green"/><text x="980" y="655" text-anchor="middle" class="h">Integration verification</text><text x="980" y="687" text-anchor="middle" class="t">installed functional checks · re-test</text>
+<rect x="910" y="465" width="300" height="105" rx="13" class="green"/><text x="1060" y="505" text-anchor="middle" class="h">Aircraft ground / flight verification</text><text x="1060" y="537" text-anchor="middle" class="t">observation · discrepancy · disposition</text>
+<rect x="990" y="315" width="300" height="105" rx="13" class="green"/><text x="1140" y="355" text-anchor="middle" class="h">Customer / operational validation</text><text x="1140" y="387" text-anchor="middle" class="t">training suitability · evaluation context</text>
+<rect x="1070" y="165" width="300" height="105" rx="13" class="violet"/><text x="1220" y="205" text-anchor="middle" class="h">Lifecycle support</text><text x="1220" y="237" text-anchor="middle" class="t">spares · repair · configuration restoration</text>
+<path d="M220 270 L300 315 M300 420 L380 465 M380 570 L460 615 M460 720 L570 817 M870 817 L980 720 M980 615 L1060 570 M1060 465 L1140 420 M1140 315 L1220 270" class="strong"/>
+<path d="M370 217 H1070 M450 367 H990 M530 517 H910 M610 667 H830" class="dash"/><text x="720" y="207" text-anchor="middle" class="sm">sustainment evidence</text><text x="720" y="357" text-anchor="middle" class="sm">validation against operational need</text><text x="720" y="507" text-anchor="middle" class="sm">aircraft verification against requirements</text><text x="720" y="657" text-anchor="middle" class="sm">integration verification against interfaces</text>
+<rect x="185" y="910" width="1070" height="46" rx="11" class="slate"/><text x="720" y="939" text-anchor="middle" class="sm">Cross-cutting: configuration control · evidence provenance · change/decision history · explicit unknowns</text></svg>

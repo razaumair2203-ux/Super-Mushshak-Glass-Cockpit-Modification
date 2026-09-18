@@ -112,7 +112,7 @@ The model also separates claims that sit outside the technical requirement chain
 
 - **CLM-011 / E-25** — programme-lead Lead Systems Engineer role statement;
 - **CLM-010 / E-16** — later four-customer 80-aircraft programme sequence;
-- **CLM-012 / E-17/E-18** — attributed public commercial-value context.
+- **CLM-012 / E-16/E-17/E-18** — two-source public programme-value benchmark applied to the 80-aircraft product-line sequence.
 
 This prevents a role claim or later market outcome from contaminating the technical evidence chain.
 

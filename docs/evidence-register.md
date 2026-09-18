@@ -19,15 +19,16 @@ This register controls the retrospective reconstruction. It records evidence cat
 | E-13 | Original customer-evaluation ground photograph | Direct project | CFG-D3 context | aircraft/customer-evaluation period context | sanitized image published |
 | E-14 | Original public-event programme photograph | Direct project | programme context | display/support context only | source retained; not required for technical claims |
 | E-15 | Original in-flight Dynon display photograph | Direct project | Dynon installed aircraft | installed-aircraft PFD / synthetic-vision operation visible in image | sanitized image published |
-| E-16 | Public programme reporting, 2016–2017 | Public programme | later programme | contract quantities; Nigeria glass-cockpit delivery | public links listed |
-| E-17 | Public Nigeria value estimate | Public programme | later programme | historical commercial estimate only | retained source; not used in technical traceability |
-| E-18 | Public Türkiye value estimate | Public programme | later programme | historical commercial estimate only | retained source; not used in technical traceability |
+| E-16 | 2016–2017 contract/delivery reporting | Public programme | later programme | four new-customer contracts totalling 80 aircraft; Nigeria delivery explicitly glass-cockpit equipped | public links |
+| E-17 | 2016 Nigeria commercial estimate | Public programme | later programme | estimated US$10.2M value for ten-aircraft Nigerian order | public commercial-context source |
+| E-18 | 2016 Türkiye commercial report | Public programme | later programme | approximately US$50M reported for the 52-aircraft Türkiye agreement | public commercial-context source |
 | E-19 | Original test-engineer in-flight photograph | Direct project | flight/test context | participation / flight-test context | release candidate; no technical result inferred |
 | E-20 | Original cockpit-in-flight project photograph | Direct project | Dynon flight/test context | visible installed-aircraft context | release candidate; configuration claim only if visible |
 | E-21 | Original aerial test-flight photograph | Direct project | flight/test context | period flight/test context | release candidate; not configuration proof |
 | E-22 | Retired external operator-image reference | Retired | none | no current technical claim | not embedded; retained ID only for history stability |
 | E-23 | Period first-modification completion report | Direct project, non-public source | baseline / architecture | legacy-system characterisation; electrical/mechanical/cabling design problem; architecture-option analysis | high-level facts only; source not published |
-| E-24 | Retrofit scope statement supplied by programme lead for retrospective reconstruction | Retrospective direct statement | programme / Dynon scope | sensor-suite replacement and complete modification wiring-harness change as executed scope | explicitly identified as retrospective; no controlled implementation detail |
+| E-24 | Retrofit scope statement supplied by programme lead | Retrospective direct statement | programme / Dynon scope | sensor-suite replacement and complete modification wiring-harness change as executed scope | explicitly retrospective; no controlled implementation detail |
+| E-25 | Role statement supplied by programme lead | Retrospective direct statement | programme / Dynon / Garmin tracks | Lead Systems Engineer responsibility spanning aircraft-level integration, prototype test/troubleshooting, OEM coordination and customer-evaluation support | explicitly retrospective role statement; formal appointment material not published |
 
 ## Evidence rules
 
@@ -37,6 +38,7 @@ This register controls the retrospective reconstruction. It records evidence cat
 4. Retrospective statements/derivations are labelled as such rather than promoted into period artefacts.
 5. Unknown information stays unknown.
 6. A test observation does not become a closed discrepancy unless closure evidence exists.
+7. Role attribution and commercial impact are controlled as separate claim types: a role statement does not by itself prove commercial causation.
 
 ## Public-release rules
 

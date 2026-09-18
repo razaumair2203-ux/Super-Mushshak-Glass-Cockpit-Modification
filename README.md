@@ -292,4 +292,4 @@ See [Digital twin follow-on](docs/digital-twin.md).
 
 The repository demonstrates engineering method and traceability without publishing controlled or unnecessary detail. It does not expose security markings, private correspondence, detailed wiring routes, connector/pin data, controlled drawings, precise internal equipment locations, proprietary implementation detail or private customer information.
 
-**Quality gate:** every public artefact is expected to pass checks for technical correctness, configuration identity, evidence provenance, readability, link integrity, terminology consistency, release suitability, duplication, unsupported claims and actual systems-engineering value.
+**Executable quality gate:** `python tools/validate_model.py` checks model-ID uniqueness, reference integrity, typed links, local Markdown/image paths and external hot-linked images. The same check runs in GitHub Actions on push and pull request. Technical correctness, configuration identity, evidence provenance, terminology, release suitability and unsupported claims remain engineering-review gates.

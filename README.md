@@ -6,10 +6,6 @@ This repository documents my work on the early Super Mushshak glass-cockpit modi
 
 The modification was an aircraft-level retrofit rather than a display replacement. It required coordinated changes across the cockpit displays, aircraft sensors, navigation/communication equipment, electrical interfaces, wiring harnesses, installation, configuration and verification.
 
-<p align="center">
-  <img src="assets/photos/flight-test-cockpit.jpg" width="900" alt="Super Mushshak glass-cockpit flight-test configuration">
-</p>
-
 ## Engineering scope
 
 The programme included:
@@ -42,21 +38,6 @@ The central engineering problem was managing interfaces between the existing air
 | Configuration | Prototype changes, interface consistency and repeatable aircraft configuration |
 
 More detail is provided in [Systems Engineering Case Study](docs/engineering-case-study.md) and [Architecture Trade Study](docs/architecture-trade-study.md).
-
-## Prototype and test evidence
-
-<table>
-<tr>
-<td width="50%"><img src="assets/photos/ground-run-trial.jpg" alt="Super Mushshak ground-run test"></td>
-<td width="50%"><img src="assets/photos/international-airshow.jpg" alt="Super Mushshak international airshow display"></td>
-</tr>
-<tr>
-<td><b>Ground-run / overseas evaluation activity.</b> Location-identifying background detail has been removed.</td>
-<td><b>International airshow display period.</b> Personal identification details have been removed.</td>
-</tr>
-</table>
-
-The photographs in this repository are original project-period images. They have only been cropped, exposure/contrast corrected where necessary, and redacted for privacy; aircraft or equipment content has not been synthetically generated or replaced.
 
 ## From retrofit to digital twin
 

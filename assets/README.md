@@ -25,6 +25,6 @@ For photographs of the repository owner:
 - retain aircraft/cockpit context unless a specific releasability concern is identified;
 - do not blur badges, logos, credentials or people by default merely because they look military.
 
-Additional original photographs in the archive — including the test-engineer in-flight selfie, cockpit-in-flight imagery and aerial test-flight imagery — are suitable for the portfolio after the same conservative release treatment.
+Additional original photographs in the archive — including the test-engineer in-flight selfie, cockpit-in-flight imagery and aerial test-flight imagery — may be released after the same conservative evidence and privacy treatment.
 
 **No synthetic aircraft, cockpit, person or scenery is used.** Crop, resize, exposure/contrast correction, sharpening and local redaction are acceptable; generative replacement is not.

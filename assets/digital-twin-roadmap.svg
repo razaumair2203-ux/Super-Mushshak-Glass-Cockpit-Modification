@@ -5,31 +5,31 @@
 </defs>
 <rect width="1750" height="980" fill="white"/>
 <text x="70" y="65" class="ti">Super Mushshak Digital Twin — Evidence-to-Executable Roadmap</text>
-<text x="70" y="105" class="su">Follow-on digital-engineering work seeded by the retrofit archive; future capability is clearly separated from completed historical evidence.</text>
+<text x="70" y="105" class="su">Follow-on digital engineering seeded by the retrofit archive; completed reconstruction is kept separate from future executable capability.</text>
 
 <rect x="70" y="190" width="430" height="580" rx="20" class="b"/>
 <text x="285" y="245" text-anchor="middle" class="h">Historical evidence layer</text>
-<text x="110" y="305" class="t">• aircraft configuration states</text>
-<text x="110" y="350" class="t">• requirements / constraints</text>
-<text x="110" y="395" class="t">• logical interfaces</text>
-<text x="110" y="440" class="t">• discrepancies / issue closure</text>
-<text x="110" y="485" class="t">• ground / flight verification</text>
-<text x="110" y="530" class="t">• OEM decisions / support loop</text>
-<text x="110" y="575" class="t">• customer-evaluation evidence</text>
-<text x="110" y="620" class="t">• authentic photographs / records</text>
-<text x="110" y="690" class="su">Status: reconstructed now</text>
+<text x="110" y="305" class="t">• authentic photographs / records</text>
+<text x="110" y="350" class="t">• configuration states</text>
+<text x="110" y="395" class="t">• requirements / constraints</text>
+<text x="110" y="440" class="t">• observed interfaces</text>
+<text x="110" y="485" class="t">• discrepancy / issue status</text>
+<text x="110" y="530" class="t">• ground / flight verification</text>
+<text x="110" y="575" class="t">• OEM decisions / support loop</text>
+<text x="110" y="620" class="t">• customer-evaluation evidence</text>
+<text x="110" y="690" class="su">Status: reconstructed at public-safe level</text>
 
 <rect x="655" y="190" width="430" height="580" rx="20" class="x"/>
 <text x="870" y="245" text-anchor="middle" class="h">Digital-thread backbone</text>
-<text x="695" y="305" class="t">• stable model IDs</text>
-<text x="695" y="350" class="t">• requirement ↔ interface links</text>
+<text x="695" y="305" class="t">• stable E / CLM / REQ / FUN IDs</text>
+<text x="695" y="350" class="t">• function ↔ interface links</text>
 <text x="695" y="395" class="t">• configuration baselines</text>
-<text x="695" y="440" class="t">• V&amp;V cross-reference</text>
+<text x="695" y="440" class="t">• V&amp;V + issue cross-reference</text>
 <text x="695" y="485" class="t">• decision / change history</text>
 <text x="695" y="530" class="t">• evidence provenance</text>
-<text x="695" y="575" class="t">• measured / derived / unknown tags</text>
-<text x="695" y="620" class="t">• public-safe architecture views</text>
-<text x="695" y="690" class="su">Status: first backbone exists in /model</text>
+<text x="695" y="575" class="t">• observed / derived / unknown tags</text>
+<text x="695" y="620" class="t">• typed graph links</text>
+<text x="695" y="690" class="su">Status: first backbone implemented in /model</text>
 
 <rect x="1240" y="190" width="430" height="580" rx="20" class="f"/>
 <text x="1455" y="245" text-anchor="middle" class="h">Executable twin layer</text>
@@ -43,7 +43,7 @@
 <text x="1280" y="620" class="t">• higher-fidelity models as releasable</text>
 <text x="1280" y="690" class="su">Status: planned / incremental</text>
 
-<path d="M500 480 L655 480" class="l"/><path d="M1085 480 L1240 480" class="l"/>
+<path d="M500 480 H655" class="l"/><path d="M1085 480 H1240" class="l"/>
 <text x="575" y="445" text-anchor="middle" class="su">normalise</text><text x="1160" y="445" text-anchor="middle" class="su">execute</text>
 
 <rect x="360" y="830" width="1030" height="90" rx="16" class="b"/>

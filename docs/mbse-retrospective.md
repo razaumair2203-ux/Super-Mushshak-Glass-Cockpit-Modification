@@ -2,58 +2,66 @@
 
 ## Purpose
 
-The original retrofit predates the MBSE workflow I would use today. The surviving engineering evidence is nevertheless sufficient to reconstruct a **traceable, public-safe system model** without inventing aircraft detail.
+The original retrofit predates the current retrospective MBSE reconstruction. The surviving engineering evidence is sufficient to build a **traceable, public-safe system model** without inventing aircraft detail.
 
-This is not a claim that SysML/MBSE artefacts existed during the original programme. It is a retrospective transformation of real project evidence into modern systems-engineering objects.
+This is not a claim that SysML/MBSE artefacts existed during the original programme. It is a modern transformation of surviving evidence into controlled systems-engineering objects.
 
-## Logical architecture view
+## System context and functions
+
+![System context](../assets/system-context.svg)
+
+![Functional decomposition](../assets/functional-decomposition.svg)
+
+The reconstruction begins with the system boundary and stakeholders, then separates equipment-independent functions from configuration-specific implementation.
+
+This prevents two common retrospective errors:
+
+- filling gaps with “typical aircraft” detail; and
+- treating a generic OEM architecture as the installed aircraft baseline.
+
+## Logical architecture
 
 ![Public-safe logical architecture](../assets/mbse-system-architecture.svg)
 
-The diagram is deliberately rendered as a large SVG so the system boundary, interface lanes, verification loop and lifecycle-support relationships remain legible without sacrificing engineering structure.
-
-It is a logical representation of evidence-backed functions and interfaces. It deliberately omits exact harness routing, connector/pin data and equipment location.
+The logical view represents evidence-backed functions and interfaces. It deliberately omits exact harness routing, connector/pin data, precise internal locations and controlled implementation detail.
 
 ## Model chain
 
-**Evidence → requirement/constraint → interface → configuration → verification → decision**
+**Evidence → claim → requirement → function → interface → configuration → verification / issue → decision**
 
 ![Evidence-to-verification digital thread](../assets/mbse-verification-thread.svg)
 
-The machine-readable source for that chain is in the [model directory](../model/README.md).
+The machine-readable source is in the [model directory](../model/README.md).
 
 ## Stakeholder / system context
 
-The reconstructed context includes:
+The public context includes pilot/instructor, legacy aircraft baseline, integration engineering, maintenance/fleet support, avionics OEM support, flight-test/evaluation activity and customer/acceptance stakeholders.
 
-- pilot / instructor;
-- legacy training-aircraft baseline;
-- glass-cockpit retrofit;
-- aircraft sensing and electrical systems;
-- avionics OEMs and technical support;
-- maintenance / fleet support;
-- test and evaluation organisation;
-- customer / acceptance authority.
-
-The purpose of this level is not to draw every aircraft connection. It is to expose the **system boundary, external actors, engineering interfaces and evidence flow** that drove integration decisions.
+The purpose of this level is to expose the **system boundary, external actors, engineering interfaces and evidence flow** that drove integration decisions, not organisational structure.
 
 ## Requirement model
 
-The requirements file contains retrospectively normalised statements such as:
+The requirements file contains retrospectively normalised statements for:
 
-- primary flight information must be available in installed-aircraft operation;
-- engine/airframe information must be integrated into the new cockpit;
-- retained NAV/COM equipment must interoperate with the glass cockpit;
-- aircraft electrical integration must support the avionics without unacceptable power/transient behaviour;
-- replacement LRUs must allow controlled restoration of software/settings/databases;
-- maintenance and spares support must be considered at fleet scale;
-- qualification/certification fit must be assessed independently from functional capability.
+- primary flight information;
+- engine/airframe information;
+- NAV/COM and retained-system integration;
+- aircraft electrical integration;
+- physical installation / modification harness;
+- configuration restoration;
+- installed-aircraft verification;
+- maintainability and spares;
+- qualification/acceptance fit;
+- failure response;
+- HMI/training suitability;
+- configuration identity;
+- evidence integrity.
 
-Each requirement points to evidence and a verification method.
+Each requirement points to functions, evidence and a verification method.
 
-## Interface model
+## Function and interface model
 
-The interface register captures only interfaces demonstrated or clearly required by the surviving archive: aircraft power, sensing, display/HMI, GNS 430-family/ARINC integration, transponder, audio/alerting and configuration data.
+The function model remains equipment-independent. The interface register then captures only interfaces demonstrated or clearly required by the evidence: aircraft power, sensing, display/HMI, retained-navigation integration, transponder, audio/alerting, configuration data, physical/harness integration and lifecycle support.
 
 The register intentionally uses logical interface names rather than publishing pins or wiring.
 
@@ -61,39 +69,40 @@ The register intentionally uses logical interface names rather than publishing p
 
 ![Configuration evolution](../assets/configuration-evolution.svg)
 
-The historical programme evolved. The model therefore separates:
+The historical programme is separated into:
 
 - legacy aircraft baseline;
 - early Dynon installed configuration;
 - Dynon post-replacement/reconfiguration state;
-- Dynon Qatar customer-evaluation state;
+- Dynon customer-evaluation state;
 - Garmin G900X/G950-family prototype/evaluation track;
 - Garmin G3X comparison artefact, which is **not** treated as an aircraft configuration.
 
-## Verification model
+## Verification and issue model
 
 ![Requirements-to-verification cross-reference](../assets/traceability-matrix.svg)
 
-Verification records are linked to the configuration in which the event occurred. This prevents a common retrospective error: treating a test result from one hardware/software/database state as evidence for every later state. The matrix is intentionally sparse where the surviving archive does not justify a direct link.
+Verification records are linked to the configuration in which the event occurred. Issues are separate objects so an observed discrepancy cannot silently become a “closed” result.
 
-The evidence supports a closed loop of **installed check → flight test → observed discrepancy → engineering/OEM resolution → configuration update → re-test**. Examples are abstracted in the public model rather than exposing controlled implementation detail.
+The evidence supports an iterative loop of **installed check → flight test → observed discrepancy → engineering/OEM analysis → disposition/configuration update → re-test**. Where final closure evidence is absent, the issue remains explicitly **not reconstructed**.
 
 ## Decision model
 
-Decision records capture engineering rationale that can be recovered safely, for example:
+Decision records capture recoverable engineering rationale such as:
 
-- using an avionics interface to integrate retained navigation equipment;
+- using/assessing an avionics interface for retained navigation integration;
 - treating LRU spares/OEM exchange as part of the maintenance concept;
-- separating certification suitability from flight functionality;
+- separating acceptance/certification suitability from flight functionality;
 - preserving G3X and G900X/G950 configuration identities;
-- keeping the public model abstract where release evidence is insufficient.
+- withholding implementation detail while retaining logical traceability;
+- not inventing closure when evidence is incomplete.
 
-## Model integrity and engineering traceability
+## Stable identities
 
 The diagrams are views. The model is the linked data underneath them:
 
-**evidence IDs ↔ requirement IDs ↔ interface IDs ↔ configuration IDs ↔ verification IDs ↔ decision records**
+**E / CLM ↔ REQ ↔ FUN ↔ IF ↔ CFG ↔ VER / ISS ↔ DEC**
 
-The CSV objects therefore correspond conceptually to requirement, block/interface, configuration, verification and decision elements that can later be migrated into SysML/Capella/Cameo or connected to a requirements tool. The key property already exists: **stable identity and traceability**.
+The CSV objects can later migrate into SysML/Capella/Cameo, a requirements tool or graph database without changing their public identities.
 
-The model is intentionally bounded to releasable, evidence-backed content. Its quality criterion is not diagram density but **stable identity, traceability, configuration specificity and explicit handling of unknowns**.
+The quality criterion is **stable identity, evidence provenance, configuration specificity, traceability and explicit handling of unknowns**.

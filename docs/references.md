@@ -2,12 +2,13 @@
 
 ## Source classes
 
-The reconstruction uses four source classes:
+The reconstruction uses five source classes:
 
 1. **direct project evidence** — authentic photographs, period engineering correspondence, test/status records and surviving programme documents;
 2. **OEM/reference documentation** — vendor manuals and architecture material;
 3. **public programme reporting** — later contract/operator context;
-4. **retrospective engineering derivation** — public-safe requirements, functions, interfaces and traceability generated from identified evidence.
+4. **retrospective programme-lead statements** — explicitly labelled recollection/scope information supplied for reconstruction;
+5. **retrospective engineering derivation** — public-safe requirements, functions, interfaces and traceability generated from identified evidence.
 
 ## Supplied project material
 
@@ -25,9 +26,15 @@ It supports vendor-system understanding only. It is not treated as the exact Sup
 
 ### Period first-modification completion report
 
-A surviving security-marked programme report contains detailed legacy-aircraft and architecture analysis.
+A surviving non-public programme report contains detailed legacy-aircraft and architecture analysis.
 
-The source is **not republished**. Only high-level engineering facts needed to establish the system boundary are used, with controlled details withheld.
+The source is **not republished**. Only high-level engineering facts needed to establish the system boundary are used, with implementation detail withheld.
+
+### Retrospective retrofit-scope statement
+
+The programme lead has supplied scope information identifying sensor-suite replacement and the complete modification wiring-harness change as part of the executed retrofit.
+
+Because the surviving public-safe period sources available here do not independently reconstruct every detail of that executed harness state, the claim is explicitly tagged as **retrospective direct statement (E-24)** rather than being attributed to an unpublished drawing.
 
 ### Project photographs
 
@@ -37,7 +44,7 @@ Only authentic project imagery may be used for aircraft/cockpit/test evidence in
 
 ### OEM / programme correspondence
 
-Surviving engineering exchanges are used to establish configuration-specific facts such as installed operation, discrepancy investigation, interface/configuration activity, database/settings restoration, OEM support and evaluation status.
+Surviving engineering exchanges establish configuration-specific facts such as installed operation, discrepancy investigation, interface/configuration activity, database/settings restoration, OEM support and evaluation status.
 
 Private correspondence bodies and personal data are not uploaded.
 
@@ -56,7 +63,7 @@ The later programme-context section uses public reports for contract quantities 
 - Associated Press of Pakistan — Azerbaijan, 10-aircraft sale:
   https://www.app.com.pk/national/pakistan-signs-agreement-with-azerbaijan-for-sale-of-10-super-mushshak-aircraft/
 
-Earlier commercial-value references remain in the evidence register for identity/history stability but are not used in the current technical narrative.
+Commercial-value references are retained only for evidence-ID continuity and are not used in the current technical narrative.
 
 ## OEM architecture rule
 
@@ -66,8 +73,8 @@ It may not be used, without direct project evidence, to claim exact aircraft-ins
 
 ## Public-release rule
 
-A public technical statement must be traceable to a direct project evidence ID, OEM/reference evidence ID, public programme source, or a clearly identified retrospective derivation linked to those sources.
+A public technical statement must be traceable to direct project evidence, OEM/reference evidence, a public programme source, an explicitly labelled retrospective statement, or a clearly identified retrospective derivation.
 
-Where sources differ or are incomplete, the difference remains visible. The model does not select whichever interpretation looks stronger.
+Where sources are incomplete, the gap remains visible.
 
 No synthetic aircraft/cockpit/test imagery is permitted.

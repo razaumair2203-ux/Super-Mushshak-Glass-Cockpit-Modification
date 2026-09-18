@@ -21,4 +21,5 @@ E-19,Direct project,"Original test-engineer in-flight photograph","Flight/test c
 E-20,Direct project,"Original cockpit-in-flight project photograph","Dynon flight/test context","Visible configuration/test context where applicable","Release candidate"
 E-21,Direct project,"Original aerial test-flight photograph","Flight/test context","Period flight context only","Release candidate"
 E-22,Retired,"External operator-image reference",None,"No current technical claim","Retired; not embedded"
-E-23,Direct project security-marked source,"Period first-modification completion report","Baseline / architecture","High-level system-boundary, electrical/mechanical/cabling and option-analysis facts","Source not published; controlled detail withheld"
+E-23,Direct project non-public source,"Period first-modification completion report","Baseline / architecture","High-level system-boundary, electrical/mechanical/cabling and option-analysis facts","Source not published; implementation detail withheld"
+E-24,Retrospective direct statement,"Retrofit scope statement supplied by programme lead","Programme / Dynon scope","Sensor-suite replacement and complete modification wiring-harness change as executed scope","Explicitly retrospective; no controlled implementation detail"

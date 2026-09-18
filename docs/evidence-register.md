@@ -1,6 +1,6 @@
 # Evidence Register
 
-This register controls the retrospective reconstruction. It records the evidence category and configuration scope behind public engineering claims without publishing private correspondence, controlled drawings or security-marked source material.
+This register controls the retrospective reconstruction. It records evidence category and configuration scope behind public engineering claims without publishing private correspondence, controlled drawings or non-public source material.
 
 | ID | Evidence | Class | Configuration scope | What it supports | Public treatment |
 |---|---|---|---|---|---|
@@ -19,27 +19,28 @@ This register controls the retrospective reconstruction. It records the evidence
 | E-13 | Original customer-evaluation ground photograph | Direct project | CFG-D3 context | aircraft/customer-evaluation period context | sanitized image published |
 | E-14 | Original public-event programme photograph | Direct project | programme context | display/support context only | source retained; not required for technical claims |
 | E-15 | Original in-flight Dynon display photograph | Direct project | Dynon installed aircraft | installed-aircraft PFD / synthetic-vision operation visible in image | sanitized image published |
-| E-16 | Public programme reporting, 2016–2017 | Public programme | later programme | Nigeria/Qatar/Türkiye/Azerbaijan contract quantities; Nigeria glass-cockpit delivery | public links listed |
+| E-16 | Public programme reporting, 2016–2017 | Public programme | later programme | contract quantities; Nigeria glass-cockpit delivery | public links listed |
 | E-17 | Public Nigeria value estimate | Public programme | later programme | historical commercial estimate only | retained source; not used in technical traceability |
 | E-18 | Public Türkiye value estimate | Public programme | later programme | historical commercial estimate only | retained source; not used in technical traceability |
 | E-19 | Original test-engineer in-flight photograph | Direct project | flight/test context | participation / flight-test context | release candidate; no technical result inferred |
 | E-20 | Original cockpit-in-flight project photograph | Direct project | Dynon flight/test context | visible installed-aircraft context | release candidate; configuration claim only if visible |
 | E-21 | Original aerial test-flight photograph | Direct project | flight/test context | period flight/test context | release candidate; not configuration proof |
 | E-22 | Retired external operator-image reference | Retired | none | no current technical claim | not embedded; retained ID only for history stability |
-| E-23 | Period first-modification completion report | Direct project, security-marked source | baseline / architecture | legacy-system characterisation; electrical/mechanical/cabling design problem; architecture-option analysis | high-level derived facts only; source not published |
+| E-23 | Period first-modification completion report | Direct project, non-public source | baseline / architecture | legacy-system characterisation; electrical/mechanical/cabling design problem; architecture-option analysis | high-level facts only; source not published |
+| E-24 | Retrofit scope statement supplied by programme lead for retrospective reconstruction | Retrospective direct statement | programme / Dynon scope | sensor-suite replacement and complete modification wiring-harness change as executed scope | explicitly identified as retrospective; no controlled implementation detail |
 
 ## Evidence rules
 
-1. **Direct project evidence** supports only the configuration/event actually represented.
-2. **OEM material** supports vendor-system functions and generic architecture, not the exact aircraft installation.
-3. **Public programme reporting** supports later programme context, not individual causation.
-4. **Derived artefacts** must link back to evidence and remain visibly retrospective.
-5. **Unknown information stays unknown.**
-6. **A test observation does not become a closed discrepancy unless closure evidence exists.**
+1. Direct project evidence supports only the represented configuration/event.
+2. OEM material supports vendor-system functions and generic architecture, not the exact aircraft installation.
+3. Public programme reporting supports later programme context, not individual causation.
+4. Retrospective statements/derivations are labelled as such rather than promoted into period artefacts.
+5. Unknown information stays unknown.
+6. A test observation does not become a closed discrepancy unless closure evidence exists.
 
 ## Public-release rules
 
-Do not publish security/classification markings, detailed wiring routes, connectors or pin data, controlled drawings/acceptance procedures, private correspondence/personal data, unnecessary exact equipment locations, private customer information or proprietary implementation detail.
+Do not publish controlled markings/details, wiring routes, connectors or pin data, controlled drawings/acceptance procedures, private correspondence/personal data, unnecessary exact equipment locations, private customer information or proprietary implementation detail.
 
 Photographic processing is limited to crop, resize, exposure/contrast correction, sharpening and narrowly targeted redaction. No synthetic visual replacement is permitted.
 

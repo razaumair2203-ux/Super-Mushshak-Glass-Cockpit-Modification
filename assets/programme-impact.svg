@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><style>
+.title{font:700 42px Arial,sans-serif;fill:#111827}.sub{font:24px Arial,sans-serif;fill:#374151}.yr{font:700 27px Arial,sans-serif;fill:#111827}.h{font:700 30px Arial,sans-serif;fill:#111827}.t{font:23px Arial,sans-serif;fill:#111827}.note{font:20px Arial,sans-serif;fill:#4b5563}.b{fill:#f9fafb;stroke:#374151;stroke-width:3}.accent{fill:#eef6ff;stroke:#1f4b7a;stroke-width:4}</style></defs>
+<rect width="1600" height="900" fill="white"/>
+<text x="80" y="70" class="title">Programme Impact — From Prototype Modernisation to Exported Glass-Cockpit Trainer</text>
+<text x="80" y="110" class="sub">Public programme outcomes are shown separately from individual contribution; causation is not overstated.</text>
+<line x1="140" y1="250" x2="1460" y2="250" stroke="#333" stroke-width="5"/>
+<circle cx="200" cy="250" r="15" fill="#333"/><text x="200" y="200" text-anchor="middle" class="yr">2010</text><text x="200" y="310" text-anchor="middle" class="t">Dynon prototype</text><text x="200" y="342" text-anchor="middle" class="t">integration / flight</text>
+<circle cx="510" cy="250" r="15" fill="#333"/><text x="510" y="200" text-anchor="middle" class="yr">2012</text><text x="510" y="310" text-anchor="middle" class="t">Qatar evaluation</text><text x="510" y="342" text-anchor="middle" class="t">customer test sorties</text>
+<circle cx="900" cy="250" r="15" fill="#333"/><text x="900" y="200" text-anchor="middle" class="yr">2016</text><text x="900" y="310" text-anchor="middle" class="t">Nigeria 10 + Qatar 8</text><text x="900" y="342" text-anchor="middle" class="t">documented export contracts</text>
+<circle cx="1270" cy="250" r="15" fill="#333"/><text x="1270" y="200" text-anchor="middle" class="yr">2017</text><text x="1270" y="310" text-anchor="middle" class="t">Türkiye 52 + Azerbaijan 10</text><text x="1270" y="342" text-anchor="middle" class="t">documented export contracts</text>
+<rect x="100" y="450" width="430" height="240" rx="18" class="accent"/>
+<text x="315" y="505" text-anchor="middle" class="h">80 aircraft</text>
+<text x="315" y="550" text-anchor="middle" class="t">Four documented new-customer</text><text x="315" y="583" text-anchor="middle" class="t">export contracts in 2016–2017</text>
+<text x="315" y="635" text-anchor="middle" class="note">Nigeria 10 · Qatar 8</text><text x="315" y="666" text-anchor="middle" class="note">Türkiye 52 · Azerbaijan 10</text>
+<rect x="585" y="450" width="430" height="240" rx="18" class="b"/>
+<text x="800" y="505" text-anchor="middle" class="h">Public value evidence</text>
+<text x="800" y="550" text-anchor="middle" class="t">Nigeria: ~US$10.2m estimate</text>
+<text x="800" y="590" text-anchor="middle" class="t">Türkiye: ~US$2m / aircraft estimate</text>
+<text x="800" y="630" text-anchor="middle" class="note">≈ US$104m implied for 52 aircraft</text>
+<text x="800" y="666" text-anchor="middle" class="note">Qatar/Azerbaijan values not found publicly</text>
+<rect x="1070" y="450" width="430" height="240" rx="18" class="b"/>
+<text x="1285" y="505" text-anchor="middle" class="h">Glass-cockpit continuity</text>
+<text x="1285" y="550" text-anchor="middle" class="t">2016 Nigeria delivery was explicitly</text>
+<text x="1285" y="585" text-anchor="middle" class="t">reported as “glass cockpit” equipped.</text>
+<text x="1285" y="635" text-anchor="middle" class="note">This supports product-evolution continuity,</text>
+<text x="1285" y="666" text-anchor="middle" class="note">not sole-attribution to one prototype.</text>
+<text x="80" y="805" class="note">Sources: APP/PAF public reporting (Nigeria, Qatar, Türkiye, Azerbaijan); Defense News (Nigeria estimate); Anadolu Agency (Türkiye per-aircraft estimate).</text>
+<text x="80" y="840" class="note">Individual contribution remains the documented early systems engineering, integration, test and customer-evaluation work.</text>
+</svg>

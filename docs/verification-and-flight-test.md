@@ -10,19 +10,12 @@ Following installation, the new cockpit equipment and aircraft interfaces were c
 
 Ground-run activity provided an aircraft-installed test environment before flight. It allowed the team to observe the modified cockpit with the aircraft operating and to identify integration issues that were not visible in a static installation.
 
-<p align="center">
-  <img src="../assets/photos/ground-run-trial.jpg" width="800" alt="Super Mushshak ground-run test">
-</p>
 
 ## Flight test
 
 Flight testing moved verification from the installed aircraft on the ground to operational use in the air. The project-period cockpit photograph below shows the integrated glass-cockpit configuration during flight-test activity.
 
-<p align="center">
-  <img src="../assets/photos/flight-test-cockpit.jpg" width="900" alt="Super Mushshak glass-cockpit flight test">
-</p>
 
-The image has been reduced in resolution and navigation/location data has been obscured. No aircraft or cockpit content has been synthetically generated.
 
 ## Engineering feedback loop
 

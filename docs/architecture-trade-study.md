@@ -2,7 +2,7 @@
 
 ## Configuration identity first
 
-The surviving archive contains multiple avionics names created at different points in the programme. The trade record is useful only if those identities remain separate.
+Project records contain multiple avionics candidates and prototype identities from different stages of the programme. The trade study remains useful only when those identities are kept separate.
 
 1. **Dynon SkyView** — installed prototype with strong photographic, OEM-support and flight-test evidence.
 2. **Garmin G900X/G950 family** — separate prototype/evaluation path supported by OEM installation material, a G950-focused technical presentation and later G900X configuration correspondence.
@@ -14,7 +14,7 @@ The G3X comparison is **not** used as proof of the G900X/G950 aircraft configura
 
 The period comparison material describes a two-large-display SkyView arrangement. The broader project archive demonstrates that the aircraft integration extended well beyond displays to sensing, retained avionics, power, configuration data, HMI and supportability.
 
-Strong surviving evidence on this track includes installed cockpit photography, in-flight display photography, aircraft-level troubleshooting correspondence, navigation-data interface activity, settings/database restoration after display replacement, continuing flight-test feedback, performance testing and customer evaluation.
+Strong project evidence on this track includes installed cockpit photography, in-flight display photography, aircraft-level troubleshooting correspondence, navigation-data interface activity, settings/database restoration after display replacement, continuing flight-test feedback, performance testing and customer evaluation.
 
 ## Garmin G900X/G950-family track
 
@@ -26,7 +26,7 @@ The public model therefore uses the Garmin material to support modular LRU archi
 
 It does **not** use the generic manual to assert the exact installed Super Mushshak LRU list, exact aircraft wiring, exact bus topology, harness routing, pinout or equipment location.
 
-The exact public aircraft-installed Garmin baseline remains **partially reconstructed**.
+Detailed aircraft-installed Garmin implementation data is intentionally **not published** in this repository.
 
 ## G3X comparative material
 
@@ -54,7 +54,7 @@ Those observations are useful as evidence of a multi-criteria decision process. 
 
 ## Trade-study conclusion
 
-The source record does not justify a retrospective universal “winner”. It does support a stronger systems-engineering conclusion:
+The trade material does not support a single universal “winner” across every programme phase. It supports a stronger systems-engineering conclusion:
 
 > **aircraft-level interface burden, supportability, acceptance fit and configuration control can be as important as headline avionics capability.**
 

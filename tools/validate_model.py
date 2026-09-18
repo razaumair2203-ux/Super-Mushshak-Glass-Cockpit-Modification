@@ -7,7 +7,7 @@ Checks:
 3. singular/plural ID references resolve to known objects;
 4. typed-link source/target IDs resolve;
 5. local Markdown links and image paths resolve;
-6. external embedded images are rejected so recruiter-facing visuals remain repository-local.
+6. external embedded images are rejected so recruiter-facing visuals remain repository-local;\n7. weak salvage/reconstruction language is rejected from recruiter-facing Markdown/SVG assets.
 
 Uses Python standard library only.
 """
@@ -189,10 +189,32 @@ def check_markdown(errors: list[str]) -> None:
                 )
 
 
+
+def check_portfolio_language(errors: list[str]) -> None:
+    """Keep recruiter-facing narrative authoritative and programme-oriented."""
+    candidates = [ROOT / "README.md"]
+    candidates += sorted((ROOT / "docs").glob("*.md"))
+    candidates += sorted((ROOT / "assets").glob("*.md"))
+    candidates += sorted((ROOT / "assets").glob("*.svg"))
+
+    for path in candidates:
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8").lower()
+        for phrase in BANNED_PUBLIC_PHRASES:
+            if phrase in text:
+                fail(
+                    errors,
+                    f"{path.relative_to(ROOT)}: recruiter-facing wording contains "
+                    f"banned phrase: {phrase}",
+                )
+
+
 def main() -> int:
     errors: list[str] = []
     all_ids = check_model(errors)
     check_markdown(errors)
+    check_portfolio_language(errors)
 
     if errors:
         print("QUALITY GATE: FAIL")
@@ -213,6 +235,7 @@ def main() -> int:
     print("ID references: resolved")
     print("Local Markdown links/images: resolved")
     print("External image policy: repository-local only")
+    print("Portfolio language guardrail: passed")
     return 0
 
 

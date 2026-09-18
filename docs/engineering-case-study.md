@@ -22,7 +22,7 @@ The modification boundary therefore included:
 
 I served as the **lead systems engineer** for the modification and also performed hands-on avionics integration/test activity. Surviving period correspondence identifies me operationally as an **Integration Engineer** during the early Dynon work.
 
-The portfolio intentionally demonstrates the role through the engineering chain rather than through an unsupported job-title claim: architecture decisions, interface questions, installed-aircraft discrepancies, configuration restoration, OEM resolution, flight-test feedback and customer evaluation are all traceable to surviving evidence.
+The role is demonstrated through the engineering chain rather than through an unsupported title claim: architecture decisions, interface questions, installed-aircraft discrepancies, configuration restoration, OEM resolution, flight-test feedback and customer evaluation are traceable to surviving evidence.
 
 ## System boundary and interfaces
 

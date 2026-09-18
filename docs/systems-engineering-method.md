@@ -16,7 +16,7 @@ See [System context and functional decomposition](system-context-and-functions.m
 
 The retrofit addressed modernisation of a legacy training aircraft while retaining suitability for training use, installed-aircraft operation, maintainability and customer/acceptance evaluation.
 
-The surviving record shows that constraints were not limited to display capability. Integration had to consider:
+Project records show that constraints were not limited to display capability. Integration had to consider:
 
 - aircraft electrical supply and protection;
 - sensor and engine/airframe measurement paths;
@@ -108,13 +108,13 @@ The closed-loop rule is:
 
 A result observed in one configuration is not inherited automatically by another.
 
-Where final closure evidence is absent, the issue remains **not publicly reconstructed** rather than being forced to “closed”.
+Where final closure evidence is absent, the public repository marks the detailed closure record as **not published** rather than inventing a closure state.
 
 See [Verification and flight test](verification-and-flight-test.md) and [Assurance and closure summary](assurance-closure-summary.md).
 
 ## 10. Integration-risk control
 
-The retrospective model now separates **issues** from **risks**.
+The systems model separates **issues** from **risks**.
 
 Issues describe something actually observed. Risks capture the broader engineering concern that observation exposes, for example:
 
@@ -125,7 +125,7 @@ Issues describe something actually observed. Risks capture the broader engineeri
 - retained-avionics compatibility;
 - supportability / aircraft-on-ground exposure.
 
-The model does not invent probability or severity values and does not claim that a formal historical FHA/FMEA survives.
+The model does not invent probability or severity values and does not publish a formal programme FHA/FMEA; controlled safety artefacts remain outside this public release.
 
 See [Integration risk register](integration-risk-register.md) and [model/risks.csv](../model/risks.csv).
 
@@ -139,9 +139,9 @@ Every public claim is linked to one of five states:
 
 - **observed** — directly evidenced by project material;
 - **documented** — stated by OEM/reference or public programme source;
-- **derived** — retrospective engineering normalisation from identified evidence;
-- **partially reconstructed** — some evidence exists but the complete historical baseline is not public;
-- **not reconstructed** — evidence is absent, private or insufficient.
+- **engineering-derived** — current engineering normalisation from identified evidence;
+- **public-summary** — the engineering point is represented while detailed historical baseline data is not published;
+- **not published** — detail is outside the public evidence/release boundary.
 
 Technical claims, role claims and programme/commercial claims are controlled separately.
 

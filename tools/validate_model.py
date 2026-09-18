@@ -153,7 +153,7 @@ def is_external(value: str) -> bool:
 
 
 def check_markdown(errors: list[str]) -> None:
-    md_files = [ROOT / "README.md", *sorted((ROOT / "docs").glob("*.md"))]
+    md_files = sorted(p for p in ROOT.rglob("*.md") if ".git" not in p.parts)
 
     for path in md_files:
         if not path.exists():

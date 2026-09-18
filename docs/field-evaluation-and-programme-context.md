@@ -2,7 +2,7 @@
 
 ## Customer evaluation
 
-The surviving project archive shows the Dynon-configured aircraft progressing from integration and performance-test activity into customer evaluation.
+Project status and test records show the Dynon-configured aircraft progressing from integration and performance-test activity into international customer evaluation.
 
 A period status record documents **10 evaluation sorties by 12 November 2012**, including a night-flying mission. Engineering exchanges from the same phase record continuing configuration observations and OEM feedback during customer flying.
 

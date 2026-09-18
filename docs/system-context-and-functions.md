@@ -57,7 +57,7 @@ Machine-readable source: [model/functions.csv](../model/functions.csv).
 
 A function does not prove a particular LRU was installed. For example, “acquire air data” is a valid aircraft-level function across candidate architectures; the public model identifies a particular vendor LRU only when the evidence supports that configuration.
 
-That distinction protects the model from a common retrospective error: turning a generic OEM architecture into an aircraft-specific physical baseline.
+That distinction protects the model from a common modelling error: turning a generic OEM architecture into an aircraft-specific physical baseline.
 
 ## Harness and physical integration
 

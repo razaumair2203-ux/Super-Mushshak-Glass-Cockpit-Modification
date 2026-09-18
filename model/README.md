@@ -29,7 +29,7 @@ The model is intentionally **tool-agnostic**. Stable IDs and explicit links matt
 3. G3X comparison material is not merged into the G900X/G950 prototype/evaluation identity.
 4. Verification evidence is tied to the configuration state in which it was observed.
 5. Discrepancy discussion is not automatically treated as discrepancy closure.
-6. Unknown values stay unknown.
+6. Unpublished or unsupported detail is not replaced by assumptions.
 7. Public objects omit controlled implementation detail.
 8. Every engineering-derived object identifies an evidence basis.
 9. Retired evidence IDs are not silently reused.
@@ -57,4 +57,4 @@ The CSV objects correspond conceptually to requirements, functions, blocks/inter
 
 These files are the **current digital representation of the executed programme**. They map original engineering work into machine-readable systems-engineering objects for traceability and digital-twin continuation.
 
-The quality criterion is **identity + evidence + traceability + configuration specificity + explicit risk/unknown handling**, not model density.
+The quality criterion is **identity + evidence + traceability + configuration specificity + explicit risk and release-boundary handling**, not model density.

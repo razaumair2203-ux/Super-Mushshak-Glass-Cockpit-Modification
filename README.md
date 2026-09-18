@@ -29,7 +29,7 @@ The repository is deliberately evidence-led. It separates **period project evide
 | Retrospective engineering derivation | public-safe requirements, functions, logical interfaces, traceability views | an assertion that the artefact existed during the original programme |
 | Unknown / not reconstructed | explicit gap in the public model | an inferred value inserted for completeness |
 
-Project imagery in this repository is authentic. Processing is limited to crop, resize, exposure/contrast correction, sharpening and narrowly targeted redaction. **No synthetic aircraft, cockpit, equipment, person, test scene or replacement background is used.**
+Project-evidence imagery in this repository is authentic. Processing is limited to crop, resize, exposure/contrast correction, sharpening and narrowly targeted redaction. Independent public/operator photographs may be source-linked as contextual corroboration, but are visually separated from project evidence and are not used to infer hidden configuration details. **No synthetic aircraft, cockpit, equipment, person, test scene or replacement background is used.**
 
 ## Programme boundary and system context
 
@@ -142,6 +142,25 @@ See [Verification and flight test](docs/verification-and-flight-test.md) and [Tr
 </tr>
 </table>
 
+## Independent public cockpit and operator evidence
+
+The authentic project photographs above remain the primary evidence of the retrofit work. A separate public-evidence layer provides **independent corroboration of the glass-cockpit programme and later operator/export context** without mixing third-party imagery into the project archive.
+
+<table>
+<tr>
+<td width="50%"><a href="https://commons.wikimedia.org/wiki/File:PAC_Super_Mushshak_cockpit.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/PAC_Super_Mushshak_cockpit.jpg" alt="Public Super Mushshak cockpit at Dubai Air Show 2017"></a><br><sub><b>Public glass-cockpit view.</b> Dubai Air Show 2017; Mztourist / Wikimedia Commons, CC BY-SA 4.0. Exact suite identity is not inferred from the photograph alone.</sub></td>
+<td width="50%"><a href="https://www.defensenews.com/training-sim/2016/12/07/nigeria-takes-delivery-of-pakistani-made-super-mushshak-trainer-aircraft/"><img src="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/3CWBD5KEEJHJZAE63QCMWZY5G4.jpg" alt="Super Mushshak associated with Nigerian delivery"></a><br><sub><b>Nigeria.</b> External source image: Defense News. APP independently described the delivered aircraft as glass-cockpit equipped; Asian Military Review identifies the Nigerian fleet as Dynon-equipped.</sub></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://www.airhistory.net/photo/417432/QA306"><img src="https://www.airhistory.net/photos/0417432.jpg" alt="Qatar Emiri Air Force Super Mushshak formation"></a><br><sub><b>Qatar.</b> External source image: AirHistory.net / photographer copyright. Qatar News Agency documents continuing Super Mushshak use at Al Zaeem Air Academy; Asian Military Review identifies the Qatar aircraft as Garmin 950-equipped.</sub></td>
+<td width="50%"><a href="https://mod.gov.az/en/news/azerbaijani-military-pilots-conduct-the-next-training-flights-video-54557.html"><img src="https://mod.gov.az/images/gallery/77218ac0dd1ad25c1952444953e98d36.jpg" alt="Azerbaijan Air Force Super Mushshak training"></a><br><sub><b>Azerbaijan.</b> External source image: Ministry of Defence of Azerbaijan. Current training activity is independently documented; the cited avionics comparison source does not identify Azerbaijan's selected suite.</sub></td>
+</tr>
+</table>
+
+Public reporting provides an important configuration cross-check: **Qatar — Garmin 950; Nigeria — Dynon; Türkiye — Garmin 950; Azerbaijan — avionics selection not identified in the cited configuration source.** This is programme-level continuity evidence, not proof that an early prototype was reproduced unchanged.
+
+See [Independent public glass-cockpit and operator evidence](docs/public-operator-evidence.md) for the source-by-source record, Türkiye imagery, operator cross-checks and attribution rules.
+
 ## Customer evaluation and programme context
 
 The surviving record shows the Dynon-configured aircraft progressing into performance testing and customer evaluation. Evaluation evidence includes repeated flight activity, night operation and configuration-specific technical observations. Customer evaluation is treated as **validation context**, not as a substitute for certification evidence or formal verification.
@@ -193,6 +212,7 @@ See [Digital twin follow-on](docs/digital-twin.md).
 - [Verification and flight test](docs/verification-and-flight-test.md)
 - [Traceability and V&V](docs/traceability-and-vv.md)
 - [Customer evaluation and programme context](docs/field-evaluation-and-programme-context.md)
+- [Independent public glass-cockpit and operator evidence](docs/public-operator-evidence.md)
 - [Evidence register](docs/evidence-register.md)
 - [Retrospective MBSE reconstruction](docs/mbse-retrospective.md)
 - [Digital twin follow-on](docs/digital-twin.md)

@@ -1,61 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1220" viewBox="0 0 1800 1220">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1180" viewBox="0 0 1800 1180">
 <defs><style>
-.ti{font:700 40px Arial,sans-serif;fill:#111827}.su{font:22px Arial,sans-serif;fill:#4b5563}
-.h{font:700 20px Arial,sans-serif;fill:#111827}.r{font:19px Arial,sans-serif;fill:#111827}.s{font:17px Arial,sans-serif;fill:#4b5563}
-.grid{stroke:#9ca3af;stroke-width:1}.box{fill:#f9fafb;stroke:#374151;stroke-width:2}.dot{fill:#1f4b7a}
+.ti{font:700 40px Arial,sans-serif;fill:#111827}.su{font:21px Arial,sans-serif;fill:#4b5563}
+.h{font:700 18px Arial,sans-serif;fill:#111827}.hh{font:700 17px Arial,sans-serif;fill:#111827}
+.r{font:18px Arial,sans-serif;fill:#111827}.s{font:15px Arial,sans-serif;fill:#4b5563}
+.grid{stroke:#c7cdd4;stroke-width:1}.outer{fill:#ffffff;stroke:#374151;stroke-width:2}
+.head{fill:#f3f4f6}.dot{fill:#1f4b7a}
 </style></defs>
-<rect width="1800" height="1220" fill="white"/>
-<text x="70" y="60" class="ti">Requirements × Verification Cross-Reference — Public Retrospective Model</text>
-<text x="70" y="100" class="su">Dots are taken from model/traceability.csv. A blank cell means no direct verification link is asserted in the current public reconstruction.</text>
-<!-- headers -->
-<rect x="65" y="155" width="1670" height="855" class="box"/>
-<text x="80" y="195" class="h">Requirement</text>
-<g transform="translate(760,150)">
-<text transform="translate(40,40) rotate(-45)" class="h">VER-001 Early sorties</text>
-<text transform="translate(155,40) rotate(-45)" class="h">VER-002 Power discrepancy</text>
-<text transform="translate(270,40) rotate(-45)" class="h">VER-003 Reconfig + flight</text>
-<text transform="translate(385,40) rotate(-45)" class="h">VER-004 HMI / SV</text>
-<text transform="translate(500,40) rotate(-45)" class="h">VER-005 ADAHRS test</text>
-<text transform="translate(615,40) rotate(-45)" class="h">VER-006 PTT / EMS coupling</text>
-<text transform="translate(730,40) rotate(-45)" class="h">VER-007 Qatar evaluation</text>
-<text transform="translate(845,40) rotate(-45)" class="h">VER-008 Garmin arch review</text>
+<rect width="1800" height="1180" fill="white"/>
+<text x="70" y="60" class="ti">Requirements × Verification Cross-Reference</text>
+<text x="70" y="98" class="su">Traceability view generated from model/traceability.csv. Blank cells indicate that no direct verification link is asserted.</text>
+
+<rect x="65" y="150" width="1670" height="790" class="outer"/>
+<rect x="65" y="150" width="1670" height="120" class="head"/>
+
+<text x="82" y="205" class="h">Requirement</text>
+<text x="82" y="232" class="s">Public retrospective requirement set</text>
+
+<!-- column headers -->
+<g text-anchor="middle">
+<text x="820" y="190" class="hh">VER-001</text><text x="820" y="218" class="s">Early sorties</text>
+<text x="950" y="190" class="hh">VER-002</text><text x="950" y="218" class="s">Power discrepancy</text>
+<text x="1080" y="190" class="hh">VER-003</text><text x="1080" y="218" class="s">Reconfig + flight</text>
+<text x="1210" y="190" class="hh">VER-004</text><text x="1210" y="218" class="s">HMI / SV</text>
+<text x="1340" y="190" class="hh">VER-005</text><text x="1340" y="218" class="s">ADAHRS test</text>
+<text x="1470" y="190" class="hh">VER-006</text><text x="1470" y="218" class="s">PTT / EMS</text>
+<text x="1600" y="190" class="hh">VER-007</text><text x="1600" y="218" class="s">Qatar evaluation</text>
+<text x="1700" y="190" class="hh">VER-008</text><text x="1700" y="218" class="s">Garmin review</text>
 </g>
-<!-- horizontal grid -->
+
+<!-- grid -->
 <g class="grid">
-<line x1="65" y1="300" x2="1735" y2="300"/><line x1="65" y1="355" x2="1735" y2="355"/><line x1="65" y1="410" x2="1735" y2="410"/><line x1="65" y1="465" x2="1735" y2="465"/><line x1="65" y1="520" x2="1735" y2="520"/><line x1="65" y1="575" x2="1735" y2="575"/><line x1="65" y1="630" x2="1735" y2="630"/><line x1="65" y1="685" x2="1735" y2="685"/><line x1="65" y1="740" x2="1735" y2="740"/><line x1="65" y1="795" x2="1735" y2="795"/><line x1="65" y1="850" x2="1735" y2="850"/><line x1="65" y1="905" x2="1735" y2="905"/><line x1="65" y1="960" x2="1735" y2="960"/><line x1="65" y1="1010" x2="1735" y2="1010"/>
-<line x1="760" y1="155" x2="760" y2="1010"/><line x1="875" y1="155" x2="875" y2="1010"/><line x1="990" y1="155" x2="990" y2="1010"/><line x1="1105" y1="155" x2="1105" y2="1010"/><line x1="1220" y1="155" x2="1220" y2="1010"/><line x1="1335" y1="155" x2="1335" y2="1010"/><line x1="1450" y1="155" x2="1450" y2="1010"/><line x1="1565" y1="155" x2="1565" y2="1010"/><line x1="1680" y1="155" x2="1680" y2="1010"/>
+<line x1="745" y1="150" x2="745" y2="940"/>
+<line x1="885" y1="150" x2="885" y2="940"/>
+<line x1="1015" y1="150" x2="1015" y2="940"/>
+<line x1="1145" y1="150" x2="1145" y2="940"/>
+<line x1="1275" y1="150" x2="1275" y2="940"/>
+<line x1="1405" y1="150" x2="1405" y2="940"/>
+<line x1="1535" y1="150" x2="1535" y2="940"/>
+<line x1="1665" y1="150" x2="1665" y2="940"/>
+<line x1="1735" y1="150" x2="1735" y2="940"/>
+<line x1="65" y1="270" x2="1735" y2="270"/>
+<line x1="65" y1="325" x2="1735" y2="325"/><line x1="65" y1="380" x2="1735" y2="380"/>
+<line x1="65" y1="435" x2="1735" y2="435"/><line x1="65" y1="490" x2="1735" y2="490"/>
+<line x1="65" y1="545" x2="1735" y2="545"/><line x1="65" y1="600" x2="1735" y2="600"/>
+<line x1="65" y1="655" x2="1735" y2="655"/><line x1="65" y1="710" x2="1735" y2="710"/>
+<line x1="65" y1="765" x2="1735" y2="765"/><line x1="65" y1="820" x2="1735" y2="820"/>
+<line x1="65" y1="875" x2="1735" y2="875"/><line x1="65" y1="930" x2="1735" y2="930"/>
 </g>
+
 <!-- row labels -->
 <g class="r">
-<text x="80" y="338">REQ-001 · Primary flight information</text>
-<text x="80" y="393">REQ-002 · Engine / airframe information</text>
-<text x="80" y="448">REQ-003 · NAV / COM integration</text>
-<text x="80" y="503">REQ-004 · Electrical integration</text>
-<text x="80" y="558">REQ-005 · Configuration management</text>
-<text x="80" y="613">REQ-006 · Legacy avionics interfaces</text>
-<text x="80" y="668">REQ-007 · Installed verification / closure</text>
-<text x="80" y="723">REQ-008 · Maintainability / support</text>
-<text x="80" y="778">REQ-009 · Qualification / certification fit</text>
-<text x="80" y="833">REQ-010 · Failure response / redundancy</text>
-<text x="80" y="888">REQ-011 · HMI / training suitability</text>
-<text x="80" y="943">REQ-012 · Configuration identity / evidence control</text>
+<text x="82" y="306">REQ-001 · Primary flight information</text>
+<text x="82" y="361">REQ-002 · Engine / airframe information</text>
+<text x="82" y="416">REQ-003 · NAV / COM integration</text>
+<text x="82" y="471">REQ-004 · Electrical integration</text>
+<text x="82" y="526">REQ-005 · Configuration management</text>
+<text x="82" y="581">REQ-006 · Legacy avionics interfaces</text>
+<text x="82" y="636">REQ-007 · Installed verification / closure</text>
+<text x="82" y="691">REQ-008 · Maintainability / support</text>
+<text x="82" y="746">REQ-009 · Qualification / certification fit</text>
+<text x="82" y="801">REQ-010 · Failure response / redundancy</text>
+<text x="82" y="856">REQ-011 · HMI / training suitability</text>
+<text x="82" y="911">REQ-012 · Configuration identity / evidence control</text>
 </g>
-<!-- dots: col centers 817,932,1047,1162,1277,1392,1507,1622 ; rows 327,382,437,492,547,602,657,712,767,822,877,932 -->
+
+<!-- dots; centres 820,950,1080,1210,1340,1470,1600,1700; rows 297,352,... -->
 <g class="dot">
-<!-- req1 ver1,3,4,7 --><circle cx="817" cy="327" r="12"/><circle cx="1047" cy="327" r="12"/><circle cx="1162" cy="327" r="12"/><circle cx="1507" cy="327" r="12"/>
-<!-- req2 ver6 --><circle cx="1392" cy="382" r="12"/>
-<!-- req3 ver3 --><circle cx="1047" cy="437" r="12"/>
-<!-- req4 ver2,3 --><circle cx="932" cy="492" r="12"/><circle cx="1047" cy="492" r="12"/>
-<!-- req5 ver3,4 --><circle cx="1047" cy="547" r="12"/><circle cx="1162" cy="547" r="12"/>
-<!-- req6 ver4 --><circle cx="1162" cy="602" r="12"/>
-<!-- req7 1,2,3,5,6,7 --><circle cx="817" cy="657" r="12"/><circle cx="932" cy="657" r="12"/><circle cx="1047" cy="657" r="12"/><circle cx="1277" cy="657" r="12"/><circle cx="1392" cy="657" r="12"/><circle cx="1507" cy="657" r="12"/>
-<!-- req8 ver3 --><circle cx="1047" cy="712" r="12"/>
-<!-- req9 ver7,8 --><circle cx="1507" cy="767" r="12"/><circle cx="1622" cy="767" r="12"/>
-<!-- req10 ver8 --><circle cx="1622" cy="822" r="12"/>
-<!-- req11 ver4,7 --><circle cx="1162" cy="877" r="12"/><circle cx="1507" cy="877" r="12"/>
-<!-- req12 ver1,3,7,8 --><circle cx="817" cy="932" r="12"/><circle cx="1047" cy="932" r="12"/><circle cx="1507" cy="932" r="12"/><circle cx="1622" cy="932" r="12"/>
+<circle cx="820" cy="297" r="10"/><circle cx="1080" cy="297" r="10"/><circle cx="1210" cy="297" r="10"/><circle cx="1600" cy="297" r="10"/>
+<circle cx="1470" cy="352" r="10"/>
+<circle cx="1080" cy="407" r="10"/>
+<circle cx="950" cy="462" r="10"/><circle cx="1080" cy="462" r="10"/>
+<circle cx="1080" cy="517" r="10"/><circle cx="1210" cy="517" r="10"/>
+<circle cx="1210" cy="572" r="10"/>
+<circle cx="820" cy="627" r="10"/><circle cx="950" cy="627" r="10"/><circle cx="1080" cy="627" r="10"/><circle cx="1340" cy="627" r="10"/><circle cx="1470" cy="627" r="10"/><circle cx="1600" cy="627" r="10"/>
+<circle cx="1080" cy="682" r="10"/>
+<circle cx="1600" cy="737" r="10"/><circle cx="1700" cy="737" r="10"/>
+<circle cx="1700" cy="792" r="10"/>
+<circle cx="1210" cy="847" r="10"/><circle cx="1600" cy="847" r="10"/>
+<circle cx="820" cy="902" r="10"/><circle cx="1080" cy="902" r="10"/><circle cx="1600" cy="902" r="10"/><circle cx="1700" cy="902" r="10"/>
 </g>
-<text x="70" y="1070" class="h">Interpretation</text>
-<text x="70" y="1110" class="su">The matrix is intentionally sparse where evidence is sparse. It demonstrates traceability without inventing tests simply to fill cells.</text>
-<text x="70" y="1145" class="su">Verification records remain tied to configuration states CFG-D1 / CFG-D2 / CFG-D3 / CFG-G1 and evidence IDs in the structured model.</text>
+
+<text x="70" y="1000" class="h">Interpretation</text>
+<text x="70" y="1038" class="su">Verification evidence is configuration-specific. The matrix remains intentionally sparse where the surviving record does not justify a direct link.</text>
+<text x="70" y="1075" class="su">Detailed event descriptions are in model/verification.csv; configuration states are in model/configurations.csv.</text>
+<text x="70" y="1112" class="su">This view is a derived engineering artefact, not an original programme drawing.</text>
 </svg>

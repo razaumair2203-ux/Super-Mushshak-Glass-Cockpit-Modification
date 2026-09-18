@@ -27,7 +27,7 @@ The logical view represents evidence-backed functions and interfaces. It deliber
 
 ## Model chain
 
-**Evidence → claim → requirement → function → interface → configuration → verification / issue → decision**
+**Evidence → claim → requirement → function → interface → configuration → verification / issue / risk → decision**
 
 ![Evidence-to-verification digital thread](../assets/mbse-verification-thread.svg)
 
@@ -78,13 +78,22 @@ The historical programme is separated into:
 - Garmin G900X/G950-family prototype/evaluation track;
 - Garmin G3X comparison artefact, which is **not** treated as an aircraft configuration.
 
-## Verification and issue model
+## Verification, issue and risk model
 
 ![Requirements-to-verification cross-reference](../assets/traceability-matrix.svg)
 
 Verification records are linked to the configuration in which the event occurred. Issues are separate objects so an observed discrepancy cannot silently become a “closed” result.
 
 The evidence supports an iterative loop of **installed check → flight test → observed discrepancy → engineering/OEM analysis → disposition/configuration update → re-test**. Where final closure evidence is absent, the issue remains explicitly **not reconstructed**.
+
+The risk register then abstracts the engineering concern exposed by those events — for example power/transient behaviour, configuration restoration or cross-domain interaction — and traces it back to the requirements/interfaces it threatens.
+
+This separation matters:
+
+- **ISS-###** = something observed;
+- **RSK-###** = the engineering exposure that must be controlled.
+
+No historical formal safety process is invented.
 
 ## Decision model
 
@@ -97,12 +106,22 @@ Decision records capture recoverable engineering rationale such as:
 - withholding implementation detail while retaining logical traceability;
 - not inventing closure when evidence is incomplete.
 
+## Role and programme claims
+
+The model also separates claims that sit outside the technical requirement chain:
+
+- **CLM-011 / E-25** — retrospective Lead Systems Engineer role statement;
+- **CLM-010 / E-16** — later four-customer 80-aircraft programme sequence;
+- **CLM-012 / E-17/E-18** — attributed public commercial-value context.
+
+This prevents a role claim or later market outcome from contaminating the technical evidence chain.
+
 ## Stable identities
 
 The diagrams are views. The model is the linked data underneath them:
 
-**E / CLM ↔ REQ ↔ FUN ↔ IF ↔ CFG ↔ VER / ISS ↔ DEC**
+**E / CLM ↔ REQ ↔ FUN ↔ IF ↔ CFG ↔ VER / ISS / RSK ↔ DEC**
 
 The CSV objects can later migrate into SysML/Capella/Cameo, a requirements tool or graph database without changing their public identities.
 
-The quality criterion is **stable identity, evidence provenance, configuration specificity, traceability and explicit handling of unknowns**.
+The quality criterion is **stable identity, evidence provenance, configuration specificity, traceability, risk discipline and explicit handling of unknowns**.

@@ -4,7 +4,6 @@ Aircraft/cockpit photographs in this directory originate from the project archiv
 
 | File | Source | Public processing |
 |---|---|---|
-| super-mushshak-hero.jpg | Composition from authentic period cockpit and ramp photographs already present in the supplied archive | Crop, resize, layout and typography only; no synthetic aircraft/cockpit content |
 | dynon-cockpit-prototype-sanitized.jpg | Original Dynon prototype cockpit photograph embedded in period project material | Crop, resize, quality adjustment, internal placard redaction |
 | dynon-pfd-inflight-sanitized.jpg | Original in-flight project photograph | Resize / quality adjustment only |
 | qaef-ground-evaluation-sanitized.jpg | Original Qatar evaluation-period ground photograph | Existing public derivative; retained as customer-evaluation context |

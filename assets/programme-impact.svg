@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1440 620" preserveAspectRatio="xMidYMid meet">
+<style>
+.title{font:700 36px Arial,sans-serif;fill:#0f172a}.sub{font:17px Arial,sans-serif;fill:#475569}
+.k{font:700 42px Arial,sans-serif;fill:#0f172a}.h{font:700 18px Arial,sans-serif;fill:#0f172a}.t{font:15px Arial,sans-serif;fill:#475569}.sm{font:14px Arial,sans-serif;fill:#475569}
+.card{fill:#ffffff;stroke:#cbd5e1;stroke-width:2}.blue{fill:#eff6ff;stroke:#315b8c;stroke-width:2.5}.green{fill:#f0fdf4;stroke:#3f7c52;stroke-width:2.5}.violet{fill:#f5f3ff;stroke:#6554a1;stroke-width:2.5}.amber{fill:#fffbeb;stroke:#a96b13;stroke-width:2.5}.foot{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+</style>
+<rect width="1440" height="620" fill="white"/>
+<text x="40" y="58" class="title">Programme Scale — Engineering Role to International Product Outcome</text>
+<text x="40" y="91" class="sub">Project evidence is shown separately from later public market outcome; commercial figures below use only external public benchmarks.</text>
+
+<rect x="40" y="145" width="315" height="250" rx="18" class="blue"/>
+<text x="197" y="210" text-anchor="middle" class="k">Lead</text>
+<text x="197" y="252" text-anchor="middle" class="h">Systems Engineer</text>
+<text x="197" y="300" text-anchor="middle" class="t">aircraft-level retrofit</text>
+<text x="197" y="330" text-anchor="middle" class="t">integration · V&amp;V · OEM · customer</text>
+
+<rect x="375" y="145" width="315" height="250" rx="18" class="violet"/>
+<text x="532" y="210" text-anchor="middle" class="k">2</text>
+<text x="532" y="252" text-anchor="middle" class="h">prototype paths</text>
+<text x="532" y="300" text-anchor="middle" class="t">Dynon SkyView</text>
+<text x="532" y="330" text-anchor="middle" class="t">Garmin G900X</text>
+
+<rect x="710" y="145" width="315" height="250" rx="18" class="green"/>
+<text x="867" y="210" text-anchor="middle" class="k">80</text>
+<text x="867" y="252" text-anchor="middle" class="h">aircraft</text>
+<text x="867" y="300" text-anchor="middle" class="t">Qatar · Nigeria · Türkiye · Azerbaijan</text>
+<text x="867" y="330" text-anchor="middle" class="t">2016–2017 new-customer sequence</text>
+
+<rect x="1045" y="145" width="355" height="250" rx="18" class="amber"/>
+<text x="1222" y="210" text-anchor="middle" class="k">≈ US$77M</text>
+<text x="1222" y="252" text-anchor="middle" class="h">aircraft-value benchmark</text>
+<text x="1222" y="300" text-anchor="middle" class="t">80-aircraft scale equivalent using</text>
+<text x="1222" y="330" text-anchor="middle" class="t">public ~US$50M / 52-aircraft Türkiye anchor</text>
+
+<rect x="110" y="455" width="1220" height="110" rx="14" class="foot"/>
+<text x="720" y="492" text-anchor="middle" class="h">Support-package context</text>
+<text x="720" y="526" text-anchor="middle" class="t">Public reports also document operational training / technical support in Nigeria and Azerbaijan, plus simulator and engine-support activity around the Türkiye programme.</text>
+<text x="720" y="552" text-anchor="middle" class="sm">The ≈US$77M figure is a transparent scale-equivalent benchmark, not confidential contract revenue or profit.</text>
+</svg>

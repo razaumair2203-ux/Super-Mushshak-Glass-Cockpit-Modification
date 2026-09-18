@@ -1,30 +1,38 @@
 # Independent Public Glass-Cockpit and Operator Evidence
 
-This page provides **independent corroboration and programme context**. It is kept separate from the authentic project photographs and period engineering evidence used elsewhere in the repository.
+This page provides **independent corroboration and programme context**. It is intentionally separate from the authentic project photographs and private engineering correspondence used to reconstruct the retrofit.
 
-The evidence rule is simple:
+The evidence rule is:
 
-> **A photograph establishes only what is visible; an exact avionics configuration is asserted only when a credible source identifies it.**
+> **A photograph establishes only what is visible. An exact avionics configuration is asserted only when a credible source identifies it.**
 
-## Why external images are not embedded here
+## Media-use policy
 
-Earlier versions embedded third-party operator images directly from external websites. Several sites block hot-linking, change image URLs or require browser cookies, which produced broken images in GitHub.
+Authentic project photographs remain the primary evidence for work performed during the retrofit.
 
-The repository now uses **local authentic project imagery for the engineering narrative** and provides source links for third-party/operator imagery instead of hot-linking copyrighted files. This improves render reliability, provenance control and licence hygiene.
+Copyrighted news/operator photographs are **linked at source rather than copied**. Reusable third-party media may be embedded when its licence is explicit and attribution is preserved.
 
-![Authentic customer-evaluation project photograph](../assets/qaef-ground-evaluation-sanitized.jpg)
+<table>
+<tr>
+<td width="50%"><img src="../assets/qaef-ground-evaluation-sanitized.jpg" alt="Authentic customer-evaluation project photograph"></td>
+<td width="50%"><a href="https://commons.wikimedia.org/wiki/File:PAC_Super_Mushshak_cockpit.jpg"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/PAC%20Super%20Mushshak%20cockpit.jpg" alt="Public Super Mushshak cockpit photograph, Dubai Airshow 2017"></a></td>
+</tr>
+<tr>
+<td><sub><b>Project archive:</b> authentic customer-evaluation-period image, public-release sanitisation only.</sub></td>
+<td><sub><b>Independent public context:</b> “PAC Super Mushshak cockpit.jpg”, Mztourist, Dubai Airshow 2017, CC BY-SA 4.0. Not represented as an original project photograph.</sub></td>
+</tr>
+</table>
 
-*Authentic project photograph from the customer-evaluation period. Processing is limited to public-release sanitisation; it is not a synthetic scene.*
+## What the public record actually establishes
 
-## Public glass-cockpit evidence
-
-Independent reporting supports the cockpit story represented by the project archive:
-
-- **Times Aerospace** reported that the glass-cockpit Super Mushshak appeared publicly with two multi-function displays at Dubai Airshow 2011.
-- **Asian Military Review** reported two export glass-cockpit paths: **Garmin 950** and **Dynon**.
-- **Defence Journal** separately recorded overseas preference for Garmin 950 or Dynon SkyView and PAF use of a Dynon suite.
-- **Vayu Aerospace & Defence Review** described export options as Garmin 950 or Dynon SkyView and distinguished the display layouts.
-- **Wikimedia Commons** hosts a licenced public cockpit photograph from Dubai Air Show 2017; it is linked rather than required for the engineering evidence chain.
+| Source | Evidence supported | Boundary |
+|---|---|---|
+| **Times Aerospace** | glass-cockpit Super Mushshak first appeared publicly with two multi-function displays at Dubai Airshow in **November 2011**; Dynon and Garmin versions were available | does not identify every prototype state or exact aircraft wiring |
+| **Asian Military Review** | 2016–2017 new-customer sequence totalled **80 aircraft**; Qatar and Türkiye are identified with **Garmin 950**, Nigeria with **Dynon**, Azerbaijan selection not identified | later export configuration evidence, not proof of the exact early prototype baseline |
+| **The Peninsula Qatar** | No. 30 Sqn, Al Zaeem Air Academy was reported equipped with **eight Garmin glass-cockpit-modified Super Mushshaks in 2017** | operator/configuration context; not a retrofit test record |
+| **Defence Journal** | overseas customers are described as preferring **Garmin 950 or Dynon SkyView**; PAF adoption of a Dynon suite is also described | retrospective published account |
+| **Wikimedia Commons** | independent 2017 cockpit photograph, reusable under **CC BY-SA 4.0** | visible cockpit context only |
+| **Official/operator sources** | continuing Super Mushshak operation/training in customer fleets | operator status; configuration only where separately identified |
 
 ### Source links
 
@@ -32,79 +40,55 @@ Independent reporting supports the cockpit story represented by the project arch
   https://www.timesaerospace.aero/features/defence/nigeria-opts-for-super-mushshaks
 - Asian Military Review — *Super Mushshaks, Super Popular!*:  
   https://www.asianmilitaryreview.com/2019/01/super-mushshaks-super-popular/
+- The Peninsula Qatar — 2018 aviation feature:  
+  https://thepeninsulaqatar.com/pdf/20180322_1521670567-11085.pdf
 - Defence Journal — *Super Mushshak*:  
   https://www.defencejournal.com/2018/09/10/super-mushshak/
-- Vayu Aerospace & Defence Review — Dubai Airshow 2017 report:  
-  https://www.vayuaerospace.in/Issue/vayu-issue-Vayu-Issue-VI-Nov-Dec-2017.pdf
-- Pakistan Defence Export Promotion Organisation — Super Mushshak product page:  
-  https://www.depo.gov.pk/airSystem.php?page=11
-- Wikimedia Commons cockpit image and licence:  
+- Wikimedia Commons — cockpit photograph and licence:  
   https://commons.wikimedia.org/wiki/File:PAC_Super_Mushshak_cockpit.jpg
 
 ## Export / operator cross-check
 
-| Customer / operator | Publicly reported quantity / status | Public avionics evidence | Independent operator evidence |
-|---|---:|---|---|
-| **Nigeria** | 10 | Asian Military Review: **Dynon**; APP delivery report explicitly says **glass cockpit** | Nigerian Air Force records ten Super Mushshaks in inventory |
-| **Qatar** | 8-aircraft contract | Asian Military Review: **Garmin 950** | Qatar News Agency / Amiri Diwan continue to document Super Mushshak use at Al Zaeem Air Academy |
-| **Türkiye** | 52-aircraft contract | Asian Military Review: **Garmin 950** | Turkish Ministry of National Defence confirmed initial induction into Air Force inventory |
-| **Azerbaijan** | 10-aircraft sale | Asian Military Review: avionics selection **not identified** | Azerbaijan Ministry of Defence documents continuing Super Mushshak training |
+| Customer / operator | Publicly reported quantity / status | Public avionics evidence used here |
+|---|---:|---|
+| **Nigeria** | 10 | Asian Military Review: **Dynon**; APP delivery reporting describes delivered aircraft as glass-cockpit equipped |
+| **Qatar** | 8 | Asian Military Review: **Garmin 950**; The Peninsula: eight Garmin glass-cockpit aircraft in No. 30 Sqn |
+| **Türkiye** | 52 | Asian Military Review: **Garmin 950** |
+| **Azerbaijan** | 10 | avionics selection **not identified** in the cited specialist report |
 
-**Total in this 2016–2017 four-customer sequence: 80 aircraft.**
+**Total in the 2016–2017 four-customer sequence: 80 aircraft.**
 
-Commercial context is separately controlled: public reporting placed the Nigeria ten-aircraft order at an estimated **US$10.2M** and the Türkiye 52-aircraft agreement at approximately **US$50M**. Qatar and Azerbaijan values are not included in that subtotal because equivalent public values are not used here.
+### Primary / official programme references
 
-### Primary / first-party references
-
-- Nigeria delivery, glass cockpit, ten-aircraft programme — Associated Press of Pakistan:  
+- Nigeria delivery / glass-cockpit programme — Associated Press of Pakistan:  
   https://www.app.com.pk/national/pakistan-supplies-four-super-mushshak-to-naf/
 - Nigerian Air Force inventory narrative:  
   https://airforce.mil.ng/news/naf-day-2021-ends-with-induction-of-jf-17-multi-role-thunder-aircraft1424548808
 - Qatar eight-aircraft contract — Associated Press of Pakistan:  
   https://www.app.com.pk/national/pakistan-inks-accord-to-supply-8-mushshak-aircraft-to-qatar/
-- Qatar continuing Super Mushshak use — Qatar News Agency / Amiri Diwan:  
-  https://qna.org.qa/en/news/news-details?date=23%2F01%2F2024&id=0033-hh%C2%A0the-amir-patronizes%C2%A0graduation-ceremony-of%C2%A0al-zaeem-air-academy  
+- Qatar continuing Super Mushshak use — Amiri Diwan:  
   https://www.diwan.gov.qa/briefing-room/news/activities-and-occasions/2024/january/23/hh-the-amir-patronizes-graduation-ceremony-of-11th-batch-of-alzaeem-air-college-cadets?sc_lang=en
 - Türkiye 52-aircraft contract — Associated Press of Pakistan:  
   https://www.app.com.pk/national/pakistan-to-supply-52-trainer-aircraft-to-turkey/
-- Turkish Ministry of National Defence — Super Mushshak induction:  
+- Türkiye induction — Republic of Türkiye Ministry of National Defence:  
   https://www.msb.gov.tr/SlaytHaber/1d609ba0df7c40039347230972cec89b
 - Azerbaijan ten-aircraft sale — Associated Press of Pakistan:  
   https://www.app.com.pk/national/pakistan-signs-agreement-with-azerbaijan-for-sale-of-10-super-mushshak-aircraft/
-- Azerbaijan Ministry of Defence — Super Mushshak training:  
+- Azerbaijan training activity — Ministry of Defence of Azerbaijan:  
   https://mod.gov.az/en/news/azerbaijani-military-pilots-conduct-the-next-training-flights-video-54557.html
-
-### Commercial references
-
-- Geo News — Nigeria estimate of approximately US$10.2M for ten aircraft:  
-  https://www.geo.tv/latest/110046-Three-countries-to-buy-Super-Mushshaq-training-aircraft-from-Pakistan
-- Business Recorder — Türkiye agreement reported at around US$50M for 52 aircraft:  
-  https://www.brecorder.com/news/4454451/pakistan-to-supply-52-trainer-aircraft-to-turkey-20161124106085
-
-## Configuration-specialist cross-check
-
-Asian Military Review provides the most useful independent configuration mapping for this repository:
-
-- **Qatar — Garmin 950**
-- **Nigeria — Dynon**
-- **Türkiye — Garmin 950**
-- **Azerbaijan — avionics selection not identified in that report**
-
-Source:  
-https://www.asianmilitaryreview.com/2019/01/super-mushshaks-super-popular/
 
 ## Relation to the retrofit case study
 
-The later public record is important because it independently shows that the aircraft family subsequently entered export service with the same two glass-cockpit families represented in the retrofit archive.
+The later public record independently demonstrates that the aircraft family subsequently entered export service with the same two broad glass-cockpit families represented in the surviving engineering archive.
 
-That is **programme continuity and commercial significance**, not a claim that an early prototype was reproduced unchanged or that one engineer alone caused later sales.
+That is **programme continuity and scale**, not proof that an early prototype was reproduced unchanged and not evidence that one individual caused later sales.
 
-The role claim is therefore kept separate and explicit: the programme lead identifies his contribution as **Lead Systems Engineer for the retrofit**, covering aircraft-level integration, prototype test/troubleshooting, OEM technical coordination and customer-evaluation support. The later export record demonstrates the scale of the product path that followed; it is not used as sole-causation evidence.
+The project role is therefore stated separately: **Lead Systems Engineer**, spanning aircraft-level architecture/integration, prototype test and troubleshooting, OEM technical coordination and customer-evaluation support.
 
 ## Image-use rule
 
-- Project photographs remain the primary visual evidence for work performed during the retrofit.
-- Third-party photographs are linked at source, not hot-linked into GitHub.
-- Third-party images are mirrored only if their licence explicitly permits local reuse and attribution is preserved.
-- No external photograph is used to infer hidden avionics, wiring, configuration or test status.
-- No synthetic aircraft, cockpit, equipment, person or test imagery is used.
+- Original project photographs are the primary visual evidence of retrofit work.
+- Licensed external media may be displayed only with explicit source/licence attribution.
+- Copyrighted news/operator images remain source-linked.
+- No external image is used to infer hidden avionics, harness detail, configuration state or test result.
+- **No synthetic aircraft, cockpit, equipment, person or test imagery is used.**

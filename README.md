@@ -43,6 +43,10 @@ A separate Garmin G900X/G950-family track was developed/evaluated. Surviving mat
 
 A 2012 comparison presentation evaluates **Dynon SkyView against Garmin G3X**. That deck is retained as evidence of trade-study practice only. It is **not relabelled as the G900X/G950 prototype**, because doing so would merge distinct configurations.
 
+![Configuration evolution](assets/configuration-evolution.svg)
+
+This configuration-state view is central to the retrospective model: evidence from one prototype, hardware/software/database state or vendor candidate is not silently applied to another.
+
 ## From evidence to verified aircraft
 
 ![Evidence-to-verification digital thread](assets/mbse-verification-thread.svg)
@@ -52,6 +56,12 @@ The historical engineering loop is reconstructed as:
 **evidence → requirement/constraint → interface → configuration → verification → decision/disposition → configuration update → re-test**
 
 The model ties verification to the configuration in which it occurred rather than treating one test result as evidence for every later hardware/software/database state.
+
+### Verification cross-reference
+
+![Requirements to verification cross-reference](assets/traceability-matrix.svg)
+
+The matrix is generated from the current public traceability model. Blank cells are deliberate: the repository does not invent verification evidence simply to make the matrix look complete.
 
 ## Original flight / test evidence
 

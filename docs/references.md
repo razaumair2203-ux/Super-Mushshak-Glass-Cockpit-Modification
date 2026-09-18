@@ -57,6 +57,15 @@ These statements are kept separate from later public export reporting.
 
 The 2016–2017 Qatar, Nigeria, Türkiye and Azerbaijan contracts total **80 aircraft**.
 
+
+## Public programme-value anchor
+
+- [Business Recorder — *Pakistan to supply 52 trainer aircraft to Turkey* (24 Nov 2016)](https://www.brecorder.com/news/4454451/pakistan-to-supply-52-trainer-aircraft-to-turkey-20161124106085)
+  - reports a deal of around **US$50M for 52 Super Mushshak aircraft**;
+  - also reports activity around **two Super Mushshak flight simulators** and engine repair / overhaul support arrangements.
+
+The value anchor is used only for transparent scale estimation in [Public Programme-Value Context](programme-value-context.md). It is not treated as a universal unit price or confidential contract disclosure.
+
 ## Independent specialist reporting
 
 - [Times Aerospace — *Nigeria opts for Super Mushshaks* (2017)](https://www.timesaerospace.aero/features/defence/nigeria-opts-for-super-mushshaks)
@@ -77,9 +86,9 @@ The 2016–2017 Qatar, Nigeria, Türkiye and Azerbaijan contracts total **80 air
 - [Defence Journal — *Super Mushshak*](https://www.defencejournal.com/2018/09/10/super-mushshak/)
   - describes overseas preference for Garmin 950 or Dynon SkyView and PAF Dynon adoption.
 
-## Independent image sources used in the repository
+## Independent image sources retained as external references
 
-These images are embedded because the source pages provide reusable licences:
+These image pages are retained as external programme references. Recruiter-facing Markdown embeds use repository-local project imagery only:
 
 - [Super Mushshak at Dubai Airshow 2011 — Kurush Pawar / DXBSpotter, CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:96-6385_PAC_MFI-17_Super_Mushshak_(7970352052).jpg)
 - [Super Mushshak cockpit at Dubai Airshow 2017 — Mztourist, CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:PAC_Super_Mushshak_cockpit.jpg)

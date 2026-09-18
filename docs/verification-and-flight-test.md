@@ -21,7 +21,7 @@ Flight testing moved verification from the installed aircraft on the ground to o
 
 The verification process can be represented as:
 
-**Prototype integration → functional checks → ground run → flight test → observations / defects → configuration update → re-test**
+**Prototype integration → functional checks → ground run → flight test → test observations → configuration update → re-test**
 
 This iterative loop is central to retrofit engineering because changes to one aircraft interface can affect multiple cockpit functions.
 

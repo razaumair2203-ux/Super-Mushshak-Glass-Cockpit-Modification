@@ -8,7 +8,7 @@
 | `dynon-pfd-inflight-sanitized.jpg` | installed Dynon cockpit operating in flight | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
 | `qaef-ground-evaluation-sanitized.jpg` | customer-evaluation-period project context | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
 
-**Rule:** do not add, replace or generatively reconstruct aircraft structure, cockpit equipment, people, displays or backgrounds.
+**Rule:** aircraft, cockpit, people, displays and test scenes remain original. No generative replacement is permitted.
 
 The recruiter-facing collage/gallery is built directly from these project images in [docs/media-gallery.md](../docs/media-gallery.md) and the main [README](../README.md).
 
@@ -28,12 +28,12 @@ Source pages and programme evidence are listed in [docs/references.md](../docs/r
 |---|---|
 | `system-context.svg` | aircraft/system boundary and external actors |
 | `functional-decomposition.svg` | aircraft-level functional hierarchy |
-| `systems-engineering-lifecycle.svg` | retrospective V-model / lifecycle |
-| `mbse-system-architecture.svg` | public-safe logical architecture |
+| `systems-engineering-lifecycle.svg` | systems-engineering lifecycle view |
+| `mbse-system-architecture.svg` | public-release logical architecture |
 | `mbse-verification-thread.svg` | verification and discrepancy-closure flow |
 | `configuration-evolution.svg` | prototype/configuration separation |
 | `traceability-matrix.svg` | recruiter-facing traceability slice |
 | `programme-context.svg` | later programme/export context |
 | `digital-twin-roadmap.svg` | historical digital thread to executable twin |
 
-The diagrams are retrospective engineering views built from the source record; they are not controlled aircraft drawings.
+The diagrams are current systems-engineering representations of the executed retrofit programme. They intentionally remain at logical/interface level; controlled installation detail is outside the public release.

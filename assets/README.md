@@ -1,47 +1,54 @@
 # Visual Asset Provenance
 
-Aircraft/cockpit photographs stored in this directory originate from the **supplied project archive**. External public/operator imagery may be source-linked from README/docs for independent context, but is not substituted for project evidence and is not mirrored into this directory unless its licence explicitly permits local reuse.
+The visual layer is split into two evidence classes:
+
+1. **authentic project imagery** — original photographs from the retrofit/test archive, processed only for public release; and
+2. **independent public media** — external photographs or reporting used only as contextual corroboration, with licence/source controls.
+
+No synthetic aircraft, cockpit, equipment, person or test imagery is permitted.
 
 | File | Source | Public processing | Evidentiary use |
 |---|---|---|---|
-| dynon-cockpit-prototype-sanitized.jpg | Original Dynon prototype cockpit photograph from the project archive | Crop/resize/quality adjustment and narrowly targeted redaction | installed cockpit/configuration context visible in image |
-| dynon-pfd-inflight-sanitized.jpg | Original in-flight project photograph | Resize/quality adjustment only | installed-aircraft display operation visible in image |
-| qaef-ground-evaluation-sanitized.jpg | Original customer-evaluation-period project photograph | Conservative public-release processing | customer/field-evaluation context |
-| system-context.svg | Retrospective systems model | Native vector diagram | stakeholder/system boundary view |
-| functional-decomposition.svg | Retrospective systems model | Native vector diagram | evidence-backed functional hierarchy |
-| mbse-system-architecture.svg | Retrospective systems model | Native vector diagram | public-safe logical architecture |
-| mbse-verification-thread.svg | Retrospective systems model | Native vector diagram | traceability and discrepancy-closure thread |
-| configuration-evolution.svg | Retrospective systems model | Native vector diagram | configuration-state separation |
-| traceability-matrix.svg | Retrospective systems model | Native vector diagram | requirements × verification cross-reference |
-| programme-context.svg | Retrospective programme-context view | Native vector diagram | later public programme context without causal attribution |
-| digital-twin-roadmap.svg | Retrospective digital-engineering view | Native vector diagram | completed vs future digital-thread/twin capability |
-| systems-engineering-lifecycle.svg | Retrospective engineering view | Native vector diagram | aircraft-level lifecycle |
+| dynon-cockpit-prototype-sanitized.jpg | original Dynon prototype cockpit photograph | crop/resize/quality adjustment + targeted redaction where required | installed cockpit/configuration context visible in image |
+| dynon-pfd-inflight-sanitized.jpg | original in-flight project photograph | resize/quality adjustment only | installed-aircraft display operation visible in image |
+| qaef-ground-evaluation-sanitized.jpg | original customer-evaluation-period project photograph | conservative public-release processing | customer/field-evaluation context |
+| system-context.svg | retrospective systems model | responsive native vector | system boundary / actor context |
+| functional-decomposition.svg | retrospective systems model | responsive native vector | aircraft-level functional hierarchy |
+| systems-engineering-lifecycle.svg | retrospective V-model | responsive native vector | definition ↔ verification lifecycle |
+| mbse-system-architecture.svg | retrospective logical model | responsive native vector | public-safe logical domains / interfaces |
+| mbse-verification-thread.svg | retrospective assurance model | responsive native vector | evidence-to-verification and discrepancy closure |
+| configuration-evolution.svg | retrospective configuration model | responsive native vector | prototype/configuration separation |
+| traceability-matrix.svg | retrospective recruiter-facing traceability view | responsive native vector | readable representative closure slice |
+| programme-context.svg | retrospective programme-context view | responsive native vector | later public programme context without causal attribution |
+| digital-twin-roadmap.svg | retrospective digital-engineering view | responsive native vector | implemented digital thread vs future executable twin |
 
-## Image-release rule
+## Authentic-image processing rule
 
-Permitted processing of authentic photographs is limited to:
+Permitted processing is limited to:
 
 - crop and resize;
-- exposure/contrast correction;
-- sharpening;
-- narrowly targeted redaction of security markings, rank insignia where required, private personal information, unnecessary organisational identifiers/logos, or precise location identifiers that do not add technical evidence.
+- exposure / contrast / white-balance correction;
+- sharpening and noise reduction;
+- narrowly targeted redaction of security markings, private personal information, unnecessary organisational identifiers/logos, or precise location identifiers that add no engineering value.
 
-Processing must not add, replace or reconstruct aircraft, cockpit, equipment, people, scenery or backgrounds.
+Processing must **not** add, replace, reconstruct or generatively alter aircraft structure, cockpit equipment, people, scenery, displays or backgrounds.
 
-## External contextual imagery
+## Independent public media rule
 
-External photographs are governed separately from project evidence:
+External media is treated separately from the project archive.
 
-- they remain source-linked rather than copied into the project-evidence archive unless reuse rights are explicit;
-- the source and evidentiary purpose are stated in the caption;
-- operator imagery supports operator/context claims only;
-- cockpit imagery supports only what is visibly present unless a separate source identifies the suite;
-- external imagery never upgrades an unsupported statement into project evidence.
+- Copyrighted news/operator photographs remain **source-linked**, not copied into this repository.
+- A reusable photograph may be embedded when the licence explicitly permits it and attribution is preserved.
+- The README currently uses the Wikimedia Commons photograph **“PAC Super Mushshak cockpit.jpg”** (Mztourist, Dubai Airshow 2017) under **CC BY-SA 4.0** as independent contextual imagery.
+- The external photograph is never labelled as project evidence and is not used to infer hidden wiring, prototype identity or test results.
+- Public reporting may corroborate programme dates, quantities or configuration labels only to the extent the source actually states them.
 
-A photograph is used only for what it can substantiate. A cockpit image can support visible configuration context; an in-flight display can support visible installed operation; a ground/customer photograph can support field context. None of these images is promoted into proof of a verification result that is not visible or otherwise linked to source evidence.
+## Diagram quality rule
 
-## Derived diagrams
+The systems-engineering SVGs are **derived retrospective views**, not original period drawings. They are generated as responsive vectors with explicit `viewBox` geometry so GitHub rendering does not crop boxes or text.
 
-Vector diagrams are allowed because they are explicitly labelled **retrospective engineering views**, not authentic period drawings. Their source is the structured model under `/model`.
+Diagram connectors are deliberately orthogonal/minimal. Dense relationship data stays in the machine-readable CSV model rather than being forced into unreadable “spaghetti” diagrams.
 
-**No synthetic aircraft, cockpit, person, equipment or test scene is used.**
+The source of truth for IDs and relationships is under `/model`; diagrams are presentation views of that model.
+
+**No synthetic aircraft/cockpit/test imagery is used anywhere in the visual evidence chain.**

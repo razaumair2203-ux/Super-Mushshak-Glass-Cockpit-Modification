@@ -14,7 +14,7 @@
 <path d="M600 272 H640" class="line"/>
 <rect x="640" y="210" width="250" height="125" rx="14" class="b"/><text x="765" y="252" text-anchor="middle" class="h">Interface</text><text x="765" y="292" text-anchor="middle" class="t">power · data · HMI</text>
 <path d="M890 272 H930" class="line"/>
-<rect x="930" y="210" width="250" height="125" rx="14" class="b"/><text x="1055" y="252" text-anchor="middle" class="h">Configuration</text><text x="1055" y="292" text-anchor="middle" class="t">identified as-tested state</text>
+<rect x="930" y="210" width="250" height="125" rx="14" class="b"/><text x="1055" y="252" text-anchor="middle" class="h">Configuration</text><text x="1055" y="292" text-anchor="middle" class="t">as-tested configuration</text>
 <path d="M1180 272 H1220" class="line"/>
 <rect x="1220" y="210" width="250" height="125" rx="14" class="b"/><text x="1345" y="252" text-anchor="middle" class="h">Verification</text><text x="1345" y="292" text-anchor="middle" class="t">ground · flight · review</text>
 <path d="M1470 272 H1510" class="line"/>

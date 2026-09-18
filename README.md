@@ -133,4 +133,6 @@ The model is intentionally public-safe: no pinouts, harness routes, controlled d
 
 The current **Super Mushshak Digital Twin** is a separate follow-on effort. The retrofit archive provides real configuration history, interfaces, decisions, discrepancies and verification evidence that can seed a modern digital thread. The twin will increase in fidelity only where releasable evidence supports it.
 
+![Digital twin roadmap](assets/digital-twin-roadmap.svg)
+
 > **Portfolio intent:** show the complete systems-engineering arc — trade study → architecture → aircraft integration → verification → customer evaluation → configuration traceability → digital-twin follow-on — without manufacturing evidence that did not exist.

@@ -8,7 +8,7 @@
 
 This repository reconstructs my work as **lead systems engineer / avionics integration engineer** on the Super Mushshak glass-cockpit retrofit. The modification was an aircraft-level integration problem, not a display replacement: it included the aircraft sensor suite, glass displays, navigation/communication equipment, electrical integration, the complete aircraft wiring-harness change associated with the modification, software/settings/databases, maintainability, OEM coordination, ground and flight test, and customer evaluation.
 
-The reconstruction is deliberately evidence-led. Historical project material, original photographs, OEM documentation and public programme records are separated from retrospective MBSE derivations so that a reviewer can see **what was observed, what was engineered, what was verified, and what is inferred**.
+The engineering case study is deliberately evidence-led. Historical project material, original photographs, OEM documentation and public programme records are separated from retrospective MBSE derivations so that a reviewer can see **what was observed, what was engineered, what was verified, and what is inferred**.
 
 ## System-level scope
 
@@ -22,6 +22,19 @@ The reconstruction is deliberately evidence-led. Historical project material, or
 - maintainability, spares, LRU replacement and OEM support considerations;
 - installed-aircraft functional checks, flight-test feedback, discrepancy resolution and re-test;
 - customer-facing technical evaluation and prototype support.
+
+
+## Systems-engineering structure
+
+This repository is organised around the engineering lifecycle rather than around presentation material:
+
+1. **Need and constraints** — legacy trainer modernisation, training use, certification/acceptance considerations and lifecycle support.
+2. **Architecture and trade space** — Dynon SkyView and Garmin G900X/G950-family prototype paths are kept distinct; Garmin G3X material remains comparative evidence only.
+3. **Functional and interface definition** — flight-state sensing, engine/airframe sensing, displays, retained NAV/COM, electrical integration, audio/alerting, configuration data and maintenance/OEM support.
+4. **Configuration control** — verification evidence is tied to the specific hardware/software/database state in which it was observed.
+5. **Verification and discrepancy closure** — installed checks, flight test, observed discrepancy, analysis/OEM coordination, configuration update and re-test.
+6. **Evidence and provenance** — direct project evidence, OEM/reference material, public programme records and derived engineering views are clearly differentiated.
+7. **Digital-thread follow-on** — the historical archive is being transformed into a structured, traceable model that can support a higher-fidelity digital twin as releasable data becomes available.
 
 ## System architecture
 
@@ -135,4 +148,4 @@ The current **Super Mushshak Digital Twin** is a separate follow-on effort. The 
 
 ![Digital twin roadmap](assets/digital-twin-roadmap.svg)
 
-> **Portfolio intent:** show the complete systems-engineering arc — trade study → architecture → aircraft integration → verification → customer evaluation → configuration traceability → digital-twin follow-on — without manufacturing evidence that did not exist.
+> **Engineering scope represented here:** trade study → architecture → aircraft integration → verification → customer evaluation → configuration traceability → digital-twin follow-on. Derived artefacts are explicitly separated from period evidence.

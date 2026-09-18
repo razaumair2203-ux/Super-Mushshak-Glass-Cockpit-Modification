@@ -58,13 +58,16 @@ These statements are kept separate from later public export reporting.
 The 2016–2017 Qatar, Nigeria, Türkiye and Azerbaijan contracts total **80 aircraft**.
 
 
-## Public programme-value anchor
+## Public programme-value anchors
+
+- [Defense News — *Nigeria To Acquire Super Mushshak Aircraft From Pakistan* (1 Jul 2016)](https://www.defensenews.com/global/mideast-africa/2016/07/01/nigeria-to-acquire-super-mushshak-aircraft-from-pakistan/)
+  - reports **US$10.2M** allocated for ten Super Mushshak trainers in Nigeria's 2016 defence budget.
 
 - [Business Recorder — *Pakistan to supply 52 trainer aircraft to Turkey* (24 Nov 2016)](https://www.brecorder.com/news/4454451/pakistan-to-supply-52-trainer-aircraft-to-turkey-20161124106085)
   - reports a deal of around **US$50M for 52 Super Mushshak aircraft**;
   - also reports activity around **two Super Mushshak flight simulators** and engine repair / overhaul support arrangements.
 
-The value anchor is used only for transparent scale estimation in [Public Programme-Value Context](programme-value-context.md). It is not treated as a universal unit price or confidential contract disclosure.
+The value anchors are used only for transparent scale estimation in [Public Programme-Value Context](programme-value-context.md). It is not treated as a universal unit price or confidential contract disclosure.
 
 ## Independent specialist reporting
 

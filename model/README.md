@@ -15,9 +15,10 @@ The model is intentionally **tool-agnostic**. Stable IDs and explicit links matt
 | configurations.csv | CFG-### / CMP-### | distinct historical configuration states / comparison artefacts |
 | verification.csv | VER-### | installed-aircraft test, evaluation or architecture-review events |
 | issues.csv | ISS-### | discrepancies and their evidence-bounded status |
+| risks.csv | RSK-### | retrospective integration risks and controls, without invented probability/severity |
 | decisions.csv | DEC-### | recovered engineering decisions / rationale |
 | evidence.csv | E-## | source/evidence register |
-| claims.csv | CLM-### | controlled public technical claims |
+| claims.csv | CLM-### | controlled public technical / programme claims |
 | traceability.csv | REQ-### keyed | compact requirements-to-functions/interfaces/config/V&V view |
 | links.csv | mixed | typed graph edges between model objects |
 
@@ -32,6 +33,7 @@ The model is intentionally **tool-agnostic**. Stable IDs and explicit links matt
 7. Public objects omit controlled implementation detail.
 8. Every derived object identifies an evidence basis.
 9. Retired evidence IDs are not silently reused.
+10. Retrospective risks are not misrepresented as an original FHA/FMEA or formal safety assessment.
 
 ## Evidence states
 
@@ -43,10 +45,16 @@ A configuration is more than hardware. Where evidenced, the state includes LRU/d
 
 A result from one state does not automatically verify another.
 
+## Risk rule
+
+The risk register captures only concerns that are directly supported by the surviving engineering record: power/transient behaviour, configuration restoration, cross-domain interface interaction, high-dynamic attitude-reference behaviour, retained-avionics interoperability and supportability/AOG exposure.
+
+No probability, severity or safety classification is invented.
+
 ## Relationship to formal MBSE
 
-The CSV objects correspond conceptually to requirements, functions, blocks/interfaces, configurations, verification cases, issues, decisions and evidence that could be implemented in SysML/Capella/Cameo or a requirements tool.
+The CSV objects correspond conceptually to requirements, functions, blocks/interfaces, configurations, verification cases, issues, risks, decisions and evidence that could be implemented in SysML/Capella/Cameo or a requirements tool.
 
 This repository does **not** claim that these model artefacts existed in the original programme. They are a retrospective transformation of surviving evidence.
 
-The quality criterion is **identity + evidence + traceability + configuration specificity**, not model density.
+The quality criterion is **identity + evidence + traceability + configuration specificity + explicit risk/unknown handling**, not model density.

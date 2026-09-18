@@ -1,68 +1,39 @@
 # Verification & Flight Test
 
-This page describes the **verification logic** of the modification at a public, non-sensitive level. It does not publish test limits, restricted procedures, customer data, raw flight logs or internal acceptance criteria.
+The retrofit programme progressed through prototype integration, ground activity and flight test. This page records the verification sequence that is supported by the surviving project material and photographs.
 
-## Verification ladder
+## Integration and functional checks
 
-### 1. Installation inspection
+Following installation, the new cockpit equipment and aircraft interfaces were checked as an integrated system. Observations from these checks were fed back into configuration and troubleshooting activity.
 
-Typical closure items include:
+## Ground run
 
-- equipment installation and mounting;
-- wiring continuity and segregation;
-- power/ground integrity;
-- antenna and sensor installation;
-- connector/security checks;
-- cockpit-control accessibility;
-- configuration identification.
+Ground-run activity provided an aircraft-installed test environment before flight. It allowed the team to observe the modified cockpit with the aircraft operating and to identify integration issues that were not visible in a static installation.
 
-### 2. Power-on / bench-to-aircraft integration
+<p align="center">
+  <img src="../assets/photos/ground-run-trial.jpg" width="800" alt="Super Mushshak ground-run test">
+</p>
 
-Representative objectives:
+## Flight test
 
-- controlled first power-on;
-- display and LRU communication;
-- sensor validity;
-- radio/navigation interface checks;
-- annunciation and alert behaviour;
-- fault isolation and correction.
+Flight testing moved verification from the installed aircraft on the ground to operational use in the air. The project-period cockpit photograph below shows the integrated glass-cockpit configuration during flight-test activity.
 
-### 3. Ground functional test
+<p align="center">
+  <img src="../assets/photos/flight-test-cockpit.jpg" width="900" alt="Super Mushshak glass-cockpit flight test">
+</p>
 
-Representative objectives:
+The image has been reduced in resolution and navigation/location data has been obscured. No aircraft or cockpit content has been synthetically generated.
 
-- air-data and attitude/heading reasonableness;
-- engine/airframe indication verification;
-- navigation/communication functions;
-- display-mode and reversion behaviour;
-- electrical-load and power-transition checks;
-- pilot/instructor ergonomic observations.
+## Engineering feedback loop
 
-### 4. Ground run
+The verification process can be represented as:
 
-Engine-running tests allow validation of aircraft-installed behaviour under vibration, operating electrical loads, live engine sensing and radio/navigation use before flight release.
+**Prototype integration → functional checks → ground run → flight test → observations / defects → configuration update → re-test**
 
-### 5. Flight test
+This iterative loop is central to retrofit engineering because changes to one aircraft interface can affect multiple cockpit functions.
 
-Flight verification then closes the gap between static integration and operational aircraft behaviour. At portfolio level, relevant engineering themes include:
+## Overseas evaluation
 
-- cross-check of displayed flight parameters;
-- attitude/heading and air-data behaviour in representative manoeuvres;
-- navigation and situational-awareness functions;
-- engine/airframe indication behaviour;
-- HMI workload and training suitability;
-- defect recording, troubleshooting and regression testing.
+The programme also included overseas evaluation and demonstration activity. Those events added a customer-facing test environment in which the aircraft configuration had to be stable, repeatable and technically supportable away from the development base.
 
-### 6. Customer / overseas evaluation
-
-Overseas trials add a second layer of engineering: demonstrating a stable configuration to a customer, supporting pilot/engineering feedback and separating genuine technical defects from configuration, training or operational-use issues.
-
-## Evidence policy
-
-Photographs can demonstrate participation and the existence of integrated hardware, but they are **not treated as proof of a requirement being met**. Engineering claims in this repository are tied to one of three evidence levels:
-
-- **Publicly documented** — supported by traceable external sources.
-- **Personal project record** — supported by personally owned photographs or contemporaneous material.
-- **Archive verification pending** — not published as a definitive claim until original records are checked.
-
-See [evidence-matrix.md](evidence-matrix.md).
+Only non-sensitive, privacy-redacted imagery is included in this repository.

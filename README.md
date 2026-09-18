@@ -20,6 +20,8 @@ The engineering problem was not simply to replace analogue gauges with screens. 
 
 Early programme work included **Dynon SkyView** and **Garmin-family glass-flight-deck** configurations. The exact configuration history of the early Garmin prototype is being verified against archival programme records before a model designation is stated here.
 
+![Sanitized system architecture](assets/system-architecture-public.svg)
+
 ## My role
 
 **System Engineering Lead / Avionics Integration & Test Engineer — early prototype programme**
@@ -56,6 +58,7 @@ These later contracts are presented here as **programme-level context**, not as 
 | Area | What a recruiter can inspect |
 |---|---|
 | [Engineering case study](docs/engineering-case-study.md) | Problem framing, systems-engineering scope, interfaces, trade-offs |
+| [Sanitized architecture trade study](docs/sanitized-trade-study.md) | Real decision criteria from the early candidate evaluation, with sensitive detail removed |
 | [Verification & flight test](docs/verification-and-flight-test.md) | V&V logic, ground/flight test approach, evidence boundaries |
 | [Programme impact](docs/programme-impact.md) | Publicly documented adoption and later programme evolution |
 | [Evidence matrix](docs/evidence-matrix.md) | Which claims are public, personal-record based, or still awaiting verification |

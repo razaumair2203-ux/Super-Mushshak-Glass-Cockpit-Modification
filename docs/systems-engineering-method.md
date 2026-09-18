@@ -112,11 +112,28 @@ Where final closure evidence is absent, the issue remains **not publicly reconst
 
 See [Verification and flight test](verification-and-flight-test.md).
 
-## 10. Validation / customer evaluation
+## 10. Integration-risk control
+
+The retrospective model now separates **issues** from **risks**.
+
+Issues describe something actually observed. Risks capture the broader engineering concern that observation exposes, for example:
+
+- power/transient susceptibility;
+- loss of valid configuration after LRU replacement;
+- cross-domain radio/sensing interaction;
+- high-dynamic attitude-reference behaviour;
+- retained-avionics compatibility;
+- supportability / aircraft-on-ground exposure.
+
+The model does not invent probability or severity values and does not claim that a formal historical FHA/FMEA survives.
+
+See [Integration risk register](integration-risk-register.md) and [model/risks.csv](../model/risks.csv).
+
+## 11. Validation / customer evaluation
 
 Customer evaluation is treated as system-validation context. It can demonstrate repeated operation and expose operational suitability issues, but it does not substitute for qualification or certification evidence.
 
-## 11. Evidence and claim control
+## 12. Evidence and claim control
 
 Every public claim is linked to one of five states:
 
@@ -126,9 +143,11 @@ Every public claim is linked to one of five states:
 - **partially reconstructed** — some evidence exists but the complete historical baseline is not public;
 - **not reconstructed** — evidence is absent, private or insufficient.
 
+Technical claims, role claims and programme/commercial claims are controlled separately.
+
 The public claim register is [model/claims.csv](../model/claims.csv).
 
-## 12. Quality gate
+## 13. Quality gate
 
 Before publication, each artefact is checked for:
 

@@ -8,7 +8,7 @@ The retrofit archive is valuable because it contains real examples of configurat
 
 ## What exists now
 
-The repository already implements a public-safe **digital-thread backbone**:
+The repository already implements a public-release **digital-thread backbone**:
 
 - stable IDs for stakeholders, requirements, functions, interfaces and configurations;
 - configuration-specific verification and discrepancy records;
@@ -29,7 +29,7 @@ python tools/export_digital_thread.py --output generated/digital-thread.json
 
 ## Maturity states
 
-### 1. Historical evidence layer — reconstructed
+### 1. Project evidence layer — structured for digital engineering
 
 Available now: configuration-state history, requirements/constraints, functional decomposition, logical interfaces, verification events, discrepancy/issue records, risk records, decision records and evidence provenance.
 
@@ -41,7 +41,7 @@ The current backbone is tool-agnostic and can later migrate into SysML/Capella/C
 
 ### 3. Behavioural / executable models — future and evidence-dependent
 
-Potential public-safe models include:
+Potential public-release models include:
 
 - electrical load/state analysis where releasable source values exist;
 - configuration-dependent failure/availability logic;
@@ -66,7 +66,7 @@ Each value must be tagged as:
 
 - **measured**;
 - **documented**;
-- **derived**;
+- **engineering-derived**;
 - **assumed for a declared experiment**; or
 - **unknown**.
 
@@ -95,7 +95,7 @@ The next defensible increments are:
 
 1. generate the graph-ready JSON in CI and inspect orphan/weakly connected objects;
 2. add change-impact queries such as **configuration → interfaces → requirements → V&V → risks**;
-3. add public-safe configuration comparison views for Dynon versus Garmin paths without collapsing their identities;
+3. add public-release configuration comparison views for Dynon versus Garmin paths without collapsing their identities;
 4. introduce executable models only where a releasable parameter set exists;
 5. preserve the same evidence-state tags when moving into SysML/Capella/Cameo or a graph database.
 

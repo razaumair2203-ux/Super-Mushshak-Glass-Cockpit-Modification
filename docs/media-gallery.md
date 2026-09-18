@@ -42,4 +42,4 @@ Independent reporting is linked rather than hot-linked as imagery, keeping the r
 
 ## Image policy
 
-Project images may be **cropped, resized, exposure/contrast corrected, sharpened and redacted** where needed for public release. Aircraft, cockpit equipment, people and test scenes are not generatively replaced or synthetically reconstructed.
+Project images may be **cropped, resized, exposure/contrast corrected, sharpened and redacted** where needed for public release. Aircraft, cockpit equipment, people and test scenes are not replaced with synthetic or generatively produced imagery.

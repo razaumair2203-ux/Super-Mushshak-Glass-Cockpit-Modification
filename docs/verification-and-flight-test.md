@@ -1,32 +1,61 @@
 # Verification & Flight Test
 
-The retrofit programme progressed through prototype integration, ground activity and flight test. This page records the verification sequence that is supported by the surviving project material and photographs.
+The surviving project archive documents a genuine prototype-test-feedback cycle rather than a one-time installation.
 
-## Integration and functional checks
+## First modified aircraft
 
-Following installation, the new cockpit equipment and aircraft interfaces were checked as an integrated system. Observations from these checks were fed back into configuration and troubleshooting activity.
+Original project photographs from **November 2010** show the Dynon SkyView installation on the first modified aircraft. The public versions used by this repository are cropped/redacted only to remove organizational or privacy identifiers.
 
-## Ground run
+No synthetic cockpit or aircraft imagery is used.
 
-Ground-run activity provided an aircraft-installed test environment before flight. It allowed the team to observe the modified cockpit with the aircraft operating and to identify integration issues that were not visible in a static installation.
+## First-sortie evidence
 
+December 2010 correspondence records that the displays had been installed, databases loaded, and the aircraft had **flown its first sortie**. The subsequent OEM response explicitly asked the team to continue reporting results as flight testing progressed.
 
-## Flight test
+This provides a direct evidence chain:
 
-Flight testing moved verification from the installed aircraft on the ground to operational use in the air. The project-period cockpit photograph below shows the integrated glass-cockpit configuration during flight-test activity.
+**hardware/configuration work → aircraft installation → flight → OEM feedback loop**
 
+## Technical issues were closed through evidence
 
+The archive includes engineering questions and troubleshooting around topics such as:
 
-## Engineering feedback loop
+- avionics data interfaces;
+- electrical-transient behaviour;
+- database/configuration management;
+- display and sensor behaviour;
+- third-party navigation/communication integration;
+- qualification and maintainability;
+- post-installation and flight-test support.
 
-The verification process can be represented as:
+The public repo intentionally omits controlled implementation detail.
 
-**Prototype integration → functional checks → ground run → flight test → test observations → configuration update → re-test**
+## 2012 operational/customer evaluation
 
-This iterative loop is central to retrofit engineering because changes to one aircraft interface can affect multiple cockpit functions.
+A surviving 2012 status exchange records **10 evaluation sorties**, including **night flying**, with another night sortie planned. This is stronger evidence than a generic statement that the system was “flight tested”: it shows repeated operation in an evaluation environment after prototype maturation.
 
-## Overseas evaluation
+Customer identity, location, private correspondence and internal action sheets are not reproduced here.
 
-The programme also included overseas evaluation and demonstration activity. Those events added a customer-facing test environment in which the aircraft configuration had to be stable, repeatable and technically supportable away from the development base.
+## Retrospective verification workflow
 
-Only non-sensitive, privacy-redacted imagery is included in this repository.
+The following is a retrospective systems-engineering abstraction reconstructed from the surviving records. It is **not** presented as an original programme diagram.
+
+```mermaid
+flowchart LR
+    A[Requirement or test observation] --> B[Engineering analysis]
+    B --> C[Installation / configuration action]
+    C --> D[Functional check]
+    D --> E[Ground or flight test]
+    E --> F[Test observation]
+    F --> G[Engineering / OEM resolution]
+    G --> H[Configuration update]
+    H --> D
+```
+
+## Why this matters
+
+Retrofit V&V is dominated by interfaces and configuration. A display can function correctly on the bench and still expose aircraft-level issues when connected to real sensors, power, radios, databases and pilot workflows.
+
+The surviving evidence shows the programme progressing through that integration reality rather than stopping at laboratory demonstration.
+
+See [Evidence & Provenance](evidence-and-provenance.md) for the evidence register.

@@ -8,11 +8,20 @@ The design problem spans coupled domains: flight-state sensing/presentation; eng
 
 This coupling is the reason a functionally capable COTS avionics suite can still create aircraft-level integration risk.
 
-## Engineering responsibility represented
+## Lead Systems Engineer responsibility represented
 
-The reconstruction represents **lead systems-engineering and hands-on avionics integration/test responsibility** across architecture, interface definition, installation, troubleshooting, configuration restoration, OEM coordination, flight-test feedback and customer evaluation.
+The programme lead identifies his role on the retrofit as **Lead Systems Engineer**.
 
-Technical claims remain separately controlled by the evidence model.
+The public-safe responsibility statement covers:
+
+- system boundary, architecture alternatives and cross-domain integration;
+- glass-cockpit integration with revised sensing, aircraft electrical power/protection, retained avionics and the complete modification harness;
+- prototype ground/flight test, discrepancy investigation and re-verification;
+- hardware/configuration restoration after equipment change;
+- OEM technical coordination;
+- customer-evaluation support.
+
+The role statement is controlled as **E-25**. It is intentionally separated from technical proof: individual engineering claims still require their own evidence.
 
 ## Context and functional architecture
 
@@ -36,7 +45,7 @@ Only high-level facts needed for the public engineering model are retained:
 
 Exact baseline equipment lists, antenna locations, load tables and detailed installation data remain outside the repository.
 
-A separate retrospective programme-lead scope statement identifies **sensor-suite replacement and the complete modification wiring-harness change** as part of the executed retrofit scope. That retrospective statement is explicitly identified as such in the evidence register rather than being presented as a period drawing.
+A separate retrospective programme-lead scope statement identifies **sensor-suite replacement and the complete modification wiring-harness change** as part of the executed retrofit scope. That statement is explicitly identified as E-24 rather than being presented as a period drawing.
 
 ## Architecture alternatives and configuration identity
 
@@ -61,6 +70,19 @@ The surviving archive supports aircraft-level interface work involving electrica
 The public interface register deliberately omits exact pins and wiring.
 
 See [Interface control](interface-control.md).
+
+## Integration-risk control
+
+The retrospective risk register exposes the most important evidence-backed integration risks without inventing probability/severity values:
+
+- aircraft power/transient behaviour;
+- configuration restoration after LRU change;
+- radio/engine-indication cross-domain interaction;
+- high-dynamic attitude-reference behaviour;
+- retained-avionics interoperability;
+- supportability / aircraft-on-ground exposure.
+
+See [Integration risk register](integration-risk-register.md).
 
 ## Electrical integration and discrepancy investigation
 
@@ -100,11 +122,45 @@ The archive includes questions concerning environmental qualification, TSO statu
 
 The repository does not claim certification status beyond what the source record supports.
 
-## Evidence-to-model chain
+## Requirements-to-evidence closure
 
-**evidence → claim → requirement → function → interface → configuration → verification / issue → decision**
+The public model currently contains:
 
-Each object has a stable ID under [model](../model/README.md).
+- **6 stakeholders**
+- **14 retrospectively normalised requirements**
+- **12 aircraft-level functions**
+- **11 logical interfaces**
+- **6 configuration/comparison states**
+- **8 verification records**
+- **4 discrepancy records**
+- **6 evidence-bounded integration risks**
+- **8 recovered decision records**
+- **25 evidence records**
+- **12 controlled public claims**
+
+The model is intentionally compact. Depth comes from traceability and configuration specificity, not from inflating object counts.
+
+The evidence-to-model chain is:
+
+**evidence → claim → requirement → function → interface → configuration → verification / issue / risk → decision**
+
+## International programme outcome
+
+Public reporting documents a four-customer 2016–2017 export sequence totalling **80 aircraft**: Nigeria 10, Qatar 8, Türkiye 52 and Azerbaijan 10.
+
+Independent configuration reporting identifies **Dynon** on Nigeria and **Garmin 950** on Qatar and Türkiye.
+
+Public commercial reporting places the Nigeria order at an estimated **US$10.2M** and the Türkiye agreement at approximately **US$50M**. Those two values alone exceed **US$60M**; no value is invented for Qatar or Azerbaijan.
+
+This demonstrates that the retrofit sat on a commercially significant international product path. It does not prove sole causation by one engineer or one early prototype.
+
+## Systems-engineering conclusion
+
+The strongest engineering result is not “a glass display was installed.” It is that the aircraft modification was managed as a coupled system:
+
+**need and constraints → architecture alternatives → aircraft-level interfaces → physical/electrical integration → configuration control → installed verification → discrepancy closure/re-test → customer validation → supportability and later product continuity**
+
+That lifecycle is the core of this case study.
 
 ## What is deliberately not claimed
 
@@ -119,4 +175,4 @@ This case study does not claim that:
 - later export contracts were caused by one early prototype or one engineer;
 - private correspondence or non-public source documents are public-release material.
 
-The technical value comes from **controlled identity, traceability and explicit unknowns**.
+The technical value comes from **controlled identity, traceability, evidence-backed risk handling and explicit unknowns**.

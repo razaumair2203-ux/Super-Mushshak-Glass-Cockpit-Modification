@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#17212b}.t{font-size:28px;font-weight:700}.s{font-size:16px}.h{font-size:18px;font-weight:700}.box{fill:#fff;stroke:#34495e;stroke-width:2;rx:14}.core{fill:#f2f5f7;stroke:#1f2d3d;stroke-width:3;rx:16}.line{stroke:#566573;stroke-width:3;fill:none;marker-end:url(#a)}</style>
+<marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#566573"/></marker>
+</defs>
+<text x="50" y="45" class="t">Super Mushshak glass-cockpit retrofit — system engineering view</text>
+<text x="50" y="73" class="s">Functional architecture only; not an aircraft wiring or installation drawing.</text>
+
+<rect x="55" y="125" width="250" height="88" class="box"/><text x="80" y="160" class="h">Aircraft sensing</text><text x="80" y="188" class="s">Air data · attitude/heading · engine/airframe</text>
+<rect x="55" y="255" width="250" height="88" class="box"/><text x="80" y="290" class="h">Navigation & communication</text><text x="80" y="318" class="s">NAV/COM · GPS · audio · associated controls</text>
+<rect x="55" y="385" width="250" height="88" class="box"/><text x="80" y="420" class="h">Aircraft installation</text><text x="80" y="448" class="s">Power · protection · equipment · wiring harness</text>
+
+<rect x="445" y="205" width="310" height="185" class="core"/><text x="490" y="250" class="h">Integrated avionics architecture</text><text x="490" y="285" class="s">Interface management</text><text x="490" y="315" class="s">Data presentation and control</text><text x="490" y="345" class="s">Configuration and integration</text>
+
+<rect x="890" y="145" width="250" height="88" class="box"/><text x="915" y="180" class="h">Pilot / instructor cockpit</text><text x="915" y="208" class="s">PFD/MFD · indications · alerts · controls</text>
+<rect x="890" y="305" width="250" height="88" class="box"/><text x="915" y="340" class="h">Prototype verification</text><text x="915" y="368" class="s">Functional checks · ground run · flight test</text>
+<rect x="890" y="465" width="250" height="88" class="box"/><text x="915" y="500" class="h">Configuration feedback</text><text x="915" y="528" class="s">Observations · defect closure · re-test</text>
+
+<path d="M305 169 C365 169 395 245 445 258" class="line"/><path d="M305 299 C365 299 395 299 445 299" class="line"/><path d="M305 429 C365 429 395 355 445 342" class="line"/>
+<path d="M755 255 C815 235 845 190 890 190" class="line"/><path d="M755 305 C815 315 845 345 890 345" class="line"/><path d="M1015 393 C1015 425 1015 440 1015 465" class="line"/><path d="M890 510 C815 510 790 390 745 370" class="line"/>
+</svg>

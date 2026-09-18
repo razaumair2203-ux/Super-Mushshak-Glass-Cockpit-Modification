@@ -2,12 +2,12 @@
 """Repository quality gate for the public Super Mushshak systems model.
 
 Checks:
-1. machine-readable model files exist;
-2. object IDs are unique;
-3. *_ids references resolve to known IDs;
+1. required machine-readable model files exist;
+2. object-definition IDs are unique;
+3. singular/plural ID references resolve to known objects;
 4. typed-link source/target IDs resolve;
 5. local Markdown links and image paths resolve;
-6. no fragile external hot-linked images are embedded in Markdown/HTML.
+6. no fragile external hot-linked images are embedded.
 
 Uses Python standard library only.
 """
@@ -22,7 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MODEL = ROOT / "model"
 
-MODEL_FILES = [
+OBJECT_FILES = [
     "stakeholders.csv",
     "functions.csv",
     "requirements.csv",
@@ -34,13 +34,21 @@ MODEL_FILES = [
     "decisions.csv",
     "evidence.csv",
     "claims.csv",
+]
+
+RELATION_FILES = [
     "traceability.csv",
     "links.csv",
 ]
 
-MARKDOWN_LINK_RE = re.compile(r"!?(?:\[[^\]]*\])\(([^)]+)\)")
+MODEL_FILES = OBJECT_FILES + RELATION_FILES
+
+MARKDOWN_LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
+MARKDOWN_IMAGE_RE = re.compile(r"!\[[^\]]*\]\((https?://[^)]+)\)", re.IGNORECASE)
 HTML_SRC_RE = re.compile(r"<img\s+[^>]*src=[\"']([^\"']+)[\"']", re.IGNORECASE)
-EXTERNAL_IMG_RE = re.compile(r"<img\s+[^>]*src=[\"']https?://", re.IGNORECASE)
+EXTERNAL_HTML_IMG_RE = re.compile(
+    r"<img\s+[^>]*src=[\"']https?://", re.IGNORECASE
+)
 
 
 def split_ids(value: str) -> list[str]:
@@ -72,9 +80,17 @@ def check_model(errors: list[str]) -> dict[str, str]:
         tables[name] = (rows, fields)
         if not fields:
             fail(errors, f"No CSV header: {path.relative_to(ROOT)}")
-            continue
 
+    # Only object tables define identities. Traceability/links reuse identities.
+    for name in OBJECT_FILES:
+        if name not in tables:
+            continue
+        rows, fields = tables[name]
+        if not fields:
+            continue
+        path = MODEL / name
         id_field = fields[0]
+
         for lineno, row in enumerate(rows, start=2):
             obj_id = (row.get(id_field) or "").strip()
             if not obj_id:
@@ -89,14 +105,28 @@ def check_model(errors: list[str]) -> dict[str, str]:
             else:
                 all_ids[obj_id] = f"{path.relative_to(ROOT)}:{lineno}"
 
-    # Validate semicolon-delimited reference columns.
+    # Validate reference fields in all tables. In object tables the first
+    # column defines the object and is therefore not itself a reference.
     for name, (rows, fields) in tables.items():
+        if not fields:
+            continue
         path = MODEL / name
+        defining_field = fields[0] if name in OBJECT_FILES else None
+
         for lineno, row in enumerate(rows, start=2):
             for field in fields:
-                if not field.endswith("_ids"):
+                if field == defining_field:
                     continue
-                for ref in split_ids(row.get(field, "")):
+
+                if field.endswith("_ids"):
+                    refs = split_ids(row.get(field, ""))
+                elif field.endswith("_id"):
+                    value = (row.get(field) or "").strip()
+                    refs = [value] if value else []
+                else:
+                    refs = []
+
+                for ref in refs:
                     if ref not in all_ids:
                         fail(
                             errors,
@@ -104,27 +134,16 @@ def check_model(errors: list[str]) -> dict[str, str]:
                             f"{field} references unknown ID {ref}",
                         )
 
-    # links.csv uses singular source_id / target_id fields.
-    if "links.csv" in tables:
-        rows, _ = tables["links.csv"]
-        path = MODEL / "links.csv"
-        for lineno, row in enumerate(rows, start=2):
-            for field in ("source_id", "target_id"):
-                ref = (row.get(field) or "").strip()
-                if ref and ref not in all_ids:
-                    fail(
-                        errors,
-                        f"{path.relative_to(ROOT)}:{lineno}: "
-                        f"{field} references unknown ID {ref}",
-                    )
-
     return all_ids
 
 
 def clean_link(raw: str) -> str:
-    value = raw.strip().split()[0]
-    if value.startswith("<") and value.endswith(">"):
-        value = value[1:-1]
+    value = raw.strip()
+    # Markdown may append a quoted title after whitespace.
+    if value.startswith("<") and ">" in value:
+        value = value[1:value.index(">")]
+    elif " " in value:
+        value = value.split(" ", 1)[0]
     return value.split("#", 1)[0].split("?", 1)[0]
 
 
@@ -143,10 +162,10 @@ def check_markdown(errors: list[str]) -> None:
 
         text = path.read_text(encoding="utf-8")
 
-        if EXTERNAL_IMG_RE.search(text):
+        if EXTERNAL_HTML_IMG_RE.search(text) or MARKDOWN_IMAGE_RE.search(text):
             fail(
                 errors,
-                f"{path.relative_to(ROOT)}: contains external hot-linked <img>; "
+                f"{path.relative_to(ROOT)}: contains an external hot-linked image; "
                 "link to the source or use a licence-cleared local asset instead",
             )
 
@@ -157,6 +176,7 @@ def check_markdown(errors: list[str]) -> None:
             link = clean_link(raw)
             if not link or is_external(link) or link.startswith("#"):
                 continue
+
             target = (path.parent / link).resolve()
             try:
                 target.relative_to(ROOT.resolve())
@@ -166,6 +186,7 @@ def check_markdown(errors: list[str]) -> None:
                     f"{path.relative_to(ROOT)}: local link escapes repository: {raw}",
                 )
                 continue
+
             if not target.exists():
                 fail(
                     errors,
@@ -190,10 +211,11 @@ def main() -> int:
         prefixes[prefix] = prefixes.get(prefix, 0) + 1
 
     print("QUALITY GATE: PASS")
-    print(f"Resolved model IDs: {len(all_ids)}")
+    print(f"Resolved model objects: {len(all_ids)}")
     print("Object counts:")
     for prefix in sorted(prefixes):
         print(f" - {prefix}: {prefixes[prefix]}")
+    print("ID references: resolved")
     print("Local Markdown links/images: resolved")
     print("External hot-linked images: none")
     return 0

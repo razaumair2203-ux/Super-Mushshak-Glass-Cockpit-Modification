@@ -1,29 +1,35 @@
 # Super Mushshak Glass-Cockpit Retrofit
 
-**Aircraft-level systems engineering · avionics integration · prototype V&V · flight-test feedback · customer evaluation**
+**Lead systems engineering · avionics integration · prototype V&V · aircraft-level test · customer evaluation · digital-thread reconstruction**
 
 ![Original Dynon SkyView prototype cockpit](assets/dynon-cockpit-prototype-sanitized.jpg)
 
-*Original project photograph of the Dynon SkyView prototype cockpit. The image is cropped/redacted only; no synthetic aircraft or cockpit imagery is used in this repository.*
+*Original project photograph of the Dynon SkyView prototype cockpit. Only authentic project/public imagery is used for aircraft and cockpit evidence; no synthetic aircraft or cockpit imagery is used in this repository.*
 
-This repository documents my work as **lead systems engineer / avionics integration engineer** on the Super Mushshak glass-cockpit retrofit. The engineering problem was broader than replacing instruments: it involved the aircraft sensor suite, cockpit displays, navigation/communication equipment, electrical integration, wiring-harness changes, databases and configuration, maintainability, OEM coordination, ground/flight test, and customer evaluation.
+This repository reconstructs my work as **lead systems engineer / avionics integration engineer** on the Super Mushshak glass-cockpit retrofit. The modification was an aircraft-level integration problem, not a display replacement: it included the aircraft sensor suite, glass displays, navigation/communication equipment, electrical integration, the complete aircraft wiring-harness change associated with the modification, software/settings/databases, maintainability, OEM coordination, ground and flight test, and customer evaluation.
 
-The repository is reconstructed retrospectively from surviving period records and original photographs. It deliberately separates **what the evidence demonstrates** from what is merely plausible.
+The reconstruction is deliberately evidence-led. Historical project material, original photographs, OEM documentation and public programme records are separated from retrospective MBSE derivations so that a reviewer can see **what was observed, what was engineered, what was verified, and what is inferred**.
 
-## Engineering scope
+## System-level scope
 
 - replacement/integration of flight-state and engine/airframe sensing;
-- glass-cockpit PFD/MFD/EMS functions and associated controls;
+- PFD/MFD/EMS functions, cockpit HMI and associated controls;
 - Garmin 430-family navigation/communication integration on the Dynon track;
 - ARINC-429 and other avionics-interface work;
 - aircraft electrical integration, protection and transient troubleshooting;
 - complete aircraft harness / installation changes associated with the modification;
 - avionics databases, software/settings and configuration restoration;
 - maintainability, spares, LRU replacement and OEM support considerations;
-- installed-aircraft functional checks, flight-test feedback and re-test;
+- installed-aircraft functional checks, flight-test feedback, discrepancy resolution and re-test;
 - customer-facing technical evaluation and prototype support.
 
-## Prototype identities: kept deliberately separate
+## Architecture — readable at recruiter scale
+
+![Public-safe logical architecture](assets/mbse-system-architecture.svg)
+
+This is a **retrospective public-safe logical architecture** derived from project evidence. It intentionally omits pinouts, exact harness routing, controlled drawings and precise equipment locations.
+
+## Prototype identities — kept deliberately separate
 
 ### Dynon SkyView prototype
 
@@ -31,49 +37,66 @@ The strongest surviving evidence is on the Dynon track: original cockpit and in-
 
 ### Garmin G900X / G950-family prototype and evaluation track
 
-A separate Garmin G900X/G950-family track was developed/evaluated. Surviving material includes G900X/G950 architecture documentation, a Qatar-focused G950 technical presentation, and later G900X configuration-mode correspondence.
+A separate Garmin G900X/G950-family track was developed/evaluated. Surviving material includes G900X/G950 architecture documentation, a Qatar-focused G950 technical presentation, and later G900X configuration-mode correspondence. Garmin's own installation material describes the family as a modular LRU-based integrated avionics architecture; the generic OEM architecture is used here only as reference evidence, not silently relabelled as the exact aircraft wiring.
 
 ### Garmin G3X comparative material
 
 A 2012 comparison presentation evaluates **Dynon SkyView against Garmin G3X**. That deck is retained as evidence of trade-study practice only. It is **not relabelled as the G900X/G950 prototype**, because doing so would merge distinct configurations.
 
-## Evidence-backed engineering loop
+## From evidence to verified aircraft
 
-~~~mermaid
-flowchart LR
-    A[Aircraft modernisation need] --> B[Requirements & constraints]
-    B --> C[Architecture / COTS trade study]
-    C --> D[Prototype configuration]
-    D --> E[Installation & functional checks]
-    E --> F[Flight test]
-    F --> G[Observed behaviour / discrepancy]
-    G --> H[Engineering + OEM resolution]
-    H --> I[Configuration update]
-    I --> E
-~~~
+![Evidence-to-verification digital thread](assets/mbse-verification-thread.svg)
 
-This is a **retrospective systems-engineering model** of documented activity, not an original programme diagram.
+The historical engineering loop is reconstructed as:
 
-## Selected visual record
+**evidence → requirement/constraint → interface → configuration → verification → decision/disposition → configuration update → re-test**
+
+The model ties verification to the configuration in which it occurred rather than treating one test result as evidence for every later hardware/software/database state.
+
+## Original flight / test evidence
 
 <table>
 <tr>
-<td width="50%"><img src="assets/dynon-pfd-inflight-sanitized.jpg" alt="Dynon PFD in flight"><br><sub>Original in-flight display photograph: installed-aircraft PFD / synthetic-vision evidence.</sub></td>
-<td width="50%"><img src="assets/qaef-ground-evaluation-sanitized.jpg" alt="Qatar ground evaluation"><br><sub>Original ground-evaluation photograph from the Qatar customer-evaluation period; identifying background details redacted.</sub></td>
+<td width="50%"><img src="assets/dynon-pfd-inflight-sanitized.jpg" alt="Dynon PFD in flight"><br><sub>Original in-flight project photograph: installed-aircraft PFD / synthetic-vision operation.</sub></td>
+<td width="50%"><img src="assets/dynon-cockpit-prototype-sanitized.jpg" alt="Dynon prototype cockpit"><br><sub>Original installed Dynon prototype cockpit photograph.</sub></td>
 </tr>
 <tr>
-<td width="50%"><img src="assets/dynon-cockpit-prototype-sanitized.jpg" alt="Dynon prototype cockpit"><br><sub>Installed Dynon prototype cockpit. Internal placard redacted.</sub></td>
-<td width="50%"><img src="assets/dubai-airshow-support-sanitized.jpg" alt="Dubai Airshow support"><br><sub>Original Dubai Airshow support photograph; service insignia/credential detail redacted.</sub></td>
+<td width="50%"><img src="assets/qaef-ground-evaluation-sanitized.jpg" alt="Qatar ground evaluation"><br><sub>Original Qatar customer-evaluation period photograph. Used as programme/test context, not as proof of a different configuration.</sub></td>
+<td width="50%"><b>Additional period flight-test imagery</b><br><sub>The project archive also contains cockpit-in-flight, aerial test-flight and test-engineer photographs. These are treated as operational/test context unless the visible configuration itself provides technical evidence.</sub></td>
 </tr>
 </table>
 
+**Photographic release rule:** crop/resize/quality correction is allowed; redaction is limited to genuinely sensitive detail. For photographs of me, **rank insignia is redacted where required; public-event participants are not blanked merely because they are in uniform.** No synthetic replacement aircraft, cockpit, people or scenery is used.
+
+## Programme-level downstream impact
+
+![Programme impact timeline](assets/programme-impact.svg)
+
+The early retrofit work should not be presented as if one prototype or one engineer alone caused later sales. It is still legitimate to show the scale of the product programme that followed the modernisation work:
+
+| Publicly documented contract / service evidence | Aircraft | Evidence |
+|---|---:|---|
+| Nigeria contract, 2016 | 10 | APP reported a 10-aircraft contract; the first four delivered aircraft were explicitly described as **glass-cockpit** equipped |
+| Qatar contract, 2016 | 8 | APP / Ministry of Defence Production reported eight Super Mushshak aircraft |
+| Türkiye contract, 2017 | 52 | APP reported the signed 52-aircraft Turkish Air Force contract |
+| Azerbaijan contract, 2017 | 10 | APP reported a 10-aircraft sale plus training and technical support |
+| **New-customer contracts above** | **80** | 2016–2017 public contract record |
+
+The same Azerbaijan report states that Super Mushshak was already in service with **Saudi Arabia, Oman, Iran and South Africa**, while Türkiye, Nigeria and Qatar had recently contracted the aircraft. Adding Azerbaijan gives a documented 2017 foreign customer/service footprint across **at least eight countries**. This is a historical programme-footprint statement, **not a claim that all eight have the same current fleet status today**.
+
+Two of those four export deals also have public value estimates: Nigeria's 10 aircraft were estimated in its 2016 defence budget at **US$10.2 million**, while Anadolu Agency reported the 52-aircraft Türkiye deal at **around US$2 million per aircraft** (about **US$104 million implied**). That is **more than US$114 million in publicly estimable aircraft value for those two deals alone**; Qatar and Azerbaijan values are not asserted here because reliable public contract values were not found.
+
+### Public operator evidence
+
+<img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/PAC%20MFI-17%20Super%20Mushshak%20Turkish%20Air%20Force.jpg" alt="Turkish Air Force Super Mushshak" width="760">
+
+*Turkish Air Force Super Mushshak, photographed by CeeGee at Teknofest 2023; Wikimedia Commons, CC BY-SA 4.0. This public operator image is programme-context evidence, separate from my original project photographs.*
+
+The individual contribution claimed in this repository remains bounded to the **documented early systems engineering, avionics integration, prototype development, aircraft test/trials and customer-evaluation work**. The later contracts demonstrate downstream product/programme scale, not sole-causation.
+
 ## Retrospective MBSE evidence
 
-The MBSE material in this repository is not decorative. The historical evidence has been normalised into linked engineering objects:
-
-**evidence → requirement/constraint → interface → configuration → verification → decision**
-
-See:
+The machine-readable model turns the surviving archive into linked engineering objects:
 
 - [MBSE retrospective](docs/mbse-retrospective.md)
 - [Structured model](model/README.md)
@@ -99,3 +122,5 @@ The model is intentionally public-safe: no pinouts, harness routes, controlled d
 ## From retrofit to digital engineering
 
 The current **Super Mushshak Digital Twin** is a separate follow-on effort. The retrofit archive provides real configuration history, interfaces, decisions, discrepancies and verification evidence that can seed a modern digital thread. The twin will increase in fidelity only where releasable evidence supports it.
+
+> **Portfolio intent:** show the complete systems-engineering arc — trade study → architecture → aircraft integration → verification → customer evaluation → configuration traceability → digital-twin follow-on — without manufacturing evidence that did not exist.

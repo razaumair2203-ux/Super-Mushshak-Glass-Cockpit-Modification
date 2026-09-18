@@ -1,31 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900">
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/></marker><style>
-.ti{font:700 38px Arial,sans-serif;fill:#111827}.su{font:20px Arial,sans-serif;fill:#4b5563}.h{font:700 22px Arial,sans-serif;fill:#111827}.t{font:17px Arial,sans-serif;fill:#374151}
-.b{fill:#f9fafb;stroke:#374151;stroke-width:2.5}.blue{fill:#eef6ff;stroke:#1f4b7a;stroke-width:3}
-.line{stroke:#1f2937;stroke-width:3;fill:none;marker-end:url(#arrow)}.dash{stroke:#6b7280;stroke-width:2.5;fill:none;stroke-dasharray:8 7;marker-end:url(#arrow)}
-</style></defs>
-<rect width="1800" height="900" fill="white"/>
-<text x="60" y="58" class="ti">Evidence-to-Verification Engineering Thread</text>
-<text x="60" y="94" class="su">Traceability, configuration control and discrepancy closure shown as a single systems-engineering loop.</text>
-
-<rect x="60" y="210" width="250" height="125" rx="14" class="b"/><text x="185" y="252" text-anchor="middle" class="h">Evidence</text><text x="185" y="292" text-anchor="middle" class="t">photos · records · OEM</text>
-<path d="M310 272 H350" class="line"/>
-<rect x="350" y="210" width="250" height="125" rx="14" class="b"/><text x="475" y="252" text-anchor="middle" class="h">Requirement</text><text x="475" y="292" text-anchor="middle" class="t">need · constraint</text>
-<path d="M600 272 H640" class="line"/>
-<rect x="640" y="210" width="250" height="125" rx="14" class="b"/><text x="765" y="252" text-anchor="middle" class="h">Interface</text><text x="765" y="292" text-anchor="middle" class="t">power · data · HMI</text>
-<path d="M890 272 H930" class="line"/>
-<rect x="930" y="210" width="250" height="125" rx="14" class="b"/><text x="1055" y="252" text-anchor="middle" class="h">Configuration</text><text x="1055" y="292" text-anchor="middle" class="t">as-tested configuration</text>
-<path d="M1180 272 H1220" class="line"/>
-<rect x="1220" y="210" width="250" height="125" rx="14" class="b"/><text x="1345" y="252" text-anchor="middle" class="h">Verification</text><text x="1345" y="292" text-anchor="middle" class="t">ground · flight · review</text>
-<path d="M1470 272 H1510" class="line"/>
-<rect x="1510" y="210" width="250" height="125" rx="14" class="b"/><text x="1635" y="252" text-anchor="middle" class="h">Disposition</text><text x="1635" y="292" text-anchor="middle" class="t">close · change · re-test</text>
-
-<path d="M1560 335 V500 H1020 V355" class="dash"/>
-<text x="1290" y="545" text-anchor="middle" class="h">Closed-loop discrepancy resolution</text>
-<text x="1290" y="580" text-anchor="middle" class="t">Observation → analysis / OEM coordination → disposition → configuration update → re-verification</text>
-
-<rect x="240" y="665" width="1320" height="130" rx="14" class="blue"/>
-<text x="900" y="707" text-anchor="middle" class="h">Verification claim rule</text>
-<text x="900" y="743" text-anchor="middle" class="t">A verification result belongs only to the identified configuration in which it was observed.</text>
-<text x="900" y="775" text-anchor="middle" class="t">If evidence is absent or final closure cannot be reconstructed, the public record says so explicitly.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1440 890" preserveAspectRatio="xMidYMid meet">
+<style>.title{font:700 34px Arial,sans-serif;fill:#111827}.sub{font:17px Arial,sans-serif;fill:#4b5563}.h{font:700 19px Arial,sans-serif;fill:#111827}.t{font:16px Arial,sans-serif;fill:#374151}.sm{font:14px Arial,sans-serif;fill:#4b5563}.box{fill:#fff;stroke:#475569;stroke-width:2}.blue{fill:#eff6ff;stroke:#315b8c;stroke-width:2.5}.green{fill:#f0fdf4;stroke:#3f7c52;stroke-width:2.5}.violet{fill:#f5f3ff;stroke:#6554a1;stroke-width:2.5}.slate{fill:#f8fafc;stroke:#64748b;stroke-width:2}.strong{stroke:#334155;stroke-width:2.4;fill:none}</style>
+<rect width="1440" height="890" fill="white"/><text x="40" y="52" class="title">Evidence-to-Verification Digital Thread</text><text x="40" y="82" class="sub">A clean closure loop: every observation is tied to evidence and to the as-tested configuration before a claim is made.</text>
+<rect x="45" y="170" width="230" height="110" rx="13" class="box"/><text x="160" y="210" text-anchor="middle" class="h">1 · Evidence</text><text x="160" y="244" text-anchor="middle" class="t">photo · record · OEM source</text>
+<rect x="325" y="170" width="230" height="110" rx="13" class="box"/><text x="440" y="210" text-anchor="middle" class="h">2 · Requirement</text><text x="440" y="244" text-anchor="middle" class="t">need / constraint</text>
+<rect x="605" y="170" width="230" height="110" rx="13" class="box"/><text x="720" y="210" text-anchor="middle" class="h">3 · Function / interface</text><text x="720" y="244" text-anchor="middle" class="t">what + boundary</text>
+<rect x="885" y="170" width="230" height="110" rx="13" class="violet"/><text x="1000" y="210" text-anchor="middle" class="h">4 · Configuration</text><text x="1000" y="244" text-anchor="middle" class="t">identified as-tested state</text>
+<rect x="1165" y="170" width="230" height="110" rx="13" class="green"/><text x="1280" y="210" text-anchor="middle" class="h">5 · Verification claim</text><text x="1280" y="244" text-anchor="middle" class="t">result / boundary / status</text><path d="M275 225 H325 M555 225 H605 M835 225 H885 M1115 225 H1165" class="strong"/>
+<rect x="165" y="375" width="1110" height="240" rx="16" class="blue"/><text x="720" y="417" text-anchor="middle" class="h">Installed-aircraft discrepancy closure</text>
+<rect x="215" y="465" width="180" height="92" rx="12" class="box"/><text x="305" y="501" text-anchor="middle" class="h">Observe</text><text x="305" y="531" text-anchor="middle" class="sm">capture symptom</text>
+<rect x="425" y="465" width="180" height="92" rx="12" class="box"/><text x="515" y="501" text-anchor="middle" class="h">Isolate</text><text x="515" y="531" text-anchor="middle" class="sm">I/F or configuration</text>
+<rect x="635" y="465" width="180" height="92" rx="12" class="box"/><text x="725" y="501" text-anchor="middle" class="h">Analyse</text><text x="725" y="531" text-anchor="middle" class="sm">engineering / OEM</text>
+<rect x="845" y="465" width="180" height="92" rx="12" class="box"/><text x="935" y="501" text-anchor="middle" class="h">Disposition</text><text x="935" y="531" text-anchor="middle" class="sm">hardware / config change</text>
+<rect x="1055" y="465" width="180" height="92" rx="12" class="green"/><text x="1145" y="501" text-anchor="middle" class="h">Re-verify</text><text x="1145" y="531" text-anchor="middle" class="sm">ground / flight re-test</text><path d="M395 511 H425 M605 511 H635 M815 511 H845 M1025 511 H1055" class="strong"/>
+<rect x="185" y="695" width="1070" height="130" rx="14" class="slate"/><text x="720" y="735" text-anchor="middle" class="h">Claim discipline</text><text x="720" y="770" text-anchor="middle" class="t">Observed ≠ closed. Reverified ≠ certified. Customer validation ≠ technical verification.</text><text x="720" y="801" text-anchor="middle" class="t">When final closure is not recoverable, the model leaves it explicitly unreconstructed.</text></svg>

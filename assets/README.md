@@ -12,6 +12,7 @@ Aircraft/cockpit photographs in this directory originate from the project archiv
 | programme-impact.svg | Retrospective public-programme timeline | Native vector diagram; quantities/value estimates sourced in docs/references.md |
 | configuration-evolution.svg | Retrospective configuration-state model | Native vector diagram derived from model/configurations.csv |
 | traceability-matrix.svg | Requirements × verification cross-reference | Native vector diagram derived from model/traceability.csv and verification.csv |
+| digital-twin-roadmap.svg | Evidence-to-executable follow-on roadmap | Native vector diagram; completed vs planned capability explicitly separated |
 
 ## Image-release rule
 

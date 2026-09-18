@@ -14,6 +14,10 @@ The retrofit archive is valuable because it contains real examples of:
 
 These are the inputs needed for a credible digital thread.
 
+![Digital twin roadmap](../assets/digital-twin-roadmap.svg)
+
+The roadmap deliberately separates **reconstructed historical evidence**, the **digital-thread backbone already being built**, and **future executable-twin capability**. This prevents a portfolio page from presenting planned simulation capability as if it already existed.
+
 ## Proposed digital-thread backbone
 
 ~~~mermaid

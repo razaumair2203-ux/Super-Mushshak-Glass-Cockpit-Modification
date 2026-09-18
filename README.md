@@ -1,53 +1,50 @@
 # Super Mushshak Glass-Cockpit Retrofit
 
-**Lead Systems Engineer portfolio · aircraft-level avionics integration · dual prototype paths · ground/flight test · international customer evaluation · configuration control · export product lineage · MBSE / digital-twin continuation**
+**International aircraft-modernisation case study · Lead Systems Engineer · avionics integration · prototype development · ground/flight V&V · customer evaluation · configuration control · product-line scale · digital-twin continuation**
+
+<p align="center">
+  <img src="assets/dynon-skyview-installed-prototype.jpg" alt="Installed Dynon SkyView Super Mushshak glass-cockpit prototype" width="100%">
+</p>
 
 <table>
 <tr>
-<td width="34%"><img src="assets/dynon-skyview-installed-prototype.jpg" alt="Installed Dynon SkyView prototype cockpit"></td>
-<td width="33%"><img src="assets/dynon-skyview-flight-test.jpg" alt="Dynon SkyView cockpit operating in flight"></td>
-<td width="33%"><img src="assets/international-customer-evaluation.jpg" alt="Project aircraft during international customer evaluation"></td>
+<td width="50%"><img src="assets/dynon-skyview-flight-test.jpg" alt="Dynon SkyView cockpit operating during flight test"></td>
+<td width="50%"><img src="assets/international-customer-evaluation.jpg" alt="Super Mushshak project aircraft during international customer evaluation"></td>
 </tr>
 <tr>
-<td><sub><b>Installed prototype:</b> Dynon SkyView glass-cockpit integration.</sub></td>
-<td><sub><b>Flight test:</b> installed cockpit operating in the aircraft test programme.</sub></td>
-<td><sub><b>Customer evaluation:</b> project aircraft during international evaluation activity.</sub></td>
+<td><sub><b>Installed-aircraft flight test.</b> The integrated cockpit was exercised as an aircraft system, with configuration-specific observations feeding engineering and OEM action.</sub></td>
+<td><sub><b>International customer evaluation.</b> The programme progressed beyond laboratory integration into customer-facing aircraft evaluation and product maturity.</sub></td>
 </tr>
 </table>
 
-## Programme scope and role
+## Executive snapshot
 
-I was the **Lead Systems Engineer** for the Super Mushshak glass-cockpit retrofit. This was an **aircraft-level modification**, not a display replacement. The engineering scope included:
+<table>
+<tr>
+<td align="center"><b>Lead Systems Engineer</b><br><sub>aircraft-level retrofit ownership</sub></td>
+<td align="center"><b>2 prototype paths</b><br><sub>Dynon SkyView · Garmin G900X</sub></td>
+<td align="center"><b>Complete modification scope</b><br><sub>sensors · harness · avionics · power · HMI</sub></td>
+<td align="center"><b>Ground + flight V&amp;V</b><br><sub>discrepancy isolation · OEM action · re-test</sub></td>
+</tr>
+</table>
 
-- two prototype paths: **Dynon SkyView** and **Garmin G900X**;
-- replacement / integration of the aircraft sensing suite;
-- redesign and installation of the **complete modification wiring harness**;
-- integration of displays, engine/airframe information, NAV/COM, audio and retained avionics;
-- aircraft electrical-power, protection, physical-installation and HMI considerations;
-- hardware/software/database configuration control;
-- ground integration, flight test, discrepancy isolation and re-test;
-- OEM technical coordination and international customer-evaluation support.
+I led systems engineering for the Super Mushshak glass-cockpit retrofit across **architecture, interfaces, physical/electrical integration, configuration control, verification, troubleshooting, OEM coordination and international customer evaluation**. The modification replaced/reworked the aircraft sensing chain, introduced a **complete modification wiring harness**, integrated modern display and navigation/communication equipment, and matured the aircraft through installed ground and flight testing.
 
-A project comparison deck also evaluates **Garmin G3X** as part of the wider candidate trade study. It is kept separate from the G900X prototype identity so the configurations are not conflated.
+The programme developed two principal prototype paths: **Dynon SkyView** and **Garmin G900X**. A project comparison deck also contains **Garmin G3X** candidate material; that remains trade-study evidence and is kept separate from the G900X prototype identity.
+
+![Programme scale](assets/programme-impact.svg)
 
 ## Engineering flow
 
-**operational need → architecture and trade studies → equipment / sensor / harness integration → ground integration → flight test → discrepancy isolation → OEM engineering action → configuration update → re-test → customer evaluation / product maturity**
+**operational need → architecture & trade studies → sensor / avionics / harness integration → ground integration → flight test → discrepancy isolation → OEM engineering action → configuration update → re-test → customer evaluation → product maturity**
 
 ![Systems engineering lifecycle](assets/systems-engineering-lifecycle.svg)
 
-The programme required systems engineering across **architecture, interfaces, configuration, V&V, maintainability and stakeholder coordination**. The diagrams and machine-readable model express that executed engineering work in a modern MBSE / digital-thread form for technical communication and future digital-twin development.
+This is the level at which the work was executed: the **aircraft was the system boundary**. Display selection was only one element of a coupled modification involving sensing, power/protection, data and audio interfaces, retained avionics, installation, maintainability, software/settings/databases and pilot/instructor HMI.
 
 ## Aircraft-level architecture
 
 ![System context](assets/system-context.svg)
-
-The system boundary is the **aircraft**. The retrofit coupled four major domains:
-
-- **flight and engine sensing**;
-- **cockpit displays, HMI and alerts**;
-- **NAV/COM, audio and retained-avionics interfaces**;
-- **aircraft power, physical installation and the complete modification harness**.
 
 ![Functional decomposition](assets/functional-decomposition.svg)
 
@@ -58,11 +55,11 @@ The system boundary is the **aircraft**. The retrofit coupled four major domains
 </tr>
 </table>
 
-These are **current systems-engineering representations of the executed retrofit programme**. They intentionally remain at logical/interface level for public release; controlled installation detail, pin-level interconnects and proprietary drawings are outside this repository.
+The diagrams are current systems-engineering representations of the executed programme. They communicate architecture, interface ownership, configuration discipline and V&amp;V structure while keeping controlled installation detail, pin-level interconnects and proprietary drawings outside the public repository.
 
-## Prototype identity and configuration control
+## Prototype identity & configuration control
 
-| ID | Configuration |
+| Configuration | Engineering identity |
 |---|---|
 | **CFG-000** | legacy aircraft baseline |
 | **CFG-D1** | Dynon initial installed prototype |
@@ -71,13 +68,13 @@ These are **current systems-engineering representations of the executed retrofit
 | **CFG-G1** | Garmin G900X prototype / evaluation path |
 | **CMP-G3X** | Garmin G3X comparison artefact — trade study only |
 
-Configuration identity matters because observations, software/settings state and V&V results are meaningful only against the **as-tested configuration**.
+This separation is deliberate: requirements, interfaces, discrepancies and V&amp;V results remain tied to the **as-tested configuration**.
 
-## Verification and discrepancy closure
+## Verification, troubleshooting & re-flight
 
 ![Verification thread](assets/mbse-verification-thread.svg)
 
-Project test and troubleshooting records show a real installed-aircraft engineering loop:
+The project record shows an installed-aircraft engineering loop:
 
 **observe → isolate interface / configuration → engineer with OEM → implement hardware / configuration action → restore settings / data → re-test / re-flight**
 
@@ -85,35 +82,56 @@ Project test and troubleshooting records show a real installed-aircraft engineer
 
 The machine-readable model in [model/](model/README.md) links requirements, functions, interfaces, configurations, verification records, issues, risks, decisions and supporting evidence.
 
-## International programme impact
+## International product-line outcome
 
-The prototype programme progressed into international customer evaluation and public display activity. My project role included customer-trial support and the engineering work required to mature the integrated aircraft configuration.
+The engineering programme progressed through prototype development, flight test, customer evaluation and public display activity. Public reporting subsequently shows the glass-cockpit Super Mushshak product line scaling into a multi-country export programme.
 
-Independent reporting then shows the glass-cockpit Super Mushshak product path entering substantial multi-country service:
-
-- [Times Aerospace, 2017](https://www.timesaerospace.aero/features/defence/nigeria-opts-for-super-mushshaks) reported that the two-display glass-cockpit Super Mushshak first appeared publicly at **Dubai Airshow 2011**, with Dynon and Garmin versions available.
-- [Asian Military Review, 2019](https://www.asianmilitaryreview.com/2019/01/super-mushshaks-super-popular/) documented an **80-aircraft** new-customer sequence in 2016–2017: **Qatar 8, Nigeria 10, Türkiye 52 and Azerbaijan 10**; it identified Qatar and Türkiye with Garmin 950 and Nigeria with Dynon.
-- [Times Aerospace, 2024](https://www.timesaerospace.aero/sites/aerospace/times/files/magazines/2024/das24-wds-d3/content/das24-wds-d3.pdf) reported that **more than 100 Super Mushshaks had been upgraded or sold with new avionics since 2016**, using Dynon, GenesyS or Garmin systems.
-
-| Customer / operator | Publicly reported quantity | Evidence |
+| Customer / operator | Publicly reported quantity | Public evidence |
 |---|---:|---|
-| **Qatar** | 8 | [APP contract report](https://www.app.com.pk/national/pakistan-inks-accord-to-supply-8-mushshak-aircraft-to-qatar/) + [Qatar News Agency](https://qna.org.qa/en/news/news-details?date=23%2F01%2F2024&id=0033-hh%C2%A0the-amir-patronizes%C2%A0graduation-ceremony-of%C2%A0al-zaeem-air-academy) |
-| **Nigeria** | 10 | [APP delivery report](https://www.app.com.pk/national/pakistan-supplies-four-super-mushshak-to-naf/) + [Nigerian Air Force](https://airforce.mil.ng/news/pakistan-to-strengthen-technical%2C-defence-cooperation-with-nigerian-air-force361186473) |
-| **Türkiye** | 52 | [APP contract report](https://www.app.com.pk/national/pakistan-to-supply-52-trainer-aircraft-to-turkey/) + [Türkiye Ministry of National Defence](https://www.msb.gov.tr/SlaytHaber/1d609ba0df7c40039347230972cec89b) |
-| **Azerbaijan** | 10 | [APP / programme sale report](https://www.app.com.pk/national/pakistan-signs-agreement-with-azerbaijan-for-sale-of-10-super-mushshak-aircraft/) |
-| **2016–2017 total** | **80** | [Asian Military Review](https://www.asianmilitaryreview.com/2019/01/super-mushshaks-super-popular/) |
+| **Qatar** | 8 | [APP contract report](https://www.app.com.pk/national/pakistan-inks-accord-to-supply-8-mushshak-aircraft-to-qatar/) |
+| **Nigeria** | 10 | [APP delivery report](https://www.app.com.pk/national/pakistan-supplies-four-super-mushshak-to-naf/) |
+| **Türkiye** | 52 | [APP contract report](https://www.app.com.pk/national/pakistan-to-supply-52-trainer-aircraft-to-turkey/) |
+| **Azerbaijan** | 10 | [APP sale report](https://www.app.com.pk/national/pakistan-signs-agreement-with-azerbaijan-for-sale-of-10-super-mushshak-aircraft/) |
+| **2016–2017 new-customer sequence** | **80** | customer totals above |
 
-Later production / export configurations evolved; this repository therefore keeps prototype identities and later product variants distinct rather than implying that every export aircraft reproduced an early prototype unchanged.
+Specialist reporting also states that the two-display glass-cockpit Super Mushshak appeared publicly at **Dubai Airshow 2011**, with Dynon and Garmin versions available, and that by 2024 **more than 100 Super Mushshaks had been upgraded or sold with new avionics since 2016**. See [Independent Public Evidence](docs/public-operator-evidence.md).
+
+### Public programme-value context
+
+A 2016 [Business Recorder report](https://www.brecorder.com/news/4454451/pakistan-to-supply-52-trainer-aircraft-to-turkey-20161124106085) placed the **52-aircraft Türkiye programme at around US$50M**. That implies a public scale benchmark of about **US$0.962M per aircraft**.
+
+Applied only as a transparent scale reference to the 80-aircraft sequence above:
+
+**80 × (US$50M / 52) ≈ US$76.9M → ≈ US$77M aircraft-value equivalent**
+
+Public sources also document **operational training and technical support** in the Nigeria and Azerbaijan packages, plus simulator and engine-support activity around the Türkiye programme. Because those support values are not publicly standardized, they are not presented as actual contract totals. An illustrative 10–30% support sensitivity places the campaign at roughly **US$85–100M**.
+
+> **Portfolio interpretation:** the engineering work shown here sat on a product path that progressed from prototype integration and flight test into an internationally fielded aircraft family operating at substantial programme scale. Commercial figures are public-market context, not confidential contract disclosure or individual revenue attribution.
+
+Full assumptions and arithmetic: [Public Programme-Value Context](docs/programme-value-context.md).
+
+## Why this project matters
+
+| Systems-engineering dimension | Evidence in this portfolio |
+|---|---|
+| **Architecture & trade studies** | distinct Dynon / Garmin prototype paths; candidate comparison discipline |
+| **Interface engineering** | aircraft power, revised sensing, NAV/COM, audio, retained avionics, data/settings |
+| **Physical integration** | complete modification harness and aircraft installation scope |
+| **Configuration management** | as-tested hardware/software/settings state tied to V&amp;V evidence |
+| **Verification & validation** | installed checks, flight observations, discrepancy isolation, re-test |
+| **Supplier / OEM engineering** | technical coordination through observed issues and configuration actions |
+| **Customer-facing delivery** | international evaluation / demonstration context |
+| **Product lifecycle** | supportability, spares/repair logic and digital-thread continuation |
 
 ## Digital thread → digital twin
 
 ![Digital twin roadmap](assets/digital-twin-roadmap.svg)
 
-The programme is now being carried forward into a **digital-engineering / digital-twin initiative**. Original project evidence and engineering knowledge are being structured into:
+The programme is now being carried forward into a **digital-engineering / digital-twin initiative**. Original project evidence and engineering knowledge are structured as:
 
 **claims → requirements → functions → interfaces → configurations → verification → issues / risks → decisions**
 
-The next step is an executable Super Mushshak digital twin using releasable engineering data for interface behaviour, failure-state logic, maintenance / health state, data replay and verification scenarios.
+The next stage is an executable Super Mushshak digital twin using releasable engineering data for interface behaviour, failure-state logic, maintenance / health state, data replay and verification scenarios.
 
 ## Public-release scope
 
@@ -131,11 +149,12 @@ Detailed wiring, pin-level interconnects, proprietary installation drawings, pri
 - [Integration risk register](docs/integration-risk-register.md)
 - [International customer evaluation and programme context](docs/field-evaluation-and-programme-context.md)
 - [Independent public evidence](docs/public-operator-evidence.md)
+- [Public programme-value context](docs/programme-value-context.md)
 - [Project media gallery](docs/media-gallery.md)
 - [Evidence register](docs/evidence-register.md)
-- [MBSE / digital thread representation](docs/mbse-digital-thread.md)
+- [MBSE / digital-thread representation](docs/mbse-digital-thread.md)
 - [Digital twin follow-on](docs/digital-twin.md)
 - [Sources](docs/references.md)
 - [Machine-readable systems model](model/README.md)
 
-**Quality gate:** `python tools/validate_model.py` checks ID uniqueness, reference integrity, typed links and local Markdown/image paths.
+**Quality gate:** `python tools/validate_model.py` checks model IDs, typed references, local links and local image paths.

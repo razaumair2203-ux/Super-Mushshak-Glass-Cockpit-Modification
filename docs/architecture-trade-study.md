@@ -2,8 +2,6 @@
 
 The surviving programme comparison presentation records an early evaluation of alternative glass-cockpit architectures for the Super Mushshak.
 
-The original material is used here as engineering evidence; only the decision logic is reproduced. Detailed internal graphics and vendor-assessment wording are not required to explain the systems-engineering work.
-
 ## Evaluation dimensions
 
 The comparison covered the following areas:
@@ -31,9 +29,7 @@ The architecture offered a relatively simple display arrangement and was explici
 
 ## Garmin-family candidate
 
-A Garmin alternative was evaluated in parallel. Archived project material from this period uses more than one Garmin designation across different records, so this repository does not infer a single prototype nomenclature until the original programme correspondence and configuration records are reconciled.
-
-The engineering comparison remains valid independently of that naming question: the programme evaluated competing architectures at aircraft level rather than comparing displays in isolation.
+A Garmin-family alternative was evaluated in parallel. The comparison treated it as a complete cockpit architecture and assessed it against the same aircraft-level criteria rather than comparing displays in isolation.
 
 ## Decision-making significance
 

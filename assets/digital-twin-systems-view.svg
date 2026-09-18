@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#17212b}.t{font-size:26px;font-weight:700}.s{font-size:16px}.h{font-size:18px;font-weight:700}.box{fill:#fff;stroke:#34495e;stroke-width:2;rx:16}.wip{fill:#f5f7f8;stroke:#1f2d3d;stroke-width:3;rx:16}.line{stroke:#566573;stroke-width:3;fill:none;marker-end:url(#a)}</style>
+<marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#566573"/></marker>
+</defs>
+<text x="45" y="45" class="t">Super Mushshak digital twin — work in progress</text>
+<text x="45" y="72" class="s">Digital engineering progression; scope grows only as source data and verification evidence support it.</text>
+
+<rect x="55" y="145" width="220" height="120" class="box"/><text x="105" y="190" class="h">Physical aircraft</text><text x="88" y="220" class="s">Platform knowledge</text><text x="93" y="246" class="s">modification history</text>
+<rect x="345" y="145" width="220" height="120" class="box"/><text x="385" y="190" class="h">Configuration baseline</text><text x="390" y="220" class="s">Systems · versions</text><text x="390" y="246" class="s">interfaces · changes</text>
+<rect x="635" y="125" width="250" height="160" class="wip"/><text x="690" y="175" class="h">Digital representation</text><text x="685" y="208" class="s">System decomposition</text><text x="685" y="236" class="s">Interfaces & traceability</text><text x="685" y="264" class="s">Progressive model fidelity</text>
+<rect x="955" y="145" width="200" height="120" class="box"/><text x="995" y="190" class="h">Engineering use</text><text x="987" y="220" class="s">Analysis · verification</text><text x="990" y="246" class="s">change assessment</text>
+
+<path d="M275 205 L345 205" class="line"/><path d="M565 205 L635 205" class="line"/><path d="M885 205 L955 205" class="line"/>
+<path d="M1055 265 C1055 340 750 340 750 285" class="line"/>
+</svg>

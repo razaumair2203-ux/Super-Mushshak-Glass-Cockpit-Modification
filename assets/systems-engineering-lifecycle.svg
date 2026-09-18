@@ -5,7 +5,7 @@
 .box{fill:#ffffff;stroke:#475569;stroke-width:2}.blue{fill:#eff6ff;stroke:#315b8c;stroke-width:2.5}.green{fill:#f0fdf4;stroke:#3f7c52;stroke-width:2.5}.violet{fill:#f5f3ff;stroke:#6554a1;stroke-width:2.5}.amber{fill:#fffbeb;stroke:#a96b13;stroke-width:2.5}.slate{fill:#f8fafc;stroke:#64748b;stroke-width:2}
 .conn{stroke:#64748b;stroke-width:2;fill:none}.strong{stroke:#334155;stroke-width:2.4;fill:none}.dash{stroke:#94a3b8;stroke-width:2;fill:none;stroke-dasharray:7 6}
 .chip{fill:#e2e8f0}.rule{stroke:#cbd5e1;stroke-width:1}
-</style><rect width="1440" height="980" fill="white"/><text x="40" y="52" class="title">Retrofit Systems-Engineering V-Model</text><text x="40" y="82" class="sub">Retrospective engineering view: left side defines the solution; right side closes evidence against the identified configuration.</text>
+</style><rect width="1440" height="980" fill="white"/><text x="40" y="52" class="title">Retrofit Systems-Engineering V-Model</text><text x="40" y="82" class="sub">Programme engineering flow: left side defines the solution; right side integrates, verifies and validates the identified configuration.</text>
 <text x="95" y="132" class="sm">DEFINE / DECOMPOSE</text><text x="1125" y="132" class="sm">INTEGRATE / VERIFY / VALIDATE</text>
 <rect x="70" y="165" width="300" height="115" rx="13" class="box"/><text x="220" y="202" text-anchor="middle" class="h">Operational need &amp; constraints</text><text x="220" y="235" text-anchor="middle" class="t">training mission · legacy aircraft</text><text x="220" y="262" text-anchor="middle" class="t">acceptance constraints</text>
 <rect x="150" y="315" width="300" height="105" rx="13" class="box"/><text x="300" y="355" text-anchor="middle" class="h">Aircraft-level requirements</text><text x="300" y="387" text-anchor="middle" class="t">functions · supportability · verification</text>
@@ -19,5 +19,5 @@
 <path d="M220 280 L300 315 M300 420 L380 465 M380 570 L460 615 M460 720 L570 817 M870 817 L980 720 M980 615 L1060 580 M1060 465 L1140 430 M1140 315 L1220 270" class="strong"/>
 <path d="M370 217 H1070 M450 372 H990 M530 522 H910 M610 667 H830" class="dash"/>
 <text x="720" y="207" text-anchor="middle" class="sm">sustainment evidence</text><text x="720" y="362" text-anchor="middle" class="sm">operational validation</text><text x="720" y="512" text-anchor="middle" class="sm">aircraft-level verification</text><text x="720" y="657" text-anchor="middle" class="sm">interface verification</text>
-<rect x="185" y="910" width="1070" height="46" rx="11" class="slate"/><text x="720" y="939" text-anchor="middle" class="sm">Cross-cutting: configuration control · evidence provenance · change/decision history · explicit unknowns</text>
+<rect x="185" y="910" width="1070" height="46" rx="11" class="slate"/><text x="720" y="939" text-anchor="middle" class="sm">Cross-cutting: configuration control · evidence provenance · change/decision history · verification closure</text>
 </svg>

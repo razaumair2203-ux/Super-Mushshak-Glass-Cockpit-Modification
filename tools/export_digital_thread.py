@@ -83,7 +83,7 @@ def main() -> int:
     payload = {
         "schema": "super-mushshak-public-digital-thread/v1",
         "provenance": (
-            "Retrospective public-safe export. Nodes and edges are serialized "
+            "Public-release digital-thread export. Nodes and edges are serialized "
             "from the controlled CSV model; no new aircraft detail is inferred."
         ),
         "counts": {"nodes": len(nodes), "edges": len(edges)},

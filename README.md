@@ -4,7 +4,7 @@
 
 ![Original Dynon SkyView prototype cockpit](assets/dynon-cockpit-prototype-sanitized.jpg)
 
-*Original project photograph of the Dynon SkyView prototype cockpit. Only authentic project/public imagery is used for aircraft and cockpit evidence; no synthetic aircraft or cockpit imagery is used in this repository.*
+*Original project photograph of the Dynon SkyView prototype cockpit; cropped/redacted only where needed for public release.*
 
 This repository reconstructs my work as **lead systems engineer / avionics integration engineer** on the Super Mushshak glass-cockpit retrofit. The modification was an aircraft-level integration problem, not a display replacement: it included the aircraft sensor suite, glass displays, navigation/communication equipment, electrical integration, the complete aircraft wiring-harness change associated with the modification, software/settings/databases, maintainability, OEM coordination, ground and flight test, and customer evaluation.
 
@@ -23,7 +23,7 @@ The reconstruction is deliberately evidence-led. Historical project material, or
 - installed-aircraft functional checks, flight-test feedback, discrepancy resolution and re-test;
 - customer-facing technical evaluation and prototype support.
 
-## Architecture — readable at recruiter scale
+## System architecture
 
 ![Public-safe logical architecture](assets/mbse-system-architecture.svg)
 

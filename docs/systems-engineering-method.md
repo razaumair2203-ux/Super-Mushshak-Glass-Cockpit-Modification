@@ -110,7 +110,7 @@ A result observed in one configuration is not inherited automatically by another
 
 Where final closure evidence is absent, the issue remains **not publicly reconstructed** rather than being forced to “closed”.
 
-See [Verification and flight test](verification-and-flight-test.md).
+See [Verification and flight test](verification-and-flight-test.md) and [Assurance and closure summary](assurance-closure-summary.md).
 
 ## 10. Integration-risk control
 

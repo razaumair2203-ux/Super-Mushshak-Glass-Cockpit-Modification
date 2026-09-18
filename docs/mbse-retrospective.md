@@ -6,66 +6,36 @@ The original retrofit predates the MBSE workflow I would use today. The survivin
 
 This is not a claim that SysML/MBSE artefacts existed during the original programme. It is a retrospective transformation of real project evidence into modern systems-engineering objects.
 
+## Recruiter-scale architecture view
+
+![Public-safe logical architecture](../assets/mbse-system-architecture.svg)
+
+The diagram is deliberately rendered as a large SVG rather than a compact Mermaid figure so the system boundary, sensor/power interfaces, retrofit functions, test/evaluation loop and lifecycle-support interfaces remain legible on a normal GitHub page.
+
+It is a logical representation of evidence-backed functions and interfaces. It deliberately omits exact harness routing, connector/pin data and equipment location.
+
 ## Model chain
 
 **Evidence → requirement/constraint → interface → configuration → verification → decision**
+
+![Evidence-to-verification digital thread](../assets/mbse-verification-thread.svg)
 
 The machine-readable source for that chain is in the [model directory](../model/README.md).
 
 ## Stakeholder / system context
 
-~~~mermaid
-flowchart TB
-    P[Pilot / instructor]
-    A[Legacy training aircraft]
-    R[Glass-cockpit retrofit]
-    M[Maintenance / support]
-    O[Avionics OEMs]
-    T[Test / evaluation organisation]
-    C[Customer / acceptance authority]
+The reconstructed context includes:
 
-    P <--> R
-    A <--> R
-    R <--> M
-    R <--> O
-    T <--> R
-    C <--> T
-~~~
+- pilot / instructor;
+- legacy training-aircraft baseline;
+- glass-cockpit retrofit;
+- aircraft sensing and electrical systems;
+- avionics OEMs and technical support;
+- maintenance / fleet support;
+- test and evaluation organisation;
+- customer / acceptance authority.
 
-## Logical architecture
-
-~~~mermaid
-flowchart LR
-    subgraph Aircraft
-      PWR[Aircraft power]
-      FS[Flight-state sensing]
-      ES[Engine / airframe sensing]
-      NAV[Legacy / retained NAV-COM]
-      XPDR[Transponder]
-      INT[Intercom / audio]
-    end
-
-    subgraph Retrofit
-      AD[Air-data / attitude-heading functions]
-      EMS[Engine-monitoring function]
-      DISP[Glass displays / HMI]
-      GW[Avionics interface / gateway]
-      CFG[Software, settings & databases]
-    end
-
-    PWR --> AD
-    PWR --> EMS
-    PWR --> DISP
-    FS --> AD --> DISP
-    ES --> EMS --> DISP
-    NAV <--> GW <--> DISP
-    XPDR <--> GW
-    DISP --> INT
-    CFG --> DISP
-    CFG --> EMS
-~~~
-
-This is a logical representation of evidence-backed functions and interfaces. It deliberately omits exact harness routing, connector/pin data and equipment location.
+The purpose of this level is not to draw every aircraft connection. It is to expose the **system boundary, external actors, engineering interfaces and evidence flow** that drove integration decisions.
 
 ## Requirement model
 
@@ -102,9 +72,11 @@ The historical programme evolved. The model therefore separates:
 
 Verification records are linked to the configuration in which the event occurred. This prevents a common retrospective error: treating a test result from one hardware/software/database state as evidence for every later state.
 
+The evidence supports a closed loop of **installed check → flight test → observed discrepancy → engineering/OEM resolution → configuration update → re-test**. Examples are abstracted in the public model rather than exposing controlled implementation detail.
+
 ## Decision model
 
-Decision records capture the engineering rationale that can be recovered safely, for example:
+Decision records capture engineering rationale that can be recovered safely, for example:
 
 - using an avionics interface to integrate retained navigation equipment;
 - treating LRU spares/OEM exchange as part of the maintenance concept;
@@ -112,18 +84,12 @@ Decision records capture the engineering rationale that can be recovered safely,
 - preserving G3X and G900X/G950 configuration identities;
 - keeping the public model abstract where release evidence is insufficient.
 
-## Digital-thread view
+## Why this is MBSE rather than diagram decoration
 
-~~~mermaid
-flowchart LR
-    E[Evidence] --> R[Requirement]
-    R --> I[Interface]
-    R --> C[Configuration]
-    I --> C
-    C --> V[Verification]
-    V --> D[Decision / disposition]
-    D --> C
-    V --> E2[Test evidence]
-~~~
+The diagrams are views. The model is the linked data underneath them:
+
+**evidence IDs ↔ requirement IDs ↔ interface IDs ↔ configuration IDs ↔ verification IDs ↔ decision records**
+
+The CSV objects therefore correspond conceptually to requirement, block/interface, configuration, verification and decision elements that can later be migrated into SysML/Capella/Cameo or connected to a requirements tool. The key property already exists: **stable identity and traceability**.
 
 The result is intentionally smaller than a full aircraft model, but it is auditable. **Traceability is treated as more important than visual complexity.**

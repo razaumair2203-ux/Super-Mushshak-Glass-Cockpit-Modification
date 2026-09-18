@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1040" viewBox="0 0 1800 1040">
+<defs>
+<marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1f2937"/></marker>
+<style>
+.ti{font:700 42px Arial,sans-serif;fill:#111827}.su{font:22px Arial,sans-serif;fill:#4b5563}
+.h{font:700 25px Arial,sans-serif;fill:#111827}.t{font:20px Arial,sans-serif;fill:#374151}.sm{font:17px Arial,sans-serif;fill:#4b5563}
+.sys{fill:#eef6ff;stroke:#1f4b7a;stroke-width:4}.ext{fill:#f9fafb;stroke:#374151;stroke-width:3}.val{fill:#f5f3ff;stroke:#5b4b8a;stroke-width:3}
+.l{stroke:#1f2937;stroke-width:4;fill:none;marker-end:url(#a)}.bi{stroke:#6b7280;stroke-width:3;fill:none;stroke-dasharray:9 7;marker-end:url(#a)}
+</style></defs>
+<rect width="1800" height="1040" fill="white"/>
+<text x="70" y="64" class="ti">Super Mushshak Glass-Cockpit Retrofit — System Context</text>
+<text x="70" y="103" class="su">Retrospective public-safe context view. Relationships are logical; exact aircraft wiring and organisational detail are intentionally omitted.</text>
+
+<rect x="535" y="245" width="730" height="500" rx="22" class="sys"/>
+<text x="900" y="300" text-anchor="middle" class="h">System of interest: aircraft glass-cockpit retrofit</text>
+<text x="900" y="347" text-anchor="middle" class="t">flight-state and engine/airframe sensing</text>
+<text x="900" y="387" text-anchor="middle" class="t">glass displays · NAV/COM / retained-system integration</text>
+<text x="900" y="427" text-anchor="middle" class="t">aircraft electrical + physical / harness integration</text>
+<text x="900" y="467" text-anchor="middle" class="t">software · settings · navigation / terrain data</text>
+<text x="900" y="507" text-anchor="middle" class="t">pilot/instructor HMI · alerting</text>
+<text x="900" y="547" text-anchor="middle" class="t">installed-aircraft verification · discrepancy closure</text>
+<text x="900" y="587" text-anchor="middle" class="t">maintainability · LRU replacement · OEM support</text>
+<text x="900" y="655" text-anchor="middle" class="sm">Configuration identity and evidence provenance apply across every function.</text>
+
+<rect x="65" y="215" width="330" height="135" rx="16" class="ext"/>
+<text x="230" y="260" text-anchor="middle" class="h">Pilot / instructor</text>
+<text x="230" y="300" text-anchor="middle" class="t">operate · train · provide feedback</text>
+
+<rect x="65" y="435" width="330" height="145" rx="16" class="ext"/>
+<text x="230" y="480" text-anchor="middle" class="h">Aircraft baseline</text>
+<text x="230" y="520" text-anchor="middle" class="t">power · airframe · retained systems</text>
+<text x="230" y="552" text-anchor="middle" class="sm">legacy configuration is a controlled input</text>
+
+<rect x="65" y="665" width="330" height="145" rx="16" class="ext"/>
+<text x="230" y="710" text-anchor="middle" class="h">Maintenance / fleet support</text>
+<text x="230" y="750" text-anchor="middle" class="t">spares · replacement · restoration</text>
+<text x="230" y="782" text-anchor="middle" class="sm">supportability feeds architecture decisions</text>
+
+<rect x="1405" y="215" width="330" height="135" rx="16" class="ext"/>
+<text x="1570" y="260" text-anchor="middle" class="h">Avionics OEM / support</text>
+<text x="1570" y="300" text-anchor="middle" class="t">interface · configuration · troubleshooting</text>
+
+<rect x="1405" y="435" width="330" height="145" rx="16" class="val"/>
+<text x="1570" y="480" text-anchor="middle" class="h">Flight test / evaluation</text>
+<text x="1570" y="520" text-anchor="middle" class="t">test event · observation · re-test</text>
+<text x="1570" y="552" text-anchor="middle" class="sm">evidence tied to as-tested state</text>
+
+<rect x="1405" y="665" width="330" height="145" rx="16" class="val"/>
+<text x="1570" y="710" text-anchor="middle" class="h">Customer / acceptance authority</text>
+<text x="1570" y="750" text-anchor="middle" class="t">operational suitability · acceptance context</text>
+<text x="1570" y="782" text-anchor="middle" class="sm">validation is distinct from verification</text>
+
+<path d="M395 282 H470 V350 H535" class="l"/>
+<path d="M395 507 H535" class="l"/>
+<path d="M395 737 H470 V650 H535" class="l"/>
+<path d="M1265 350 H1330 V282 H1405" class="l"/>
+<path d="M1265 507 H1405" class="l"/>
+<path d="M1265 650 H1330 V737 H1405" class="l"/>
+
+<path d="M1570 580 V885 H900 V745" class="bi"/>
+<text x="1235" y="920" text-anchor="middle" class="sm">Evaluation / discrepancy feedback returns to the identified aircraft configuration and engineering baseline.</text>
+
+<rect x="330" y="950" width="1140" height="60" rx="14" class="ext"/>
+<text x="900" y="988" text-anchor="middle" class="t">Public-release rule: show system relationships and engineering evidence without publishing controlled implementation detail.</text>
+</svg>

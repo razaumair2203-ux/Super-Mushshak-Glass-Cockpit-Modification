@@ -1,0 +1,11 @@
+claim_id,claim_statement,evidence_state,configuration_scope,evidence_ids,boundary
+CLM-001,"The Dynon SkyView prototype was installed and operated in flight.","Observed","CFG-D1;CFG-D2","E-01;E-02;E-04;E-15","Does not imply every later Dynon state was identical"
+CLM-002,"A display internal-voltage/power-related discrepancy was observed after two early sorties.","Observed","CFG-D1","E-02","Connector/pin troubleshooting detail withheld"
+CLM-003,"Replacement displays plus required settings/databases were integrated before the aircraft returned to flight.","Observed / reverified","CFG-D2","E-04;E-05","Exact private software/data versions not public"
+CLM-004,"Garmin G3X material in the period comparison deck is trade-study evidence, not the G900X/G950 aircraft configuration.","Documented / configuration rule","CMP-G3X","E-08","No installed G3X verification is inferred from the deck"
+CLM-005,"Garmin G900X/G950 OEM material supports generic modular architecture understanding but not the exact Super Mushshak wiring or LRU baseline.","Documented / boundary","CFG-G1","E-09;E-10","Exact public aircraft-installed Garmin baseline remains partially reconstructed"
+CLM-006,"The Dynon evaluation record documents repeated customer-evaluation sorties including night operation.","Observed validation context","CFG-D3","E-07","Does not establish certification"
+CLM-007,"ADAHRS compare/attitude-recovery behaviour was observed during high-rate manoeuvre or spin-recovery evaluation and received an OEM functional explanation.","Observed / characterised","CFG-D3","E-06","Final programme closure not reconstructed"
+CLM-008,"CHT/EGT indication fluctuation was observed in association with radio PTT operation and raised with the OEM.","Observed","CFG-D3","E-06","Final corrective-action closure not reconstructed"
+CLM-009,"The retrofit engineering problem included sensing, electrical/mechanical installation, cabling/harness and multiple architecture options in addition to displays.","Documented / derived","Baseline / programme","E-23","Controlled baseline details remain withheld"
+CLM-010,"Later public reporting documents new-customer contracts and a Nigeria delivery described as glass-cockpit equipped.","Public programme documented","Later programme","E-16","Programme context only; no sole-causation claim"

@@ -1,8 +1,9 @@
-decision_id,decision_topic,retrospective_decision_or_rationale,evidence_ids
-DEC-001,Architecture trade space,"Evaluate multiple COTS glass-cockpit architectures against aircraft-level capability, integration, HMI, support and lifecycle factors rather than selecting by display features alone.","E-08;E-10"
-DEC-002,NAV interface,"Use/assess an avionics data-interface path to integrate retained GNS 430-family navigation capability with the Dynon cockpit.","E-03;E-04;E-05"
-DEC-003,Maintenance concept,"Treat spare LRUs and OEM repair/support as part of the fleet support concept; avoid assuming all board-level repair can be performed locally.","E-05"
-DEC-004,Configuration restoration,"Preserve/restore settings and databases after display replacement before re-test/flight.","E-04;E-05"
-DEC-005,Certification fit,"Keep certification/TSO/type-acceptance suitability separate from functional flight performance in customer evaluation.","E-06;E-07;E-10"
-DEC-006,Configuration identity,"Keep the G3X comparison deck separate from the G900X/G950 prototype/evaluation track in the retrospective model.","E-08;E-09;E-10;E-11"
-DEC-007,Public model boundary,"Abstract controlled implementation detail while retaining requirement-interface-verification traceability.","E-01;E-02;E-03;E-04;E-05;E-06;E-07"
+decision_id,decision_topic,retrospective_decision_or_rationale,configuration_scope,evidence_ids
+DEC-001,Architecture trade space,"Evaluate multiple COTS glass-cockpit architectures against aircraft-level capability, integration, HMI, support and lifecycle factors rather than display features alone.","Trade space","E-08;E-09;E-10;E-23"
+DEC-002,NAV interface,"Use/assess an avionics data-interface path to integrate retained navigation capability with the Dynon cockpit.","CFG-D2","E-03;E-04;E-05"
+DEC-003,Maintenance concept,"Treat spare LRUs and OEM repair/support as part of the fleet support concept; do not assume all board-level repair can be performed locally.","Dynon / lifecycle","E-05"
+DEC-004,Configuration restoration,"Restore required settings and databases after display replacement before re-test/flight.","CFG-D2","E-04;E-05"
+DEC-005,Qualification / acceptance fit,"Keep qualification/certification suitability separate from functional flight performance in customer evaluation.","CFG-D3;CFG-G1","E-03;E-06;E-07;E-10"
+DEC-006,Configuration identity,"Keep G3X comparison evidence separate from the G900X/G950 prototype/evaluation track.","CMP-G3X;CFG-G1","E-08;E-09;E-10;E-11"
+DEC-007,Public model boundary,"Abstract controlled implementation detail while retaining requirement-function-interface-configuration-verification traceability.","All","E-01;E-02;E-03;E-04;E-05;E-06;E-07;E-23"
+DEC-008,Issue status discipline,"Do not represent an observed discrepancy as closed when surviving public-safe evidence does not establish final closure.","CFG-D3","E-06"

@@ -1,31 +1,37 @@
 # Visual Asset Provenance
 
-Aircraft/cockpit photographs in this directory originate from the project archive supplied by the repository owner unless explicitly identified as a licensed public-source image.
+Aircraft/cockpit photographs in this directory originate from the **supplied project archive**. No external aircraft imagery is used to substitute for project evidence.
 
-| File | Source | Public processing |
-|---|---|---|
-| dynon-cockpit-prototype-sanitized.jpg | Original Dynon prototype cockpit photograph embedded in period project material | Crop, resize, quality adjustment, internal placard redaction |
-| dynon-pfd-inflight-sanitized.jpg | Original in-flight project photograph | Resize / quality adjustment only |
-| qaef-ground-evaluation-sanitized.jpg | Original Qatar evaluation-period ground photograph | Existing public derivative; retained as customer-evaluation context |
-| mbse-system-architecture.svg | Retrospective model derived from evidence register / structured model | Native vector diagram; no synthetic aircraft imagery |
-| mbse-verification-thread.svg | Retrospective traceability / verification view | Native vector diagram |
-| programme-impact.svg | Retrospective public-programme timeline | Native vector diagram; quantities/value estimates sourced in docs/references.md |
-| configuration-evolution.svg | Retrospective configuration-state model | Native vector diagram derived from model/configurations.csv |
-| traceability-matrix.svg | Requirements × verification cross-reference | Native vector diagram derived from model/traceability.csv and verification.csv |
-| digital-twin-roadmap.svg | Evidence-to-executable follow-on roadmap | Native vector diagram; completed vs planned capability explicitly separated |
-| systems-engineering-lifecycle.svg | Lifecycle view derived from the evidence-backed model and case-study structure | Native vector diagram; retrospective engineering view |
+| File | Source | Public processing | Evidentiary use |
+|---|---|---|---|
+| dynon-cockpit-prototype-sanitized.jpg | Original Dynon prototype cockpit photograph from the project archive | Crop/resize/quality adjustment and narrowly targeted redaction | installed cockpit/configuration context visible in image |
+| dynon-pfd-inflight-sanitized.jpg | Original in-flight project photograph | Resize/quality adjustment only | installed-aircraft display operation visible in image |
+| qaef-ground-evaluation-sanitized.jpg | Original customer-evaluation-period project photograph | Conservative public-release processing | customer/field-evaluation context |
+| system-context.svg | Retrospective systems model | Native vector diagram | stakeholder/system boundary view |
+| functional-decomposition.svg | Retrospective systems model | Native vector diagram | evidence-backed functional hierarchy |
+| mbse-system-architecture.svg | Retrospective systems model | Native vector diagram | public-safe logical architecture |
+| mbse-verification-thread.svg | Retrospective systems model | Native vector diagram | traceability and discrepancy-closure thread |
+| configuration-evolution.svg | Retrospective systems model | Native vector diagram | configuration-state separation |
+| traceability-matrix.svg | Retrospective systems model | Native vector diagram | requirements × verification cross-reference |
+| programme-context.svg | Retrospective programme-context view | Native vector diagram | later public programme context without causal attribution |
+| digital-twin-roadmap.svg | Retrospective digital-engineering view | Native vector diagram | completed vs future digital-thread/twin capability |
+| systems-engineering-lifecycle.svg | Retrospective engineering view | Native vector diagram | aircraft-level lifecycle |
 
 ## Image-release rule
 
-The purpose of sanitisation is to remove **specific sensitive information**, not to make authentic photographs anonymous.
+Permitted processing of authentic photographs is limited to:
 
-For photographs of the repository owner:
+- crop and resize;
+- exposure/contrast correction;
+- sharpening;
+- narrowly targeted redaction of security markings, rank insignia where required, private personal information, unnecessary organisational identifiers/logos, or precise location identifiers that do not add technical evidence.
 
-- redact **rank insignia** where required;
-- retain public-event participants;
-- retain aircraft/cockpit context unless a specific releasability concern is identified;
-- do not blur badges, logos, credentials or people by default merely because they look military.
+Processing must not add, replace or reconstruct aircraft, cockpit, equipment, people, scenery or backgrounds.
 
-Additional original photographs in the archive — including the test-engineer in-flight selfie, cockpit-in-flight imagery and aerial test-flight imagery — may be released after the same conservative evidence and privacy treatment.
+A photograph is used only for what it can substantiate. A cockpit image can support visible configuration context; an in-flight display can support visible installed operation; a ground/customer photograph can support field context. None of these images is promoted into proof of a verification result that is not visible or otherwise linked to source evidence.
 
-**No synthetic aircraft, cockpit, person or scenery is used.** Crop, resize, exposure/contrast correction, sharpening and local redaction are acceptable; generative replacement is not.
+## Derived diagrams
+
+Vector diagrams are allowed because they are explicitly labelled **retrospective engineering views**, not authentic period drawings. Their source is the structured model under `/model`.
+
+**No synthetic aircraft, cockpit, person, equipment or test scene is used.**

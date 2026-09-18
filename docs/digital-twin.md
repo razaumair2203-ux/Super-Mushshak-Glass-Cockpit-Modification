@@ -1,57 +1,51 @@
 # Super Mushshak Digital Twin — Follow-on Work
 
-The digital twin is a **new follow-on effort**, not an artefact from the original glass-cockpit programme.
+The digital twin is a **new follow-on digital-engineering effort**, not an artefact from the original glass-cockpit programme.
 
-The retrofit archive is valuable because it contains real examples of:
-
-- configuration change;
-- interface definition and integration;
-- observed discrepancies;
-- OEM technical resolution;
-- verification events;
-- customer-evaluation constraints;
-- lifecycle/supportability decisions.
-
-These are the inputs needed for a credible digital thread.
+The retrofit archive is valuable because it contains real examples of configuration change, interfaces, observed discrepancies, OEM technical resolution, verification events, customer-evaluation constraints and lifecycle decisions.
 
 ![Digital twin roadmap](../assets/digital-twin-roadmap.svg)
 
-The roadmap deliberately separates **reconstructed historical evidence**, the **digital-thread backbone already being built**, and **future executable-twin capability**. This prevents planned simulation capability from being represented as completed work.
+## Maturity states
 
-## Proposed digital-thread backbone
+### 1. Historical evidence layer — reconstructed
+
+Available now: configuration-state history, requirements/constraints, functional decomposition, logical interfaces, verification events, discrepancy/issue records, decision records and evidence provenance.
+
+### 2. Digital-thread backbone — first public version implemented
+
+The machine-readable `/model` directory provides stable object IDs and typed links across the evidence chain.
+
+The current backbone is tool-agnostic and can later migrate into SysML/Capella/Cameo, a requirements database or a graph model without changing public object identities.
+
+### 3. Executable twin layer — future / incremental
+
+Potential future models include electrical loading, configuration-dependent failure effects, maintenance/health state, selected avionics or flight-data replay, verification-scenario playback and change-impact analysis.
+
+These are **not claimed as complete**.
+
+## Evidence-to-executable rule
+
+No executable parameter is added merely because it would be useful.
+
+Each value must be tagged as measured, documented, derived, assumed for a declared experiment, or unknown.
+
+For the public historical twin, unknown source data remains unknown.
+
+## Proposed thread
 
 ~~~mermaid
 flowchart LR
-    B[Aircraft configuration baseline] --> R[Requirements]
-    R --> LA[Logical architecture]
-    LA --> PA[Physical configuration]
-    PA --> IF[Interfaces / ICD]
-    IF --> V[Verification cross-reference]
-    V --> TE[Test evidence]
-    TE --> CS[As-tested configuration state]
-    CS --> CH[Change / decision history]
-    CH --> R
+    E[Evidence] --> C[Claims]
+    C --> R[Requirements]
+    R --> F[Functions]
+    F --> I[Logical interfaces]
+    I --> B[Configuration baseline]
+    B --> V[Verification / issue]
+    V --> D[Decision / change]
+    D --> B
 ~~~
 
-## Near-term model content
+The public twin will not publish controlled wiring, pinouts, precise internal locations, private correspondence or proprietary implementation data.
 
-1. system boundary and functional decomposition;
-2. public-safe requirements hierarchy;
-3. logical interface model;
-4. configuration-state history;
-5. verification cross-reference matrix;
-6. issue/decision history;
-7. power/weight/environmental parameters only where releasable source data exists;
-8. explicit distinction between measured, documented, derived and unknown information.
-
-The first version of that backbone already exists in this repository under [model](../model/README.md).
-
-## What the twin will not do
-
-The public model will not fabricate missing aircraft data simply to look complete. It will not publish controlled wiring, pinouts, internal locations, proprietary installation detail or sensitive aircraft data.
-
-Where exact historical data is unavailable, the model records an **unknown / not publicly reconstructed** state rather than filling the gap with inference.
-
-## Longer-term direction
-
-If sufficient releasable data becomes available, the next layer can add executable/parametric behaviour such as electrical loading, configuration-dependent failure effects, maintenance state and selected flight/avionics data replay. Those capabilities are future work; they are not claimed as complete today.
+The goal is **configuration-aware engineering continuity**, not a visually complete but unsupported simulation.

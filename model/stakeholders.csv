@@ -1,0 +1,7 @@
+stakeholder_id,stakeholder,need_or_concern,public_scope,evidence_ids
+STK-001,Pilot / instructor,"usable flight/engine information, controls, alerts and training suitability","human-system interaction only; no personal data","E-01;E-07;E-15;E-23"
+STK-002,Integration engineering,"controlled requirements, interfaces, configuration identity, discrepancy closure and evidence","retrospective role/function; organisational detail omitted","E-02;E-03;E-04;E-05;E-06;E-23"
+STK-003,Maintenance / fleet support,"replaceability, spares, repair concept and configuration restoration","support concept only","E-05;E-12;E-23"
+STK-004,Avionics OEM / technical support,"configuration/symptom information sufficient to support integration and troubleshooting","private correspondence content not published","E-02;E-03;E-04;E-05;E-06"
+STK-005,Flight test / evaluation,"known as-tested configuration and traceable observations","public-safe test event level","E-04;E-06;E-07;E-15"
+STK-006,Customer / acceptance authority,"operational suitability and appropriate evidence for acceptance route","private customer deliberations omitted","E-07;E-10"

@@ -1,80 +1,146 @@
 # Systems-Engineering Method
 
-This case study is organised around the aircraft-level engineering lifecycle rather than around isolated equipment features.
+This case study is organised around the **aircraft-level engineering lifecycle**, not around equipment features or presentation material.
 
 ![Systems-engineering lifecycle](../assets/systems-engineering-lifecycle.svg)
 
-## 1. Need and constraints
+## 1. System-of-interest definition
 
-The retrofit problem was to modernise a legacy trainer while preserving aircraft suitability for training, acceptance, maintainability and fleet support. The engineering boundary therefore extended beyond cockpit displays to sensing, retained avionics, aircraft electrical integration, complete harness changes, configuration data, test evidence and lifecycle support.
+The system of interest is the **Super Mushshak glass-cockpit retrofit**. The public boundary includes sensing, displays, navigation/communication integration, retained avionics, aircraft electrical integration, physical installation and modification harness, configuration data, HMI, verification and lifecycle support.
 
-## 2. Requirement normalisation
+The public boundary excludes exact pins, harness routes, controlled drawings, precise internal locations, proprietary implementation detail and private correspondence.
 
-The surviving archive is transformed into public, testable requirement statements only where the evidence supports them. Requirements currently cover:
+See [System context and functional decomposition](system-context-and-functions.md).
 
-- primary flight information;
-- engine/airframe information;
-- NAV/COM integration;
-- electrical integration;
-- configuration restoration;
-- retained-system interfaces;
-- installed-aircraft verification and discrepancy closure;
-- maintainability and OEM support;
-- qualification/certification fit;
-- failure response and redundancy;
-- HMI/training suitability;
-- configuration identity and evidence control.
+## 2. Operational need and constraints
 
-The machine-readable source is [model/requirements.csv](../model/requirements.csv).
+The retrofit addressed modernisation of a legacy training aircraft while retaining suitability for training use, installed-aircraft operation, maintainability and customer/acceptance evaluation.
 
-## 3. Architecture and alternatives
+The surviving record shows that constraints were not limited to display capability. Integration had to consider:
 
-Architecture is modelled as a set of aircraft-level functions and logical interfaces. The important configuration rule is that the **Dynon SkyView** path and the **Garmin G900X/G950-family** path remain separate. A Garmin G3X comparison deck is retained as trade-study evidence only.
-
-The public architecture intentionally omits exact wiring, pins, harness routing, connector detail and precise installation locations.
-
-## 4. Integration
-
-Integration is treated as a multi-domain activity:
-
-- sensing and flight-state data;
-- engine/airframe indication;
-- NAV/COM and retained avionics;
-- aircraft electrical power and protection;
-- audio/alerting;
+- aircraft electrical supply and protection;
+- sensor and engine/airframe measurement paths;
+- retained navigation/communication and other avionics;
+- physical installation and cabling;
 - software, settings and databases;
-- physical installation and harness change;
-- maintainability and LRU replacement.
+- pilot/instructor interaction;
+- qualification / certification suitability;
+- maintenance depth, spares and OEM support.
 
-This is why the programme is represented as an **aircraft retrofit**, not a display replacement.
+## 3. Requirement normalisation
 
-## 5. Verification and discrepancy closure
+Historical evidence is transformed into public requirement statements only when the evidence supports the underlying need. Each requirement has a stable identifier, basis, verification method and evidence links.
 
-Verification follows a closed-loop rule:
+The requirement set covers primary flight information, engine/airframe information, NAV/COM integration, electrical integration, configuration restoration, retained-system interfaces, installed-aircraft V&V, maintainability, qualification/certification fit, failure response, HMI/training suitability and configuration identity.
+
+Source: [model/requirements.csv](../model/requirements.csv).
+
+## 4. Functional decomposition
+
+Functions are separated from equipment so that the architecture remains valid across configuration alternatives.
+
+The top-level functions are:
+
+1. sense flight state;
+2. sense engine/airframe state;
+3. present flight and engine information;
+4. integrate NAV/COM and retained systems;
+5. provide alert/audio and HMI functions;
+6. integrate aircraft electrical and physical/harness changes;
+7. manage software/settings/databases and configuration state;
+8. verify the installed aircraft and close discrepancies;
+9. support maintenance, replacement and OEM interaction.
+
+Source: [model/functions.csv](../model/functions.csv).
+
+## 5. Architecture alternatives
+
+Architecture is modelled as functions and logical interfaces first, then tied to identified configuration states.
+
+The critical configuration rule is:
+
+- **Dynon SkyView** installed-prototype evidence remains on the Dynon branch;
+- **Garmin G900X/G950-family** material remains on its separate prototype/evaluation branch;
+- **Garmin G3X** comparison material is retained as trade-study evidence only.
+
+Generic OEM architecture can inform design understanding but cannot be promoted into aircraft-specific installation evidence.
+
+## 6. Interface control
+
+Interfaces are controlled at the public logical level: power, sensor/data, NAV/COM, transponder, audio/alerts, configuration data, HMI and maintenance/OEM support.
+
+The public record deliberately withholds pin-level implementation and routing detail.
+
+See [Interface control](interface-control.md) and [model/interfaces.csv](../model/interfaces.csv).
+
+## 7. Physical and electrical integration
+
+The retrofit is represented as a real aircraft modification:
+
+- revised sensor-suite integration;
+- instrument/panel and equipment installation;
+- aircraft electrical supply/protection integration;
+- complete modification wiring-harness change;
+- retained-aircraft-system interfaces;
+- software/settings/database loading.
+
+The period engineering record shows that power quality, configuration restoration and cross-domain interference were practical integration issues rather than theoretical concerns.
+
+## 8. Configuration management
+
+An aircraft test result is meaningful only when the hardware/software/database state is identifiable.
+
+Configuration states therefore track:
+
+- prototype branch;
+- significant hardware/LRU change;
+- software/settings/database restoration where evidenced;
+- evaluation/test state;
+- evidence boundary and unresolved unknowns.
+
+See [Configuration management](configuration-management.md).
+
+## 9. Verification and discrepancy closure
+
+The closed-loop rule is:
 
 **identified configuration → installed check / flight event → observation → analysis → disposition → configuration update → re-verification**
 
-Evidence is not generalized across configuration states. A result observed in one hardware/software/database baseline is not claimed for another unless the record supports that link.
+A result observed in one configuration is not inherited automatically by another.
 
-See [Verification and flight test](verification-and-flight-test.md) and [model/verification.csv](../model/verification.csv).
+Where final closure evidence is absent, the issue remains **not publicly reconstructed** rather than being forced to “closed”.
 
-## 6. Validation / customer evaluation
+See [Verification and flight test](verification-and-flight-test.md).
 
-Customer and field evaluation is treated as system validation context rather than as a substitute for technical verification. The Qatar evaluation record demonstrates repeated operational flying while separate certification/acceptance questions remained open.
+## 10. Validation / customer evaluation
 
-## 7. Configuration and evidence control
+Customer evaluation is treated as system-validation context. It can demonstrate repeated operation and expose operational suitability issues, but it does not substitute for qualification or certification evidence.
 
-Every public engineering claim is classified against one of four evidence classes:
+## 11. Evidence and claim control
 
-1. **direct project evidence** — period photographs, correspondence, test/status records;
-2. **OEM/reference evidence** — vendor manuals and architecture documentation;
-3. **derived engineering artefact** — retrospective requirement, interface, architecture or traceability view;
-4. **public programme evidence** — public contract/operator reporting used for downstream programme context.
+Every public claim is linked to one of five states:
 
-Unknown values remain unknown. Generic OEM architecture is not promoted into aircraft-specific installation evidence.
+- **observed** — directly evidenced by project material;
+- **documented** — stated by OEM/reference or public programme source;
+- **derived** — retrospective engineering normalisation from identified evidence;
+- **partially reconstructed** — some evidence exists but the complete historical baseline is not public;
+- **not reconstructed** — evidence is absent, private or insufficient.
 
-## 8. Digital-thread continuation
+The public claim register is [model/claims.csv](../model/claims.csv).
 
-The current follow-on work converts the historical archive into stable model objects with IDs and links across requirements, interfaces, configurations, verification records, decisions and evidence. That structure is the foundation for progressively higher-fidelity digital-twin work where releasable data exists.
+## 12. Quality gate
 
-See [Digital twin follow-on](digital-twin.md).
+Before publication, each artefact is checked for:
+
+- technical correctness;
+- configuration identity;
+- evidence provenance;
+- readability at normal GitHub scale;
+- link integrity;
+- terminology consistency;
+- public-release suitability;
+- duplication;
+- unsupported claims;
+- actual systems-engineering value.
+
+The aim is an auditable technical record, not diagram density.

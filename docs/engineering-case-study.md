@@ -2,144 +2,132 @@
 
 ## Engineering problem
 
-Modernising a legacy trainer with a glass cockpit is an **aircraft-level retrofit programme**, not a display-swap exercise. Bench-compatible COTS equipment can still fail at aircraft level because power quality, sensors, retained avionics, physical installation, databases, configuration state, pilot/instructor HMI, qualification evidence, maintainability and flight behaviour interact.
+Modernising a legacy trainer with a glass cockpit is an **aircraft retrofit programme**, not a display-swap exercise.
 
-The modification boundary therefore included:
+The design problem spans several coupled domains:
 
-- primary flight-state sensing and presentation;
+- flight-state sensing and presentation;
 - engine/airframe sensing and indication;
-- navigation and communication equipment;
+- navigation and communication integration;
+- retained avionics;
 - aircraft electrical supply, protection and transient behaviour;
-- cockpit displays, controls, audio and alerting;
-- avionics data interfaces;
-- complete aircraft wiring/harness and associated installation changes;
-- software, settings and database configuration;
+- cockpit HMI, audio and alerting;
+- physical installation and complete modification-harness change;
+- software, settings and databases;
 - maintainability, spares and OEM support;
-- installed-aircraft verification and discrepancy closure;
-- flight-test feedback and customer evaluation.
+- installed-aircraft verification, flight test and customer evaluation.
 
-## Role and engineering accountability
+This coupling is the reason a functionally capable COTS avionics suite can still create aircraft-level integration risk.
 
-I served as the **lead systems engineer** for the modification and also performed hands-on avionics integration/test activity. Surviving period correspondence identifies me operationally as an **Integration Engineer** during the early Dynon work.
+## Engineering responsibility represented
 
-The role is demonstrated through the engineering chain rather than through an unsupported title claim: architecture decisions, interface questions, installed-aircraft discrepancies, configuration restoration, OEM resolution, flight-test feedback and customer evaluation are traceable to surviving evidence.
+The reconstruction represents **lead systems-engineering and hands-on avionics integration/test responsibility** across architecture, interface definition, installation, troubleshooting, configuration restoration, OEM coordination, flight-test feedback and customer evaluation.
 
-## System boundary and interfaces
+The role statement is kept separate from the evidence model: technical claims still require project, OEM, public-source or derived evidence.
 
-![Public-safe logical architecture](../assets/mbse-system-architecture.svg)
+## Context and functional architecture
 
-This is the public-safe logical view of the retrofit. It is deliberately large enough to be read on GitHub without opening a tiny embedded diagram.
+![System context](../assets/system-context.svg)
 
-The architecture separates:
+![Functional decomposition](../assets/functional-decomposition.svg)
 
-1. **aircraft baseline** — power, retained avionics and audio;
-2. **sensor suite** — air-data/attitude-heading and engine/airframe sensing;
-3. **retrofit avionics** — displays, NAV/COM interface layer and configuration data;
-4. **human system** — pilot/instructor HMI and alerts;
-5. **verification system** — ground checks, flight test and discrepancy feedback;
-6. **lifecycle system** — OEM support, spares, LRU replacement and configuration restoration.
+The model begins with the aircraft and stakeholders, then decomposes the retrofit into functions. Equipment is introduced only at configuration level. This prevents a vendor reference architecture from being mistaken for the aircraft design.
 
-Exact wiring, connector, pinout and installation-location data are intentionally omitted.
+## Baseline characterisation
+
+A period first-modification completion report contains detailed analysis of the legacy cockpit, avionics, electrical and mechanical installation. The report is not published because it contains security markings and implementation detail.
+
+Only high-level facts needed for the public engineering model are retained:
+
+- the baseline used conventional flight/engine instruments and separate avionics functions;
+- replacement required analysis of instrument/sensor interfaces;
+- electrical capacity and protection were integration constraints;
+- panel/equipment installation and cabling were part of the modification problem;
+- multiple architectural approaches were considered.
+
+Exact baseline equipment lists, antenna locations, load tables, detailed installation data and controlled markings remain outside this repository.
 
 ## Architecture alternatives and configuration identity
 
-Two genuine prototype/evaluation tracks are kept separate:
+### Dynon SkyView
 
-- **Dynon SkyView** — strongest surviving installed-aircraft and flight-test evidence;
-- **Garmin G900X/G950 family** — separate integrated-flight-deck prototype/evaluation path.
+This branch has the strongest surviving installed-aircraft evidence: cockpit and in-flight photographs, troubleshooting correspondence, interface/configuration exchanges, flight-test feedback and customer-evaluation evidence.
 
-A 2012 **Garmin G3X** comparison deck is retained only as a trade-study artefact. It is not renamed to make the Garmin prototype look better or simpler. This distinction matters because systems-engineering evidence loses value if configuration identities are merged retrospectively.
+### Garmin G900X/G950 family
 
-## What the surviving record demonstrates
+This is a separate prototype/evaluation path. OEM documentation supports the family’s modular integrated-flight-deck architecture, but the exact public aircraft-installed baseline is only partially reconstructed.
 
-### 1. Installed-aircraft integration
+### Garmin G3X comparison
 
-The Dynon SkyView suite was installed and flown on the aircraft. An early troubleshooting exchange records that the aircraft flew two sorties before a display/power-related failure was observed on a subsequent engine start. This is direct evidence of an installed-aircraft prototype, not a laboratory-only demonstrator.
+The G3X appears in period comparison material. It is retained as a **candidate/trade-study artefact**, not relabelled as the G900X/G950 aircraft configuration.
 
-### 2. Interface engineering
+The rule is simple: **architecture similarity does not erase configuration identity**.
 
-The archive contains direct technical exchanges covering:
+## Interface engineering
 
-- Garmin GNS 430-family integration;
-- ARINC-429 interfacing;
-- transponder interfacing;
-- audio/alert-output questions;
-- synthetic-vision and terrain-database behaviour;
-- display/database configuration;
-- sensor and engine-indication behaviour.
+The surviving archive supports aircraft-level interface work involving aircraft electrical power/protection, flight-state sensing, engine/airframe sensing, NAV/COM integration, retained navigation, transponder, audio/alerting, software/settings/data and maintenance/OEM support.
 
-The public model abstracts those interfaces rather than exposing implementation detail.
+The public interface register deliberately omits exact pins and wiring.
 
-### 3. Electrical integration and fault closure
+See [Interface control](interface-control.md).
 
-The early prototype experienced a display power/internal-voltage failure during aircraft operation. Troubleshooting covered aircraft power delivery, protection, hardware replacement, configuration restoration and re-test. The lesson is aircraft-level: **COTS avionics capability does not remove platform integration risk**.
+## Electrical integration and discrepancy investigation
 
-### 4. Configuration management
+The early Dynon configuration flew before a later engine-start event produced a display internal-voltage/power-related discrepancy. The surviving troubleshooting chain shows a real aircraft integration process: symptom capture, aircraft-power checks, OEM support, hardware replacement, restoration of configuration data and return to flight.
 
-After replacement displays were received, settings and databases had to be restored deliberately. OEM correspondence discusses backup settings, EMS configuration, terrain data and individual display state. The same physical aircraft could therefore behave differently depending on hardware/software/database state.
+The public case study does not publish connector/pin information from those exchanges.
 
-The retrospective model records those states separately rather than writing a single timeless “prototype configuration.”
+## Configuration restoration
 
-### 5. Maintainability and lifecycle support
+Replacement displays did not mean “swap and go”. Settings and databases had to be restored deliberately. The evidence also distinguishes data that had to be loaded per display from settings recoverable from backup.
 
-The team asked the OEM how failed modules would be supported at fleet scale, what maintenance depth was realistic, and whether spares/LRU exchange was preferable to local board-level repair. This moves the trade space beyond purchase price into **availability, repair concept and fleet supportability**.
+That makes hardware, software/settings and databases all part of the **as-tested configuration**, not administrative metadata.
 
-### 6. Qualification and certification fit
+## Retained-system and cross-domain behaviour
 
-The archive includes questions on environmental qualification, TSO status and suitability for the intended customer/aircraft context. Functional performance and certification/acceptance suitability were therefore treated as separate engineering questions.
+The record includes NAV interface work, transponder/audio questions and later cross-domain observations in which a radio-transmit action coincided with engine-indication fluctuation.
 
-### 7. Flight-test feedback
+The final closure of that later interference issue is **not publicly reconstructed** and is not claimed.
 
-Flight-test observations were returned to engineering/OEM support and used to refine the configuration. Later records cover ADAHRS cross-check behaviour during performance testing/high-rate manoeuvre, EMS indication interference associated with radio PTT, and continued customer-evaluation flying.
+## Flight-test and customer-evaluation loop
 
-![Evidence-to-verification digital thread](../assets/mbse-verification-thread.svg)
+The project progressed from installed prototype operation to continued flight feedback, performance testing and customer evaluation.
 
-This is the central engineering loop:
+A later high-rate-manoeuvre/spin-related ADAHRS observation received an OEM functional explanation. The repository records the observation and explanation but does not invent a final acceptance disposition.
 
-**known configuration → test/flight event → observation → analysis/OEM coordination → disposition → configuration change → re-test**
+The Qatar evaluation record supports repeated sorties, including night operation. That is validation context; it is not presented as certification approval.
 
-## Original visual evidence
+## Maintainability and support
 
-The repository prioritises **authentic photographs** over decorative imagery:
+The team explicitly considered how failed LRUs would be repaired, whether spares should support aircraft-on-ground recovery and how configuration would be restored after replacement.
 
-- installed Dynon prototype cockpit;
-- in-flight Dynon display;
-- Qatar customer-evaluation period;
-- period cockpit-in-flight / aerial test-flight archive;
-- test-engineer in-flight context.
+This expands the architecture trade space from acquisition capability to **availability, repair concept, logistics and configuration sustainment**.
 
-An aerial or personal photograph is used only for what it proves: **flight/test context and participation**. It is not silently promoted into configuration or verification evidence.
+## Qualification and certification fit
 
-## Programme scale after the early retrofit work
+The archive includes questions concerning environmental qualification, TSO status and customer/type-acceptance suitability. Functional flight performance and acceptance/certification suitability are therefore represented as separate engineering concerns.
 
-![Programme impact timeline](../assets/programme-impact.svg)
-
-Public records document **80 aircraft in four new-customer contracts during 2016–2017**: Nigeria 10, Qatar 8, Türkiye 52 and Azerbaijan 10. Public reporting also records Super Mushshak already in service with Saudi Arabia, Oman, Iran and South Africa, giving a documented 2017 foreign customer/service footprint across at least eight countries.
-
-Nigeria's first delivery was explicitly reported as **glass-cockpit equipped**. That is useful evidence of product-modernisation continuity.
-
-Two public value estimates — Nigeria at about **US$10.2m** and Türkiye at around **US$2m per aircraft** — imply more than **US$114m** for those two deals alone. The repository does not invent values for Qatar or Azerbaijan and does not attribute programme revenue to a single engineer.
+The repository does not claim certification status beyond what the source record supports.
 
 ## Evidence-to-model chain
 
-The public MBSE reconstruction converts surviving evidence into linked model objects:
+The retrospective digital thread is:
 
-**evidence → requirement → interface → configuration → verification → decision**
+**evidence → claim → requirement → function → interface → configuration → verification / issue → decision**
 
-The machine-readable files under [model](../model/README.md) give each object a stable ID so the diagrams are views of an auditable model rather than presentation graphics.
+Each object has a stable ID under [model](../model/README.md).
 
-## What is not claimed
+## What is deliberately not claimed
 
 This case study does not claim that:
 
 - the public diagrams are original programme drawings;
-- SysML/MBSE tooling was used on the original programme;
-- the G3X comparison configuration was the G900X/G950 prototype;
-- generic Garmin reference architecture proves the exact aircraft-installed LRU set;
-- an aerial/test-engineer photograph proves a technical test result by itself;
-- the early retrofit or one engineer alone caused later export sales;
-- private/customer/OEM records are public-release material.
+- formal SysML/MBSE tooling was used during the original programme;
+- the G3X comparison candidate was the G900X/G950 prototype;
+- generic Garmin interconnect diagrams reproduce the Super Mushshak wiring;
+- every historical discrepancy has a surviving closure record;
+- customer evaluation proves certification;
+- later export contracts were caused by one early prototype or one engineer;
+- private correspondence or controlled source documents are public-release material.
 
-The engineering value is the complete chain:
-
-**need → trade study → architecture → interfaces → installation → configuration control → verification → discrepancy closure → customer evaluation → downstream programme context → digital-thread reconstruction**
+The engineering record is valuable because the **boundaries and unknowns are explicit**.

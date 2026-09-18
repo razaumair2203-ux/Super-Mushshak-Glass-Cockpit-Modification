@@ -1,92 +1,90 @@
 # Verification and Flight Test
 
-The surviving project record shows an **iterative installed-aircraft verification loop**, not a one-time installation.
+The surviving project record supports an **iterative installed-aircraft verification loop** rather than a one-time installation demonstration.
 
 ![Evidence-to-verification digital thread](../assets/mbse-verification-thread.svg)
 
-The key systems-engineering rule used in the reconstruction is simple: **a verification observation belongs to the configuration in which it was made**.
+The principal rule is:
+
+> **A verification observation belongs to the configuration in which it was made.**
+
+## Verification-event register
+
+| Verification ID | Configuration | Event / observation | Public status |
+|---|---|---|---|
+| VER-001 | CFG-D1 | early installed-aircraft SkyView operation; two sorties recorded before a later discrepancy | **Observed** |
+| VER-002 | CFG-D1 | display internal-voltage/power-related indication on a later engine start | **Observed; investigation initiated** |
+| VER-003 | CFG-D2 | replacement displays plus settings/databases restored; aircraft returned to flight | **Reverified by return to flight** |
+| VER-004 | CFG-D2 | synthetic-vision / terrain / configuration behaviour assessed during continuing integration | **Observed / supported; exact acceptance record not published** |
+| VER-005 | CFG-D3 | ADAHRS compare / attitude-recovery behaviour during high-rate manoeuvre or spin recovery | **Observed; OEM behaviour explanation recorded; final programme closure not reconstructed** |
+| VER-006 | CFG-D3 | short-duration CHT/EGT indication fluctuation associated with radio PTT operation | **Observed; OEM engaged; final closure not reconstructed** |
+| VER-007 | CFG-D3 | repeated customer-evaluation sorties, including night operation | **Observed validation context** |
+| VER-008 | CFG-G1 | G900X/G950 architecture/configuration review | **Documented architecture/configuration evidence; not flight verification** |
+
+Source: [model/verification.csv](../model/verification.csv).
 
 ## Early Dynon prototype
 
-An original 2010 troubleshooting exchange records that the SkyView-equipped aircraft had flown **two sorties** before a display-related internal-voltage/power failure appeared on a later engine start.
+A 2010 troubleshooting exchange records that the SkyView-equipped aircraft flew **two sorties** before a display-related internal-voltage/power indication appeared on a later engine start.
 
-That event generated a real engineering chain:
+The public record preserves the engineering chain without exposing connector-level troubleshooting detail:
 
-**symptom → aircraft-power checks → OEM troubleshooting → hardware replacement → settings/database restoration → re-integration → flight**
-
-This is materially stronger evidence than a photograph of a powered-up panel because it shows installed operation, failure, troubleshooting, configuration recovery and re-test.
+**symptom → aircraft-power checks → OEM troubleshooting → replacement hardware → configuration/data restoration → re-flight**
 
 ## Reconfiguration and return to flight
 
-After replacement displays and an ARINC interface unit were received, the team reinstalled the equipment, loaded databases/settings and returned the aircraft to flight. A December 2010 exchange records the first sortie after that reconfiguration and asks the team to continue feeding flight-test results back to the OEM.
+After replacement displays and interface equipment were received, the team reinstalled the equipment, loaded required databases/settings and returned the aircraft to flight. The surviving record explicitly asks for continuing flight-test feedback to the OEM.
 
 ![In-flight Dynon PFD](../assets/dynon-pfd-inflight-sanitized.jpg)
 
-*Original in-flight project photograph. No synthetic content.*
+*Authentic in-flight project photograph. It supports visible installed operation; the technical event claims come from the project record.*
 
 ## Interface and HMI verification topics
 
-Surviving exchanges show installed-aircraft questions or checks involving:
+Surviving exchanges include installed-aircraft work involving navigation-data / avionics-interface integration, retained transponder interoperability, audio-alert path, moving-map/synthetic-vision behaviour, terrain/database loading, configuration transfer, sensor/engine-indication behaviour and maintainability/replacement strategy.
 
-- ARINC-429 / GNS 430-family integration;
-- legacy transponder interface;
-- audio-alert output;
-- moving-map and synthetic-vision behaviour;
-- terrain/database installation;
-- configuration transfer after display replacement;
-- sensor/engine indication behaviour;
-- maintainability and replacement strategy.
+Exact pins, connector data and harness routes are deliberately omitted.
 
-Exact wiring, connector and pin data remain private.
+## Performance testing and ADAHRS behaviour
 
-## 2012 performance and customer evaluation
+Ahead of customer deployment, the aircraft was undergoing performance testing. During later evaluation, a high-rate-manoeuvre/spin-related attitude-recovery / compare behaviour was raised with the OEM.
 
-Before Qatar deployment, correspondence records the aircraft undergoing performance testing. During the Qatar evaluation period, direct technical exchanges describe repeated daily sorties in hot/humid conditions and troubleshooting of ADAHRS cross-check behaviour during high-rate manoeuvre/spin recovery.
+The OEM provided an explanation of vendor-system behaviour under high rotational rate. That supports **characterisation of the observation**. It does not by itself establish final programme acceptance or closure, so the public issue remains “final closure not reconstructed”.
 
-Another issue concerned short-duration engine-indication fluctuations associated with radio PTT operation. The technical importance is the **cross-domain coupling**: a communications action affected an engine-indication path, requiring aircraft-level investigation rather than isolated LRU testing.
+## PTT-associated engine-indication interference
 
-By 12 November 2012, surviving status correspondence records **10 evaluation sorties**, including a night-flying mission, with an additional night sortie planned.
+The record also documents short-duration CHT/EGT indication fluctuations associated with radio PTT operation.
 
-![Qatar ground evaluation](../assets/qaef-ground-evaluation-sanitized.jpg)
+This is an aircraft-level verification example because it crosses subsystem boundaries: a communications action coincided with an engine-indication disturbance. The issue was raised with the OEM.
 
-*Original customer-evaluation-period ground photograph. Used as evaluation context; the technical claim comes from the test record, not from the photograph alone.*
+The surviving public-safe record does **not** establish final corrective-action closure, so none is invented.
 
-## How the additional flight photographs should be used
+## Customer evaluation
 
-The archive also contains cockpit-in-flight, aerial test-flight and a test-engineer selfie. These are valuable, but their evidentiary role must be precise:
+By 12 November 2012, surviving status correspondence records **10 evaluation sorties**, including a night-flying mission. Separate correspondence during the evaluation describes repeated daily flying.
+
+![Customer-evaluation ground photograph](../assets/qaef-ground-evaluation-sanitized.jpg)
+
+*Authentic project photograph used as evaluation context. It does not prove a performance result by itself.*
+
+Customer evaluation is modelled as validation context. It does not prove certification or qualification status.
+
+## Photograph-evidence rule
 
 | Photograph type | Strong claim it can support | Claim it should not support by itself |
 |---|---|---|
-| Cockpit in flight with avionics visible | installed configuration / flight operation visible in image | exact test result unless tied to test record |
-| Aerial test-flight image | period flight/test operating context | specific avionics configuration |
-| Test-engineer in-flight image | participation and flight-test context | sole authorship or technical verification result |
-| Customer-evaluation ground image | field/customer context | performance result not visible in image |
+| cockpit in flight with avionics visible | visible installed configuration / flight operation | exact test result without linked record |
+| display close-up in flight | visible display mode / installed operation | full system acceptance |
+| aerial test-flight image | period flight/test context | specific avionics configuration |
+| test-engineer image | participation / test context | sole authorship or verification result |
+| customer-evaluation ground image | field/customer context | a performance result not visible in the image |
 
-For the repository owner's images, release processing is limited to crop/quality correction and **rank-insignia redaction where required**.
+## Traceability
 
-## Verification objects in the structured model
+The [traceability file](../model/traceability.csv) connects verification objects to requirements, functions, interfaces, configurations, issues, decisions and evidence.
 
-The machine-readable [verification register](../model/verification.csv) currently distinguishes:
-
-- early installed-flight operation;
-- ground discrepancy after engine start;
-- replacement/reconfiguration and return to flight;
-- HMI/synthetic-vision behaviour after configuration work;
-- ADAHRS/performance-flight observation;
-- PTT-related cross-domain engine-indication interference;
-- Qatar repeated customer-evaluation sorties;
-- Garmin-family architecture/configuration review.
-
-The [traceability file](../model/traceability.csv) connects these verification objects back to requirements, interfaces, configurations and evidence IDs.
+The [issues register](../model/issues.csv) separately records discrepancy status so an observation cannot silently become a “closed” result.
 
 ## Public-release boundary
 
-Verification depth is demonstrated without publishing:
-
-- exact pins or harness routing;
-- controlled acceptance procedures;
-- customer-private correspondence;
-- precise internal equipment locations;
-- proprietary vendor implementation data.
-
-The public objective is to show **how verification was structured and closed**, not to reproduce controlled test documentation.
+The verification record demonstrates method and technical depth without publishing controlled acceptance procedures, exact wiring/pin data, private customer correspondence, precise internal equipment locations or proprietary vendor implementation data.

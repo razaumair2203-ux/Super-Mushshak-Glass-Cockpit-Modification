@@ -1,0 +1,5 @@
+issue_id,configuration_id,issue_summary,first_observed_in,status,disposition_boundary,evidence_ids
+ISS-001,CFG-D1,"Display internal-voltage/power-related discrepancy after earlier installed-aircraft sorties",VER-002,"Reverified after hardware/configuration action","Replacement/reconfiguration and return to flight evidenced; detailed root cause and repair data not published","E-02;E-04"
+ISS-002,CFG-D2,"Settings/database restoration and display-state management after replacement hardware",VER-003,"Reverified in continuing integration","Required restoration activity evidenced; exact private configuration files/versions not published","E-04;E-05"
+ISS-003,CFG-D3,"ADAHRS compare / attitude-recovery behaviour during high-rate manoeuvre or spin recovery",VER-005,"Final closure not reconstructed","OEM functional explanation evidenced; final acceptance disposition not asserted","E-06"
+ISS-004,CFG-D3,"CHT/EGT indication fluctuation associated with radio PTT operation",VER-006,"Final closure not reconstructed","OEM engaged; surviving public-safe evidence does not prove final corrective-action closure","E-06"

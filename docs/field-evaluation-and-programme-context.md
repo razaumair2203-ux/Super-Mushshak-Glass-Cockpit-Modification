@@ -1,81 +1,55 @@
 # Customer Evaluation and Programme Context
 
-## Qatar customer evaluation
+## Customer evaluation
 
-The surviving project archive provides unusually strong evidence for the customer-evaluation phase.
+The surviving project archive provides direct evidence that the Dynon-configured aircraft progressed into customer evaluation after earlier integration and performance-test activity.
 
-In September 2012, correspondence records the aircraft undergoing performance testing ahead of deployment to Qatar. During the subsequent evaluation in Doha, technical exchanges describe the aircraft flying **3–4 sorties per day** in hot/humid conditions while engineering issues were being fed back to the OEM.
+During the evaluation period, technical exchanges describe repeated flying in hot/humid conditions while configuration-specific observations were fed back to the OEM.
 
-By 12 November 2012, an internal status exchange records **10 evaluation sorties**, including a night-flying mission, with another night sortie planned.
+By 12 November 2012, a surviving status record documents **10 evaluation sorties**, including a night-flying mission.
 
-The evaluation exposed a key systems-engineering distinction: **functional performance is not the same as certification acceptability**. Questions around TSO/type-certification suitability became material to the customer's decision process even while the aircraft continued to demonstrate avionics functionality in flight.
+![Customer-evaluation ground photograph](../assets/qaef-ground-evaluation-sanitized.jpg)
 
-![Qatar evaluation ground photograph](../assets/qaef-ground-evaluation-sanitized.jpg)
+*Authentic project photograph from the evaluation period. It is used as customer/field context; it is not treated as proof of a result that is not visible in the image.*
 
-*Original photograph from the Qatar evaluation period. Used as customer-evaluation / programme context; it is not treated as proof of a configuration that is not visible in the image.*
+## Validation versus verification
 
-## Flight-test and operational-context imagery
+Customer evaluation is treated as **validation context**:
 
-The surviving archive contains period cockpit-in-flight, display-in-flight, aerial test-flight and test-engineer photographs. These are useful because they establish that the engineering work moved beyond desk architecture into an **installed aircraft being flown, observed and iterated**.
+- it demonstrates operation in a customer environment;
+- it exposes operational-suitability and HMI issues;
+- it can generate new engineering observations;
+- it does not replace controlled technical verification;
+- it does not by itself establish certification or type-acceptance status.
 
-Evidence discipline still matters:
+## Flight-test imagery
 
-- an in-flight display photograph may support installed-function evidence;
-- a cockpit-in-flight image may support configuration and test context if the equipment is visible;
-- an aerial photograph may support test-flight context, but should **not** be used to assert a specific avionics configuration by itself;
-- a test-engineer photograph is contextual evidence of participation, not proof of a technical requirement or test result.
+Additional authentic archive imagery includes cockpit-in-flight, aerial test-flight and test-engineer photographs. Their evidentiary use is deliberately bounded: visible cockpit/configuration evidence only where visible; aerial and personal photographs remain contextual.
 
-For public photographs of the repository owner, redaction should be limited to **rank insignia or a specifically identified sensitive detail**. Public-event participants should not be blanked simply because they are in uniform.
+## Later public programme context
 
-## Dubai Airshow support
+Public records document four new-customer contracts during 2016–2017:
 
-The archive contains an original Dubai Airshow display/support photograph associated with the Super Mushshak programme. A previously over-redacted public derivative is not used here. The correct release treatment is to preserve the public-event context and other participants, with only the repository owner's rank insignia redacted where required.
+| Customer | Publicly reported quantity |
+|---|---:|
+| Nigeria | 10 |
+| Qatar | 8 |
+| Türkiye | 52 |
+| Azerbaijan | 10 |
+| **Total** | **80** |
 
-The photograph is programme-context evidence; it is not treated as proof of a particular technical configuration.
+A public report on the first Nigeria delivery explicitly described the delivered Super Mushshak aircraft as **glass-cockpit equipped**.
 
-## Later public programme outcome
+This later record demonstrates that glass-cockpit modernisation became part of a subsequent exported product configuration. It does **not** establish that the early prototype was reproduced unchanged, and it does not support sole-causation by an individual engineer or prototype team.
 
-The downstream programme record is large enough to show why the early modernisation work matters, while keeping attribution disciplined.
+![Programme context](../assets/programme-context.svg)
 
-![Programme impact timeline](../assets/programme-impact.svg)
+## Attribution boundary
 
-### 2016–2017 documented new-customer contracts
+The technical contribution represented by this repository remains bounded to the evidence-backed early systems engineering, avionics integration, installed-aircraft test/trials, OEM coordination and customer-evaluation activity.
 
-| Customer | Publicly documented quantity | Public evidence |
-|---|---:|---|
-| Nigeria | 10 | APP reported a 10-aircraft contract plus operational training and technical support |
-| Qatar | 8 | APP / Ministry of Defence Production reported a deal for eight Super Mushshak aircraft |
-| Türkiye | 52 | APP reported the signed 52-aircraft Turkish Air Force contract |
-| Azerbaijan | 10 | APP reported a 10-aircraft sale with training and technical support |
-| **Total** | **80** | Four documented new-customer contracts |
-
-APP's July 2017 Azerbaijan report also stated that Super Mushshak was already in service with **Saudi Arabia, Oman, Iran and South Africa** and that agreements had recently been signed with **Türkiye, Nigeria and Qatar**. With Azerbaijan added, that yields a documented **2017 foreign customer/service footprint across at least eight countries**. This is deliberately framed as a historical footprint, not an assertion that every country has the same current fleet status today.
-
-### Evidence of glass-cockpit product continuity
-
-APP reported that the first four Super Mushshak aircraft handed over to Nigeria in December 2016 were **equipped with a glass cockpit and enhanced environmental-control system**. This is important programme-level evidence that glass-cockpit modernisation became part of a later export configuration.
-
-It does **not** prove that one early prototype was reproduced unchanged, nor does it make one engineer the sole cause of later sales.
-
-### Publicly estimable commercial scale
-
-Public contract values are incomplete, so this repository does not invent a programme revenue total.
-
-Two useful public estimates exist:
-
-- **Nigeria:** Defense News reported that Nigeria's 2016 defence budget estimated the 10 Super Mushshak trainers at **US$10.2 million**.
-- **Türkiye:** Anadolu Agency reported that the 52 aircraft were estimated at **around US$2 million each**, implying about **US$104 million** for the aircraft quantity.
-
-Those two estimates alone imply **more than US$114 million** in aircraft value. No reliable public contract values are asserted here for Qatar or Azerbaijan.
-
-This is **programme-level commercial context**, not “revenue generated by me.” The individual contribution claimed here remains the documented early systems engineering, integration, prototype, test/trials and customer-evaluation work.
-
-## Public operator photograph
-
-<img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/PAC%20MFI-17%20Super%20Mushshak%20Turkish%20Air%20Force.jpg" alt="Turkish Air Force Super Mushshak" width="760">
-
-*Turkish Air Force Super Mushshak; photograph by CeeGee, 29 April 2023, Wikimedia Commons, CC BY-SA 4.0. Used under licence as public operator evidence.*
+Later contracts are programme context only.
 
 ## Sources
 
-See [Sources and Public-Release Boundary](references.md) for the source links and evidence rules.
+See [Sources and Public-Release Boundary](references.md).

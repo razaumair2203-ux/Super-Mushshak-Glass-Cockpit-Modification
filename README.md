@@ -34,7 +34,7 @@ The central engineering problem was managing interfaces between the existing air
 | Avionics integration | Displays, navigation/communication equipment and associated interfaces |
 | Electrical & installation | Power, protection, equipment installation and aircraft wiring harness |
 | Human-machine interface | Instructor/student usability, readability and cockpit layout |
-| Verification | Integration checks, ground run, flight test and defect closure |
+| Verification | Integration checks, ground run, flight test and re-test |
 | Configuration | Prototype changes, interface consistency and repeatable aircraft configuration |
 
 More detail is provided in [Systems Engineering Case Study](docs/engineering-case-study.md) and [Architecture Trade Study](docs/architecture-trade-study.md).

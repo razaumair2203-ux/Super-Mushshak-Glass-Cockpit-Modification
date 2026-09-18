@@ -1,6 +1,6 @@
 # Integration Risk Register
 
-This is a **retrospective, evidence-bounded risk view** of the retrofit. It is not represented as an original programme FHA, FMEA or formal safety assessment.
+This register reconstructs the principal aircraft-integration risks visible in the surviving project record. It is a retrospective engineering view, separate from the original programme safety documentation.
 
 The purpose is to show how real aircraft-integration risks emerged across disciplines and how they were controlled through interface definition, configuration control, troubleshooting and re-verification.
 
@@ -21,9 +21,6 @@ The risk pattern demonstrates that the programme was not a display substitution.
 
 That is the systems-engineering problem: a functionally capable COTS suite can still fail at aircraft level if power quality, interfaces, as-tested configuration, human interaction and supportability are not controlled together.
 
-## Boundary
+## Scope
 
-- No probability or severity numbers are invented.
-- No formal hazard classification is claimed where the surviving archive does not support one.
-- No pin-level, harness-route or controlled implementation detail is published.
-- An observed discrepancy is not called closed unless the public-safe evidence supports closure.
+The public register stays at aircraft-integration level: electrical behaviour, sensing, avionics interfaces, configuration state, HMI and supportability. Probability/severity scoring, controlled wiring detail and proprietary implementation data are outside this public reconstruction.

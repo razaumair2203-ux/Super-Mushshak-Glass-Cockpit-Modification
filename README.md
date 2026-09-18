@@ -178,7 +178,7 @@ Not every historical issue has a surviving final closure record. The model there
 
 ![Requirements to verification cross-reference](assets/traceability-matrix.svg)
 
-See [Verification and flight test](docs/verification-and-flight-test.md) and [Traceability and V&V](docs/traceability-and-vv.md).
+See [Verification and flight test](docs/verification-and-flight-test.md), [Traceability and V&V](docs/traceability-and-vv.md), and the [Assurance and closure summary](docs/assurance-closure-summary.md).
 
 ## Authentic installed-aircraft and field evidence
 
@@ -280,6 +280,7 @@ See [Digital twin follow-on](docs/digital-twin.md).
 - [Configuration management](docs/configuration-management.md)
 - [Verification and flight test](docs/verification-and-flight-test.md)
 - [Traceability and V&V](docs/traceability-and-vv.md)
+- [Assurance and closure summary](docs/assurance-closure-summary.md)
 - [Integration risk register](docs/integration-risk-register.md)
 - [Customer evaluation and programme context](docs/field-evaluation-and-programme-context.md)
 - [Independent public glass-cockpit and operator evidence](docs/public-operator-evidence.md)

@@ -69,7 +69,7 @@ The register intentionally uses logical interface names rather than publishing p
 
 ![Configuration evolution](../assets/configuration-evolution.svg)
 
-The historical programme is separated into:
+The programme configuration model separates:
 
 - legacy aircraft baseline;
 - early Dynon installed configuration;
@@ -93,11 +93,11 @@ This separation matters:
 - **ISS-###** = something observed;
 - **RSK-###** = the engineering exposure that must be controlled.
 
-No historical formal safety process is invented.
+Controlled programme safety artefacts are not reproduced in the public model.
 
 ## Decision model
 
-Decision records capture recoverable engineering rationale such as:
+Decision records capture engineering rationale such as:
 
 - using/assessing an avionics interface for retained navigation integration;
 - treating LRU spares/OEM exchange as part of the maintenance concept;
@@ -124,4 +124,4 @@ The diagrams are views. The model is the linked data underneath them:
 
 The CSV objects can later migrate into SysML/Capella/Cameo, a requirements tool or graph database without changing their public identities.
 
-The quality criterion is **stable identity, evidence provenance, configuration specificity, traceability, risk discipline and explicit handling of unknowns**.
+The quality criterion is **stable identity, evidence provenance, configuration specificity, traceability, risk discipline and controlled handling of unpublished detail**.

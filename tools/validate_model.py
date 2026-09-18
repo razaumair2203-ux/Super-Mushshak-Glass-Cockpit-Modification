@@ -7,7 +7,8 @@ Checks:
 3. singular/plural ID references resolve to known objects;
 4. typed-link source/target IDs resolve;
 5. local Markdown links and image paths resolve;
-6. external embedded images are rejected so recruiter-facing visuals remain repository-local;\n7. weak salvage/reconstruction language is rejected from recruiter-facing Markdown/SVG assets.
+6. external embedded images are rejected so recruiter-facing visuals remain repository-local;
+7. weak salvage/reconstruction language is rejected from recruiter-facing Markdown/SVG assets.
 
 Uses Python standard library only.
 """
@@ -42,6 +43,17 @@ MODEL_FILES = OBJECT_FILES + RELATION_FILES
 MARKDOWN_LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE_RE = re.compile(r"!\[[^\]]*\]\((https?://[^)]+)\)", re.IGNORECASE)
 HTML_SRC_RE = re.compile(r"<img\s+[^>]*src=[\"']([^\"']+)[\"']", re.IGNORECASE)
+
+BANNED_PUBLIC_PHRASES = {
+    "surviving project record",
+    "retrospective",
+    "public-safe",
+    "partially reconstructed",
+    "not reconstructed",
+    "reconstruction",
+    "hallucination",
+}
+
 
 def split_ids(value: str) -> list[str]:
     return [x.strip() for x in value.split(";") if x.strip()]
@@ -144,10 +156,6 @@ def check_markdown(errors: list[str]) -> None:
     md_files = sorted(p for p in ROOT.rglob("*.md") if ".git" not in p.parts)
 
     for path in md_files:
-        if not path.exists():
-            fail(errors, f"Missing Markdown file: {path.relative_to(ROOT)}")
-            continue
-
         text = path.read_text(encoding="utf-8")
 
         external_images = [m.group(1) for m in MARKDOWN_IMAGE_RE.finditer(text)]
@@ -187,7 +195,6 @@ def check_markdown(errors: list[str]) -> None:
                     errors,
                     f"{path.relative_to(ROOT)}: broken local link/image: {raw}",
                 )
-
 
 
 def check_portfolio_language(errors: list[str]) -> None:

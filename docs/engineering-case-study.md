@@ -1,89 +1,60 @@
-# Engineering Case Study
+# Systems Engineering Case Study
 
-## 1. Engineering objective
+## Engineering problem
 
-Modernise the Super Mushshak cockpit from a predominantly analogue training-aircraft environment to an integrated digital flight deck while preserving the aircraft's basic-training role, instructor/student usability, aircraft safety, maintainability and future upgrade path.
+The Super Mushshak glass-cockpit modification required integration of a modern digital flight deck into an existing basic-training aircraft.
 
-The systems-engineering challenge was aircraft-level: display replacement drove changes to sensing, data interfaces, electrical integration, panel layout, wiring, configuration, maintenance philosophy and verification.
+The work extended beyond the instrument panel. Changing the cockpit architecture affected sensing, electrical interfaces, wiring, equipment installation, navigation/communication functions, engine/airframe indications, cockpit ergonomics, maintenance and verification.
 
-## 2. Functional decomposition
+## My role
 
-A glass-cockpit modification can be decomposed into the following aircraft functions:
+I worked as **Systems Engineering Lead** for the early modification programme and also supported the programme as a test engineer.
 
-1. **Flight-state sensing** — attitude, heading, acceleration, airspeed, altitude, vertical speed and temperature.
-2. **Navigation** — position, map/navigation database, route guidance and radio navigation as configured.
-3. **Communication** — cockpit radio control, audio and associated control/annunciation.
-4. **Engine/airframe monitoring** — conversion of analogue sensor signals into digital indications and alerts.
-5. **Pilot display/HMI** — PFD/MFD presentation, reversionary use, alerting, training readability and instructor awareness.
-6. **Aircraft interfacing** — electrical power, circuit protection, discrete I/O, serial data, antennas, sensors and existing equipment.
-7. **Maintenance/configuration** — replaceable modules, configuration control, calibration and fault isolation.
+My work covered:
 
-## 3. Early architecture trade space
+- system-level requirements and architecture trade studies;
+- avionics and sensor-suite selection/integration;
+- definition and coordination of interfaces between new equipment and the aircraft;
+- complete wiring-harness changes associated with the modification;
+- prototype integration and troubleshooting;
+- ground-run and flight-test support;
+- configuration refinement following test observations;
+- overseas evaluation and demonstration support.
 
-The programme evaluated more than one digital-flight-deck approach. Surviving project material shows:
+## Functional decomposition
 
-- **Dynon SkyView** as a dual large-display candidate with strong integration/customisation flexibility.
-- A **Garmin-family** candidate as the alternative integrated architecture.
+The retrofit can be viewed as a set of interacting aircraft functions.
 
-Later public Super Mushshak material identifies Garmin G950 and Dynon SkyView as production/export options. Because archival project files contain inconsistent early Garmin nomenclature, this public repository deliberately avoids assigning a precise model to the earliest Garmin prototype until the original integration records are reconciled.
+### Flight-state sensing
+Air-data and attitude/heading information had to be made available to the digital flight-deck architecture.
 
-### Representative architecture concerns
+### Engine and airframe sensing
+Existing aircraft and engine parameters had to be sensed, conditioned and presented in a form compatible with the new cockpit.
 
-- display count and cockpit symmetry;
-- PFD/MFD redundancy and reversion;
-- AHRS/ADAHRS and magnetometer installation constraints;
-- air-data sensor integration and calibration;
-- engine/airframe sensor conversion;
-- GPS / NAV / COM integration;
-- transponder and audio-panel integration;
-- data-bus and serial-interface compatibility;
-- electrical load, power quality and protection;
-- wiring-harness routing and maintainability;
-- panel structural/layout constraints;
-- human factors for ab-initio training;
-- OEM support and long-term upgradeability.
+### Navigation and communication
+Navigation/communication functions had to be integrated into the revised cockpit without losing the training-aircraft role of the platform.
 
-## 4. Interface-control problem
+### Pilot and instructor interface
+The cockpit had to remain usable as an ab-initio training environment. Display layout, control access, readability and information loading therefore formed part of the engineering problem.
 
-The modification crossed multiple aircraft domains. A simplified interface model is:
+### Electrical and physical integration
+Equipment installation, aircraft power, circuit protection, connectors and the aircraft wiring harness formed the physical integration layer between the new avionics and the existing platform.
 
-    Aircraft sensors ──┐
-    Air-data sources ──┤
-    Attitude/heading ──┤
-    Engine sensors ────┤
-    GPS/NAV/COM ───────┼──> Avionics integration layer ──> PFD / MFD / alerts
-    Audio / radio ─────┤
-    Power & discretes ─┤
-    Existing systems ──┘
-                             │
-                             └──> configuration / calibration / maintenance
+### Verification
+Prototype integration required an incremental verification sequence: installation and functional checks, ground operation, flight test, observation capture and defect/configuration closure.
 
-The engineering value lies in managing the **interfaces and verification closure**, not the screens themselves.
+## Interface management
 
-## 5. Integration work represented by this portfolio
+A simplified functional view is shown below.
 
-The public case study will document only high-level, non-sensitive evidence of:
+![System architecture](../assets/system-architecture.svg)
 
-- system-level requirements and trade-offs;
-- sensor-suite replacement;
-- complete aircraft harness/interface coordination;
-- panel and equipment integration;
-- ground functional testing;
-- flight-test participation;
-- overseas evaluation/trial support;
-- configuration evolution from prototype to later production/export offerings.
+This diagram is intentionally at system level. It represents the engineering boundaries of the retrofit rather than aircraft wiring or pin-level implementation.
 
-Detailed wiring diagrams, pinouts, configuration files, test limits and restricted programme data will not be published.
+## Configuration evolution
 
-## 6. Recruiter relevance
+The programme evaluated more than one cockpit architecture. The original comparison material records a Dynon SkyView candidate and a Garmin-family alternative and evaluates them across capability, cockpit layout, ergonomics, integration flexibility, reliability, support and cost.
 
-This project is most relevant to roles in:
+The engineering significance is the decision process: the cockpit was treated as an aircraft-system architecture problem, not as a purchase of standalone displays.
 
-- aircraft systems engineering;
-- avionics integration;
-- platform modification / retrofit;
-- V&V and flight test;
-- technical programme leadership;
-- certification/airworthiness support;
-- supplier/OEM integration;
-- defence and civil aerospace product development.
+See [Architecture Trade Study](architecture-trade-study.md).

@@ -2,17 +2,17 @@
 
 This repository uses five source types:
 
-1. **Project archive** — period photographs, engineering correspondence, test/status records and surviving programme material.
+1. **Project archive** — period photographs, engineering correspondence, test/status records and programme material.
 2. **OEM documentation** — vendor manuals and reference architecture.
 3. **Official / operator sources** — contracts, deliveries, inductions and operator use.
 4. **Independent specialist reporting** — configuration and programme-scale context.
-5. **Retrospective engineering reconstruction** — public-safe system views derived from the sources above.
+5. **Current systems-engineering representation** — public-release MBSE / digital-thread views derived from the sources above.
 
 ## Project and OEM material
 
 ### Glass Cockpit Comparison deck
 
-The surviving comparison presentation contains **Dynon SkyView** and **Garmin G3X** candidate material and is used as trade-study evidence.
+The project comparison presentation contains **Dynon SkyView** and **Garmin G3X** candidate material and is used as trade-study evidence.
 
 It is not used to rename the separate Garmin prototype path described by the programme lead as **G900X**.
 

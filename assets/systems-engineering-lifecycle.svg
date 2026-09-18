@@ -17,7 +17,7 @@
 <rect x="625" y="170" width="265" height="180" rx="14" class="blue"/>
 <text x="757.5" y="212" text-anchor="middle" class="h">Architecture</text><text x="757.5" y="256" text-anchor="middle" class="t">sensors · displays</text><text x="757.5" y="287" text-anchor="middle" class="t">interfaces</text><text x="757.5" y="318" text-anchor="middle" class="t">prototype alternatives</text><path d="M890 260 H910" class="line"/>
 <rect x="910" y="170" width="265" height="180" rx="14" class="blue"/>
-<text x="1042.5" y="212" text-anchor="middle" class="h">Integration</text><text x="1042.5" y="256" text-anchor="middle" class="t">installation + harness</text><text x="1042.5" y="287" text-anchor="middle" class="t">configuration</text><text x="1042.5" y="318" text-anchor="middle" class="t">retained-system interfaces</text><path d="M1175 260 H1195" class="line"/>
+<text x="1042.5" y="212" text-anchor="middle" class="h">Integration</text><text x="1042.5" y="252" text-anchor="middle" class="t">installation + harness</text><text x="1042.5" y="281" text-anchor="middle" class="t">configuration</text><text x="1042.5" y="310" text-anchor="middle" class="t">retained-system</text><text x="1042.5" y="337" text-anchor="middle" class="t">interfaces</text><path d="M1175 260 H1195" class="line"/>
 <rect x="1195" y="170" width="265" height="180" rx="14" class="green"/>
 <text x="1327.5" y="212" text-anchor="middle" class="h">Verification</text><text x="1327.5" y="256" text-anchor="middle" class="t">ground checks</text><text x="1327.5" y="287" text-anchor="middle" class="t">flight test</text><text x="1327.5" y="318" text-anchor="middle" class="t">discrepancy closure</text><path d="M1460 260 H1480" class="line"/>
 <rect x="1480" y="170" width="265" height="180" rx="14" class="green"/>

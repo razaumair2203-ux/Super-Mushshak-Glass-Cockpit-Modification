@@ -7,7 +7,8 @@ Checks:
 3. singular/plural ID references resolve to known objects;
 4. typed-link source/target IDs resolve;
 5. local Markdown links and image paths resolve;
-6. no fragile external hot-linked images are embedded.
+6. external embedded images are rejected unless explicitly allow-listed as
+   licence-cleared contextual media.
 
 Uses Python standard library only.
 """
@@ -18,6 +19,7 @@ import csv
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 MODEL = ROOT / "model"
@@ -36,19 +38,18 @@ OBJECT_FILES = [
     "claims.csv",
 ]
 
-RELATION_FILES = [
-    "traceability.csv",
-    "links.csv",
-]
-
+RELATION_FILES = ["traceability.csv", "links.csv"]
 MODEL_FILES = OBJECT_FILES + RELATION_FILES
 
 MARKDOWN_LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE_RE = re.compile(r"!\[[^\]]*\]\((https?://[^)]+)\)", re.IGNORECASE)
 HTML_SRC_RE = re.compile(r"<img\s+[^>]*src=[\"']([^\"']+)[\"']", re.IGNORECASE)
-EXTERNAL_HTML_IMG_RE = re.compile(
-    r"<img\s+[^>]*src=[\"']https?://", re.IGNORECASE
-)
+
+# External image embedding is normally prohibited. This single licence-cleared
+# Commons asset is an explicit exception and is kept evidentially separate from
+# authentic project imagery. Any additional exception requires code review.
+ALLOWED_EXTERNAL_IMAGE_HOSTS = {"commons.wikimedia.org"}
+ALLOWED_COMMONS_FILE = "PAC Super Mushshak cockpit.jpg"
 
 
 def split_ids(value: str) -> list[str]:
@@ -81,7 +82,6 @@ def check_model(errors: list[str]) -> dict[str, str]:
         if not fields:
             fail(errors, f"No CSV header: {path.relative_to(ROOT)}")
 
-    # Only object tables define identities. Traceability/links reuse identities.
     for name in OBJECT_FILES:
         if name not in tables:
             continue
@@ -105,8 +105,6 @@ def check_model(errors: list[str]) -> dict[str, str]:
             else:
                 all_ids[obj_id] = f"{path.relative_to(ROOT)}:{lineno}"
 
-    # Validate reference fields in all tables. In object tables the first
-    # column defines the object and is therefore not itself a reference.
     for name, (rows, fields) in tables.items():
         if not fields:
             continue
@@ -139,7 +137,6 @@ def check_model(errors: list[str]) -> dict[str, str]:
 
 def clean_link(raw: str) -> str:
     value = raw.strip()
-    # Markdown may append a quoted title after whitespace.
     if value.startswith("<") and ">" in value:
         value = value[1:value.index(">")]
     elif " " in value:
@@ -152,6 +149,17 @@ def is_external(value: str) -> bool:
     return lower.startswith(("http://", "https://", "mailto:", "data:"))
 
 
+def is_allowed_external_image(url: str) -> bool:
+    parsed = urlparse(url)
+    if parsed.scheme != "https" or parsed.netloc not in ALLOWED_EXTERNAL_IMAGE_HOSTS:
+        return False
+    decoded_path = parsed.path.replace("%20", " ")
+    return (
+        "Special:Redirect/file/" in decoded_path
+        and decoded_path.endswith(ALLOWED_COMMONS_FILE)
+    )
+
+
 def check_markdown(errors: list[str]) -> None:
     md_files = sorted(p for p in ROOT.rglob("*.md") if ".git" not in p.parts)
 
@@ -162,12 +170,20 @@ def check_markdown(errors: list[str]) -> None:
 
         text = path.read_text(encoding="utf-8")
 
-        if EXTERNAL_HTML_IMG_RE.search(text) or MARKDOWN_IMAGE_RE.search(text):
-            fail(
-                errors,
-                f"{path.relative_to(ROOT)}: contains an external hot-linked image; "
-                "link to the source or use a licence-cleared local asset instead",
-            )
+        external_images = [m.group(1) for m in MARKDOWN_IMAGE_RE.finditer(text)]
+        external_images += [
+            m.group(1)
+            for m in HTML_SRC_RE.finditer(text)
+            if m.group(1).lower().startswith(("http://", "https://"))
+        ]
+
+        for image_url in external_images:
+            if not is_allowed_external_image(image_url):
+                fail(
+                    errors,
+                    f"{path.relative_to(ROOT)}: contains a non-allow-listed "
+                    f"external image: {image_url}",
+                )
 
         candidates = [m.group(1) for m in MARKDOWN_LINK_RE.finditer(text)]
         candidates += [m.group(1) for m in HTML_SRC_RE.finditer(text)]
@@ -217,7 +233,7 @@ def main() -> int:
         print(f" - {prefix}: {prefixes[prefix]}")
     print("ID references: resolved")
     print("Local Markdown links/images: resolved")
-    print("External hot-linked images: none")
+    print("External image policy: allow-list satisfied")
     return 0
 
 

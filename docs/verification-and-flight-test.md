@@ -35,7 +35,7 @@ The public record preserves the engineering chain without exposing connector-lev
 
 After replacement displays and interface equipment were received, the team reinstalled the equipment, loaded required databases/settings and returned the aircraft to flight. Project correspondence records continuing flight-test feedback to the OEM.
 
-![In-flight Dynon PFD](../assets/dynon-pfd-inflight-sanitized.jpg)
+![In-flight Dynon PFD](../assets/dynon-skyview-flight-test.jpg)
 
 *Authentic in-flight project photograph. It supports visible installed operation; the technical event claims come from the project record.*
 
@@ -63,7 +63,7 @@ The public release does **not** include detailed final corrective-action closure
 
 By 12 November 2012, status correspondence records **10 evaluation sorties**, including a night-flying mission. Separate correspondence during the evaluation describes repeated daily flying.
 
-![Customer-evaluation ground photograph](../assets/qaef-ground-evaluation-sanitized.jpg)
+![Customer-evaluation ground photograph](../assets/international-customer-evaluation.jpg)
 
 *Authentic project photograph used as evaluation context. It does not prove a performance result by itself.*
 

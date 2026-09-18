@@ -4,9 +4,9 @@
 
 <table>
 <tr>
-<td width="34%"><img src="assets/dynon-cockpit-prototype-sanitized.jpg" alt="Installed Dynon SkyView prototype cockpit"></td>
-<td width="33%"><img src="assets/dynon-pfd-inflight-sanitized.jpg" alt="Dynon SkyView cockpit operating in flight"></td>
-<td width="33%"><img src="assets/qaef-ground-evaluation-sanitized.jpg" alt="Project aircraft during international customer evaluation"></td>
+<td width="34%"><img src="assets/dynon-skyview-installed-prototype.jpg" alt="Installed Dynon SkyView prototype cockpit"></td>
+<td width="33%"><img src="assets/dynon-skyview-flight-test.jpg" alt="Dynon SkyView cockpit operating in flight"></td>
+<td width="33%"><img src="assets/international-customer-evaluation.jpg" alt="Project aircraft during international customer evaluation"></td>
 </tr>
 <tr>
 <td><sub><b>Installed prototype:</b> Dynon SkyView glass-cockpit integration.</sub></td>

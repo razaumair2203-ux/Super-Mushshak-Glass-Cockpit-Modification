@@ -6,8 +6,8 @@ This page uses **original project photographs** to show the installed glass-cock
 
 <table>
 <tr>
-<td width="50%"><img src="../assets/dynon-cockpit-prototype-sanitized.jpg" alt="Installed Dynon SkyView prototype cockpit"></td>
-<td width="50%"><img src="../assets/dynon-pfd-inflight-sanitized.jpg" alt="Dynon SkyView cockpit operating in flight"></td>
+<td width="50%"><img src="../assets/dynon-skyview-installed-prototype.jpg" alt="Installed Dynon SkyView prototype cockpit"></td>
+<td width="50%"><img src="../assets/dynon-skyview-flight-test.jpg" alt="Dynon SkyView cockpit operating in flight"></td>
 </tr>
 <tr>
 <td><sub><b>Installed Dynon prototype.</b> Aircraft-level integration included the display suite, revised sensing, NAV/COM and retained-avionics interfaces, aircraft power and the complete modification harness.</sub></td>
@@ -17,8 +17,8 @@ This page uses **original project photographs** to show the installed glass-cock
 
 <table>
 <tr>
-<td width="50%"><img src="../assets/qaef-ground-evaluation-sanitized.jpg" alt="Project aircraft during international customer evaluation"></td>
-<td width="50%"><img src="../assets/dynon-cockpit-prototype-sanitized.jpg" alt="Dynon SkyView installed prototype detail"></td>
+<td width="50%"><img src="../assets/international-customer-evaluation.jpg" alt="Project aircraft during international customer evaluation"></td>
+<td width="50%"><img src="../assets/dynon-skyview-installed-prototype.jpg" alt="Dynon SkyView installed prototype detail"></td>
 </tr>
 <tr>
 <td><sub><b>International customer evaluation.</b> Project aircraft during evaluation activity.</sub></td>

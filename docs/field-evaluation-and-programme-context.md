@@ -6,7 +6,7 @@ Project status and test records show the Dynon-configured aircraft progressing f
 
 A period status record documents **10 evaluation sorties by 12 November 2012**, including a night-flying mission. Engineering exchanges from the same phase record continuing configuration observations and OEM feedback during customer flying.
 
-![Customer-evaluation project photograph](../assets/qaef-ground-evaluation-sanitized.jpg)
+![Customer-evaluation project photograph](../assets/international-customer-evaluation.jpg)
 
 *Project photograph from the customer-evaluation period.*
 

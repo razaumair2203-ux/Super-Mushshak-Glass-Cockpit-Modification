@@ -4,9 +4,9 @@
 
 | File | What it shows | Allowed processing |
 |---|---|---|
-| `dynon-cockpit-prototype-sanitized.jpg` | installed Dynon SkyView prototype cockpit | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
-| `dynon-pfd-inflight-sanitized.jpg` | installed Dynon cockpit operating in flight | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
-| `qaef-ground-evaluation-sanitized.jpg` | customer-evaluation-period project context | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
+| `dynon-skyview-installed-prototype.jpg` | installed Dynon SkyView prototype cockpit | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
+| `dynon-skyview-flight-test.jpg` | installed Dynon cockpit operating in flight | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
+| `international-customer-evaluation.jpg` | customer-evaluation-period project context | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
 
 **Rule:** aircraft, cockpit, people, displays and test scenes remain original. No generative replacement is permitted.
 

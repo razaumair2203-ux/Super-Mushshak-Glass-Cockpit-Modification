@@ -1,6 +1,6 @@
 # Visual Asset Provenance
 
-Aircraft/cockpit photographs in this directory originate from the **supplied project archive**. No external aircraft imagery is used to substitute for project evidence.
+Aircraft/cockpit photographs stored in this directory originate from the **supplied project archive**. External public/operator imagery may be source-linked from README/docs for independent context, but is not substituted for project evidence and is not mirrored into this directory unless its licence explicitly permits local reuse.
 
 | File | Source | Public processing | Evidentiary use |
 |---|---|---|---|
@@ -27,6 +27,16 @@ Permitted processing of authentic photographs is limited to:
 - narrowly targeted redaction of security markings, rank insignia where required, private personal information, unnecessary organisational identifiers/logos, or precise location identifiers that do not add technical evidence.
 
 Processing must not add, replace or reconstruct aircraft, cockpit, equipment, people, scenery or backgrounds.
+
+## External contextual imagery
+
+External photographs are governed separately from project evidence:
+
+- they remain source-linked rather than copied into the project-evidence archive unless reuse rights are explicit;
+- the source and evidentiary purpose are stated in the caption;
+- operator imagery supports operator/context claims only;
+- cockpit imagery supports only what is visibly present unless a separate source identifies the suite;
+- external imagery never upgrades an unsupported statement into project evidence.
 
 A photograph is used only for what it can substantiate. A cockpit image can support visible configuration context; an in-flight display can support visible installed operation; a ground/customer photograph can support field context. None of these images is promoted into proof of a verification result that is not visible or otherwise linked to source evidence.
 

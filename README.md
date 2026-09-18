@@ -36,6 +36,10 @@ This repository is organised around the engineering lifecycle rather than around
 6. **Evidence and provenance** — direct project evidence, OEM/reference material, public programme records and derived engineering views are clearly differentiated.
 7. **Digital-thread follow-on** — the historical archive is being transformed into a structured, traceable model that can support a higher-fidelity digital twin as releasable data becomes available.
 
+![Systems-engineering lifecycle](assets/systems-engineering-lifecycle.svg)
+
+See [Systems-engineering method](docs/systems-engineering-method.md) for the lifecycle, evidence and configuration-control rules used throughout this case study.
+
 ## System architecture
 
 ![Public-safe logical architecture](assets/mbse-system-architecture.svg)
@@ -134,6 +138,7 @@ The model is intentionally public-safe: no pinouts, harness routes, controlled d
 
 ## Technical case-study map
 
+- [Systems-engineering method](docs/systems-engineering-method.md)
 - [Systems engineering case study](docs/engineering-case-study.md)
 - [Architecture and trade study](docs/architecture-trade-study.md)
 - [Verification and flight test](docs/verification-and-flight-test.md)

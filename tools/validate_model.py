@@ -7,8 +7,7 @@ Checks:
 3. singular/plural ID references resolve to known objects;
 4. typed-link source/target IDs resolve;
 5. local Markdown links and image paths resolve;
-6. external embedded images are rejected unless explicitly allow-listed as
-   licence-cleared contextual media.
+6. external embedded images are rejected so recruiter-facing visuals remain repository-local.
 
 Uses Python standard library only.
 """
@@ -19,7 +18,6 @@ import csv
 import re
 import sys
 from pathlib import Path
-from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 MODEL = ROOT / "model"
@@ -44,17 +42,6 @@ MODEL_FILES = OBJECT_FILES + RELATION_FILES
 MARKDOWN_LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE_RE = re.compile(r"!\[[^\]]*\]\((https?://[^)]+)\)", re.IGNORECASE)
 HTML_SRC_RE = re.compile(r"<img\s+[^>]*src=[\"']([^\"']+)[\"']", re.IGNORECASE)
-
-# External image embedding is normally prohibited. These Wikimedia Commons
-# files are explicit, licence-reviewed exceptions used for independent visual
-# context. Any additional exception requires code review.
-ALLOWED_EXTERNAL_IMAGE_HOSTS = {"commons.wikimedia.org"}
-ALLOWED_COMMONS_FILES = {
-    "96-6385 PAC MFI-17 Super Mushshak (7970352052).jpg",
-    "PAC Super Mushshak cockpit.jpg",
-    "PAC MFI-17 Super Mushshak Turkish Air Force.jpg",
-}
-
 
 def split_ids(value: str) -> list[str]:
     return [x.strip() for x in value.split(";") if x.strip()]
@@ -153,17 +140,6 @@ def is_external(value: str) -> bool:
     return lower.startswith(("http://", "https://", "mailto:", "data:"))
 
 
-def is_allowed_external_image(url: str) -> bool:
-    parsed = urlparse(url)
-    if parsed.scheme != "https" or parsed.netloc not in ALLOWED_EXTERNAL_IMAGE_HOSTS:
-        return False
-    decoded_path = unquote(parsed.path)
-    if "Special:Redirect/file/" not in decoded_path:
-        return False
-    filename = decoded_path.rsplit("/", 1)[-1]
-    return filename in ALLOWED_COMMONS_FILES
-
-
 def check_markdown(errors: list[str]) -> None:
     md_files = sorted(p for p in ROOT.rglob("*.md") if ".git" not in p.parts)
 
@@ -182,12 +158,11 @@ def check_markdown(errors: list[str]) -> None:
         ]
 
         for image_url in external_images:
-            if not is_allowed_external_image(image_url):
-                fail(
-                    errors,
-                    f"{path.relative_to(ROOT)}: contains a non-allow-listed "
-                    f"external image: {image_url}",
-                )
+            fail(
+                errors,
+                f"{path.relative_to(ROOT)}: contains an external embedded image: "
+                f"{image_url}",
+            )
 
         candidates = [m.group(1) for m in MARKDOWN_LINK_RE.finditer(text)]
         candidates += [m.group(1) for m in HTML_SRC_RE.finditer(text)]
@@ -237,7 +212,7 @@ def main() -> int:
         print(f" - {prefix}: {prefixes[prefix]}")
     print("ID references: resolved")
     print("Local Markdown links/images: resolved")
-    print("External image policy: allow-list satisfied")
+    print("External image policy: repository-local only")
     return 0
 
 

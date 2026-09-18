@@ -1,42 +1,53 @@
-# Super Mushshak Digital Twin — Current Follow-on Work
+# Super Mushshak Digital Twin — Follow-on Work
 
-The **Super Mushshak Digital Twin** is a new follow-on effort. It is not presented as part of the original glass-cockpit programme.
+The digital twin is a **new follow-on effort**, not an artefact from the original glass-cockpit programme.
 
-The retrofit archive is useful because it preserves real examples of configuration change, interface management, architecture decisions, troubleshooting and verification. Those records can become traceable inputs to a modern digital-engineering model.
+The retrofit archive is valuable because it contains real examples of:
 
-## Digital-thread objective
+- configuration change;
+- interface definition and integration;
+- observed discrepancies;
+- OEM technical resolution;
+- verification events;
+- customer-evaluation constraints;
+- lifecycle/supportability decisions.
 
-The intended progression is:
+These are the inputs needed for a credible digital thread.
 
-**configuration baseline → requirements → logical architecture → physical configuration → interfaces → verification evidence → configuration state**
+## Proposed digital-thread backbone
 
-The model will increase in fidelity only where evidence supports it.
+~~~mermaid
+flowchart LR
+    B[Aircraft configuration baseline] --> R[Requirements]
+    R --> LA[Logical architecture]
+    LA --> PA[Physical configuration]
+    PA --> IF[Interfaces / ICD]
+    IF --> V[Verification cross-reference]
+    V --> TE[Test evidence]
+    TE --> CS[As-tested configuration state]
+    CS --> CH[Change / decision history]
+    CH --> R
+~~~
 
-## Proposed systems-engineering artefacts
+## Near-term model content
 
-- aircraft/system configuration baseline;
-- system and subsystem decomposition;
-- SysML-style block-definition and internal-interface views;
-- requirements-to-verification traceability;
-- interface-control model;
-- parametric power/weight budgets where releasable source data exists;
-- configuration-state model;
-- verification evidence links;
-- change/decision history.
+1. system boundary and functional decomposition;
+2. public-safe requirements hierarchy;
+3. logical interface model;
+4. configuration-state history;
+5. verification cross-reference matrix;
+6. issue/decision history;
+7. power/weight/environmental parameters only where releasable source data exists;
+8. explicit distinction between measured, documented, derived and unknown information.
 
-## Relationship to the retrofit
+The first version of that backbone already exists in this repository under [model](../model/README.md).
 
-The historical programme supplies useful questions for the digital twin:
+## What the twin will not do
 
-- What exact aircraft configuration is represented?
-- Which functions and systems interact?
-- What interfaces changed during retrofit?
-- Which configuration was actually tested?
-- What evidence closed each engineering issue?
-- Which claims are measured, documented, inferred or still unknown?
+The public model will not fabricate missing aircraft data simply to look complete. It will not publish controlled wiring, pinouts, internal locations, proprietary installation detail or sensitive aircraft data.
 
-## Public-release boundary
+Where exact historical data is unavailable, the model records an **unknown / not publicly reconstructed** state rather than filling the gap with inference.
 
-The digital twin will **not** publish controlled aircraft data merely to make the model appear complete. Sensitive dimensions, detailed wiring, pinouts, internal equipment locations, controlled maintenance data and security-relevant information remain outside the public model.
+## Longer-term direction
 
-The public digital twin should therefore be understood as a **traceable engineering demonstrator**, not an unrestricted aircraft technical-data package.
+If sufficient releasable data becomes available, the next layer can add executable/parametric behaviour such as electrical loading, configuration-dependent failure effects, maintenance state and selected flight/avionics data replay. Those capabilities are future work; they are not claimed as complete today.

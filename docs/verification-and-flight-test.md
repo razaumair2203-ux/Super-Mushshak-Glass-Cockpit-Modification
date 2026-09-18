@@ -1,61 +1,60 @@
-# Verification & Flight Test
+# Verification and Flight Test
 
-The surviving project archive documents a genuine prototype-test-feedback cycle rather than a one-time installation.
+The surviving project record shows an iterative installed-aircraft verification loop rather than a one-time installation.
 
-## First modified aircraft
+## Early Dynon prototype
 
-Original project photographs from **November 2010** show the Dynon SkyView installation on the first modified aircraft. The public versions used by this repository are cropped/redacted only to remove organizational or privacy identifiers.
+An original 2010 troubleshooting exchange records that the SkyView-equipped aircraft had flown **two sorties** before a display-related internal-voltage/power failure appeared on a later engine start.
 
-No synthetic cockpit or aircraft imagery is used.
+That event generated a real engineering chain:
 
-## First-sortie evidence
+**symptom → aircraft-power checks → OEM troubleshooting → hardware replacement → settings/database restoration → re-integration → flight**
 
-December 2010 correspondence records that the displays had been installed, databases loaded, and the aircraft had **flown its first sortie**. The subsequent OEM response explicitly asked the team to continue reporting results as flight testing progressed.
+## Reconfiguration and return to flight
 
-This provides a direct evidence chain:
+After replacement displays and an ARINC interface unit were received, the team reinstalled the equipment, loaded databases/settings and returned the aircraft to flight. A December 2010 exchange records the first sortie after that reconfiguration and asks the team to continue feeding flight-test results back to the OEM.
 
-**hardware/configuration work → aircraft installation → flight → OEM feedback loop**
+![In-flight Dynon PFD](../assets/dynon-pfd-inflight-sanitized.jpg)
 
-## Technical issues were closed through evidence
+*Original in-flight project photograph. No synthetic content.*
 
-The archive includes engineering questions and troubleshooting around topics such as:
+## Interface and HMI verification topics
 
-- avionics data interfaces;
-- electrical-transient behaviour;
-- database/configuration management;
-- display and sensor behaviour;
-- third-party navigation/communication integration;
-- qualification and maintainability;
-- post-installation and flight-test support.
+Surviving exchanges show installed-aircraft questions or checks involving:
 
-The public repo intentionally omits controlled implementation detail.
+- ARINC-429 / GNS 430-family integration;
+- legacy transponder interface;
+- audio-alert output;
+- moving-map and synthetic-vision behaviour;
+- terrain/database installation;
+- configuration transfer after display replacement;
+- sensor/engine indication behaviour;
+- maintainability and replacement strategy.
 
-## 2012 operational/customer evaluation
+Exact wiring, connector and pin data remain private.
 
-A surviving 2012 status exchange records **10 evaluation sorties**, including **night flying**, with another night sortie planned. This is stronger evidence than a generic statement that the system was “flight tested”: it shows repeated operation in an evaluation environment after prototype maturation.
+## 2012 performance and customer evaluation
 
-Customer identity, location, private correspondence and internal action sheets are not reproduced here.
+Before Qatar deployment, correspondence records the aircraft undergoing performance testing. During the Qatar evaluation period, direct technical exchanges describe repeated daily sorties in hot/humid conditions and troubleshooting of ADAHRS cross-check behaviour during high-rate manoeuvre/spin recovery.
 
-## Retrospective verification workflow
+Another issue concerned short-duration engine-indication fluctuations associated with radio PTT operation. The technical importance is the cross-domain coupling: a communications action affected an engine-indication path, requiring system-level investigation rather than isolated LRU testing.
 
-The following is a retrospective systems-engineering abstraction reconstructed from the surviving records. It is **not** presented as an original programme diagram.
+By 12 November 2012, the surviving status correspondence records **10 evaluation sorties**, including a night-flying mission, with an additional night sortie planned.
 
-```mermaid
+![Qatar ground evaluation](../assets/qaef-ground-evaluation-sanitized.jpg)
+
+*Original customer-evaluation-period ground photograph; identifying details redacted.*
+
+## Retrospective verification model
+
+~~~mermaid
 flowchart LR
-    A[Requirement or test observation] --> B[Engineering analysis]
-    B --> C[Installation / configuration action]
-    C --> D[Functional check]
-    D --> E[Ground or flight test]
-    E --> F[Test observation]
-    F --> G[Engineering / OEM resolution]
-    G --> H[Configuration update]
-    H --> D
-```
+    R[Requirement / issue] --> C[Known configuration]
+    C --> T[Test or operational event]
+    T --> E[Evidence / observation]
+    E --> A[Engineering analysis]
+    A --> D[Disposition / change]
+    D --> C
+~~~
 
-## Why this matters
-
-Retrofit V&V is dominated by interfaces and configuration. A display can function correctly on the bench and still expose aircraft-level issues when connected to real sensors, power, radios, databases and pilot workflows.
-
-The surviving evidence shows the programme progressing through that integration reality rather than stopping at laboratory demonstration.
-
-See [Evidence & Provenance](evidence-and-provenance.md) for the evidence register.
+The structured verification records are in [model/verification.csv](../model/verification.csv), with requirement-to-verification links in [model/traceability.csv](../model/traceability.csv).

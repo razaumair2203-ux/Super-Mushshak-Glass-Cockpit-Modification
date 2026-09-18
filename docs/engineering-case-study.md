@@ -2,100 +2,109 @@
 
 ## Engineering problem
 
-Modernising a legacy training aircraft with a glass cockpit created an **aircraft-level integration problem**, not a display-installation task.
+Modernising a legacy trainer with a glass cockpit is an aircraft-level integration problem. A display can work correctly on the bench and still fail to meet the aircraft need because power quality, sensor behaviour, legacy avionics, databases, configuration state, human-machine interface and maintainability all interact.
 
-The engineering boundary included:
+The modification boundary therefore included:
 
-- flight-state sensing;
-- engine and airframe sensing;
-- cockpit displays and controls;
+- primary flight-state sensing and presentation;
+- engine/airframe sensing and indication;
 - navigation and communication equipment;
-- aircraft power and electrical behaviour;
-- equipment installation and wiring;
-- warnings and audio functions;
-- databases and avionics configuration;
-- pilot/instructor human-machine interface;
-- maintainability and OEM support;
-- verification, flight-test feedback and configuration control.
+- aircraft electrical supply and protection;
+- cockpit displays, controls and alerting;
+- avionics data interfaces;
+- aircraft wiring/harness changes and physical installation;
+- software, settings and database configuration;
+- maintenance/support concept;
+- installed-aircraft verification and flight-test feedback.
 
-A change in any one area could propagate into several others. The project therefore had to be managed as a system of interacting functions and interfaces.
+## Role
 
-## My role
+I served as the **lead systems engineer** for the modification and also performed hands-on avionics integration/test activity. Surviving period correspondence identifies me operationally as an **Integration Engineer** during the early Dynon work.
 
-I served as the **lead systems engineer** for the retrofit programme. Surviving period documentation identifies my formal programme appointment as **PM System Engineering**.
+The public case study does not publish internal appointment documents or private correspondence. Instead, it reconstructs the engineering work from the technical issues, configuration changes, photographs and test events that survive.
 
-A signed 2010 design/options study authored under that appointment is the strongest surviving evidence of role ownership. It covers the aircraft baseline, candidate glass-cockpit approaches, installation and electrical constraints, system components, trade-offs, recommendations and the proposed development path.
+## System boundary
 
-My work subsequently included:
+~~~mermaid
+flowchart LR
+    A[Aircraft electrical system] --> R[Retrofit avionics]
+    S[Flight / engine sensors] --> R
+    L[Legacy NAV/COM / transponder] <--> R
+    R <--> H[Pilot / instructor HMI]
+    R <--> M[Maintenance / configuration]
+    O[OEM engineering support] <--> M
+    O <--> R
+    T[Ground / flight test] --> R
+    R --> T
+~~~
 
-- requirements interpretation and architecture trade studies;
-- avionics and sensor-suite integration;
-- interface definition and OEM technical coordination;
-- retrofit wiring/harness and installation coordination;
-- technical evaluation of alternative cockpit suites;
-- prototype troubleshooting and configuration refinement;
-- ground and flight-test support;
-- customer-evaluation technical support;
-- continued configuration/equipment follow-up.
+The diagram is intentionally logical. It does not reproduce wiring, connector, pinout or installation-location data.
 
-## Requirements and constraints
+## What the surviving record demonstrates
 
-The archive shows that the decision space extended well beyond display size or price.
+### Installed-aircraft integration
 
-### Aircraft configuration
+The Dynon SkyView suite was installed and flown on the aircraft. An early troubleshooting exchange records that the aircraft flew two sorties before a display/power-related failure was observed on a subsequent engine start. This is direct evidence of installed-aircraft operation, not a laboratory-only demonstrator.
 
-The starting point was a legacy cockpit with conventional instruments, existing navigation/communication equipment, aircraft-specific sensing and finite electrical/installation capacity. Any retrofit had to respect the aircraft as-built configuration.
+### Interface engineering
 
-### Flight-state and engine sensing
+The archive contains direct technical exchanges covering:
 
-The new cockpit needed dependable sources for air-data, attitude/heading and engine/airframe information. This drove sensor selection, interface definition, calibration, display configuration and failure/troubleshooting work.
+- Garmin GNS 430-family integration;
+- ARINC-429 interfacing;
+- transponder interfacing;
+- audio/alert-output questions;
+- synthetic-vision and terrain-database behaviour;
+- display/database configuration;
+- sensor and indication behaviour.
 
-### Avionics interfaces
+The public model abstracts those interfaces and omits implementation details.
 
-Direct OEM exchanges from 2010 include technical questions on **ARINC-429**, third-party radio integration, database/configuration behaviour and avionics interoperability. These are direct indicators of interface-engineering work rather than generic project-management activity.
+### Electrical integration and fault closure
 
-### Electrical integration
+The early prototype experienced a display power/internal-voltage failure during aircraft operation. Troubleshooting included aircraft power delivery, protection, hardware replacement, configuration restoration and re-test. This is a useful example of why COTS avionics retrofit requires system-level verification.
 
-The project archive includes aircraft-power budgeting and direct troubleshooting of electrical-transient behaviour observed during integration. The public repository deliberately omits sensitive implementation values and wiring detail.
+### Configuration management
 
-### Human-machine interface
+After replacement displays were received, settings and databases had to be restored deliberately. OEM correspondence discusses backup settings, EMS configuration, terrain data and individual display state. The project therefore had a real configuration-management problem: the same physical aircraft could behave differently depending on hardware/software/database state.
 
-The platform was a training aircraft. The architecture therefore had to support both aircraft operation and the instructional environment: display readability, information distribution, alerting, backup information and cockpit usability mattered alongside pure avionics capability.
+### Maintainability and lifecycle support
 
-### Qualification, reliability and maintainability
+The team asked the OEM how failed modules would be supported at fleet scale, what maintenance depth was realistic, and whether spares/LRU exchange was preferable to local board-level repair. This moved the decision space beyond acquisition price to operational supportability.
 
-OEM correspondence and customer-evaluation material includes environmental qualification, reliability, maintainability, redundancy, supportability and post-installation test questions. These were part of the engineering trade space.
+### Qualification and certification fit
 
-## Interface management in practice
+The archive includes questions on environmental qualification, TSO status and suitability for the intended customer/aircraft context. Functional performance and certification acceptability were treated as separate engineering questions.
 
-Several surviving exchanges show the practical form of systems engineering on the programme:
+### Flight-test feedback
 
-- clarifying data-bus and equipment-interface capability with the OEM;
-- resolving display and database configuration after hardware changes;
-- investigating aircraft electrical effects on avionics;
-- integrating navigation/communication equipment into the revised cockpit;
-- addressing sensor and indication behaviour through test and configuration changes;
-- feeding flight-test observations back to the vendor and engineering team.
+Flight-test observations were returned to engineering/OEM support and used to refine the configuration. Later records cover ADAHRS cross-check behaviour during performance testing/high-rate manoeuvre, EMS indication interference associated with radio PTT, and continued customer-evaluation flying.
 
-The important point is not a particular connector or pinout. It is the **closed engineering loop between aircraft, avionics, OEM, test evidence and configuration**.
+## Engineering lifecycle reconstructed from evidence
 
-## Configuration evolution
+~~~mermaid
+flowchart TD
+    N[Need / operational constraint] --> RQ[Requirement or engineering question]
+    RQ --> TR[Trade / architecture decision]
+    TR --> IN[Integration action]
+    IN --> FC[Functional check]
+    FC --> FT[Ground / flight verification]
+    FT --> OB[Observation]
+    OB --> AN[Analysis + OEM coordination]
+    AN --> CC[Configuration change]
+    CC --> FC
+~~~
 
-The programme did not follow one frozen cockpit concept from day one. It explored and matured multiple candidate solutions.
+This is a retrospective abstraction. The project did not originally use this repository's MBSE notation.
 
-Two principal tracks are retained in this public reconstruction:
+## What is not claimed
 
-1. **Dynon SkyView prototype track** — supported by original cockpit photographs, direct OEM correspondence and flight-test records.
-2. **Garmin G900/G950-family track** — supported by formal trade/evaluation material and customer-facing technical work.
+This case study does not claim that:
 
-Other period records also reference Garmin G3X. The archive therefore reflects an evolving development programme; the public case study preserves that ambiguity instead of retrospectively forcing a single unsupported configuration label.
+- the public diagrams are original programme drawings;
+- the G3X comparison configuration was the G900X/G950 prototype;
+- generic Garmin reference architecture proves the exact aircraft-installed LRU set;
+- the early retrofit alone caused later export sales;
+- private/customer/OEM records are public release material.
 
-## Verification philosophy
-
-The surviving records support an iterative verification pattern:
-
-**engineering issue / requirement → configuration or installation action → functional check → ground or flight test → observation → engineering/OEM resolution → configuration update → re-test**
-
-This is a retrospective abstraction of documented activity, not an original programme flowchart.
-
-See [Verification & Flight Test](verification-and-flight-test.md) and [Evidence & Provenance](evidence-and-provenance.md).
+The point of the repository is the engineering chain: **problem definition → architecture → interfaces → prototype → verification → issue closure → field evaluation**.

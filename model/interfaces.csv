@@ -1,0 +1,11 @@
+interface_id,source,target,interface_class,public_description,evidence_ids
+IF-001,Aircraft electrical system,Retrofit avionics,Electrical,"Aircraft power/protection interface; detailed wiring values intentionally omitted","E-02;E-03;E-04"
+IF-002,Flight-state sensors / ADAHRS,Glass displays,Data,"Attitude/heading/air-data information to pilot display functions","E-01;E-06;E-09"
+IF-003,Engine/airframe sensing,EMS/display functions,Sensor/data,"Engine/airframe measurement path to glass-cockpit indication","E-01;E-06;E-09"
+IF-004,GNS 430-family NAV source,SkyView via avionics interface,Digital data,"Navigation integration using ARINC capability; pin-level detail omitted","E-03;E-04;E-05"
+IF-005,Legacy transponder,Retrofit display/interface,Digital/discrete,"Transponder integration assessed with conversion/interface equipment where required","E-05"
+IF-006,Glass-cockpit alerts/audio,Aircraft intercom/audio,Audio,"Audio/alert integration assessed against existing cockpit audio path","E-05"
+IF-007,Configuration / terrain / navigation data,Glass displays,Configuration data,"Software/settings/database loading and restoration across display changes","E-03;E-04;E-05"
+IF-008,Pilot / instructor,Glass cockpit,HMI,"Display/control/alerting interaction in training and test operation","E-01;E-07;E-15"
+IF-009,Garmin G900X/G950 LRUs,GDU display functions,Digital avionics network,"Generic OEM reference relationship; not asserted as the exact aircraft wiring","E-09;E-10"
+IF-010,Maintenance/OEM support,Installed configuration,Lifecycle/support,"Repair, spare-LRU, configuration and technical-support loop","E-03;E-05;E-12"

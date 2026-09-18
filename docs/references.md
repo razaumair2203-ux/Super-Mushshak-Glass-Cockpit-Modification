@@ -1,40 +1,44 @@
-# References & Public-Release Policy
+# Sources and Public-Release Boundary
 
-This repository uses two evidence classes.
+## Project-source classes
 
-## 1. Private project archive
+The repository is based on surviving period material including:
 
-The strongest evidence for individual technical contribution remains in privately retained programme records. These include:
+- original Dynon prototype cockpit and in-flight photographs;
+- 2010–2014 Dynon/OEM engineering correspondence;
+- the 2012 glass-cockpit comparison presentation;
+- G900X/G950 installation/maintenance manual material;
+- a Qatar-focused G950 technical presentation;
+- Qatar customer-evaluation correspondence;
+- later equipment/configuration follow-up.
 
-- a signed **2010 systems-engineering design/options study** authored under PM System Engineering;
-- original **November 2010 cockpit photographs** of the first modified aircraft;
-- direct **OEM engineering correspondence** covering integration, interfaces, electrical behaviour, qualification, databases, maintainability and test;
-- **December 2010 first-sortie correspondence**;
-- a **2012 comparative study** authored by the programme systems engineer;
-- Garmin-family customer-evaluation/presentation records;
-- a **2012 evaluation status** recording 10 sorties including night flying;
-- later equipment/configuration correspondence.
+Private correspondence and controlled documents are used as evidence but are not uploaded where they contain personal, customer, organisational, security or proprietary material.
 
-Those source records are **not** uploaded to this public repository when they contain classification/security markings, organization logos, internal identifiers, personal contact information, precise locations, confidential vendor information or controlled aircraft detail.
+## Uploaded source material used in this reconstruction
 
-See [Evidence & Provenance Register](evidence-and-provenance.md).
+- **Glass Cockpit Comparison** — period comparison deck. It explicitly contains Dynon SkyView and Garmin G3X comparative material.
+- **Garmin G900X/G950 Installation and Maintenance Manual excerpt** — OEM reference architecture and LRU/function descriptions.
+- **G950 Qatar-focused presentation** — period technical/evaluation material for the G900X/G950-family track.
+- Original cockpit, in-flight, Qatar-evaluation and Dubai-Airshow photographs supplied with the project archive.
 
-## 2. Public programme sources
+## Public programme sources
 
-Public sources are used only for broad programme history, not to prove my individual role.
-
-- Associated Press of Pakistan — Super Mushshak international programme reporting
-- Defence Journal — historical Super Mushshak overview and glass-cockpit configuration discussion
-- AirHistory.net — historical Dubai Airshow aircraft record
-
-Earlier versions of this repository listed individual public URLs and export quantities. The case study now deliberately keeps those programme-level details secondary to the direct engineering evidence.
+- Associated Press of Pakistan, 23 June 2016 — Qatar supply agreement:
+  https://www.app.com.pk/national/pakistan-to-supply-super-mushshak-trainer-aircraft-to-qatari-air-force/
+- Associated Press of Pakistan, 22 October 2016 — eight-aircraft Qatar supply deal:
+  https://www.app.com.pk/national/pakistan-inks-accord-to-supply-8-mushshak-aircraft-to-qatar/
+- Associated Press of Pakistan, 5 December 2016 — glass-cockpit Super Mushshak delivery to Nigeria:
+  https://www.app.com.pk/national/pakistan-supplies-four-super-mushshak-to-naf/
+- Associated Press of Pakistan, 30 July 2017 — later export-programme context:
+  https://www.app.com.pk/national/pakistan-signs-agreement-with-azerbaijan-for-sale-of-10-super-mushshak-aircraft/
 
 ## Release rule
 
-A public claim is included only when it can be tied to one of three evidence types:
+A public statement must be traceable to one of:
 
-1. **Direct project evidence** — authored/signed record, original photograph, technical correspondence or test record.
-2. **Corroborating project evidence** — a second independent project record supporting the same event/configuration.
-3. **Public evidence** — an external public source supporting programme-level history.
+1. direct project evidence;
+2. OEM/reference documentation;
+3. a clearly identified retrospective derivation;
+4. public programme reporting.
 
-Where source records disagree—for example, the exact Garmin sub-variant named during different stages—the disagreement is retained as an uncertainty rather than silently “resolved”.
+Where sources differ, the repository retains the difference. The most important example is Garmin nomenclature: **G3X comparative material is not silently converted into G900X/G950 prototype evidence.**

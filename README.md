@@ -1,64 +1,101 @@
-# Super Mushshak Glass-Cockpit Retrofit — Systems Engineering Case Study
+# Super Mushshak Glass-Cockpit Retrofit
 
-**Lead systems engineering · avionics integration · architecture trade studies · prototype V&V · flight-test feedback**
+**Aircraft-level systems engineering · avionics integration · prototype V&V · flight-test feedback · customer evaluation**
 
-This repository is a public-safe reconstruction of my work on the early Super Mushshak glass-cockpit retrofit programme. I served as the **lead systems engineer**; surviving period records identify my programme appointment as **PM System Engineering**.
+![Original Dynon SkyView prototype cockpit](assets/dynon-cockpit-prototype-sanitized.jpg)
 
-The work was not a display replacement. It was an aircraft-level retrofit involving cockpit architecture, sensors, navigation/communication equipment, electrical and physical integration, wiring-harness changes, configuration management, OEM coordination, troubleshooting, ground/flight test, and customer evaluation.
+*Original project photograph of the Dynon SkyView prototype cockpit. The image is cropped/redacted only; no synthetic aircraft or cockpit imagery is used in this repository.*
 
-> **Evidence policy:** this repository publishes only sanitized photographs and engineering conclusions that can be supported by surviving project records. Classified/security markings, organization logos, internal identifiers, personal contact details, precise locations, controlled drawings, pinouts, harness routes, and confidential OEM material are intentionally excluded.
+This repository documents my work as **lead systems engineer / avionics integration engineer** on the Super Mushshak glass-cockpit retrofit. The engineering problem was broader than replacing instruments: it involved the aircraft sensor suite, cockpit displays, navigation/communication equipment, electrical integration, wiring-harness changes, databases and configuration, maintainability, OEM coordination, ground/flight test, and customer evaluation.
 
-## What this case study demonstrates
+The repository is reconstructed retrospectively from surviving period records and original photographs. It deliberately separates **what the evidence demonstrates** from what is merely plausible.
 
-| Systems-engineering capability | Evidence preserved in the private project archive |
-|---|---|
-| Requirements & architecture | Signed 2010 glass-cockpit design/options study authored under PM System Engineering |
-| Trade-space analysis | 2010–12 comparisons covering Dynon SkyView and Garmin-family alternatives |
-| Interface engineering | Direct OEM technical exchanges on avionics interfaces, aircraft electrical behaviour, radio integration, databases and installation issues |
-| COTS retrofit integration | Original photographs of the modified cockpit and aircraft; sensor/display/avionics integration records |
-| Verification & validation | First-sortie record after configuration work; continuing flight-test correspondence |
-| Operational evaluation | 2012 status correspondence recording 10 evaluation sorties, including night flying |
-| Lifecycle/configuration follow-up | Later equipment/configuration correspondence showing continued technical support |
+## Engineering scope
 
-## Two principal prototype / evaluation tracks
+- replacement/integration of flight-state and engine/airframe sensing;
+- glass-cockpit PFD/MFD/EMS functions and associated controls;
+- Garmin 430-family navigation/communication integration on the Dynon track;
+- ARINC-429 and other avionics-interface work;
+- aircraft electrical integration, protection and transient troubleshooting;
+- complete aircraft harness / installation changes associated with the modification;
+- avionics databases, software/settings and configuration restoration;
+- maintainability, spares, LRU replacement and OEM support considerations;
+- installed-aircraft functional checks, flight-test feedback and re-test;
+- customer-facing technical evaluation and prototype support.
 
-### Dynon SkyView
+## Prototype identities: kept deliberately separate
 
-The surviving archive contains original photographs of the **first modified aircraft**, direct Dynon engineering correspondence, display/database configuration activity, troubleshooting, OEM technical support and flight-test feedback.
+### Dynon SkyView prototype
 
-The public cockpit image in this repository is derived from an original November 2010 project photograph. It is cropped/redacted only for privacy and organizational-identification purposes; **no synthetic image generation is used**.
+The strongest surviving evidence is on the Dynon track: original cockpit and in-flight photographs, direct OEM engineering exchanges, installed-aircraft troubleshooting, ARINC/GNS integration, database/configuration activity, and repeated flight-test feedback.
 
-### Garmin G900 / G950 family
+### Garmin G900X / G950-family prototype and evaluation track
 
-A separate Garmin-family track was assessed and supported through architecture studies, equipment/package definition, reliability/maintainability/redundancy questions and customer-facing technical evaluation.
+A separate Garmin G900X/G950-family track was developed/evaluated. Surviving material includes G900X/G950 architecture documentation, a Qatar-focused G950 technical presentation, and later G900X configuration-mode correspondence.
 
-Period material uses **G950 / G900-family terminology**, while other surviving comparative material also references G3X. Because those records were created at different stages of an evolving prototype programme, this public reconstruction does **not** invent a precise sub-variant where the surviving archive is inconsistent.
+### Garmin G3X comparative material
 
-## Evidence-backed programme timeline
+A 2012 comparison presentation evaluates **Dynon SkyView against Garmin G3X**. That deck is retained as evidence of trade-study practice only. It is **not relabelled as the G900X/G950 prototype**, because doing so would merge distinct configurations.
 
-- **2010 — system definition and trade study:** signed design/options study under PM System Engineering; aircraft configuration, integration constraints and candidate architectures assessed.
-- **November 2010 — first modified aircraft:** original Dynon SkyView cockpit photographs and direct OEM technical exchanges survive.
-- **December 2010 — first sortie:** project correspondence records display/database installation followed by the first flight.
-- **2011–12 — prototype maturation:** troubleshooting, OEM support, interface questions, configuration refinement and comparative architecture work continued.
-- **2012 — Garmin/Dynon comparative work and customer evaluation:** surviving records include an authored comparative study, Garmin-family evaluation material and a status update recording **10 evaluation sorties including night flying**.
-- **Later follow-up — configuration support:** equipment/configuration records show continued technical involvement beyond initial prototype integration.
+## Evidence-backed engineering loop
 
-## Engineering structure
+~~~mermaid
+flowchart LR
+    A[Aircraft modernisation need] --> B[Requirements & constraints]
+    B --> C[Architecture / COTS trade study]
+    C --> D[Prototype configuration]
+    D --> E[Installation & functional checks]
+    E --> F[Flight test]
+    F --> G[Observed behaviour / discrepancy]
+    G --> H[Engineering + OEM resolution]
+    H --> I[Configuration update]
+    I --> E
+~~~
 
-The repo is organized around the actual systems-engineering lifecycle rather than an invented block diagram:
+This is a **retrospective systems-engineering model** of documented activity, not an original programme diagram.
 
-1. [Systems Engineering Case Study](docs/engineering-case-study.md)
-2. [Architecture Trade Study](docs/architecture-trade-study.md)
-3. [Verification & Flight Test](docs/verification-and-flight-test.md)
-4. [Evidence & Provenance Register](docs/evidence-and-provenance.md)
-5. [Systems-Engineering Retrospective](docs/systems-engineering-retrospective.md)
-6. [Recruiter Evidence Matrix](docs/recruiter-evidence-matrix.md)
-7. [Programme Progression](docs/programme-impact.md)
-8. [Digital Twin — Current Follow-on Work](docs/digital-twin.md)
-9. [References & Public-Release Policy](docs/references.md)
+## Selected visual record
+
+<table>
+<tr>
+<td width="50%"><img src="assets/dynon-pfd-inflight-sanitized.jpg" alt="Dynon PFD in flight"><br><sub>Original in-flight display photograph: installed-aircraft PFD / synthetic-vision evidence.</sub></td>
+<td width="50%"><img src="assets/qaef-ground-evaluation-sanitized.jpg" alt="Qatar ground evaluation"><br><sub>Original ground-evaluation photograph from the Qatar customer-evaluation period; identifying background details redacted.</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/dynon-cockpit-prototype-sanitized.jpg" alt="Dynon prototype cockpit"><br><sub>Installed Dynon prototype cockpit. Internal placard redacted.</sub></td>
+<td width="50%"><img src="assets/dubai-airshow-support-sanitized.jpg" alt="Dubai Airshow support"><br><sub>Original Dubai Airshow support photograph; service insignia/credential detail redacted.</sub></td>
+</tr>
+</table>
+
+## Retrospective MBSE evidence
+
+The MBSE material in this repository is not decorative. The historical evidence has been normalised into linked engineering objects:
+
+**evidence → requirement/constraint → interface → configuration → verification → decision**
+
+See:
+
+- [MBSE retrospective](docs/mbse-retrospective.md)
+- [Structured model](model/README.md)
+- [Requirements](model/requirements.csv)
+- [Interfaces](model/interfaces.csv)
+- [Verification records](model/verification.csv)
+- [Configuration states](model/configurations.csv)
+- [Decision records](model/decisions.csv)
+- [Traceability](model/traceability.csv)
+
+The model is intentionally public-safe: no pinouts, harness routes, controlled drawings, precise equipment locations, security markings, private customer correspondence, or confidential vendor data are published.
+
+## Technical case-study map
+
+- [Systems engineering case study](docs/engineering-case-study.md)
+- [Architecture and trade study](docs/architecture-trade-study.md)
+- [Verification and flight test](docs/verification-and-flight-test.md)
+- [Qatar evaluation and programme context](docs/field-evaluation-and-programme-context.md)
+- [Evidence register](docs/evidence-register.md)
+- [Digital twin follow-on](docs/digital-twin.md)
+- [Sources and release boundary](docs/references.md)
 
 ## From retrofit to digital engineering
 
-The current **Super Mushshak Digital Twin** effort is a separate follow-on project. The retrofit archive provides useful historical inputs—configuration states, system boundaries, interfaces, decisions and verification evidence—but the digital twin is not presented as an original-program artifact.
-
-The governing rule is the same as for this repository: **model only what the evidence supports, preserve traceability, and make uncertainty explicit.**
+The current **Super Mushshak Digital Twin** is a separate follow-on effort. The retrofit archive provides real configuration history, interfaces, decisions, discrepancies and verification evidence that can seed a modern digital thread. The twin will increase in fidelity only where releasable evidence supports it.

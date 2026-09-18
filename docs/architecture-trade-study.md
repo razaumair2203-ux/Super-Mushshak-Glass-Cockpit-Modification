@@ -1,59 +1,65 @@
-# Architecture Trade Study
+# Architecture and Trade Study
 
-The glass-cockpit work evolved through multiple candidate configurations. Surviving 2010–12 records include formal comparisons of **Dynon SkyView**, **Garmin G950/G900-family solutions**, and at some stages **Garmin G3X** material.
+## Why configuration identity matters
 
-This page does not recreate a proprietary vendor block diagram. Instead, it records the **aircraft-level decision dimensions that are evidenced in the archive**.
+The surviving archive contains several Garmin names created at different points in the programme. They must not be collapsed into one architecture.
 
-## Principal public tracks
+1. **Dynon SkyView** — installed prototype with strong photographic, OEM-correspondence and flight-test evidence.
+2. **Garmin G900X/G950 family** — separate prototype/evaluation track supported by G900X/G950 technical material, a G950 customer-focused presentation and later G900X configuration correspondence.
+3. **Garmin G3X** — appears in a 2012 Dynon-vs-G3X comparison deck. It is treated here as a comparative candidate, not as proof of the G900X/G950 aircraft configuration.
 
-### Dynon SkyView prototype track
+## Dynon SkyView track
 
-Evidence includes:
+The period comparison material describes a two-large-display SkyView layout with a central navigation/communication display. The broader project archive shows that the aircraft integration also involved flight/engine sensing, legacy avionics, aircraft power, configuration databases and supportability.
 
-- original photographs of the first modified cockpit;
-- direct OEM technical correspondence;
-- integration and troubleshooting questions;
-- database/configuration work;
-- flight-test feedback and first-sortie correspondence;
-- later configuration/equipment follow-up.
+Strongest evidence on this track:
 
-### Garmin G900 / G950-family track
+- original installed-cockpit photographs;
+- in-flight display photographs;
+- OEM interface and troubleshooting correspondence;
+- GNS 430-family / ARINC integration activity;
+- first-sortie and continuing flight-test feedback;
+- Qatar evaluation records.
 
-Evidence includes:
+## Garmin G900X/G950-family track
 
-- period G950/G900-family technical and quotation material;
-- package/component-definition work;
-- architecture comparison;
-- reliability, maintainability and redundancy questions;
-- customer-facing evaluation/presentation support.
+The Garmin G900X/G950 installation material describes an integrated modular architecture with PFD/MFD displays and multiple LRUs for air data, attitude/heading, engine/airframe data, NAV/COM, audio and transponder functions. The official reference architecture uses redundant/high-speed data paths and modular LRUs.
 
-### Naming note
+That OEM architecture is useful for understanding the design space, but this repository does **not** copy the generic vendor diagram and present it as the exact Super Mushshak installation.
 
-Different surviving records use G950/G900-family terminology and also reference G3X during comparative/prototype work. The project was evolving. This repository therefore uses **Garmin G900/G950-family track** as a conservative public label and does not claim an exact sub-variant unless a specific surviving record supports it.
+The Qatar-focused G950 presentation also treats the system as a dual-display integrated flight deck with reversionary capability, air-data/AHRS, engine indication and integrated communication/navigation functions. Again, it is used as architecture/evaluation evidence rather than as a substitute for an aircraft-specific released drawing.
 
-## Trade-space dimensions
+## G3X comparative deck
 
-| Dimension | Systems-engineering question |
+The 2012 comparison deck records a separate trade exercise. It describes:
+
+- Dynon SkyView as a two-10.4-inch-display solution with a centre NAV/COM display;
+- Garmin G3X as a three-7-inch-display solution with a centre NAV/COM display;
+- both candidates providing PFD/MFD, engine display, radio/NAV integration, synthetic vision, GPS and moving-map capability;
+- qualitative differences in ergonomics, display arrangement, warnings/features, integration flexibility, build quality, OEM support and price.
+
+Those observations are useful because they show a multi-criteria decision process. They are not used to rewrite the identity of the G900X/G950 prototype.
+
+## Aircraft-level trade dimensions
+
+| Dimension | Engineering question |
 |---|---|
-| Functional coverage | Which flight, engine, navigation, communication and warning functions are provided? |
-| Legacy compatibility | What existing aircraft equipment can remain, and what requires replacement or interface adaptation? |
-| Sensor integration | What sensing/transducers and conditioning are required? |
-| Electrical integration | Can the aircraft power system support the configuration with adequate margin and protection? |
-| Physical installation | What equipment, panel, cabling and installation burden is introduced? |
-| Data/interface architecture | Which digital/analog interfaces are required and where are integration risks concentrated? |
-| HMI / training role | Is information presented clearly for a basic-training cockpit and instructor/student use? |
-| Alerts and backup | How are warnings, abnormal indications and fallback information handled? |
-| Reliability / redundancy | How tolerant is the architecture of individual equipment or display failures? |
-| Qualification | What environmental/airworthiness evidence exists and what additional verification is required? |
-| Maintainability | How is troubleshooting, replacement, spares support and post-installation test handled? |
-| OEM support | What engineering support is available during integration and lifecycle operation? |
-| Upgradeability | Can third-party equipment or future configuration changes be incorporated without redesigning the whole cockpit? |
-| Cost / schedule | What is the total aircraft-level integration burden, not merely equipment purchase price? |
+| Functional coverage | Does the candidate provide the flight, engine, NAV/COM, alerting and mapping functions required? |
+| Sensor architecture | What air-data, attitude/heading and engine/airframe sensing must change? |
+| Legacy compatibility | Which existing radios/transponder/aircraft systems can be retained and interfaced? |
+| Electrical integration | Can the aircraft supply the loads with adequate protection and acceptable transient behaviour? |
+| Interface burden | What digital, analogue or discrete interfaces are required? |
+| Physical installation | What panel, equipment, harness and installation changes are introduced? |
+| HMI / training suitability | Is information distribution usable for instructor/student operation? |
+| Redundancy / failure response | What capability remains after display/LRU failure? |
+| Qualification / certification | Is the evidence basis appropriate to the aircraft and customer acceptance route? |
+| Maintainability | What can be replaced locally, what requires OEM repair, and what spares are needed? |
+| Configuration management | How are software, settings and databases controlled after equipment changes? |
+| Upgradeability | Can future equipment/functions be incorporated without major redesign? |
+| Lifecycle cost | What is the aircraft-level integration/support burden, not only purchase price? |
 
-## What the trade study demonstrates
+## Trade-study conclusion
 
-The significant engineering result is the **method**, not an invented vendor “winner”.
+The engineering value is not a retrospective declaration of a single universal winner. The programme explored more than one COTS architecture and discovered that **interface burden, supportability, certification fit and configuration control can dominate headline equipment capability**.
 
-The programme compared alternative architectures against aircraft constraints, training needs, integration risk, supportability and lifecycle considerations. A signed 2010 systems-engineering study and a later comparative presentation authored by the programme systems engineer provide direct evidence of this work.
-
-Exact internal load budgets, LRU locations, proprietary diagrams, pinouts, harness routes and controlled documents are intentionally excluded from the public repository.
+See [Structured model](../model/README.md) for the linked requirements, interfaces, decisions and verification evidence.

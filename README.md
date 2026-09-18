@@ -2,9 +2,18 @@
 
 **Lead systems engineering · avionics integration · prototype V&V · aircraft-level test · customer evaluation · digital-thread reconstruction**
 
-![Super Mushshak glass-cockpit retrofit overview](assets/super-mushshak-hero.jpg)
+<table>
+<tr>
+<td width="50%"><img src="assets/dynon-cockpit-prototype-sanitized.jpg" alt="Installed Dynon SkyView prototype cockpit"></td>
+<td width="50%"><img src="assets/dynon-pfd-inflight-sanitized.jpg" alt="Dynon SkyView display in flight"></td>
+</tr>
+<tr>
+<td><sub>Installed Dynon SkyView prototype cockpit — authentic project photograph.</sub></td>
+<td><sub>Installed-aircraft flight-test evidence — authentic in-flight project photograph.</sub></td>
+</tr>
+</table>
 
-*Project overview assembled only from authentic period photographs already in the archive. Crop, resize and layout composition only; no synthetic aircraft or cockpit imagery.*
+*Project imagery is authentic. Public processing is limited to crop, resize, quality correction and specific redaction where required; no synthetic aircraft or cockpit imagery is used.*
 
 This repository reconstructs my work as **lead systems engineer / avionics integration engineer** on the Super Mushshak glass-cockpit retrofit. The modification was an aircraft-level integration problem, not a display replacement: it included the aircraft sensor suite, glass displays, navigation/communication equipment, electrical integration, the complete aircraft wiring-harness change associated with the modification, software/settings/databases, maintainability, OEM coordination, ground and flight test, and customer evaluation.
 

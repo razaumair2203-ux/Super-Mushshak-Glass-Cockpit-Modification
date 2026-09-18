@@ -10,6 +10,8 @@ Aircraft/cockpit photographs in this directory originate from the project archiv
 | mbse-system-architecture.svg | Retrospective model derived from evidence register / structured model | Native vector diagram; no synthetic aircraft imagery |
 | mbse-verification-thread.svg | Retrospective traceability / verification view | Native vector diagram |
 | programme-impact.svg | Retrospective public-programme timeline | Native vector diagram; quantities/value estimates sourced in docs/references.md |
+| configuration-evolution.svg | Retrospective configuration-state model | Native vector diagram derived from model/configurations.csv |
+| traceability-matrix.svg | Requirements × verification cross-reference | Native vector diagram derived from model/traceability.csv and verification.csv |
 
 ## Image-release rule
 

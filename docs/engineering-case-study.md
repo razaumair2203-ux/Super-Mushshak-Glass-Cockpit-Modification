@@ -8,20 +8,18 @@ The design problem spans coupled domains: flight-state sensing/presentation; eng
 
 This coupling is the reason a functionally capable COTS avionics suite can still create aircraft-level integration risk.
 
-## Lead Systems Engineer responsibility represented
+## Lead Systems Engineer scope
 
-The programme lead identifies his role on the retrofit as **Lead Systems Engineer**.
-
-The public-release responsibility statement covers:
+I served as **Lead Systems Engineer** for the retrofit, with responsibility spanning the aircraft-level engineering problem rather than a single avionics LRU. The scope covered:
 
 - system boundary, architecture alternatives and cross-domain integration;
 - glass-cockpit integration with revised sensing, aircraft electrical power/protection, retained avionics and the complete modification harness;
 - prototype ground/flight test, discrepancy investigation and re-verification;
 - hardware/configuration restoration after equipment change;
 - OEM technical coordination;
-- customer-evaluation support.
+- customer-evaluation support, including Qatar evaluation activity and Dubai Airshow programme support.
 
-The role statement is controlled as **E-25**. It is intentionally separated from technical proof: individual engineering claims still require their own evidence.
+The role scope is cross-linked to **E-25** and the relevant project evidence in the machine-readable model; configuration-specific technical claims continue to retain their own evidence links.
 
 ## Context and functional architecture
 
@@ -33,9 +31,9 @@ The model begins with aircraft/stakeholder context and equipment-independent fun
 
 ## Baseline characterisation
 
-A non-public period first-modification report contains detailed analysis of the legacy cockpit, avionics, electrical and mechanical installation. The source document is not republished.
+Period baseline engineering included detailed analysis of the legacy cockpit, avionics, electrical and mechanical installation. The public portfolio presents that work at architecture and interface level while controlled implementation detail remains in the programme record.
 
-Only high-level facts needed for the public engineering model are retained:
+The case study captures the following baseline engineering facts:
 
 - the baseline used conventional flight/engine instruments and separate avionics functions;
 - replacement required analysis of instrument/sensor interfaces;
@@ -43,7 +41,7 @@ Only high-level facts needed for the public engineering model are retained:
 - panel/equipment installation and cabling were part of the modification problem;
 - multiple architectural approaches were considered.
 
-Exact baseline equipment lists, antenna locations, load tables and detailed installation data remain outside the repository.
+Exact equipment lists, antenna locations, load tables and installation drawings remain controlled and are therefore not reproduced here.
 
 A programme-lead scope statement identifies **sensor-suite replacement and the complete modification wiring-harness change** as part of the executed retrofit scope. It is tracked as E-24 and kept distinct from period drawings.
 

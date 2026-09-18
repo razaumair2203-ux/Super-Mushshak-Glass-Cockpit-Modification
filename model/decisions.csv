@@ -1,4 +1,4 @@
-decision_id,decision_topic,retrospective_decision_or_rationale,configuration_scope,evidence_ids
+decision_id,decision_topic,decision_or_engineering_rationale,configuration_scope,evidence_ids
 DEC-001,Architecture trade space,"Evaluate multiple COTS glass-cockpit architectures against aircraft-level capability, integration, HMI, support and lifecycle factors rather than display features alone.","Trade space","E-08;E-09;E-10;E-23"
 DEC-002,NAV interface,"Use/assess an avionics data-interface path to integrate retained navigation capability with the Dynon cockpit.","CFG-D2","E-03;E-04;E-05"
 DEC-003,Maintenance concept,"Treat spare LRUs and OEM repair/support as part of the fleet support concept; do not assume all board-level repair can be performed locally.","Dynon / lifecycle","E-05"
@@ -6,4 +6,4 @@ DEC-004,Configuration restoration,"Restore required settings and databases after
 DEC-005,Qualification / acceptance fit,"Keep qualification/certification suitability separate from functional flight performance in customer evaluation.","CFG-D3;CFG-G1","E-03;E-06;E-07;E-10"
 DEC-006,Configuration identity,"Keep G3X comparison evidence separate from the G900X/G950 prototype/evaluation track.","CMP-G3X;CFG-G1","E-08;E-09;E-10;E-11"
 DEC-007,Public model boundary,"Abstract controlled implementation detail while retaining requirement-function-interface-configuration-verification traceability.","All","E-01;E-02;E-03;E-04;E-05;E-06;E-07;E-23"
-DEC-008,Issue status discipline,"Do not represent an observed discrepancy as closed when surviving public-safe evidence does not establish final closure.","CFG-D3","E-06"
+DEC-008,Issue status discipline,"Do not represent detailed closure beyond what is included in the public release.","CFG-D3","E-06"

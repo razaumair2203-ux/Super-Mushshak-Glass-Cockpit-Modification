@@ -29,7 +29,7 @@ Project records show that constraints were not limited to display capability. In
 
 ## 3. Requirement normalisation
 
-Historical evidence is transformed into public requirement statements only when the evidence supports the underlying need. Each requirement has a stable identifier, basis, verification method and evidence links.
+Project records are mapped into public requirement statements where they support the underlying system need. Each requirement has a stable identifier, basis, verification method and evidence links.
 
 The requirement set covers primary flight information, engine/airframe information, NAV/COM integration, electrical integration, configuration restoration, retained-system interfaces, installed-aircraft V&V, maintainability, qualification/certification fit, failure response, HMI/training suitability and configuration identity.
 
@@ -69,7 +69,7 @@ Generic OEM architecture can inform design understanding but cannot be promoted 
 
 Interfaces are controlled at the public logical level: power, sensor/data, NAV/COM, transponder, audio/alerts, configuration data, HMI and maintenance/OEM support.
 
-The public record deliberately withholds pin-level implementation and routing detail.
+The public model remains at logical-interface level; pin-level implementation and routing detail remain controlled.
 
 See [Interface control](interface-control.md) and [model/interfaces.csv](../model/interfaces.csv).
 
@@ -96,7 +96,7 @@ Configuration states therefore track:
 - significant hardware/LRU change;
 - software/settings/database restoration where evidenced;
 - evaluation/test state;
-- evidence boundary and unresolved unknowns.
+- evidence boundary and open / unpublished detail.
 
 See [Configuration management](configuration-management.md).
 
@@ -125,7 +125,7 @@ Issues describe something actually observed. Risks capture the broader engineeri
 - retained-avionics compatibility;
 - supportability / aircraft-on-ground exposure.
 
-The model does not invent probability or severity values and does not publish a formal programme FHA/FMEA; controlled safety artefacts remain outside this public release.
+The public model does not assign probability or severity values because the programme safety artefacts are controlled and outside this release.
 
 See [Integration risk register](integration-risk-register.md) and [model/risks.csv](../model/risks.csv).
 
@@ -162,4 +162,4 @@ Before publication, each artefact is checked for:
 - unsupported claims;
 - actual systems-engineering value.
 
-The aim is an auditable technical record, not diagram density.
+The aim is an auditable, recruiter-readable technical record with engineering depth rather than decorative diagram density.

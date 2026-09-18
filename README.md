@@ -1,164 +1,146 @@
 # Super Mushshak Glass-Cockpit Retrofit
 
-**Lead Systems Engineer case study · aircraft-level avionics integration · prototype development · configuration control · ground/flight verification · customer evaluation · digital-thread reconstruction**
+**Lead Systems Engineer case study · aircraft-level avionics integration · prototype development · ground/flight test · customer evaluation · configuration control · digital-engineering follow-on**
 
 <table>
 <tr>
-<td width="50%"><img src="assets/dynon-cockpit-prototype-sanitized.jpg" alt="Installed Dynon SkyView prototype cockpit"></td>
-<td width="50%"><img src="assets/dynon-pfd-inflight-sanitized.jpg" alt="Dynon SkyView display in flight"></td>
+<td width="34%"><img src="assets/dynon-cockpit-prototype-sanitized.jpg" alt="Installed Dynon SkyView prototype cockpit"></td>
+<td width="33%"><img src="assets/dynon-pfd-inflight-sanitized.jpg" alt="Dynon SkyView cockpit in flight"></td>
+<td width="33%"><img src="assets/qaef-ground-evaluation-sanitized.jpg" alt="Customer evaluation period project photograph"></td>
 </tr>
 <tr>
-<td><sub><b>Authentic project evidence:</b> installed Dynon SkyView prototype cockpit. Public-release processing only; no synthetic reconstruction.</sub></td>
-<td><sub><b>Authentic project evidence:</b> installed-aircraft display in flight. Used only for what is visible and traceable.</sub></td>
+<td><sub><b>Installed prototype:</b> Dynon SkyView glass cockpit.</sub></td>
+<td><sub><b>Flight test:</b> installed Dynon cockpit operating in flight.</sub></td>
+<td><sub><b>Customer evaluation:</b> project aircraft during international evaluation activity.</sub></td>
 </tr>
 </table>
 
-I was the **Lead Systems Engineer** for this Super Mushshak glass-cockpit retrofit. The engineering problem was not “replace analogue gauges with screens”; it was to integrate a new cockpit architecture into an existing training aircraft while controlling sensing, aircraft power, retained avionics, NAV/COM, the complete modification harness, software/data state, HMI, verification, maintainability and customer-evaluation risk.
+I was the **Lead Systems Engineer** for the Super Mushshak glass-cockpit retrofit. The job was an aircraft-level modification: integrate new displays, sensing, NAV/COM, retained avionics, aircraft power, the complete modification wiring harness, configuration data and HMI into an existing military trainer, then take the integrated aircraft through ground test, flight test, troubleshooting and customer evaluation.
 
-The archive contains two distinct prototype/evaluation paths: **Dynon SkyView** and the **Garmin G900X/G950 family**. A separate **Garmin G3X comparison deck** survives as trade-study evidence only and is deliberately not relabelled as the G900X/G950 aircraft configuration.
+The programme pursued two prototype paths: **Dynon SkyView** and **Garmin G900X**. A surviving comparison deck also evaluates **Garmin G3X**; that deck is retained as trade-study evidence and is not used to relabel the separate G900X prototype path.
+
+## The hook: early prototype work became a much larger product path
+
+Independent aviation reporting shows that the glass-cockpit Super Mushshak moved well beyond the initial development activity documented here:
+
+- [Times Aerospace, 2017](https://www.timesaerospace.aero/features/defence/nigeria-opts-for-super-mushshaks) reported that the two-display glass-cockpit Super Mushshak first appeared publicly at **Dubai Airshow 2011**, with **Dynon and Garmin** versions available.
+- [Asian Military Review, 2019](https://www.asianmilitaryreview.com/2019/01/super-mushshaks-super-popular/) documented an **80-aircraft** new-customer sequence in 2016–2017: **Qatar 8, Nigeria 10, Türkiye 52 and Azerbaijan 10**. It identified Qatar and Türkiye with **Garmin 950** and Nigeria with **Dynon**.
+- [Times Aerospace, 2024](https://www.timesaerospace.aero/sites/aerospace/times/files/magazines/2024/das24-wds-d3/content/das24-wds-d3.pdf) reported that **more than 100 Super Mushshaks had been upgraded or sold with new avionics since 2016**, using Dynon, GenesyS or Garmin systems.
+
+That is the programme-scale continuation of the glass-cockpit product path. It does not imply that every later production aircraft reproduced an early prototype unchanged.
+
+## Independent media: the product after the prototype phase
+
+<table>
+<tr>
+<td width="33%"><a href="https://commons.wikimedia.org/wiki/File:96-6385_PAC_MFI-17_Super_Mushshak_(7970352052).jpg"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/96-6385%20PAC%20MFI-17%20Super%20Mushshak%20%287970352052%29.jpg" alt="Super Mushshak at Dubai Airshow 2011"></a></td>
+<td width="34%"><a href="https://commons.wikimedia.org/wiki/File:PAC_Super_Mushshak_cockpit.jpg"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/PAC%20Super%20Mushshak%20cockpit.jpg" alt="Super Mushshak cockpit at Dubai Airshow 2017"></a></td>
+<td width="33%"><a href="https://commons.wikimedia.org/wiki/File:PAC_MFI-17_Super_Mushshak_Turkish_Air_Force.jpg"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/PAC%20MFI-17%20Super%20Mushshak%20Turkish%20Air%20Force.jpg" alt="Turkish Air Force Super Mushshak"></a></td>
+</tr>
+<tr>
+<td><sub><b>Dubai Airshow 2011:</b> Super Mushshak on public display. Kurush Pawar / DXBSpotter, CC BY-SA 2.0.</sub></td>
+<td><sub><b>Dubai Airshow 2017:</b> later Super Mushshak glass-cockpit display. Mztourist, CC BY-SA 4.0.</sub></td>
+<td><sub><b>Export service:</b> Turkish Air Force Super Mushshak. CeeGee, Wikimedia Commons; licence on source page.</sub></td>
+</tr>
+</table>
+
+See the fuller [project + independent media gallery](docs/media-gallery.md).
 
 ## 30-second engineering view
 
-| Dimension | Evidence-backed summary |
+| Dimension | What this project demonstrates |
 |---|---|
-| **Role** | **Lead Systems Engineer** — aircraft-level architecture/integration, test/troubleshooting, OEM coordination and customer-evaluation support |
-| **System of interest** | complete aircraft glass-cockpit retrofit: revised sensing, displays/HMI, retained avionics, power/protection, physical installation, complete modification harness and configuration data |
-| **Core engineering problem** | integrate commercial avionics into an aerobatic military training-aircraft environment without losing aircraft-level compatibility, testability or supportability |
-| **Prototype tracks** | Dynon SkyView installed prototype; separate Garmin G900X/G950-family path; G3X retained only as comparative evidence |
-| **V&V model** | installed checks → flight observations → discrepancy isolation → engineering/OEM disposition → configuration restoration/change → re-test / re-flight |
-| **Configuration discipline** | every test result belongs to the identified as-tested hardware/software/data state; unknown details stay unknown |
-| **Customer validation** | surviving 2012 records document repeated customer-evaluation flying, including night operation; validation is not promoted into certification evidence |
-| **Later programme scale** | public reporting records **80 aircraft** across Qatar, Nigeria, Türkiye and Azerbaijan in the 2016–2017 export sequence; this is programme context, not a sole-causation claim |
+| **Role** | **Lead Systems Engineer** — aircraft-level architecture/integration, test, troubleshooting, OEM coordination and customer-evaluation support |
+| **System of interest** | complete glass-cockpit retrofit: revised sensing, displays/HMI, retained avionics, NAV/COM, power/protection, physical installation, modification harness and configuration data |
+| **Prototype tracks** | Dynon SkyView installed prototype and a separate Garmin G900X prototype path; G3X retained as comparison/trade-study material |
+| **Engineering flow** | architecture and interfaces → installation → ground test → flight test → discrepancy isolation → engineering/OEM action → re-test |
+| **Configuration discipline** | results tied to the as-tested hardware/software/data state |
+| **Customer validation** | repeated customer-evaluation flying documented in the surviving programme record |
+| **Later impact** | glass-cockpit Super Mushshak subsequently entered multi-country export service at significant scale |
 
-## Why this is a systems-engineering retrofit
+## Aircraft-level systems engineering
 
 ![System context](assets/system-context.svg)
 
-The system boundary is the **aircraft**, not an avionics display. The public reconstruction therefore models the retrofit against the legacy airframe, electrical system, revised sensor suite, retained systems, pilot/instructor, maintenance/OEM support, test activity and acceptance environment.
+The system boundary is the **aircraft**, not the display. The retrofit touched four coupled technical areas:
+
+- **flight and engine sensing**;
+- **cockpit displays, HMI and alerts**;
+- **NAV/COM, audio and retained avionics interfaces**;
+- **aircraft power, physical installation and the complete modification wiring harness**.
+
+It also required configuration management, verification, maintainability and OEM/customer coordination.
 
 ![Functional decomposition](assets/functional-decomposition.svg)
 
-The aircraft-level functions are decomposed into four technical domains and three lifecycle functions:
-
-- **Acquire aircraft state** — flight-state and engine/airframe sensing.
-- **Present and interact** — primary flight information, engine/airframe information and pilot/instructor HMI.
-- **Integrate avionics services** — NAV/COM, retained avionics, audio and alerting.
-- **Integrate aircraft platform** — electrical power/protection, physical installation and complete modification harness.
-- **Control configuration** — hardware, software, settings, databases and as-tested identity.
-- **Verify installed aircraft** — ground/flight verification, discrepancy disposition and re-test.
-- **Sustain and support** — LRU replacement/repair, spares, configuration restoration and OEM support.
-
-Exact pins, connector data, controlled harness routes and precise internal installation detail are intentionally excluded from the public model.
-
-## Lifecycle and architecture
-
-![Retrospective V-model](assets/systems-engineering-lifecycle.svg)
-
-This retrospective V-model expresses the engineering flow rather than pretending an original MBSE model existed in 2010–2012. The left side defines the problem and interfaces; the right side closes evidence against the corresponding configuration and requirement.
-
-![Logical system architecture](assets/mbse-system-architecture.svg)
-
-The logical architecture is deliberately vendor-neutral at aircraft level. Vendor reference architecture is used only to understand the design space. It is **not** presented as the exact Super Mushshak wiring baseline.
-
-## Prototype identity and configuration control
-
-![Configuration identity](assets/configuration-evolution.svg)
-
-| ID | Configuration identity | Evidence boundary |
-|---|---|---|
-| **CFG-000** | legacy aircraft baseline | public-safe system boundary only |
-| **CFG-D1** | Dynon initial installed prototype | early installed-aircraft operation and discrepancy evidence |
-| **CFG-D2** | Dynon post-replacement / reconfiguration state | restored data/settings, interface work and return-to-flight evidence |
-| **CFG-D3** | Dynon performance / customer-evaluation state | later flight-test and customer-evaluation observations |
-| **CFG-G1** | Garmin G900X/G950-family path | separate prototype/evaluation family; exact public installed LRU baseline remains partial |
-| **CMP-G3X** | Garmin G3X comparison artefact | trade-study evidence only; no installed-aircraft verification is assigned |
-
-This separation is intentional: **configuration identity is part of the evidence model, not diagram decoration**.
-
-## Verification and discrepancy closure
-
-![Evidence-to-verification digital thread](assets/mbse-verification-thread.svg)
-
-The main assurance rule is:
-
-> **A verification claim belongs only to the configuration in which it was observed.**
-
-The surviving archive supports a real installed-aircraft loop: observation → isolate interface/configuration → engineering and OEM analysis → hardware/configuration action → restore required settings/data → re-verify.
-
-The model does not force every historical issue to “closed”. It distinguishes **observed**, **reverified**, **characterised/explained**, and **final closure not reconstructed**.
-
-![Representative traceability slice](assets/traceability-matrix.svg)
-
-The recruiter-facing matrix above is intentionally readable. The complete relationship set remains machine-readable in [model/traceability.csv](model/traceability.csv), linking requirements, functions, interfaces, configurations, verification records, issues, risks, decisions and evidence.
-
-## Authentic project imagery and independent public media
-
-The engineering narrative uses **original project photographs** as the primary visual evidence. No aircraft, cockpit, equipment, person or test scene is synthetically generated.
+## Architecture, interfaces and lifecycle
 
 <table>
 <tr>
-<td width="50%"><img src="assets/qaef-ground-evaluation-sanitized.jpg" alt="Customer evaluation period project photograph"></td>
-<td width="50%"><a href="https://commons.wikimedia.org/wiki/File:PAC_Super_Mushshak_cockpit.jpg"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/PAC%20Super%20Mushshak%20cockpit.jpg" alt="Public Super Mushshak cockpit photograph, Dubai Airshow 2017"></a></td>
-</tr>
-<tr>
-<td><sub><b>Project archive:</b> customer-evaluation-period photograph. Used as field context only.</sub></td>
-<td><sub><b>Independent public context:</b> Super Mushshak cockpit, Dubai Airshow 2017, Mztourist, CC BY-SA 4.0. This is not represented as an original project photograph.</sub></td>
+<td width="50%"><img src="assets/mbse-system-architecture.svg" alt="Logical aircraft-level system architecture"></td>
+<td width="50%"><img src="assets/systems-engineering-lifecycle.svg" alt="Retrospective systems engineering lifecycle"></td>
 </tr>
 </table>
 
-Independent sources strengthen the public context without being substituted for project evidence:
+These are **retrospective public-safe engineering views** built from the surviving project record. They are not substitutes for controlled aircraft wiring or proprietary installation drawings.
 
-| Public source | What it supports |
+## Prototype identity and configuration control
+
+![Configuration evolution](assets/configuration-evolution.svg)
+
+| ID | Configuration |
 |---|---|
-| [Times Aerospace — *Nigeria opts for Super Mushshaks*](https://www.timesaerospace.aero/features/defence/nigeria-opts-for-super-mushshaks) | public appearance of the two-display glass cockpit at Dubai Airshow 2011; Dynon and Garmin alternatives |
-| [Asian Military Review — *Super Mushshaks, Super Popular!*](https://www.asianmilitaryreview.com/2019/01/super-mushshaks-super-popular/) | 80-aircraft 2016–2017 export sequence; Qatar/Türkiye Garmin 950, Nigeria Dynon, Azerbaijan selection not identified |
-| [The Peninsula Qatar — 2018 aviation feature](https://thepeninsulaqatar.com/pdf/20180322_1521670567-11085.pdf) | No. 30 Sqn, Al Zaeem Air Academy reported equipped with eight Garmin glass-cockpit Super Mushshaks in 2017 |
-| [Defence Journal — *Super Mushshak*](https://www.defencejournal.com/2018/09/10/super-mushshak/) | overseas Garmin 950 / Dynon SkyView preference and PAF Dynon adoption context |
-| [Wikimedia Commons cockpit photograph](https://commons.wikimedia.org/wiki/File:PAC_Super_Mushshak_cockpit.jpg) | reusable, independently sourced 2017 cockpit visual under CC BY-SA 4.0 |
+| **CFG-000** | legacy aircraft baseline |
+| **CFG-D1** | Dynon initial installed prototype |
+| **CFG-D2** | Dynon post-replacement / reconfiguration state |
+| **CFG-D3** | Dynon performance / customer-evaluation state |
+| **CFG-G1** | Garmin G900X prototype/evaluation path |
+| **CMP-G3X** | Garmin G3X comparison artefact; trade study only |
 
-Copyrighted news/operator photographs remain source-linked rather than copied into the project archive. Licensed imagery is clearly attributed and kept evidentially separate from original project photographs.
+The separation matters because flight-test observations are valid only for the configuration in which they were obtained.
 
-See [Independent public glass-cockpit and operator evidence](docs/public-operator-evidence.md).
+## Verification and discrepancy closure
 
-## Later programme context
+![Verification thread](assets/mbse-verification-thread.svg)
 
-Specialist and public reporting documents the following 2016–2017 new-customer sequence:
+The surviving record supports a genuine installed-aircraft loop:
 
-| Customer | Quantity | Public configuration evidence used here |
+**observe → isolate interface/configuration → engineer/OEM disposition → hardware/configuration action → restore settings/data → re-test / re-flight**
+
+![Traceability matrix](assets/traceability-matrix.svg)
+
+The detailed relationship set is machine-readable in [model/traceability.csv](model/traceability.csv), linking requirements, functions, interfaces, configurations, verification records, issues, risks, decisions and evidence.
+
+## Source-backed export continuity
+
+| Customer / operator | Publicly reported quantity | Source used here |
 |---|---:|---|
-| Qatar | 8 | Garmin 950 |
-| Nigeria | 10 | Dynon |
-| Türkiye | 52 | Garmin 950 |
-| Azerbaijan | 10 | configuration not identified in the cited specialist source |
-| **Total** | **80** | programme-level context |
+| **Qatar** | 8 | [APP contract report](https://www.app.com.pk/national/pakistan-inks-accord-to-supply-8-mushshak-aircraft-to-qatar/) + [Qatar News Agency operational use](https://qna.org.qa/en/news/news-details?date=23%2F01%2F2024&id=0033-hh%C2%A0the-amir-patronizes%C2%A0graduation-ceremony-of%C2%A0al-zaeem-air-academy) |
+| **Nigeria** | 10 | [APP delivery report — glass-cockpit aircraft](https://www.app.com.pk/national/pakistan-supplies-four-super-mushshak-to-naf/) + [Nigerian Air Force](https://airforce.mil.ng/news/pakistan-to-strengthen-technical%2C-defence-cooperation-with-nigerian-air-force361186473) |
+| **Türkiye** | 52 | [APP contract report](https://www.app.com.pk/national/pakistan-to-supply-52-trainer-aircraft-to-turkey/) + [Turkish Ministry of National Defence induction](https://www.msb.gov.tr/SlaytHaber/1d609ba0df7c40039347230972cec89b) |
+| **Azerbaijan** | 10 | [APP / PAC-PAF sale report](https://www.app.com.pk/national/pakistan-signs-agreement-with-azerbaijan-for-sale-of-10-super-mushshak-aircraft/) |
+| **2016–2017 total** | **80** | cross-checked by [Asian Military Review](https://www.asianmilitaryreview.com/2019/01/super-mushshaks-super-popular/) |
 
-This demonstrates the later scale and continuity of the glass-cockpit product path. It **does not** establish that an early prototype was reproduced unchanged or that one engineer alone caused the later sales.
+For the avionics mapping in that export sequence, the specialist source identifies **Qatar — Garmin 950; Nigeria — Dynon; Türkiye — Garmin 950; Azerbaijan — not identified in that article**.
 
-![Programme context](assets/programme-context.svg)
+## Digital thread → digital twin
 
-## Digital thread → future digital twin
+![Digital twin roadmap](assets/digital-twin-roadmap.svg)
 
-![Digital-thread / twin roadmap](assets/digital-twin-roadmap.svg)
-
-The follow-on digital-engineering work starts from the historical evidence rather than inventing missing aircraft data. The implemented backbone under `/model` contains stable IDs and traceability for:
+The historical reconstruction now feeds a digital-engineering backbone:
 
 **evidence → claims → requirements → functions → interfaces → configurations → verification → issues/risks → decisions**
 
-Executable electrical, failure-state, maintenance/health, data-replay and verification-scenario models are future increments and will only be promoted when releasable source data supports the required fidelity.
+The next step is an executable Super Mushshak digital twin built only from releasable, defensible source data: electrical/interface behaviour, failure-state logic, maintenance/health state, data replay and verification scenarios.
 
-## Evidence and public-release boundary
+## Public-release boundary
 
-This repository intentionally does **not** publish security markings, private correspondence, personal data, detailed wiring routes, connector/pin data, controlled drawings, exact internal equipment locations or proprietary implementation detail.
-
-Image processing is limited to **crop, resize, exposure/contrast correction, sharpening and targeted redaction** of unnecessary identifiers/location details. There is **no synthetic cockpit or aircraft reconstruction**.
+The repository excludes security markings, private correspondence, personal data, controlled drawings, detailed pin/connector data, exact harness routes and proprietary internal installation detail. Project photographs may be cropped, enhanced and redacted for privacy/security, but aircraft/cockpit content is not synthetically generated or replaced.
 
 ## Technical record
 
-For deeper review:
-
 - [Systems-engineering case study](docs/engineering-case-study.md)
 - [System context and functions](docs/system-context-and-functions.md)
-- [Systems-engineering method](docs/systems-engineering-method.md)
 - [Architecture and trade study](docs/architecture-trade-study.md)
 - [Interface control](docs/interface-control.md)
 - [Configuration management](docs/configuration-management.md)
@@ -167,9 +149,10 @@ For deeper review:
 - [Integration risk register](docs/integration-risk-register.md)
 - [Customer evaluation and programme context](docs/field-evaluation-and-programme-context.md)
 - [Independent public evidence](docs/public-operator-evidence.md)
+- [Project + independent media gallery](docs/media-gallery.md)
 - [Evidence register](docs/evidence-register.md)
 - [Digital twin follow-on](docs/digital-twin.md)
-- [Sources and public-release boundary](docs/references.md)
+- [Sources](docs/references.md)
 - [Machine-readable model](model/README.md)
 
-**Executable quality gate:** `python tools/validate_model.py` validates model-ID uniqueness, reference integrity, typed links, local Markdown/image paths and external image references. Engineering correctness, evidence provenance, configuration identity and public-release suitability remain human review gates.
+**Quality gate:** `python tools/validate_model.py` checks ID uniqueness, reference integrity, typed links and local Markdown/image paths. Engineering correctness and public-release suitability remain human review gates.

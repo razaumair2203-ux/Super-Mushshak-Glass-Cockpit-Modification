@@ -1,38 +1,59 @@
 # Architecture Trade Study
 
-The surviving programme comparison presentation records an early evaluation of alternative glass-cockpit architectures for the Super Mushshak.
+The glass-cockpit work evolved through multiple candidate configurations. Surviving 2010–12 records include formal comparisons of **Dynon SkyView**, **Garmin G950/G900-family solutions**, and at some stages **Garmin G3X** material.
 
-## Evaluation dimensions
+This page does not recreate a proprietary vendor block diagram. Instead, it records the **aircraft-level decision dimensions that are evidenced in the archive**.
 
-The comparison covered the following areas:
+## Principal public tracks
 
-| Dimension | Engineering question |
+### Dynon SkyView prototype track
+
+Evidence includes:
+
+- original photographs of the first modified cockpit;
+- direct OEM technical correspondence;
+- integration and troubleshooting questions;
+- database/configuration work;
+- flight-test feedback and first-sortie correspondence;
+- later configuration/equipment follow-up.
+
+### Garmin G900 / G950-family track
+
+Evidence includes:
+
+- period G950/G900-family technical and quotation material;
+- package/component-definition work;
+- architecture comparison;
+- reliability, maintainability and redundancy questions;
+- customer-facing evaluation/presentation support.
+
+### Naming note
+
+Different surviving records use G950/G900-family terminology and also reference G3X during comparative/prototype work. The project was evolving. This repository therefore uses **Garmin G900/G950-family track** as a conservative public label and does not claim an exact sub-variant unless a specific surviving record supports it.
+
+## Trade-space dimensions
+
+| Dimension | Systems-engineering question |
 |---|---|
-| Display architecture | How should PFD/MFD information be distributed and how does the layout affect the cockpit? |
-| Engine display | Can engine information be integrated clearly into the revised cockpit? |
-| Navigation / communication | How well does the candidate support the required radio and navigation functions? |
-| Synthetic vision | What additional situational-awareness capability is provided? |
-| Training cues | What cues such as angle-of-attack or flight-path guidance are available? |
-| Alerts | What visual and aural warning capability is available? |
-| Ergonomics | How intuitive is the interface and how flexible is the information presentation? |
-| Cockpit layout | Does the arrangement remain clear, symmetric and suitable for the training role? |
-| Reliability / build quality | Is the equipment suitable for repeated training-aircraft use? |
-| Integration flexibility | How readily can third-party equipment and future modifications be incorporated? |
-| OEM support | What integration and lifecycle support is available from the supplier? |
-| Cost | What capability is obtained for the acquisition and integration cost? |
+| Functional coverage | Which flight, engine, navigation, communication and warning functions are provided? |
+| Legacy compatibility | What existing aircraft equipment can remain, and what requires replacement or interface adaptation? |
+| Sensor integration | What sensing/transducers and conditioning are required? |
+| Electrical integration | Can the aircraft power system support the configuration with adequate margin and protection? |
+| Physical installation | What equipment, panel, cabling and installation burden is introduced? |
+| Data/interface architecture | Which digital/analog interfaces are required and where are integration risks concentrated? |
+| HMI / training role | Is information presented clearly for a basic-training cockpit and instructor/student use? |
+| Alerts and backup | How are warnings, abnormal indications and fallback information handled? |
+| Reliability / redundancy | How tolerant is the architecture of individual equipment or display failures? |
+| Qualification | What environmental/airworthiness evidence exists and what additional verification is required? |
+| Maintainability | How is troubleshooting, replacement, spares support and post-installation test handled? |
+| OEM support | What engineering support is available during integration and lifecycle operation? |
+| Upgradeability | Can third-party equipment or future configuration changes be incorporated without redesigning the whole cockpit? |
+| Cost / schedule | What is the total aircraft-level integration burden, not merely equipment purchase price? |
 
-## Dynon SkyView candidate
+## What the trade study demonstrates
 
-The project comparison material describes a SkyView architecture based on two large displays, with separate navigation/communication functionality integrated into the cockpit.
+The significant engineering result is the **method**, not an invented vendor “winner”.
 
-The architecture offered a relatively simple display arrangement and was explicitly considered for integration flexibility and cockpit ergonomics.
+The programme compared alternative architectures against aircraft constraints, training needs, integration risk, supportability and lifecycle considerations. A signed 2010 systems-engineering study and a later comparative presentation authored by the programme systems engineer provide direct evidence of this work.
 
-## Garmin-family candidate
-
-A Garmin-family alternative was evaluated in parallel. The comparison treated it as a complete cockpit architecture and assessed it against the same aircraft-level criteria rather than comparing displays in isolation.
-
-## Decision-making significance
-
-The trade study shows a systems-engineering process in which technical capability, human factors, integration risk, upgradeability, supportability and cost were considered together.
-
-That decision framework is more important than the eventual vendor selection because it explains how the retrofit was engineered as an aircraft system.
+Exact internal load budgets, LRU locations, proprietary diagrams, pinouts, harness routes and controlled documents are intentionally excluded from the public repository.

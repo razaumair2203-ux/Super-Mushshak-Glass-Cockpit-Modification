@@ -16,7 +16,7 @@ The public configuration model therefore separates **branch identity**, **hardwa
 | CFG-D1 | initial installed Dynon SkyView prototype | early installed-aircraft / flight evidence |
 | CFG-D2 | Dynon after display replacement and configuration restoration | replacement hardware + databases/settings + return to flight |
 | CFG-D3 | Dynon performance/customer-evaluation state | later performance and customer-evaluation evidence |
-| CFG-G1 | Garmin G900X/G950-family prototype/evaluation path | partially reconstructed public baseline |
+| CFG-G1 | Garmin G900X/G950-family prototype/evaluation path | public-summary baseline; detailed configuration not published |
 | CMP-G3X | G3X comparison artefact | trade-study only; never an installed-aircraft state |
 
 Source: [model/configurations.csv](../model/configurations.csv).
@@ -38,13 +38,13 @@ Exact part numbers, serial numbers, wiring revisions and private configuration f
 
 ## Replacement / restoration example
 
-After replacement displays were received on the Dynon track, the surviving record documents reinstallation, database loading, settings restoration and a subsequent flight.
+After replacement displays were received on the Dynon track, project records document reinstallation, database loading, settings restoration and a subsequent flight.
 
 That sequence demonstrates why **configuration restoration is part of verification**. Replacing an LRU without restoring its required settings/data is not the same as restoring the aircraft to a known operational baseline.
 
 ## Branch discipline
 
-The following merges are prohibited in the retrospective model:
+The following merges are prohibited in the systems model:
 
 - G3X trade-study evidence → G900X/G950 installed-aircraft evidence;
 - generic Garmin OEM interconnect → exact Super Mushshak wiring;
@@ -53,6 +53,6 @@ The following merges are prohibited in the retrospective model:
 
 ## Unknowns
 
-The model uses “partially reconstructed” or “not publicly reconstructed” when exact historical configuration detail is unavailable.
+The model uses “public-summary” or “not published” when exact historical configuration detail is outside the public-release boundary.
 
 That is a configuration-control feature, not a documentation defect.

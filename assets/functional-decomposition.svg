@@ -9,7 +9,7 @@
 <rect width="1800" height="1120" fill="white"/>
 <text x="60" y="58" class="ti">Aircraft Retrofit — Functional Decomposition</text>
 <text x="60" y="94" class="su">Retrospective functional hierarchy derived from project evidence; vendor-specific implementation is separated from aircraft-level functions.</text>
-<rect x="500" y="145" width="800" height="115" rx="14" class="blue"/>
+<rect x="450" y="145" width="900" height="115" rx="14" class="blue"/>
 <text x="900.0" y="187" text-anchor="middle" class="h">L0 · Modernise cockpit and avionics functions</text>
 <text x="900.0" y="227" text-anchor="middle" class="t">while preserving aircraft integration, training use, verification and lifecycle support</text>
 <path d="M900 260 V330" class="line"/><path d="M280 330 H1520" stroke="#1f2937" stroke-width="3" fill="none"/>

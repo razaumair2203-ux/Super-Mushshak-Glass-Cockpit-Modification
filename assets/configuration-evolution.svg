@@ -55,8 +55,9 @@
 
 <rect x="1070" y="690" width="660" height="120" rx="14" class="b"/>
 <text x="1400" y="732" text-anchor="middle" class="h">Configuration-control rule</text>
-<text x="1400" y="760" text-anchor="middle" class="t">Verification, interface and decision evidence belongs only to the identified as-tested state.</text>
-<text x="1400" y="790" text-anchor="middle" class="t">Unknown or unreconstructed details remain explicitly unknown.</text>
+<text x="1400" y="754" text-anchor="middle" class="t">Verification, interface and decision evidence belongs only</text>
+<text x="1400" y="782" text-anchor="middle" class="t">to the identified as-tested state.</text>
+<text x="1400" y="810" text-anchor="middle" class="t">Unknown or unreconstructed details remain explicitly unknown.</text>
 
 <text x="70" y="920" class="su">OEM reference architecture may inform the design space; it is not relabelled as exact Super Mushshak wiring or installed LRU baseline.</text>
 </svg>

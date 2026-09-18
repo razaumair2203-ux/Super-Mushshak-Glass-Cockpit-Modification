@@ -100,7 +100,7 @@ Hardware, software/settings and databases therefore form part of the **as-tested
 
 The record includes NAV interface work, retained-avionics questions and later cross-domain observations in which a radio-transmit action coincided with engine-indication fluctuation.
 
-The final closure of that later interference issue is **not publicly reconstructed** and is not claimed.
+The surviving public-safe record captures the observation and investigation path; the final corrective-action record is outside the published archive.
 
 ## Flight-test and customer-evaluation loop
 
@@ -120,7 +120,7 @@ This expands the trade space from acquisition capability to **availability, repa
 
 The archive includes questions concerning environmental qualification, TSO status and customer/type-acceptance suitability. Functional flight performance and acceptance/certification suitability are represented as separate engineering concerns.
 
-The repository does not claim certification status beyond what the source record supports.
+Certification and type-acceptance status are kept separate from the flight-performance evidence.
 
 ## Requirements-to-evidence closure
 
@@ -152,7 +152,7 @@ Independent configuration reporting identifies **Dynon** on Nigeria and **Garmin
 
 Public commercial reporting places the Nigeria order at an estimated **US$10.2M** and the Türkiye agreement at approximately **US$50M**. Those two values alone exceed **US$60M**; no value is invented for Qatar or Azerbaijan.
 
-This demonstrates that the retrofit sat on a commercially significant international product path. It does not prove sole causation by one engineer or one early prototype.
+This places the retrofit on a commercially significant international product path. Later reporting extends that trajectory further: Times Aerospace reported in 2024 that more than 100 Super Mushshaks had been upgraded or sold with new avionics since 2016.
 
 ## Systems-engineering conclusion
 
@@ -162,17 +162,6 @@ The strongest engineering result is not “a glass display was installed.” It 
 
 That lifecycle is the core of this case study.
 
-## What is deliberately not claimed
+## Evidence discipline
 
-This case study does not claim that:
-
-- public diagrams are original programme drawings;
-- formal SysML/MBSE tooling was used during the original programme;
-- the G3X comparison candidate was the G900X/G950 prototype;
-- generic Garmin interconnect diagrams reproduce the Super Mushshak wiring;
-- every historical discrepancy has a surviving closure record;
-- customer evaluation proves certification;
-- later export contracts were caused by one early prototype or one engineer;
-- private correspondence or non-public source documents are public-release material.
-
-The technical value comes from **controlled identity, traceability, evidence-backed risk handling and explicit unknowns**.
+The public case study separates original project evidence, OEM reference material, independent programme reporting and retrospective engineering models. Configuration-specific conclusions stay attached to the configuration and source that support them; controlled wiring, proprietary implementation detail and private correspondence remain outside the repository.

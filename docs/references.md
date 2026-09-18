@@ -46,7 +46,7 @@ This is controlled as **E-25**. Formal appointment material is not published.
 
 Authentic supplied photographs include installed cockpit, in-flight display, customer-evaluation, cockpit-in-flight, aerial test-flight and test-engineer imagery.
 
-Only authentic project imagery may be used as evidence of work performed during the retrofit. Independent public/operator photographs may be source-linked as contextual corroboration, but are kept visually and evidentially separate from the project archive.
+Only authentic project imagery may be used as evidence of work performed during the retrofit. Independent public/operator photographs are kept visually and evidentially separate from the project archive. Copyrighted images remain source-linked; licence-cleared media may be embedded only with explicit attribution and a reviewable licence.
 
 ### OEM / programme correspondence
 
@@ -107,16 +107,18 @@ The repository therefore states only that these two reported values together exc
 
 ### External image-source register
 
-Third-party images are source-linked for independent visual context and are **not hot-linked into the README or operator-evidence page**. Earlier hot-linking produced broken images because source sites changed URLs or blocked embedded requests.
+The repository distinguishes reusable media from copyrighted contextual sources.
 
-- Wikimedia Commons — Super Mushshak cockpit, Dubai Air Show 2017; Mztourist; CC BY-SA 4.0:  
+- **Wikimedia Commons — embedded licence-cleared context:** Super Mushshak cockpit, Dubai Airshow 2017; Mztourist; **CC BY-SA 4.0**. The source/licence is displayed with the image and the photograph is not represented as project evidence:  
   https://commons.wikimedia.org/wiki/File:PAC_Super_Mushshak_cockpit.jpg
-- Defense News — Nigerian delivery image:  
+- **Defense News — source-link only:** Nigerian delivery image:  
   https://www.defensenews.com/training-sim/2016/12/07/nigeria-takes-delivery-of-pakistani-made-super-mushshak-trainer-aircraft/
-- AirHistory.net — Qatar Emiri Air Force Super Mushshak formation; photographer copyright:  
+- **AirHistory.net — source-link only:** Qatar Emiri Air Force Super Mushshak formation; photographer copyright:  
   https://www.airhistory.net/photo/417432/QA306
-- Ministry of Defence of Azerbaijan — official Super Mushshak training imagery:  
+- **Ministry of Defence of Azerbaijan — official source-link:** Super Mushshak training imagery:  
   https://mod.gov.az/en/news/azerbaijani-military-pilots-conduct-the-next-training-flights-video-54557.html
+
+External embedding is therefore opt-in, not a general hot-link policy. The repository quality gate allow-lists only the identified licence-cleared Commons cockpit image; any additional embedded external asset requires an explicit provenance/licence review.
 
 ## OEM architecture rule
 
@@ -130,6 +132,6 @@ A public technical statement must be traceable to direct project evidence, OEM/r
 
 Where sources are incomplete, the gap remains visible.
 
-External images remain contextual: a country/operator photograph does not establish an avionics configuration unless a separate credible source identifies that configuration. Third-party copyright remains with the source/photographer.
+External images remain contextual: a country/operator photograph does not establish an avionics configuration unless a separate credible source identifies that configuration. Third-party copyright/licence remains with the source/photographer and is preserved in attribution.
 
 No synthetic aircraft/cockpit/test imagery is permitted.

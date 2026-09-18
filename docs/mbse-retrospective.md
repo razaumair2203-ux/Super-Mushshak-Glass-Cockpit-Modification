@@ -6,11 +6,11 @@ The original retrofit predates the MBSE workflow I would use today. The survivin
 
 This is not a claim that SysML/MBSE artefacts existed during the original programme. It is a retrospective transformation of real project evidence into modern systems-engineering objects.
 
-## Recruiter-scale architecture view
+## Logical architecture view
 
 ![Public-safe logical architecture](../assets/mbse-system-architecture.svg)
 
-The diagram is deliberately rendered as a large SVG rather than a compact Mermaid figure so the system boundary, sensor/power interfaces, retrofit functions, test/evaluation loop and lifecycle-support interfaces remain legible on a normal GitHub page.
+The diagram is deliberately rendered as a large SVG so the system boundary, interface lanes, verification loop and lifecycle-support relationships remain legible without sacrificing engineering structure.
 
 It is a logical representation of evidence-backed functions and interfaces. It deliberately omits exact harness routing, connector/pin data and equipment location.
 
@@ -88,7 +88,7 @@ Decision records capture engineering rationale that can be recovered safely, for
 - preserving G3X and G900X/G950 configuration identities;
 - keeping the public model abstract where release evidence is insufficient.
 
-## Why this is MBSE rather than diagram decoration
+## Model integrity and engineering traceability
 
 The diagrams are views. The model is the linked data underneath them:
 
@@ -96,4 +96,4 @@ The diagrams are views. The model is the linked data underneath them:
 
 The CSV objects therefore correspond conceptually to requirement, block/interface, configuration, verification and decision elements that can later be migrated into SysML/Capella/Cameo or connected to a requirements tool. The key property already exists: **stable identity and traceability**.
 
-The result is intentionally smaller than a full aircraft model, but it is auditable. **Traceability is treated as more important than visual complexity.**
+The model is intentionally bounded to releasable, evidence-backed content. Its quality criterion is not diagram density but **stable identity, traceability, configuration specificity and explicit handling of unknowns**.

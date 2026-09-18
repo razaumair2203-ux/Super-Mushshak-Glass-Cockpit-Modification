@@ -40,7 +40,7 @@ This register controls the retrospective reconstruction. It records the evidence
 Do not publish:
 
 - classification or security markings;
-- precise internal unit/location identifiers where they add no portfolio value;
+- precise internal unit/location identifiers when they are not needed to substantiate the engineering claim;
 - personal phone numbers, private email addresses or private names from correspondence;
 - customer-private correspondence;
 - detailed wiring routes, connector/pin data or controlled drawings;

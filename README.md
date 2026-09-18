@@ -133,7 +133,7 @@ Detailed wiring, pin-level interconnects, proprietary installation drawings, pri
 - [Independent public evidence](docs/public-operator-evidence.md)
 - [Project media gallery](docs/media-gallery.md)
 - [Evidence register](docs/evidence-register.md)
-- [MBSE / digital thread representation](docs/mbse-retrospective.md)
+- [MBSE / digital thread representation](docs/mbse-digital-thread.md)
 - [Digital twin follow-on](docs/digital-twin.md)
 - [Sources](docs/references.md)
 - [Machine-readable systems model](model/README.md)

@@ -10,7 +10,7 @@
 
 <rect x="70" y="190" width="290" height="130" rx="14" class="b"/>
 <text x="215" y="232" text-anchor="middle" class="h">Legacy baseline</text>
-<text x="215" y="272" text-anchor="middle" class="t">analogue / retained-aircraft state</text>
+<text x="215" y="265" text-anchor="middle" class="t">analogue / retained-aircraft</text><text x="215" y="293" text-anchor="middle" class="t">state</text>
 
 <rect x="480" y="190" width="350" height="130" rx="14" class="b"/>
 <text x="655" y="232" text-anchor="middle" class="h">Prototype trade space</text>
@@ -24,20 +24,21 @@
 <text x="1150" y="253" text-anchor="middle" class="t">integration + flight testing</text>
 <text x="1150" y="283" text-anchor="middle" class="t">customer-evaluation evidence</text>
 
-<rect x="980" y="405" width="340" height="170" rx="14" class="violet"/>
-<text x="1150" y="447" text-anchor="middle" class="h">Garmin G900X/G950 family</text>
-<text x="1150" y="481" text-anchor="middle" class="t">separate prototype / evaluation path</text>
-<text x="1150" y="510" text-anchor="middle" class="t">exact archived variant kept at family level</text>
-<text x="1150" y="539" text-anchor="middle" class="t">until directly evidenced</text>
+<rect x="980" y="395" width="340" height="200" rx="14" class="violet"/>
+<text x="1150" y="437" text-anchor="middle" class="h">Garmin G900X/G950 family</text>
+<text x="1150" y="473" text-anchor="middle" class="t">separate prototype / evaluation</text>
+<text x="1150" y="503" text-anchor="middle" class="t">path</text>
+<text x="1150" y="533" text-anchor="middle" class="t">archived variant kept at family level</text>
+<text x="1150" y="563" text-anchor="middle" class="t">until directly evidenced</text>
 
 <path d="M830 255 H900 V230 H980" class="line"/>
-<path d="M830 255 H900 V490 H980" class="line"/>
+<path d="M830 255 H900 V495 H980" class="line"/>
 
 <rect x="480" y="650" width="420" height="160" rx="14" class="amber"/>
 <text x="690" y="692" text-anchor="middle" class="h">Garmin G3X comparison deck</text>
 <text x="690" y="724" text-anchor="middle" class="t">period trade-study candidate</text>
 <text x="690" y="753" text-anchor="middle" class="t">comparison evidence only</text>
-<text x="690" y="782" text-anchor="middle" class="t">not promoted into an installed configuration</text>
+<text x="690" y="774" text-anchor="middle" class="t">not promoted into an installed</text><text x="690" y="802" text-anchor="middle" class="t">configuration</text>
 <path d="M655 320 V650" class="dash"/>
 
 <rect x="1430" y="145" width="300" height="170" rx="14" class="green"/>
@@ -49,9 +50,10 @@
 
 <rect x="1430" y="405" width="300" height="170" rx="14" class="green"/>
 <text x="1580" y="447" text-anchor="middle" class="h">Azerbaijan</text>
-<text x="1580" y="481" text-anchor="middle" class="t">10-aircraft public sale</text>
-<text x="1580" y="510" text-anchor="middle" class="t">operator use independently verified</text>
-<text x="1580" y="539" text-anchor="middle" class="t">avionics selection not asserted here</text>
+<text x="1580" y="472" text-anchor="middle" class="t">10-aircraft public sale</text>
+<text x="1580" y="500" text-anchor="middle" class="t">operator use verified by</text>
+<text x="1580" y="528" text-anchor="middle" class="t">independent MOD sources</text>
+<text x="1580" y="556" text-anchor="middle" class="t">avionics selection not asserted</text>
 
 <rect x="1070" y="690" width="660" height="120" rx="14" class="b"/>
 <text x="1400" y="732" text-anchor="middle" class="h">Configuration-control rule</text>

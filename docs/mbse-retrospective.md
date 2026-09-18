@@ -59,6 +59,8 @@ The register intentionally uses logical interface names rather than publishing p
 
 ## Configuration model
 
+![Configuration evolution](../assets/configuration-evolution.svg)
+
 The historical programme evolved. The model therefore separates:
 
 - legacy aircraft baseline;
@@ -70,7 +72,9 @@ The historical programme evolved. The model therefore separates:
 
 ## Verification model
 
-Verification records are linked to the configuration in which the event occurred. This prevents a common retrospective error: treating a test result from one hardware/software/database state as evidence for every later state.
+![Requirements-to-verification cross-reference](../assets/traceability-matrix.svg)
+
+Verification records are linked to the configuration in which the event occurred. This prevents a common retrospective error: treating a test result from one hardware/software/database state as evidence for every later state. The matrix is intentionally sparse where the surviving archive does not justify a direct link.
 
 The evidence supports a closed loop of **installed check → flight test → observed discrepancy → engineering/OEM resolution → configuration update → re-test**. Examples are abstracted in the public model rather than exposing controlled implementation detail.
 

@@ -1,10 +1,10 @@
-# Retrospective MBSE Reconstruction
+# MBSE / Digital Thread Representation
 
 ## Purpose
 
-The original retrofit predates the current retrospective MBSE reconstruction. The surviving engineering evidence is sufficient to build a **traceable, public-safe system model** without inventing aircraft detail.
+This repository translates a completed aircraft retrofit programme into a **traceable, public-release MBSE / digital-thread model** for engineering communication and digital-twin continuation.
 
-This is not a claim that SysML/MBSE artefacts existed during the original programme. It is a modern transformation of surviving evidence into controlled systems-engineering objects.
+It does not claim that SysML/MBSE tools were the programme’s original record. It maps original engineering work, project evidence and programme-lead knowledge into today’s model-based systems-engineering structure.
 
 ## System context and functions
 
@@ -12,9 +12,9 @@ This is not a claim that SysML/MBSE artefacts existed during the original progra
 
 ![Functional decomposition](../assets/functional-decomposition.svg)
 
-The reconstruction begins with the system boundary and stakeholders, then separates equipment-independent functions from configuration-specific implementation.
+The model begins with the system boundary and stakeholders, then separates equipment-independent functions from configuration-specific implementation.
 
-This prevents two common retrospective errors:
+This prevents two common modelling errors:
 
 - filling gaps with “typical aircraft” detail; and
 - treating a generic OEM architecture as the installed aircraft baseline.
@@ -41,7 +41,7 @@ The purpose of this level is to expose the **system boundary, external actors, e
 
 ## Requirement model
 
-The requirements file contains retrospectively normalised statements for:
+The requirements file contains requirements normalised into the current model for:
 
 - primary flight information;
 - engine/airframe information;
@@ -84,7 +84,7 @@ The historical programme is separated into:
 
 Verification records are linked to the configuration in which the event occurred. Issues are separate objects so an observed discrepancy cannot silently become a “closed” result.
 
-The evidence supports an iterative loop of **installed check → flight test → observed discrepancy → engineering/OEM analysis → disposition/configuration update → re-test**. Where final closure evidence is absent, the issue remains explicitly **not reconstructed**.
+The evidence supports an iterative loop of **installed check → flight test → observed discrepancy → engineering/OEM analysis → disposition/configuration update → re-test**. Where detailed closure evidence is outside public release, the issue is marked **closure detail not published**.
 
 The risk register then abstracts the engineering concern exposed by those events — for example power/transient behaviour, configuration restoration or cross-domain interaction — and traces it back to the requirements/interfaces it threatens.
 
@@ -104,13 +104,13 @@ Decision records capture recoverable engineering rationale such as:
 - separating acceptance/certification suitability from flight functionality;
 - preserving G3X and G900X/G950 configuration identities;
 - withholding implementation detail while retaining logical traceability;
-- not inventing closure when evidence is incomplete.
+- not inventing detail beyond the public evidence boundary.
 
 ## Role and programme claims
 
 The model also separates claims that sit outside the technical requirement chain:
 
-- **CLM-011 / E-25** — retrospective Lead Systems Engineer role statement;
+- **CLM-011 / E-25** — programme-lead Lead Systems Engineer role statement;
 - **CLM-010 / E-16** — later four-customer 80-aircraft programme sequence;
 - **CLM-012 / E-17/E-18** — attributed public commercial-value context.
 

@@ -1,74 +1,84 @@
 # Super Mushshak Glass-Cockpit Modification
 
-**Systems engineering • avionics integration • prototype development • verification & flight test**
+**Aircraft systems engineering · avionics integration · prototype development · ground and flight test**
 
-This repository is a **public, recruiter-facing engineering case study** of the early Super Mushshak glass-cockpit modification programme. It is intentionally limited to information that is either already public, personally owned, or explicitly cleared for public release.
+This repository documents my work on the early Super Mushshak glass-cockpit modification programme, where I served as **Systems Engineering Lead** and supported integration, ground test, flight test and overseas evaluation activity.
 
-> **Public-release rule:** no internal drawings, proprietary wiring data, detailed pinouts, restricted test data, customer-sensitive material, or unreviewed programme documents are published here.
+The modification was an aircraft-level retrofit rather than a display replacement. It required coordinated changes across the cockpit displays, aircraft sensors, navigation/communication equipment, electrical interfaces, wiring harnesses, installation, configuration and verification.
 
-## Why this project matters
+<p align="center">
+  <img src="assets/photos/flight-test-cockpit.jpg" width="900" alt="Super Mushshak glass-cockpit flight-test configuration">
+</p>
 
-The engineering problem was not simply to replace analogue gauges with screens. The modification required an aircraft-level integration effort across:
+## Engineering scope
 
-- digital primary-flight and multifunction displays;
-- air-data, attitude/heading, navigation and engine/airframe sensing;
-- communication/navigation equipment;
-- aircraft electrical power and protection;
-- panel redesign and human-machine-interface constraints;
-- complete wiring-harness changes and equipment interconnects;
-- ground integration, functional verification and flight-test activity.
+The programme included:
 
-Early programme work included **Dynon SkyView** and **Garmin-family glass-flight-deck** configurations. The exact configuration history of the early Garmin prototype is being verified against archival programme records before a model designation is stated here.
+- evaluation of alternative glass-cockpit architectures, including Dynon SkyView and Garmin-family solutions;
+- replacement and integration of the aircraft sensor suite;
+- cockpit and equipment-layout integration;
+- complete aircraft wiring-harness and interface changes associated with the retrofit;
+- integration of flight, navigation, communication and engine/airframe information;
+- prototype troubleshooting and configuration refinement;
+- ground-run and flight-test activity;
+- technical support during overseas customer evaluation and international demonstration.
 
-![Sanitized system architecture](assets/system-architecture-public.svg)
+The surviving project comparison material shows that the candidate architectures were evaluated on more than display specifications. The trade study considered cockpit layout, engine display, navigation/communication integration, synthetic vision, training cues, alerting, ergonomics, reliability, third-party integration, OEM support and cost.
 
-## My role
+![System engineering view](assets/system-architecture.svg)
 
-**System Engineering Lead / Avionics Integration & Test Engineer — early prototype programme**
+## Systems-engineering view
 
-My contribution covered the systems-engineering and verification side of the modification, including:
+The central engineering problem was managing interfaces between the existing aircraft and a new integrated avionics environment:
 
-- requirements decomposition and architecture trade studies;
-- avionics/sensor-suite selection and interface definition;
-- integration of displays, navigation/communication equipment and aircraft sensors;
-- aircraft wiring-harness/interface coordination;
-- prototype integration and troubleshooting;
-- ground-test and flight-test support;
-- technical evaluation during overseas trials;
-- support to the aircraft's international demonstration activity.
-
-The purpose of this repository is to show the **engineering method, integration depth and verification evidence** behind that work without disclosing controlled programme information.
-
-## Publicly documented programme evolution
-
-The early glass-cockpit demonstrator was publicly shown at the **Dubai Airshow in 2011**. Later production/export literature identifies **Garmin G950** and **Dynon SkyView** as Super Mushshak glass-cockpit options.
-
-Public sources subsequently document substantial adoption:
-
-- **Qatar:** 8 aircraft contract announced in 2016.
-- **Nigeria:** 10 aircraft; public handover reporting explicitly described the aircraft as glass-cockpit equipped.
-- **Türkiye:** 52-aircraft contract.
-- **Azerbaijan:** 10-aircraft contract.
-- Pakistan's Ministry of Defence Production reported **glass-cockpit modification of 20 Super Mushshak aircraft** for PAF / Pakistan Army during 2017–18.
-
-These later contracts are presented here as **programme-level context**, not as a claim that any one engineer or one prototype alone caused the exports.
-
-## Case-study structure
-
-| Area | What a recruiter can inspect |
+| Workstream | Engineering focus |
 |---|---|
-| [Engineering case study](docs/engineering-case-study.md) | Problem framing, systems-engineering scope, interfaces, trade-offs |
-| [Sanitized architecture trade study](docs/sanitized-trade-study.md) | Real decision criteria from the early candidate evaluation, with sensitive detail removed |
-| [Verification & flight test](docs/verification-and-flight-test.md) | V&V logic, ground/flight test approach, evidence boundaries |
-| [Programme impact](docs/programme-impact.md) | Publicly documented adoption and later programme evolution |
-| [Evidence matrix](docs/evidence-matrix.md) | Which claims are public, personal-record based, or still awaiting verification |
-| [Public-release register](PUBLIC_RELEASE_REGISTER.md) | Recruiter value vs disclosure risk for every candidate artifact |
-| [Public sources](docs/public-sources.md) | Traceable external evidence used in this repository |
+| Requirements & architecture | Training-aircraft needs, cockpit functions, candidate architecture trade-offs |
+| Sensors & data | Air data, attitude/heading, engine and airframe sensing |
+| Avionics integration | Displays, navigation/communication equipment and associated interfaces |
+| Electrical & installation | Power, protection, equipment installation and aircraft wiring harness |
+| Human-machine interface | Instructor/student usability, readability and cockpit layout |
+| Verification | Integration checks, ground run, flight test and defect closure |
+| Configuration | Prototype changes, interface consistency and repeatable aircraft configuration |
 
-## Engineering themes demonstrated
+More detail is provided in [Systems Engineering Case Study](docs/engineering-case-study.md) and [Architecture Trade Study](docs/architecture-trade-study.md).
 
-Systems Engineering · Avionics Integration · Requirements · Interface Control · Architecture Trade Studies · Wiring & Harness Integration · PFD/MFD · AHRS/ADAHRS · Air Data · Navigation/Communication · V&V · Ground Test · Flight Test · Troubleshooting · Customer Trials
+## Prototype and test evidence
 
-## Disclosure note
+<table>
+<tr>
+<td width="50%"><img src="assets/photos/ground-run-trial.jpg" alt="Super Mushshak ground-run test"></td>
+<td width="50%"><img src="assets/photos/international-airshow.jpg" alt="Super Mushshak international airshow display"></td>
+</tr>
+<tr>
+<td><b>Ground-run / overseas evaluation activity.</b> Location-identifying background detail has been removed.</td>
+<td><b>International airshow display period.</b> Personal identification details have been removed.</td>
+</tr>
+</table>
 
-This is **not** an official PAC, PAF or customer repository. It is a personal engineering portfolio case study. Detailed programme documents remain private unless independently confirmed as suitable for public release.
+The photographs in this repository are original project-period images. They have only been cropped, exposure/contrast corrected where necessary, and redacted for privacy; aircraft or equipment content has not been synthetically generated or replaced.
+
+## From retrofit to digital twin
+
+The glass-cockpit programme is now being carried forward into a **Super Mushshak Digital Twin** project.
+
+The digital-twin work is a new, ongoing effort. Its systems-engineering foundation is the same one used during the aircraft retrofit: establish the platform configuration, decompose the aircraft into systems and interfaces, connect requirements to verification evidence, and progressively build a traceable digital representation of the aircraft.
+
+![Digital twin systems view](assets/digital-twin-systems-view.svg)
+
+See [Digital Twin — Current Follow-on Work](docs/digital-twin.md).
+
+## Programme progression
+
+The glass-cockpit Super Mushshak was publicly displayed at the Dubai Airshow in 2011. Later public reporting shows the aircraft family being offered with glass-cockpit configurations and subsequently exported to additional customers. This repository separates that programme-level history from my individual engineering contribution.
+
+See [Programme Progression](docs/programme-impact.md) and [References](docs/references.md).
+
+## Repository contents
+
+- [Systems Engineering Case Study](docs/engineering-case-study.md)
+- [Architecture Trade Study](docs/architecture-trade-study.md)
+- [Verification & Flight Test](docs/verification-and-flight-test.md)
+- [Programme Progression](docs/programme-impact.md)
+- [Digital Twin — Current Follow-on Work](docs/digital-twin.md)
+- [References](docs/references.md)

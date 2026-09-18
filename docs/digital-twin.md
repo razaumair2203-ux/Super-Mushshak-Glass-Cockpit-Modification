@@ -1,31 +1,42 @@
 # Super Mushshak Digital Twin — Current Follow-on Work
 
-The next phase of the Super Mushshak work is a **digital twin of the aircraft**.
+The **Super Mushshak Digital Twin** is a new follow-on effort. It is not presented as part of the original glass-cockpit programme.
 
-This is an ongoing project, not a retrospective claim about the original glass-cockpit programme. The objective is to turn the accumulated aircraft knowledge into a structured digital engineering representation that can evolve with the evidence available.
+The retrofit archive is useful because it preserves real examples of configuration change, interface management, architecture decisions, troubleshooting and verification. Those records can become traceable inputs to a modern digital-engineering model.
 
-![Digital twin systems view](../assets/digital-twin-systems-view.svg)
+## Digital-thread objective
 
-## Systems-engineering approach
+The intended progression is:
 
-The digital-twin work is being built around four foundations:
+**configuration baseline → requirements → logical architecture → physical configuration → interfaces → verification evidence → configuration state**
 
-1. **Configuration baseline** — establish what aircraft/system configuration the digital representation refers to.
-2. **System decomposition** — represent the aircraft as interacting systems and subsystems rather than as a single 3D model.
-3. **Interfaces and traceability** — connect system functions, interfaces, requirements and verification evidence.
-4. **Progressive fidelity** — add model detail only when source data and engineering evidence support it.
+The model will increase in fidelity only where evidence supports it.
 
-The glass-cockpit retrofit provides useful historical engineering material because it contains real architecture decisions, interface changes, aircraft wiring changes, prototype observations and test evidence.
+## Proposed systems-engineering artefacts
 
-## Relationship to the original programme
+- aircraft/system configuration baseline;
+- system and subsystem decomposition;
+- SysML-style block-definition and internal-interface views;
+- requirements-to-verification traceability;
+- interface-control model;
+- parametric power/weight budgets where releasable source data exists;
+- configuration-state model;
+- verification evidence links;
+- change/decision history.
 
-The retrofit and the digital twin are separated by time but linked by the same engineering questions:
+## Relationship to the retrofit
 
-- What is the aircraft configuration?
-- Which systems interact?
-- Where are the interfaces?
-- What changed?
-- How was the change verified?
-- What evidence supports the model?
+The historical programme supplies useful questions for the digital twin:
 
-As the digital-twin work matures, this repository will add only results that can be shown without exposing controlled aircraft data.
+- What exact aircraft configuration is represented?
+- Which functions and systems interact?
+- What interfaces changed during retrofit?
+- Which configuration was actually tested?
+- What evidence closed each engineering issue?
+- Which claims are measured, documented, inferred or still unknown?
+
+## Public-release boundary
+
+The digital twin will **not** publish controlled aircraft data merely to make the model appear complete. Sensitive dimensions, detailed wiring, pinouts, internal equipment locations, controlled maintenance data and security-relevant information remain outside the public model.
+
+The public digital twin should therefore be understood as a **traceable engineering demonstrator**, not an unrestricted aircraft technical-data package.

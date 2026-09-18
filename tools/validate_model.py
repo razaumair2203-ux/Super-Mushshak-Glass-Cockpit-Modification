@@ -19,7 +19,7 @@ import csv
 import re
 import sys
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 MODEL = ROOT / "model"
@@ -45,11 +45,15 @@ MARKDOWN_LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE_RE = re.compile(r"!\[[^\]]*\]\((https?://[^)]+)\)", re.IGNORECASE)
 HTML_SRC_RE = re.compile(r"<img\s+[^>]*src=[\"']([^\"']+)[\"']", re.IGNORECASE)
 
-# External image embedding is normally prohibited. This single licence-cleared
-# Commons asset is an explicit exception and is kept evidentially separate from
-# authentic project imagery. Any additional exception requires code review.
+# External image embedding is normally prohibited. These Wikimedia Commons
+# files are explicit, licence-reviewed exceptions used for independent visual
+# context. Any additional exception requires code review.
 ALLOWED_EXTERNAL_IMAGE_HOSTS = {"commons.wikimedia.org"}
-ALLOWED_COMMONS_FILE = "PAC Super Mushshak cockpit.jpg"
+ALLOWED_COMMONS_FILES = {
+    "96-6385 PAC MFI-17 Super Mushshak (7970352052).jpg",
+    "PAC Super Mushshak cockpit.jpg",
+    "PAC MFI-17 Super Mushshak Turkish Air Force.jpg",
+}
 
 
 def split_ids(value: str) -> list[str]:
@@ -153,11 +157,11 @@ def is_allowed_external_image(url: str) -> bool:
     parsed = urlparse(url)
     if parsed.scheme != "https" or parsed.netloc not in ALLOWED_EXTERNAL_IMAGE_HOSTS:
         return False
-    decoded_path = parsed.path.replace("%20", " ")
-    return (
-        "Special:Redirect/file/" in decoded_path
-        and decoded_path.endswith(ALLOWED_COMMONS_FILE)
-    )
+    decoded_path = unquote(parsed.path)
+    if "Special:Redirect/file/" not in decoded_path:
+        return False
+    filename = decoded_path.rsplit("/", 1)[-1]
+    return filename in ALLOWED_COMMONS_FILES
 
 
 def check_markdown(errors: list[str]) -> None:

@@ -1,4 +1,4 @@
-name: Systems-model quality gate
+name: Portfolio and systems-model quality gate
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate traceability, links and image paths
+      - name: Validate traceability, portfolio language and image paths
         run: python tools/validate_model.py
 
       - name: Build graph-ready digital thread

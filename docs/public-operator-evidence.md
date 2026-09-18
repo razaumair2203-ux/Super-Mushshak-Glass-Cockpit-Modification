@@ -13,20 +13,24 @@ The evidence rule is simple:
 <td width="50%">
 <a href="https://commons.wikimedia.org/wiki/File:PAC_Super_Mushshak_cockpit.jpg">
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/PAC_Super_Mushshak_cockpit.jpg" alt="Public Super Mushshak glass-cockpit photograph, Dubai Air Show 2017">
-</a>
+</a><br>
+<sub><b>Public glass-cockpit photograph.</b> Dubai Air Show 2017. Mztourist / Wikimedia Commons, CC BY-SA 4.0. The exact avionics suite is not inferred from the photograph alone.</sub>
 </td>
 <td width="50%">
-<b>What the public record independently supports</b><br><br>
-• Times Aerospace reported that the glass-cockpit Super Mushshak first appeared publicly with two multi-function displays at Dubai Airshow 2011.<br><br>
-• Asian Military Review reported two export glass-cockpit paths: <b>Garmin 950</b> and <b>Dynon</b>.<br><br>
-• Defence Journal separately records overseas preference for Garmin 950 or Dynon SkyView and PAF use of a Dynon suite.
+<a href="https://defence.pk/threads/mushshak-trainer-aircraft.299684/page-18">
+<img src="https://defence.pk/attachments/east-west-infinite-ltd-garmin-g950-glass-cockpit-for-super-mushak-jpg.604119/" alt="Publicly posted Garmin G950 Super Mushshak cockpit image">
+</a><br>
+<sub><b>Garmin G950 cockpit visual.</b> Secondary-source image used only as a visual reference. The Garmin-950 configuration claim is cross-checked against Asian Military Review, Vayu and Second To None rather than relying on this forum image alone.</sub>
 </td>
 </tr>
-<tr>
-<td><sub>Public Super Mushshak cockpit, Dubai Air Show 2017. Image: Mztourist / Wikimedia Commons, CC BY-SA 4.0. The exact avionics suite is not inferred from the photograph alone.</sub></td>
-<td><sub>These sources independently corroborate the programme's glass-cockpit context; they do not replace configuration-specific project evidence.</sub></td>
-</tr>
 </table>
+
+The public record independently supports the cockpit story:
+
+- Times Aerospace reported that the glass-cockpit Super Mushshak first appeared publicly with two multi-function displays at Dubai Airshow 2011.
+- Asian Military Review reported two export glass-cockpit paths: **Garmin 950** and **Dynon**.
+- Defence Journal separately records overseas preference for Garmin 950 or Dynon SkyView and PAF use of a Dynon suite.
+- Vayu's 2017 Dubai Airshow report describes the export options as Garmin 950 or Dynon SkyView and distinguishes the display layouts.
 
 ### Sources
 
@@ -36,6 +40,8 @@ The evidence rule is simple:
   https://www.asianmilitaryreview.com/2019/01/super-mushshaks-super-popular/
 - Defence Journal — *Super Mushshak*:  
   https://www.defencejournal.com/2018/09/10/super-mushshak/
+- Vayu Aerospace & Defence Review — Dubai Airshow 2017 report; Garmin 950 and Dynon SkyView cockpit options:  
+  https://www.vayuaerospace.in/Issue/vayu-issue-Vayu-Issue-VI-Nov-Dec-2017.pdf
 - Pakistan Defence Export Promotion Organisation — Super Mushshak with optional glass-cockpit provisioning:  
   https://www.depo.gov.pk/airSystem.php?page=11
 - Wikimedia Commons cockpit image and licence:  

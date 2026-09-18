@@ -1,33 +1,40 @@
-# References
+# References & Public-Release Policy
 
-External sources are used only for programme-level facts. Individual-role statements in this repository are based on my project records and original photographs.
+This repository uses two evidence classes.
 
-## Programme history and exports
+## 1. Private project archive
 
-1. **Associated Press of Pakistan — Qatar contract**  
-   Agreement for eight Super Mushshak aircraft.  
-   https://www.app.com.pk/national/pakistan-inks-accord-to-supply-8-mushshak-aircraft-to-qatar/
+The strongest evidence for individual technical contribution remains in privately retained programme records. These include:
 
-2. **Associated Press of Pakistan — Nigeria delivery**  
-   Reports delivery under the ten-aircraft agreement and states that the aircraft were equipped with a glass cockpit.  
-   https://www.app.com.pk/national/pakistan-supplies-four-super-mushshak-to-naf/
+- a signed **2010 systems-engineering design/options study** authored under PM System Engineering;
+- original **November 2010 cockpit photographs** of the first modified aircraft;
+- direct **OEM engineering correspondence** covering integration, interfaces, electrical behaviour, qualification, databases, maintainability and test;
+- **December 2010 first-sortie correspondence**;
+- a **2012 comparative study** authored by the programme systems engineer;
+- Garmin-family customer-evaluation/presentation records;
+- a **2012 evaluation status** recording 10 sorties including night flying;
+- later equipment/configuration correspondence.
 
-3. **Associated Press of Pakistan — Türkiye contract**  
-   Reports the contract for 52 Super Mushshak trainer aircraft.  
-   https://www.app.com.pk/national/pakistan-to-supply-52-trainer-aircraft-to-turkey/
+Those source records are **not** uploaded to this public repository when they contain classification/security markings, organization logos, internal identifiers, personal contact information, precise locations, confidential vendor information or controlled aircraft detail.
 
-4. **Associated Press of Pakistan — Azerbaijan contract**  
-   Reports the agreement for ten Super Mushshak aircraft.  
-   https://www.app.com.pk/national/pakistan-signs-agreement-with-azerbaijan-for-sale-of-10-super-mushshak-aircraft/
+See [Evidence & Provenance Register](evidence-and-provenance.md).
 
-5. **Defence Journal — Super Mushshak**  
-   Historical overview discussing customer preference for Garmin G950 or Dynon SkyView glass-cockpit configurations.  
-   https://defencejournal.com/2018/09/10/super-mushshak/
+## 2. Public programme sources
 
-6. **AirHistory.net — Dubai Airshow 2011 aircraft record**  
-   Records a PAF Super Mushshak at Dubai International during the 2011 Dubai Airshow.  
-   https://www.airhistory.net/photo/722398/95-6385
+Public sources are used only for broad programme history, not to prove my individual role.
 
-## Technical source material
+- Associated Press of Pakistan — Super Mushshak international programme reporting
+- Defence Journal — historical Super Mushshak overview and glass-cockpit configuration discussion
+- AirHistory.net — historical Dubai Airshow aircraft record
 
-The project archive also contains manufacturer manuals and the original cockpit-comparison presentation. Those documents are used to understand architecture and configuration history; they are not reproduced here.
+Earlier versions of this repository listed individual public URLs and export quantities. The case study now deliberately keeps those programme-level details secondary to the direct engineering evidence.
+
+## Release rule
+
+A public claim is included only when it can be tied to one of three evidence types:
+
+1. **Direct project evidence** — authored/signed record, original photograph, technical correspondence or test record.
+2. **Corroborating project evidence** — a second independent project record supporting the same event/configuration.
+3. **Public evidence** — an external public source supporting programme-level history.
+
+Where source records disagree—for example, the exact Garmin sub-variant named during different stages—the disagreement is retained as an uncertainty rather than silently “resolved”.

@@ -16,10 +16,16 @@ This register controls the retrospective reconstruction. It records the evidence
 | E-10 | G950 Qatar-focused technical presentation | G950 functions, dual-display architecture, reversion and LRU concepts used in evaluation | Summary only; private presentation not republished |
 | E-11 | 2013 G900X configuration-mode correspondence | G900X track identity and configuration-control discussion | Claim summary only |
 | E-12 | 2014 Dynon equipment/package follow-up | Continued configuration/equipment definition | Claim summary only |
-| E-13 | Original Qatar evaluation ground photograph | Aircraft present during customer-evaluation period | Sanitized image published |
-| E-14 | Original Dubai Airshow photograph | Programme display/support context | Sanitized image published |
+| E-13 | Original Qatar evaluation ground photograph | Aircraft present during customer-evaluation period | Sanitized image published as context |
+| E-14 | Original Dubai Airshow photograph | Programme display/support context | Source retained; public treatment is rank-only redaction for repository owner, with other public-event participants preserved |
 | E-15 | Original in-flight Dynon display photograph | Installed-aircraft PFD/synthetic-vision operation | Sanitized image published |
-| E-16 | Public APP reporting, 2016 | Later Qatar supply agreement and wider glass-cockpit export context | Public links published |
+| E-16 | Public APP reporting, 2016–2017 | Nigeria/Qatar/Türkiye/Azerbaijan contract quantities; existing foreign service footprint; glass-cockpit Nigeria delivery | Public links published |
+| E-17 | Defense News, July 2016 | Nigeria 10-aircraft budget estimate of US$10.2m | Public value estimate; explicitly labelled estimate |
+| E-18 | Anadolu Agency, May 2017 | Türkiye 52-aircraft context; estimated ~US$2m per aircraft | Public value estimate; explicitly labelled estimate |
+| E-19 | Original test-engineer in-flight selfie | Participation / flight-test context | Release candidate: crop/quality correction + repository-owner rank redaction only |
+| E-20 | Original cockpit-in-flight project photograph | Installed aircraft / test-flight context; visible equipment where applicable | Release candidate: crop/quality correction only unless a specific sensitive detail is identified |
+| E-21 | Original aerial test-flight photograph | Period flight-test / operational context | Release candidate; contextual evidence only, not configuration proof |
+| E-22 | Wikimedia Commons Turkish Air Force Super Mushshak photograph | Later public operator evidence | CC BY-SA 4.0 image embedded with attribution |
 
 ## Evidence rules
 
@@ -27,17 +33,21 @@ This register controls the retrospective reconstruction. It records the evidence
 - **OEM source material** supports vendor-system behaviour or generic architecture, not automatically the exact aircraft installation.
 - **Public reporting** supports later programme history, not private individual contribution.
 - **Derived MBSE objects** are retrospective normalisations of the above evidence and are labelled as such.
+- **Context photographs** demonstrate participation, environment or flight/test activity only to the extent actually visible; they do not silently become technical verification evidence.
 
 ## Redaction / release rules
 
-Not published:
+Do not publish:
 
 - classification or security markings;
-- organisation/service logos where they create unnecessary identification;
-- precise locations or internal unit identifiers;
-- personal phone numbers, email addresses or names from private correspondence;
+- precise internal unit/location identifiers where they add no portfolio value;
+- personal phone numbers, private email addresses or private names from correspondence;
 - customer-private correspondence;
 - detailed wiring routes, connector/pin data or controlled drawings;
 - confidential quotations/pricing and proprietary vendor material.
 
-Published photographs are limited to crop, resizing, quality correction and local redaction. **No synthetic aircraft or cockpit image is used.**
+Do **not** redact merely because an item is military-looking. Public-event attendees, non-sensitive badges/logos, aircraft markings and visible context should be retained when they improve provenance and are already public/releasable.
+
+For photographs of the repository owner, the default correction is **rank insignia only**, unless a separate sensitive detail is specifically identified.
+
+Published project photographs are limited to crop, resize, quality correction and local redaction. **No synthetic aircraft, cockpit, person or scenery is used.**

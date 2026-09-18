@@ -18,29 +18,29 @@
 <text x="900.0" y="493" text-anchor="middle" class="t">software / settings / navigation data</text>
 <text x="900.0" y="540" text-anchor="middle" class="t">installed-aircraft verification + discrepancy closure</text>
 <text x="900.0" y="587" text-anchor="middle" class="t">maintainability / LRU replacement / OEM support</text>
-<rect x="70" y="210" width="330" height="150" rx="14" class="b"/>
-<text x="235.0" y="252" text-anchor="middle" class="h">Pilot / instructor</text>
-<text x="235.0" y="298" text-anchor="middle" class="t">operate · train · provide feedback</text>
-<rect x="70" y="440" width="330" height="150" rx="14" class="b"/>
-<text x="235.0" y="482" text-anchor="middle" class="h">Legacy aircraft baseline</text>
-<text x="235.0" y="528" text-anchor="middle" class="t">airframe · power · retained systems</text>
-<text x="235.0" y="560" text-anchor="middle" class="t">controlled input to the retrofit</text>
-<rect x="70" y="680" width="330" height="150" rx="14" class="b"/>
-<text x="235.0" y="722" text-anchor="middle" class="h">Maintenance / fleet support</text>
-<text x="235.0" y="768" text-anchor="middle" class="t">spares · replacement · restoration</text>
-<text x="235.0" y="800" text-anchor="middle" class="t">supportability feedback</text>
-<rect x="1400" y="210" width="330" height="150" rx="14" class="violet"/>
-<text x="1565.0" y="252" text-anchor="middle" class="h">Avionics OEM / support</text>
-<text x="1565.0" y="298" text-anchor="middle" class="t">interfaces · configuration · troubleshooting</text>
-<rect x="1400" y="440" width="330" height="150" rx="14" class="green"/>
-<text x="1565.0" y="482" text-anchor="middle" class="h">Ground / flight verification</text>
-<text x="1565.0" y="528" text-anchor="middle" class="t">test event · observation · re-test</text>
-<text x="1565.0" y="560" text-anchor="middle" class="t">evidence tied to as-tested state</text>
-<rect x="1400" y="680" width="330" height="150" rx="14" class="green"/>
-<text x="1565.0" y="722" text-anchor="middle" class="h">Customer / acceptance context</text>
-<text x="1565.0" y="768" text-anchor="middle" class="t">operational suitability · evaluation</text>
-<text x="1565.0" y="800" text-anchor="middle" class="t">validation kept distinct from verification</text>
-<path d="M400 285 H500 V330 H560" class="line"/><path d="M400 515 H560" class="line"/><path d="M400 755 H500 V645 H560" class="line"/><path d="M1240 330 H1330 V285 H1400" class="line"/><path d="M1240 515 H1400" class="line"/><path d="M1240 645 H1330 V755 H1400" class="line"/><path d="M1565 590 V900 H900 V710" class="dash"/>
+<rect x="50" y="210" width="380" height="150" rx="14" class="b"/>
+<text x="240" y="252" text-anchor="middle" class="h">Pilot / instructor</text>
+<text x="240" y="298" text-anchor="middle" class="t">operate · train · provide feedback</text>
+<rect x="50" y="440" width="380" height="150" rx="14" class="b"/>
+<text x="240" y="482" text-anchor="middle" class="h">Legacy aircraft baseline</text>
+<text x="240" y="528" text-anchor="middle" class="t">airframe · power · retained systems</text>
+<text x="240" y="560" text-anchor="middle" class="t">controlled input to the retrofit</text>
+<rect x="50" y="680" width="380" height="150" rx="14" class="b"/>
+<text x="240" y="722" text-anchor="middle" class="h">Maintenance / fleet support</text>
+<text x="240" y="768" text-anchor="middle" class="t">spares · replacement · restoration</text>
+<text x="240" y="800" text-anchor="middle" class="t">supportability feedback</text>
+<rect x="1370" y="210" width="380" height="150" rx="14" class="violet"/>
+<text x="1560" y="252" text-anchor="middle" class="h">Avionics OEM / support</text>
+<text x="1560" y="298" text-anchor="middle" class="t">interfaces · configuration · troubleshooting</text>
+<rect x="1370" y="440" width="380" height="150" rx="14" class="green"/>
+<text x="1560" y="482" text-anchor="middle" class="h">Ground / flight verification</text>
+<text x="1560" y="528" text-anchor="middle" class="t">test event · observation · re-test</text>
+<text x="1560" y="560" text-anchor="middle" class="t">evidence tied to as-tested state</text>
+<rect x="1370" y="680" width="380" height="150" rx="14" class="green"/>
+<text x="1560" y="722" text-anchor="middle" class="h">Customer / acceptance context</text>
+<text x="1560" y="768" text-anchor="middle" class="t">operational suitability · evaluation</text>
+<text x="1560" y="800" text-anchor="middle" class="t">validation kept distinct from verification</text>
+<path d="M430 285 H500 V330 H560" class="line"/><path d="M430 515 H560" class="line"/><path d="M430 755 H500 V645 H560" class="line"/><path d="M1240 330 H1330 V285 H1370" class="line"/><path d="M1240 515 H1370" class="line"/><path d="M1240 645 H1330 V755 H1370" class="line"/><path d="M1560 590 V900 H900 V710" class="dash"/>
 <text x="900" y="934" text-anchor="middle" class="sm">Evaluation / discrepancy feedback returns to the identified configuration and engineering baseline.</text>
 <rect x="330" y="965" width="1140" height="60" rx="14" class="b"/>
 <text x="900" y="1002" text-anchor="middle" class="t">Configuration identity and evidence provenance apply across the complete retrofit lifecycle.</text>

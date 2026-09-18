@@ -22,13 +22,11 @@ Specialist reporting adds configuration and longitudinal context:
 
 ## Public programme-value benchmark
 
-A [Business Recorder report from 2016](https://www.brecorder.com/news/4454451/pakistan-to-supply-52-trainer-aircraft-to-turkey-20161124106085) described the 52-aircraft Türkiye deal as **around US$50M**. That gives an implied scale benchmark of roughly **US$0.962M per aircraft**.
+Two 2016 public value anchors are closely aligned: [Defense News](https://www.defensenews.com/global/mideast-africa/2016/07/01/nigeria-to-acquire-super-mushshak-aircraft-from-pakistan/) reported **US$10.2M allocated for 10 Nigerian aircraft**, while [Business Recorder](https://www.brecorder.com/news/4454451/pakistan-to-supply-52-trainer-aircraft-to-turkey-20161124106085) reported **around US$50M for 52 Türkiye aircraft**. These imply roughly **US$0.96M–1.02M per aircraft**.
 
-At the 80-aircraft scale above, the equivalent aircraft-value benchmark is:
+At the 80-aircraft scale above, the two anchors imply **US$76.9M–81.6M**, with a weighted benchmark of approximately **US$77.7M**.
 
-**80 × (US$50M / 52) ≈ US$76.9M**
-
-Public reports also document training, technical support, simulator and engine-support elements across these programmes. Since their values are not consistently disclosed, they are treated as an explicit sensitivity rather than as known contract revenue. A 10–30% illustrative support uplift produces a campaign-scale range of roughly **US$84.6M–100.0M**.
+Public reports also document training, technical support, simulator and engine-support elements across these programmes. Since their values are not consistently disclosed, they are treated as an explicit sensitivity rather than as known contract revenue. A 10–30% illustrative support uplift around the weighted benchmark produces a campaign-scale range of roughly **US$85.4M–101.0M**.
 
 See [Public Programme-Value Context](programme-value-context.md) for the assumptions and arithmetic.
 

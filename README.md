@@ -13,7 +13,7 @@
 </tr>
 </table>
 
-This repository reconstructs the engineering record of a **Super Mushshak glass-cockpit retrofit programme** that I supported as **Lead Systems Engineer**. The engineering boundary was the aircraft, not the display: the modification affected the sensor suite, complete modification wiring harness, aircraft electrical integration, NAV/COM and retained-avionics interfaces, software/settings/databases, cockpit HMI, physical installation, maintainability, installed-aircraft verification, flight evaluation and customer trials.
+I led the systems engineering for this **Super Mushshak glass-cockpit retrofit programme**, carrying the aircraft-level integration problem from architecture and interface definition through prototype troubleshooting, installed-aircraft verification, OEM coordination and customer evaluation. The engineering boundary was the aircraft, not the display: the modification affected the sensor suite, complete modification wiring harness, aircraft electrical integration, NAV/COM and retained-avionics interfaces, software/settings/databases, cockpit HMI, physical installation, maintainability, installed-aircraft verification, flight evaluation and customer trials.
 
 The archive contains distinct **Dynon SkyView** and **Garmin G900X/G950-family** prototype/evaluation paths. A separate **Garmin G3X** comparison deck is retained only as trade-study evidence and is not mislabelled as the G900X/G950 aircraft configuration.
 
@@ -34,7 +34,7 @@ The commercial figures above are programme context, not an assertion that one pr
 
 ## My systems-engineering responsibility
 
-The surviving technical record is organised around the responsibilities expected of a lead systems engineer on an aircraft retrofit:
+The surviving technical record is organised around the responsibilities I performed as Lead Systems Engineer on the retrofit:
 
 | Responsibility | What is represented here |
 |---|---|

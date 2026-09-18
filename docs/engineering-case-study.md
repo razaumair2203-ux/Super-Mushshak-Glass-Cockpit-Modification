@@ -12,7 +12,7 @@ This coupling is the reason a functionally capable COTS avionics suite can still
 
 The programme lead identifies his role on the retrofit as **Lead Systems Engineer**.
 
-The public-safe responsibility statement covers:
+The public-release responsibility statement covers:
 
 - system boundary, architecture alternatives and cross-domain integration;
 - glass-cockpit integration with revised sensing, aircraft electrical power/protection, retained avionics and the complete modification harness;
@@ -45,17 +45,17 @@ Only high-level facts needed for the public engineering model are retained:
 
 Exact baseline equipment lists, antenna locations, load tables and detailed installation data remain outside the repository.
 
-A separate retrospective programme-lead scope statement identifies **sensor-suite replacement and the complete modification wiring-harness change** as part of the executed retrofit scope. That statement is explicitly identified as E-24 rather than being presented as a period drawing.
+A programme-lead scope statement identifies **sensor-suite replacement and the complete modification wiring-harness change** as part of the executed retrofit scope. It is tracked as E-24 and kept distinct from period drawings.
 
 ## Architecture alternatives and configuration identity
 
 ### Dynon SkyView
 
-This branch has the strongest surviving installed-aircraft evidence: cockpit/in-flight photographs, troubleshooting correspondence, interface/configuration exchanges, flight-test feedback and customer-evaluation evidence.
+This branch has strong installed-aircraft evidence: cockpit/in-flight photographs, troubleshooting correspondence, interface/configuration exchanges, flight-test feedback and customer-evaluation evidence.
 
 ### Garmin G900X/G950 family
 
-This is a separate prototype/evaluation path. OEM documentation supports the family’s modular integrated-flight-deck architecture, but the exact public aircraft-installed baseline is only partially reconstructed.
+This is a separate prototype/evaluation path. OEM documentation supports the family’s modular integrated-flight-deck architecture, while detailed aircraft-installed Garmin implementation data is intentionally not published.
 
 ### Garmin G3X comparison
 
@@ -65,7 +65,7 @@ The G3X appears in period comparison material. It is retained as a **candidate/t
 
 ## Interface engineering
 
-The surviving archive supports aircraft-level interface work involving electrical power/protection, flight-state sensing, engine/airframe sensing, NAV/COM, retained navigation, transponder, audio/alerting, software/settings/data and maintenance/OEM support.
+Project evidence documents aircraft-level interface work involving electrical power/protection, flight-state sensing, engine/airframe sensing, NAV/COM, retained navigation, transponder, audio/alerting, software/settings/data and maintenance/OEM support.
 
 The public interface register deliberately omits exact pins and wiring.
 
@@ -73,7 +73,7 @@ See [Interface control](interface-control.md).
 
 ## Integration-risk control
 
-The retrospective risk register exposes the most important evidence-backed integration risks without inventing probability/severity values:
+The integration risk register exposes the most important evidence-backed integration risks without inventing probability/severity values:
 
 - aircraft power/transient behaviour;
 - configuration restoration after LRU change;
@@ -86,7 +86,7 @@ See [Integration risk register](integration-risk-register.md).
 
 ## Electrical integration and discrepancy investigation
 
-The early Dynon configuration flew before a later engine-start event produced a display internal-voltage/power-related discrepancy. The surviving troubleshooting chain shows a real aircraft integration process: symptom capture, aircraft-power checks, OEM support, hardware replacement, restoration of configuration data and return to flight.
+The early Dynon configuration flew before a later engine-start event produced a display internal-voltage/power-related discrepancy. The troubleshooting chain shows a real aircraft integration process: symptom capture, aircraft-power checks, OEM support, hardware replacement, restoration of configuration data and return to flight.
 
 Connector/pin troubleshooting detail remains outside the public repository.
 
@@ -100,7 +100,7 @@ Hardware, software/settings and databases therefore form part of the **as-tested
 
 The record includes NAV interface work, retained-avionics questions and later cross-domain observations in which a radio-transmit action coincided with engine-indication fluctuation.
 
-The surviving public-safe record captures the observation and investigation path; the final corrective-action record is outside the published archive.
+The public project record captures the observation and investigation path; detailed final corrective-action material is outside the published repository.
 
 ## Flight-test and customer-evaluation loop
 
@@ -127,7 +127,7 @@ Certification and type-acceptance status are kept separate from the flight-perfo
 The public model currently contains:
 
 - **6 stakeholders**
-- **14 retrospectively normalised requirements**
+- **14 portfolio-level system requirements mapped from project scope and records**
 - **12 aircraft-level functions**
 - **11 logical interfaces**
 - **6 configuration/comparison states**
@@ -164,4 +164,4 @@ That lifecycle is the core of this case study.
 
 ## Evidence discipline
 
-The public case study separates original project evidence, OEM reference material, independent programme reporting and retrospective engineering models. Configuration-specific conclusions stay attached to the configuration and source that support them; controlled wiring, proprietary implementation detail and private correspondence remain outside the repository.
+The public case study separates original project evidence, OEM reference material, independent programme reporting and current systems-engineering representations. Configuration-specific conclusions stay attached to the configuration and source that support them; controlled wiring, proprietary implementation detail and private correspondence remain outside the repository.

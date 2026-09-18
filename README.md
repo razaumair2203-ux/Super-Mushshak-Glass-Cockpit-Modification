@@ -102,9 +102,9 @@ A 2016 [Business Recorder report](https://www.brecorder.com/news/4454451/pakista
 
 Applied only as a transparent scale reference to the 80-aircraft sequence above:
 
-**80 × (US$50M / 52) ≈ US$76.9M → ≈ US$77M aircraft-value equivalent**
+**80 × (US$50M / 52) ≈ US$76.9M → ≈ US$78M aircraft-value equivalent**
 
-Public sources also document **operational training and technical support** in the Nigeria and Azerbaijan packages, plus simulator and engine-support activity around the Türkiye programme. Because those support values are not publicly standardized, they are not presented as actual contract totals. An illustrative 10–30% support sensitivity places the campaign at roughly **US$85–100M**.
+Public sources also document **operational training and technical support** in the Nigeria and Azerbaijan packages, plus simulator and engine-support activity around the Türkiye programme. Because those support values are not publicly standardized, they are not presented as actual contract totals. An illustrative 10–30% support sensitivity around the weighted public benchmark places the campaign at roughly **US$85–101M**.
 
 > **Portfolio interpretation:** the engineering work shown here sat on a product path that progressed from prototype integration and flight test into an internationally fielded aircraft family operating at substantial programme scale. Commercial figures are public-market context, not confidential contract disclosure or individual revenue attribution.
 

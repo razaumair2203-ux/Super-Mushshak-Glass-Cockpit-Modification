@@ -4,7 +4,7 @@
 
 The public interface model demonstrates the **integration problem** without exposing controlled implementation detail.
 
-An interface is published only when it is supported by the surviving project archive, OEM/reference material, or a clearly identified retrospective derivation needed to connect evidence-backed functions.
+An interface is published only when it is supported by project evidence, OEM/reference material, or a clearly identified engineering derivation needed to connect evidence-backed functions.
 
 ## Interface classes
 
@@ -35,7 +35,7 @@ Examples:
 
 For each interface the model records stable interface ID, source/target, interface class, configuration scope, public description and evidence IDs.
 
-An interface may be **observed**, **documented**, **derived** or **partially reconstructed**. “Typical” or “normal for this aircraft” is not an acceptable source.
+An interface may be **observed**, **documented**, **engineering-derived** or represented at **public-summary** level. “Typical” or “normal for this aircraft” is not an acceptable source.
 
 ## Harness representation
 

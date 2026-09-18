@@ -16,7 +16,7 @@ These are the inputs needed for a credible digital thread.
 
 ![Digital twin roadmap](../assets/digital-twin-roadmap.svg)
 
-The roadmap deliberately separates **reconstructed historical evidence**, the **digital-thread backbone already being built**, and **future executable-twin capability**. This prevents a portfolio page from presenting planned simulation capability as if it already existed.
+The roadmap deliberately separates **reconstructed historical evidence**, the **digital-thread backbone already being built**, and **future executable-twin capability**. This prevents planned simulation capability from being represented as completed work.
 
 ## Proposed digital-thread backbone
 

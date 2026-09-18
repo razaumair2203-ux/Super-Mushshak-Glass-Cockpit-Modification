@@ -1,8 +1,8 @@
 # Customer Evaluation and Programme Context
 
-## Customer evaluation
+## International customer evaluation
 
-Project status and test records show the Dynon-configured aircraft progressing from integration and performance-test activity into international customer evaluation.
+Project status and test records show the Dynon-configured aircraft progressing from integration and performance-test activity into international customer evaluation. My role extended beyond integration-shop activity into **customer-facing test/evaluation support**, including the Qatar evaluation phase and Dubai Airshow programme activity described in the programme record.
 
 A period status record documents **10 evaluation sorties by 12 November 2012**, including a night-flying mission. Engineering exchanges from the same phase record continuing configuration observations and OEM feedback during customer flying.
 
@@ -12,7 +12,7 @@ A period status record documents **10 evaluation sorties by 12 November 2012**, 
 
 ## Lead Systems Engineer contribution
 
-The role represented in this case study spans the aircraft-level modification rather than a single display or LRU:
+As **Lead Systems Engineer**, my responsibility spanned the aircraft-level modification rather than a single display or LRU:
 
 - system architecture and integration trade space;
 - integration of displays/HMI with revised sensing, aircraft power, retained avionics, NAV/COM and the complete modification harness;
@@ -41,7 +41,9 @@ Independent reporting shows the glass-cockpit product path expanding after the i
 
 The larger trajectory continued: [Times Aerospace reported in 2024](https://www.timesaerospace.aero/sites/aerospace/times/files/magazines/2024/das24-wds-d3/content/das24-wds-d3.pdf) that **more than 100 Super Mushshaks had been upgraded or sold with new avionics since 2016**, using Dynon, GenesyS or Garmin systems.
 
-This establishes a strong continuity story: the early glass-cockpit integration work became part of a durable international Super Mushshak product line. Configuration-specific claims remain tied to the source that identifies them.
+This establishes the programme trajectory: aircraft-level glass-cockpit engineering progressed through prototype integration, flight test and customer evaluation into a durable international Super Mushshak product line. Configuration-specific claims remain tied to the source that identifies them.
+
+For the public commercial scale of that later product-line outcome, see [Public Programme-Value Context](programme-value-context.md).
 
 ![Programme context](../assets/programme-context.svg)
 

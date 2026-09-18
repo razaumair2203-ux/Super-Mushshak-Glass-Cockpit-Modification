@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The retrospective model is useful only if engineering objects have stable identities and explicit relationships.
+The digital-thread model is useful only if engineering objects have stable identities and explicit relationships.
 
 The public digital thread uses these namespaces:
 
@@ -13,7 +13,7 @@ The public digital thread uses these namespaces:
 - **CFG-### / CMP-###** — configurations / comparison-only artefacts;
 - **VER-###** — verification or review events;
 - **ISS-###** — discrepancies / issues;
-- **RSK-###** — retrospective integration risks;
+- **RSK-###** — integration risks;
 - **DEC-###** — decisions;
 - **E-##** — evidence items;
 - **CLM-###** — public technical / programme claims.
@@ -35,13 +35,13 @@ Verification records distinguish:
 - **Observed** — event or behaviour directly recorded;
 - **Reverified** — subsequent installed check or flight recorded after change/restoration;
 - **Reviewed** — architecture/configuration documentation reviewed; not equivalent to aircraft test;
-- **Final closure not reconstructed** — an issue was observed and may have received analysis, but the surviving public-safe record does not prove closure.
+- **Detailed closure record not published** — the issue and analysis path are represented, while detailed programme closure material remains outside the public repository.
 
 This prevents “issue discussed with OEM” from being rewritten as “issue solved”.
 
 ## Risk semantics
 
-The retrospective risk register is evidence-bounded. It captures only integration risks visible in the surviving record, including power/transient behaviour, configuration restoration, cross-domain interaction, high-dynamic attitude-reference behaviour, retained-avionics interoperability and supportability/AOG exposure.
+The risk register is evidence-bounded. It captures integration risks documented in project records, including power/transient behaviour, configuration restoration, cross-domain interaction, high-dynamic attitude-reference behaviour, retained-avionics interoperability and supportability/AOG exposure.
 
 No probability, severity or formal hazard classification is invented.
 
@@ -65,4 +65,4 @@ Relationship types now include drives, allocated_to, interfaces_via, verified_by
 
 ## Quality rule
 
-No relation exists solely because it would be normal practice on an aircraft programme. A missing relation remains missing until evidence or a justified retrospective derivation supports it.
+No relation exists solely because it would be normal practice on an aircraft programme. A missing relation remains missing until evidence or a justified engineering derivation supports it.

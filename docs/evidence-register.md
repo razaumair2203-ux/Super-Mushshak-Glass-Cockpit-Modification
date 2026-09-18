@@ -1,10 +1,10 @@
 # Evidence Register
 
-This register controls the retrospective reconstruction. It records evidence category and configuration scope behind public engineering claims without publishing private correspondence, controlled drawings or non-public source material.
+This register controls claim-to-source traceability for the public engineering portfolio. It records evidence category and configuration scope without publishing private correspondence, controlled drawings or non-public source material.
 
 | ID | Evidence | Class | Configuration scope | What it supports | Public treatment |
 |---|---|---|---|---|---|
-| E-01 | Original Dynon prototype cockpit photograph | Direct project | CFG-D1 / Dynon | installed SkyView cockpit configuration visible in image | sanitized image published |
+| E-01 | Original Dynon prototype cockpit photograph | Direct project | CFG-D1 / Dynon | installed SkyView cockpit configuration visible in image | privacy/security-reviewed project image published |
 | E-02 | Nov 2010 installed-aircraft troubleshooting exchange | Direct project | CFG-D1 | two early sorties; later display internal-voltage/power discrepancy; troubleshooting initiated | technical summary only |
 | E-03 | Dec 2010 Dynon engineering follow-up | Direct project / OEM exchange | CFG-D2 | avionics-interface, qualification and configuration-support topics | technical summary only |
 | E-04 | Dec 2010 replacement-display / first-sortie correspondence | Direct project / OEM exchange | CFG-D2 | replacement displays/data installed; return to flight; continuing flight-test feedback | technical summary only |
@@ -16,9 +16,9 @@ This register controls the retrospective reconstruction. It records evidence cat
 | E-10 | G950 customer-focused technical presentation | Project / vendor presentation | CFG-G1 | G950 functions, dual-display architecture and evaluation concepts | summary only; source not republished |
 | E-11 | 2013 G900X configuration-mode correspondence | Direct project | CFG-G1 | G900X track identity and configuration-control discussion | claim summary only |
 | E-12 | 2014 Dynon equipment/package follow-up | Direct project | Dynon follow-on | continued configuration/equipment definition | claim summary only |
-| E-13 | Original customer-evaluation ground photograph | Direct project | CFG-D3 context | aircraft/customer-evaluation period context | sanitized image published |
+| E-13 | Original customer-evaluation ground photograph | Direct project | CFG-D3 context | aircraft/customer-evaluation period context | privacy/security-reviewed project image published |
 | E-14 | Original public-event programme photograph | Direct project | programme context | display/support context only | source retained; not required for technical claims |
-| E-15 | Original in-flight Dynon display photograph | Direct project | Dynon installed aircraft | installed-aircraft PFD / synthetic-vision operation visible in image | sanitized image published |
+| E-15 | Original in-flight Dynon display photograph | Direct project | Dynon installed aircraft | installed-aircraft PFD / synthetic-vision operation visible in image | privacy/security-reviewed project image published |
 | E-16 | 2016–2017 contract/delivery reporting | Public programme | later programme | four new-customer contracts totalling 80 aircraft; Nigeria delivery explicitly glass-cockpit equipped | public links |
 | E-17 | 2016 Nigeria commercial estimate | Public programme | later programme | estimated US$10.2M value for ten-aircraft Nigerian order | public commercial-context source |
 | E-18 | 2016 Türkiye commercial report | Public programme | later programme | approximately US$50M reported for the 52-aircraft Türkiye agreement | public commercial-context source |
@@ -27,15 +27,15 @@ This register controls the retrospective reconstruction. It records evidence cat
 | E-21 | Original aerial test-flight photograph | Direct project | flight/test context | period flight/test context | release candidate; not configuration proof |
 | E-22 | Retired external operator-image reference | Retired | none | no current technical claim | not embedded; retained ID only for history stability |
 | E-23 | Period first-modification completion report | Direct project, non-public source | baseline / architecture | legacy-system characterisation; electrical/mechanical/cabling design problem; architecture-option analysis | high-level facts only; source not published |
-| E-24 | Retrofit scope statement supplied by programme lead | Retrospective direct statement | programme / Dynon scope | sensor-suite replacement and complete modification wiring-harness change as executed scope | explicitly retrospective; no controlled implementation detail |
-| E-25 | Role statement supplied by programme lead | Retrospective direct statement | programme / Dynon / Garmin tracks | Lead Systems Engineer responsibility spanning aircraft-level integration, prototype test/troubleshooting, OEM coordination and customer-evaluation support | explicitly retrospective role statement; formal appointment material not published |
+| E-24 | Retrofit scope statement supplied by programme lead | Programme-lead statement | programme / Dynon scope | sensor-suite replacement and complete modification wiring-harness change as executed scope | programme-lead scope statement; controlled implementation detail omitted |
+| E-25 | Role statement supplied by programme lead | Programme-lead statement | programme / Dynon / Garmin tracks | Lead Systems Engineer responsibility spanning aircraft-level integration, prototype test/troubleshooting, OEM coordination and customer-evaluation support | programme-lead role statement; formal appointment material not published |
 
 ## Evidence rules
 
 1. Direct project evidence supports only the represented configuration/event.
 2. OEM material supports vendor-system functions and generic architecture, not the exact aircraft installation.
 3. Public programme reporting supports later programme context, not individual causation.
-4. Retrospective statements/derivations are labelled as such rather than promoted into period artefacts.
+4. Programme-lead statements and current engineering representations are distinguished from period artefacts.
 5. Unknown information stays unknown.
 6. A test observation does not become a closed discrepancy unless closure evidence exists.
 7. Role attribution and commercial impact are controlled as separate claim types: a role statement does not by itself prove commercial causation.

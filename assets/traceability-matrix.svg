@@ -1,96 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1300" viewBox="0 0 1800 1300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1280" viewBox="0 0 1900 1280">
 <defs><style>
-.ti{font:700 40px Arial,sans-serif;fill:#111827}.su{font:21px Arial,sans-serif;fill:#4b5563}
-.h{font:700 18px Arial,sans-serif;fill:#111827}.hh{font:700 17px Arial,sans-serif;fill:#111827}
-.r{font:17px Arial,sans-serif;fill:#111827}.s{font:15px Arial,sans-serif;fill:#4b5563}
-.grid{stroke:#c7cdd4;stroke-width:1}.outer{fill:#ffffff;stroke:#374151;stroke-width:2}
-.head{fill:#f3f4f6}.dot{fill:#1f4b7a}.none{fill:#6b7280}
+.ti{font:700 38px Arial,sans-serif;fill:#111827}.su{font:20px Arial,sans-serif;fill:#4b5563}.h{font:700 22px Arial,sans-serif;fill:#111827}.t{font:18px Arial,sans-serif;fill:#374151}.sm{font:16px Arial,sans-serif;fill:#4b5563}
+.b{fill:#f9fafb;stroke:#374151;stroke-width:2.5}.head{fill:#f3f4f6}.grid{stroke:#c7cdd4;stroke-width:1}.dot{fill:#1f4b7a}
 </style></defs>
-<rect width="1800" height="1300" fill="white"/>
-<text x="70" y="60" class="ti">Requirements × Verification Cross-Reference</text>
-<text x="70" y="98" class="su">Derived from model/traceability.csv. Blank cells mean that no direct public verification link is asserted.</text>
+<rect width="1900" height="1280" fill="white"/>
+<text x="60" y="58" class="ti">Requirements × Verification Cross-Reference</text>
+<text x="60" y="94" class="su">Derived public traceability view. A blank cell means that no direct public verification link is asserted.</text>
 
-<rect x="65" y="150" width="1670" height="900" class="outer"/>
-<rect x="65" y="150" width="1670" height="120" class="head"/>
-<text x="82" y="205" class="h">Requirement</text>
-<text x="82" y="232" class="s">Retrospective public requirement set</text>
+<rect x="70" y="150" width="1730" height="890" fill="white" stroke="#374151" stroke-width="2"/>
+<rect x="70" y="150" width="1730" height="120" class="head"/>
+<text x="90" y="205" class="h">Requirement</text><text x="90" y="235" class="sm">Retrospective public requirement set</text>
 
-<g text-anchor="middle">
-<text x="820" y="190" class="hh">VER-001</text><text x="820" y="218" class="s">Early flight</text>
-<text x="950" y="190" class="hh">VER-002</text><text x="950" y="218" class="s">Power issue</text>
-<text x="1080" y="190" class="hh">VER-003</text><text x="1080" y="218" class="s">Reconfig + flight</text>
-<text x="1210" y="190" class="hh">VER-004</text><text x="1210" y="218" class="s">HMI / data</text>
-<text x="1340" y="190" class="hh">VER-005</text><text x="1340" y="218" class="s">ADAHRS obs.</text>
-<text x="1470" y="190" class="hh">VER-006</text><text x="1470" y="218" class="s">PTT / EMS obs.</text>
-<text x="1600" y="190" class="hh">VER-007</text><text x="1600" y="218" class="s">Customer eval.</text>
-<text x="1700" y="190" class="hh">VER-008</text><text x="1700" y="218" class="s">Garmin review</text>
-</g>
+<text x="787.5" y="192" text-anchor="middle" class="h">VER-001</text><text x="787.5" y="222" text-anchor="middle" class="sm">Early flight</text>
+<text x="922.5" y="192" text-anchor="middle" class="h">VER-002</text><text x="922.5" y="222" text-anchor="middle" class="sm">Power issue</text>
+<text x="1057.5" y="192" text-anchor="middle" class="h">VER-003</text><text x="1057.5" y="222" text-anchor="middle" class="sm">Reconfig + flight</text>
+<text x="1192.5" y="192" text-anchor="middle" class="h">VER-004</text><text x="1192.5" y="222" text-anchor="middle" class="sm">HMI / data</text>
+<text x="1327.5" y="192" text-anchor="middle" class="h">VER-005</text><text x="1327.5" y="222" text-anchor="middle" class="sm">ADAHRS obs.</text>
+<text x="1462.5" y="192" text-anchor="middle" class="h">VER-006</text><text x="1462.5" y="222" text-anchor="middle" class="sm">PTT / EMS obs.</text>
+<text x="1597.5" y="192" text-anchor="middle" class="h">VER-007</text><text x="1597.5" y="222" text-anchor="middle" class="sm">Customer eval.</text>
+<text x="1732.5" y="192" text-anchor="middle" class="h">VER-008</text><text x="1732.5" y="222" text-anchor="middle" class="sm">Garmin review</text>
 
-<g class="grid">
-<line x1="745" y1="150" x2="745" y2="1050"/>
-<line x1="885" y1="150" x2="885" y2="1050"/><line x1="1015" y1="150" x2="1015" y2="1050"/>
-<line x1="1145" y1="150" x2="1145" y2="1050"/><line x1="1275" y1="150" x2="1275" y2="1050"/>
-<line x1="1405" y1="150" x2="1405" y2="1050"/><line x1="1535" y1="150" x2="1535" y2="1050"/>
-<line x1="1665" y1="150" x2="1665" y2="1050"/><line x1="1735" y1="150" x2="1735" y2="1050"/>
-<line x1="65" y1="270" x2="1735" y2="270"/>
-<line x1="65" y1="325" x2="1735" y2="325"/><line x1="65" y1="380" x2="1735" y2="380"/>
-<line x1="65" y1="435" x2="1735" y2="435"/><line x1="65" y1="490" x2="1735" y2="490"/>
-<line x1="65" y1="545" x2="1735" y2="545"/><line x1="65" y1="600" x2="1735" y2="600"/>
-<line x1="65" y1="655" x2="1735" y2="655"/><line x1="65" y1="710" x2="1735" y2="710"/>
-<line x1="65" y1="765" x2="1735" y2="765"/><line x1="65" y1="820" x2="1735" y2="820"/>
-<line x1="65" y1="875" x2="1735" y2="875"/><line x1="65" y1="930" x2="1735" y2="930"/>
-<line x1="65" y1="985" x2="1735" y2="985"/><line x1="65" y1="1040" x2="1735" y2="1040"/>
-</g>
+<line x1="720" y1="150" x2="720" y2="1040" class="grid"/><line x1="855" y1="150" x2="855" y2="1040" class="grid"/><line x1="990" y1="150" x2="990" y2="1040" class="grid"/><line x1="1125" y1="150" x2="1125" y2="1040" class="grid"/><line x1="1260" y1="150" x2="1260" y2="1040" class="grid"/><line x1="1395" y1="150" x2="1395" y2="1040" class="grid"/><line x1="1530" y1="150" x2="1530" y2="1040" class="grid"/><line x1="1665" y1="150" x2="1665" y2="1040" class="grid"/><line x1="1800" y1="150" x2="1800" y2="1040" class="grid"/>
+<line x1="70" y1="270" x2="1800" y2="270" class="grid"/><line x1="70" y1="325" x2="1800" y2="325" class="grid"/><line x1="70" y1="380" x2="1800" y2="380" class="grid"/><line x1="70" y1="435" x2="1800" y2="435" class="grid"/><line x1="70" y1="490" x2="1800" y2="490" class="grid"/><line x1="70" y1="545" x2="1800" y2="545" class="grid"/><line x1="70" y1="600" x2="1800" y2="600" class="grid"/><line x1="70" y1="655" x2="1800" y2="655" class="grid"/><line x1="70" y1="710" x2="1800" y2="710" class="grid"/><line x1="70" y1="765" x2="1800" y2="765" class="grid"/><line x1="70" y1="820" x2="1800" y2="820" class="grid"/><line x1="70" y1="875" x2="1800" y2="875" class="grid"/><line x1="70" y1="930" x2="1800" y2="930" class="grid"/><line x1="70" y1="985" x2="1800" y2="985" class="grid"/><line x1="70" y1="1040" x2="1800" y2="1040" class="grid"/>
 
-<g class="r">
-<text x="82" y="306">REQ-001 · Flight information</text>
-<text x="82" y="361">REQ-002 · Engine / airframe information</text>
-<text x="82" y="416">REQ-003 · NAV / COM integration</text>
-<text x="82" y="471">REQ-004 · Electrical integration</text>
-<text x="82" y="526">REQ-005 · Configuration management</text>
-<text x="82" y="581">REQ-006 · Retained avionics interfaces</text>
-<text x="82" y="636">REQ-007 · Physical / harness integration</text>
-<text x="82" y="691">REQ-008 · Installed verification</text>
-<text x="82" y="746">REQ-009 · Maintainability</text>
-<text x="82" y="801">REQ-010 · Qualification / acceptance</text>
-<text x="82" y="856">REQ-011 · Failure response</text>
-<text x="82" y="911">REQ-012 · HMI / training suitability</text>
-<text x="82" y="966">REQ-013 · Configuration identity</text>
-<text x="82" y="1021">REQ-014 · Evidence integrity</text>
-</g>
+<text x="88" y="305" class="t">REQ-001 · Flight information</text><circle cx="787.5" cy="299" r="8" class="dot"/><circle cx="1057.5" cy="299" r="8" class="dot"/><circle cx="1192.5" cy="299" r="8" class="dot"/><circle cx="1597.5" cy="299" r="8" class="dot"/>
+<text x="88" y="360" class="t">REQ-002 · Engine / airframe information</text><circle cx="1462.5" cy="354" r="8" class="dot"/>
+<text x="88" y="415" class="t">REQ-003 · NAV / COM integration</text><circle cx="1057.5" cy="409" r="8" class="dot"/><circle cx="1192.5" cy="409" r="8" class="dot"/>
+<text x="88" y="470" class="t">REQ-004 · Electrical integration</text><circle cx="922.5" cy="464" r="8" class="dot"/><circle cx="1057.5" cy="464" r="8" class="dot"/>
+<text x="88" y="525" class="t">REQ-005 · Configuration management</text><circle cx="1057.5" cy="519" r="8" class="dot"/><circle cx="1192.5" cy="519" r="8" class="dot"/>
+<text x="88" y="580" class="t">REQ-006 · Retained avionics interfaces</text><circle cx="1192.5" cy="574" r="8" class="dot"/>
+<text x="88" y="635" class="t">REQ-007 · Physical / harness integration</text>
+<text x="88" y="690" class="t">REQ-008 · Installed verification</text><circle cx="787.5" cy="684" r="8" class="dot"/><circle cx="922.5" cy="684" r="8" class="dot"/><circle cx="1057.5" cy="684" r="8" class="dot"/><circle cx="1327.5" cy="684" r="8" class="dot"/><circle cx="1462.5" cy="684" r="8" class="dot"/><circle cx="1597.5" cy="684" r="8" class="dot"/>
+<text x="88" y="745" class="t">REQ-009 · Maintainability</text><circle cx="1057.5" cy="739" r="8" class="dot"/>
+<text x="88" y="800" class="t">REQ-010 · Qualification / acceptance</text><circle cx="1597.5" cy="794" r="8" class="dot"/><circle cx="1732.5" cy="794" r="8" class="dot"/>
+<text x="88" y="855" class="t">REQ-011 · Failure response</text><circle cx="922.5" cy="849" r="8" class="dot"/><circle cx="1732.5" cy="849" r="8" class="dot"/>
+<text x="88" y="910" class="t">REQ-012 · HMI / training suitability</text><circle cx="1192.5" cy="904" r="8" class="dot"/><circle cx="1597.5" cy="904" r="8" class="dot"/>
+<text x="88" y="965" class="t">REQ-013 · Configuration identity</text><circle cx="787.5" cy="959" r="8" class="dot"/><circle cx="1057.5" cy="959" r="8" class="dot"/><circle cx="1597.5" cy="959" r="8" class="dot"/><circle cx="1732.5" cy="959" r="8" class="dot"/>
+<text x="88" y="1020" class="t">REQ-014 · Evidence integrity</text><circle cx="787.5" cy="1014" r="8" class="dot"/><circle cx="922.5" cy="1014" r="8" class="dot"/><circle cx="1057.5" cy="1014" r="8" class="dot"/><circle cx="1192.5" cy="1014" r="8" class="dot"/><circle cx="1327.5" cy="1014" r="8" class="dot"/><circle cx="1462.5" cy="1014" r="8" class="dot"/><circle cx="1597.5" cy="1014" r="8" class="dot"/><circle cx="1732.5" cy="1014" r="8" class="dot"/>
 
-<g class="dot">
-<!-- REQ-001: 1,3,4,7 -->
-<circle cx="820" cy="297" r="9"/><circle cx="1080" cy="297" r="9"/><circle cx="1210" cy="297" r="9"/><circle cx="1600" cy="297" r="9"/>
-<!-- REQ-002: 6 -->
-<circle cx="1470" cy="352" r="9"/>
-<!-- REQ-003: 3,4 -->
-<circle cx="1080" cy="407" r="9"/><circle cx="1210" cy="407" r="9"/>
-<!-- REQ-004: 2,3 -->
-<circle cx="950" cy="462" r="9"/><circle cx="1080" cy="462" r="9"/>
-<!-- REQ-005: 3,4 -->
-<circle cx="1080" cy="517" r="9"/><circle cx="1210" cy="517" r="9"/>
-<!-- REQ-006: 4 -->
-<circle cx="1210" cy="572" r="9"/>
-<!-- REQ-007 intentionally no direct VER link -->
-<!-- REQ-008: 1,2,3,5,6,7 -->
-<circle cx="820" cy="682" r="9"/><circle cx="950" cy="682" r="9"/><circle cx="1080" cy="682" r="9"/><circle cx="1340" cy="682" r="9"/><circle cx="1470" cy="682" r="9"/><circle cx="1600" cy="682" r="9"/>
-<!-- REQ-009: 3 -->
-<circle cx="1080" cy="737" r="9"/>
-<!-- REQ-010: 7,8 -->
-<circle cx="1600" cy="792" r="9"/><circle cx="1700" cy="792" r="9"/>
-<!-- REQ-011: 2,8 -->
-<circle cx="950" cy="847" r="9"/><circle cx="1700" cy="847" r="9"/>
-<!-- REQ-012: 4,7 -->
-<circle cx="1210" cy="902" r="9"/><circle cx="1600" cy="902" r="9"/>
-<!-- REQ-013: 1,3,7,8 -->
-<circle cx="820" cy="957" r="9"/><circle cx="1080" cy="957" r="9"/><circle cx="1600" cy="957" r="9"/><circle cx="1700" cy="957" r="9"/>
-<!-- REQ-014: 1-8 -->
-<circle cx="820" cy="1012" r="9"/><circle cx="950" cy="1012" r="9"/><circle cx="1080" cy="1012" r="9"/><circle cx="1210" cy="1012" r="9"/><circle cx="1340" cy="1012" r="9"/><circle cx="1470" cy="1012" r="9"/><circle cx="1600" cy="1012" r="9"/><circle cx="1700" cy="1012" r="9"/>
-</g>
-
-<text x="70" y="1110" class="h">Interpretation</text>
-<text x="70" y="1150" class="su">REQ-007 is intentionally blank: the public reconstruction asserts the physical/harness requirement but does not invent a direct verification event.</text>
-<text x="70" y="1187" class="su">VER-005 and VER-006 are observations with final closure not reconstructed; their dots are trace links, not “pass” marks.</text>
-<text x="70" y="1224" class="su">This is a derived engineering view. Detailed event status is controlled in model/verification.csv and model/issues.csv.</text>
+<rect x="90" y="1105" width="1720" height="120" rx="14" class="b"/>
+<text x="950" y="1147" text-anchor="middle" class="h">Interpretation</text>
+<text x="950" y="1177" text-anchor="middle" class="t">REQ-007 remains blank because the public reconstruction does not invent a direct verification event.</text>
+<text x="950" y="1207" text-anchor="middle" class="t">VER-005 / VER-006 are observations with final closure not reconstructed; dots are trace links, not pass marks.</text>
 </svg>

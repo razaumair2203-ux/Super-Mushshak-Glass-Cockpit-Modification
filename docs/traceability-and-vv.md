@@ -13,17 +13,20 @@ The public digital thread uses these namespaces:
 - **CFG-### / CMP-###** — configurations / comparison-only artefacts;
 - **VER-###** — verification or review events;
 - **ISS-###** — discrepancies / issues;
+- **RSK-###** — retrospective integration risks;
 - **DEC-###** — decisions;
 - **E-##** — evidence items;
-- **CLM-###** — public technical claims.
+- **CLM-###** — public technical / programme claims.
 
 ## Traceability chain
 
-**evidence → claim → requirement → function → interface → configuration → verification / issue → decision**
+**evidence → claim → requirement → function → interface → configuration → verification / issue / risk → decision**
 
 ![Requirements × verification cross-reference](../assets/traceability-matrix.svg)
 
 The matrix is intentionally sparse. A blank cell means the public model does not assert a direct verification link.
+
+The machine-readable [traceability table](../model/traceability.csv) now carries risk IDs alongside verification, issue and decision links so that an integration concern can be traced back to the requirement/interface it threatens and the evidence that exposed it.
 
 ## Verification semantics
 
@@ -36,6 +39,14 @@ Verification records distinguish:
 
 This prevents “issue discussed with OEM” from being rewritten as “issue solved”.
 
+## Risk semantics
+
+The retrospective risk register is evidence-bounded. It captures only integration risks visible in the surviving record, including power/transient behaviour, configuration restoration, cross-domain interaction, high-dynamic attitude-reference behaviour, retained-avionics interoperability and supportability/AOG exposure.
+
+No probability, severity or formal hazard classification is invented.
+
+See [Integration risk register](integration-risk-register.md).
+
 ## Configuration-specific evidence
 
 A verification record carries one configuration ID. If a later configuration differs in hardware, software, settings or databases, prior evidence is not automatically inherited.
@@ -44,11 +55,13 @@ A verification record carries one configuration ID. If a later configuration dif
 
 The public [claim register](../model/claims.csv) records statement, evidence state, configuration scope, evidence IDs and boundary/limitation.
 
+Technical claims, role claims and commercial/programme claims are controlled separately so that an individual role statement cannot silently become a causation claim for later sales.
+
 ## Typed links
 
 [model/links.csv](../model/links.csv) provides a tool-agnostic edge list suitable for migration to a graph database, requirements tool or MBSE environment.
 
-Relationship types include drives, allocated_to, interfaces_via, verified_by, raises_issue, followed_by, validated_by, reviewed_by, supported_by and controls.
+Relationship types now include drives, allocated_to, interfaces_via, verified_by, raises_issue, followed_by, validated_by, reviewed_by, has_risk, observed_in, controlled_by, supported_by and controls.
 
 ## Quality rule
 

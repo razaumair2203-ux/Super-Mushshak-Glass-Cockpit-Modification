@@ -1,30 +1,34 @@
 # Programme Progression
 
-The early glass-cockpit work formed part of the wider evolution of the Super Mushshak training aircraft.
+The purpose of this page is to distinguish **what the programme later became** from **what one engineer can directly claim**.
 
-## 2011 — public display
+## Early phase
 
-Public reporting records a Super Mushshak with a modernised glass cockpit at the **Dubai Airshow in November 2011**.
+The surviving private archive documents:
 
-## Later glass-cockpit configurations
+- aircraft-level glass-cockpit architecture and options work;
+- multiple prototype/evaluation configurations;
+- Dynon SkyView integration and flight-test activity;
+- Garmin-family comparative/evaluation work;
+- customer-facing technical evaluation.
 
-Later reporting describes Super Mushshak aircraft being offered with modern glass-cockpit configurations, including **Garmin G950** and **Dynon SkyView** options.
+## Later progression
 
-## Export phase
+Public reporting shows the Super Mushshak family continuing into later glass-cockpit offerings, international demonstrations and export programmes.
 
-Public sources document later Super Mushshak contracts including:
+That later programme history provides context for why the early retrofit work mattered, but this repository does **not** claim that a single prototype, trade decision or individual engineer caused subsequent sales.
 
-- **Qatar — 8 aircraft**
-- **Nigeria — 10 aircraft**
-- **Türkiye — 52 aircraft**
-- **Azerbaijan — 10 aircraft**
+## Individual contribution boundary
 
-The Nigerian handover reporting explicitly described the delivered aircraft as glass-cockpit equipped.
+My documented contribution is narrower and technically stronger:
 
-These figures are included as programme history. They are not presented as the output of a single prototype, engineering decision or individual contributor.
+- systems-engineering ownership of the early retrofit problem;
+- architecture and trade studies;
+- interface and integration engineering;
+- prototype troubleshooting;
+- V&V and flight-test feedback;
+- technical support to customer evaluation.
 
-## Engineering continuity
+That is the contribution this repository is designed to evidence.
 
-The important engineering point is continuity: the aircraft moved from early cockpit-modernisation work through later production and export configurations. The present digital-twin activity continues that platform-level systems-engineering thread in a different form.
-
-See [References](references.md) for the external sources used on this page.
+For public programme-level sources, see [References](references.md).

@@ -41,7 +41,7 @@ The cockpit had to remain usable as an ab-initio training environment. Display l
 Equipment installation, aircraft power, circuit protection, connectors and the aircraft wiring harness formed the physical integration layer between the new avionics and the existing platform.
 
 ### Verification
-Prototype integration required an incremental verification sequence: installation and functional checks, ground operation, flight test, observation capture and defect/configuration closure.
+Prototype integration required an incremental verification sequence: installation and functional checks, ground operation, flight test, observation capture, configuration refinement and re-test.
 
 ## Interface management
 

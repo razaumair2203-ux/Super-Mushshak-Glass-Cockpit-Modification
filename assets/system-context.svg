@@ -31,7 +31,7 @@
 <text x="240" y="800" text-anchor="middle" class="t">supportability feedback</text>
 <rect x="1370" y="210" width="380" height="150" rx="14" class="violet"/>
 <text x="1560" y="252" text-anchor="middle" class="h">Avionics OEM / support</text>
-<text x="1560" y="298" text-anchor="middle" class="t">interfaces · configuration · troubleshooting</text>
+<text x="1560" y="288" text-anchor="middle" class="t">interfaces · configuration</text><text x="1560" y="318" text-anchor="middle" class="t">troubleshooting</text>
 <rect x="1370" y="440" width="380" height="150" rx="14" class="green"/>
 <text x="1560" y="482" text-anchor="middle" class="h">Ground / flight verification</text>
 <text x="1560" y="528" text-anchor="middle" class="t">test event · observation · re-test</text>
@@ -39,7 +39,7 @@
 <rect x="1370" y="680" width="380" height="150" rx="14" class="green"/>
 <text x="1560" y="722" text-anchor="middle" class="h">Customer / acceptance context</text>
 <text x="1560" y="768" text-anchor="middle" class="t">operational suitability · evaluation</text>
-<text x="1560" y="800" text-anchor="middle" class="t">validation kept distinct from verification</text>
+<text x="1560" y="790" text-anchor="middle" class="t">validation kept distinct</text><text x="1560" y="818" text-anchor="middle" class="t">from verification</text>
 <path d="M430 285 H500 V330 H560" class="line"/><path d="M430 515 H560" class="line"/><path d="M430 755 H500 V645 H560" class="line"/><path d="M1240 330 H1330 V285 H1370" class="line"/><path d="M1240 515 H1370" class="line"/><path d="M1240 645 H1330 V755 H1370" class="line"/><path d="M1560 590 V900 H900 V710" class="dash"/>
 <text x="900" y="934" text-anchor="middle" class="sm">Evaluation / discrepancy feedback returns to the identified configuration and engineering baseline.</text>
 <rect x="330" y="965" width="1140" height="60" rx="14" class="b"/>

@@ -9,16 +9,35 @@ The photographs below are **original project imagery**. They establish three thi
 **Installed Dynon SkyView prototype — aircraft integration, not a bench demonstration.**  
 The retrofit combined displays, revised sensing, NAV/COM and retained-avionics interfaces, aircraft power, physical installation and a complete modification wiring harness.
 
-<table>
-<tr>
-<td width="50%"><img src="../assets/dynon-skyview-flight-test.jpg" alt="Dynon SkyView cockpit operating during flight test"></td>
-<td width="50%"><img src="../assets/international-customer-evaluation.jpg" alt="Super Mushshak project aircraft during international customer evaluation"></td>
-</tr>
-<tr>
-<td><sub><b>Installed-aircraft flight test.</b> The glass-cockpit configuration was exercised in flight with configuration-specific observations feeding engineering, OEM action and re-test.</sub></td>
-<td><sub><b>International customer evaluation.</b> Project aircraft operating in the customer-facing evaluation phase that followed prototype integration and flight-test maturation.</sub></td>
-</tr>
-</table>
+## Installed-aircraft flight test
+
+<p align="center">
+  <img src="../assets/dynon-skyview-flight-test.jpg" alt="Dynon SkyView cockpit operating during flight test" width="90%">
+</p>
+
+**Installed-aircraft flight test.** The glass-cockpit configuration was exercised in flight with configuration-specific observations feeding engineering, OEM action and re-test.
+
+## Sortie environment
+
+<p align="center">
+  <img src="../assets/flight-test/sortie-cockpit-external-view.jpg" alt="Authentic cockpit and external-environment view during a project sortie" width="90%">
+</p>
+
+**Cockpit + external flight environment.** Original period test-flight photography showing the aircraft operating in the real sortie environment. It establishes flight-test context, not a specific acceptance result.
+
+<p align="center">
+  <img src="../assets/flight-test/sortie-river-transit.jpg" alt="Authentic aerial photograph taken during a project sortie" width="90%">
+</p>
+
+**Aerial sortie / route context.** Original period photography retained as operational evidence. Precise location is intentionally not identified in the public portfolio.
+
+## International customer evaluation
+
+<p align="center">
+  <img src="../assets/international-customer-evaluation.jpg" alt="Super Mushshak project aircraft during international customer evaluation" width="88%">
+</p>
+
+**International customer evaluation.** Project aircraft operating in the customer-facing phase that followed prototype integration and flight-test maturation.
 
 ![Programme scale](../assets/programme-impact.svg)
 
@@ -48,3 +67,5 @@ For a transparent public estimate of programme scale, see [Public Programme-Valu
 ## Image policy
 
 Project images may be **cropped, resized, exposure/contrast corrected, sharpened and narrowly redacted** for public release. Aircraft, cockpit equipment, people and test scenes are not replaced with synthetic or generatively produced imagery.
+
+The publication rule is **evidence at point-of-claim, not decorative collage**. The wider period album is curated rather than bulk-published: images with unnecessary location, facility, database, or organisational detail remain outside the public repository. Provenance for the published sortie images is recorded in [assets/flight-test/README.md](../assets/flight-test/README.md).

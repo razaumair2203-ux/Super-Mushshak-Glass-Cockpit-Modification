@@ -61,18 +61,23 @@ The public release does **not** include detailed final corrective-action closure
 
 ## Sortie and operational-environment evidence
 
-<table>
-<tr>
-<td width="33%"><img src="../assets/flight-test/cockpit-overview-inflight.jpg" alt="Original whole-cockpit in-flight photograph"></td>
-<td width="33%"><img src="../assets/flight-test/aerial-terrain-context.jpg" alt="Original aerial terrain photograph from a test sortie"></td>
-<td width="33%"><img src="../assets/flight-test/aerial-cloud-conditions.jpg" alt="Original cloud and visibility photograph from a test sortie"></td>
-</tr>
-<tr>
-<td><sub><b>Cockpit operation.</b> Wider installed-aircraft view during programme flying.</sub></td>
-<td><sub><b>Terrain context.</b> Real sortie environment from the period flight-test album.</sub></td>
-<td><sub><b>Visibility context.</b> Atmospheric conditions encountered during programme flying.</sub></td>
-</tr>
-</table>
+<p align="center">
+  <img src="../assets/flight-test/cockpit-overview-inflight.jpg" alt="Original whole-cockpit in-flight photograph" width="92%">
+</p>
+
+*Original installed-cockpit view during programme flying.*
+
+<p align="center">
+  <img src="../assets/flight-test/aerial-terrain-context.jpg" alt="Original aerial terrain photograph from a test sortie" width="92%">
+</p>
+
+*Original terrain / sortie context from the period flight-test album.*
+
+<p align="center">
+  <img src="../assets/flight-test/aerial-cloud-conditions.jpg" alt="Original cloud and visibility photograph from a test sortie" width="92%">
+</p>
+
+*Original atmospheric / visibility context from programme flying.*
 
 <p align="center">
   <img src="../assets/flight-test/sortie-cockpit-external-view.jpg" alt="Authentic cockpit and external-environment photograph from a project sortie" width="90%">
@@ -86,7 +91,7 @@ The public release does **not** include detailed final corrective-action closure
 
 *Original aerial sortie photograph. It supports period flight/test context only. The public caption intentionally does not identify the precise route or location.*
 
-The individual photographs above are retained as direct visual evidence, and selected originals are also assembled into recruiter-facing photo boards for faster programme scanning. A collage changes only the layout; it does not create a technical result. Verification claims remain tied to the configuration-specific project record.
+The photographs above are retained as individual direct visual evidence and placed where they support the verification narrative. Verification claims remain tied to the configuration-specific project record.
 
 ## Customer evaluation
 

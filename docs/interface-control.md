@@ -43,6 +43,18 @@ The modification included a complete wiring-harness change associated with the r
 
 This gives the repository aircraft-level depth without publishing information that should remain controlled.
 
+<p align="center">
+  <img src="../assets/flight-test/cockpit-stack-integration.jpg" alt="Original cockpit and centre-stack integration photograph" width="92%">
+</p>
+
+*Aircraft-level integration evidence: displays, retained instrumentation and centre-stack equipment within the modified cockpit.*
+
+<p align="center">
+  <img src="../assets/flight-test/nav-com-interface.jpg" alt="Original navigation and communication interface photograph" width="86%">
+</p>
+
+*NAV/COM interface evidence from the project aircraft. The public repository uses the photograph at functional/interface level and does not publish pin-level interconnect detail.*
+
 ## Interface verification
 
 Interface verification is linked to an identified configuration and event. If a verification record addresses subsystem behaviour but does not establish every underlying interface, the model does not infer the missing links.

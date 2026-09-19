@@ -11,13 +11,13 @@ The aerial album records the **real sortie environment, changing visibility, ter
 ## Programme-lead-approved evidence boards
 
 <p align="center">
-  <img src="../assets/recruiter/super-mushshak-retrofit-evidence-board.webp" alt="Approved recruiter-facing Super Mushshak retrofit evidence board" width="100%">
+  <img src="../assets/recruiter/hero-super-mushshak-retrofit.jpg" alt="Approved recruiter-facing Super Mushshak retrofit evidence board" width="100%">
 </p>
 
 **Recruiter-facing programme overview.** This approved board assembles authentic period project imagery with explanatory labels for rapid scanning. It does not replace the individual photographs or the configuration-specific engineering record.
 
 <p align="center">
-  <img src="../assets/flight-test/flight-test-evidence-visual-plan.webp" alt="Approved flight-test evidence and visual asset board" width="100%">
+  <img src="../assets/recruiter/hero-flight-test-evidence.jpg" alt="Approved flight-test evidence and visual asset board" width="100%">
 </p>
 
 **Flight-test visual evidence plan.** This approved board organizes authentic cockpit, sortie/environment and programme-support imagery. Individual images remain the evidentiary source for the claims they can support.
@@ -29,6 +29,14 @@ The aerial album records the **real sortie environment, changing visibility, ter
 **Installed Dynon SkyView prototype — aircraft integration, not a bench demonstration.**  
 The retrofit combined displays, revised sensing, NAV/COM and retained-avionics interfaces, aircraft power, physical installation and a complete modification wiring harness.
 
+## Lead systems engineer / flight-test context
+
+<p align="center">
+  <img src="../assets/flight-test/lead-systems-engineer-flight-test.jpg" alt="Original in-flight photograph of the programme lead during flight-test activity" width="58%">
+</p>
+
+**Flight-test engineering context.** Original period photograph of the programme lead during an aircraft sortie.
+
 ## Installed-aircraft flight test
 
 <p align="center">
@@ -37,6 +45,26 @@ The retrofit combined displays, revised sensing, NAV/COM and retained-avionics i
 
 **Installed-aircraft flight test.** The glass-cockpit configuration was exercised in flight with configuration-specific observations feeding engineering, OEM action and re-test.
 
+## HMI and avionics integration
+
+<p align="center">
+  <img src="../assets/flight-test/dynon-hmi-pfd-closeup.jpg" alt="Original Dynon PFD close-up during programme flight-test activity" width="92%">
+</p>
+
+**Dynon HMI evidence.** Full-frame original showing the installed display during programme operations.
+
+<p align="center">
+  <img src="../assets/flight-test/cockpit-stack-integration.jpg" alt="Original cockpit and centre-stack integration photograph" width="92%">
+</p>
+
+**Cockpit / centre-stack integration.** Original project photograph showing how the display suite, retained instruments and centre-stack equipment were integrated at aircraft level.
+
+<p align="center">
+  <img src="../assets/flight-test/nav-com-interface.jpg" alt="Original navigation and communication interface photograph" width="86%">
+</p>
+
+**NAV/COM integration evidence.** Original project photograph supporting the retained-avionics and navigation/communication interface story.
+
 ## Sortie environment
 
 <p align="center">
@@ -44,12 +72,6 @@ The retrofit combined displays, revised sensing, NAV/COM and retained-avionics i
 </p>
 
 **Whole-cockpit in-flight context.** Original period image showing the integrated cockpit during programme flying.
-
-<p align="center">
-  <img src="../assets/flight-test/sortie-cockpit-external-view.jpg" alt="Authentic cockpit and external-environment view during a project sortie" width="92%">
-</p>
-
-**Cockpit + external flight environment.** Original period test-flight photography showing the aircraft operating in the real sortie environment. It establishes flight-test context, not a specific acceptance result.
 
 <p align="center">
   <img src="../assets/flight-test/aerial-terrain-context.jpg" alt="Original aerial terrain photograph from a programme sortie" width="92%">
@@ -78,7 +100,7 @@ The retrofit combined displays, revised sensing, NAV/COM and retained-avionics i
 **International customer evaluation.** Project aircraft operating in the customer-facing phase that followed prototype integration and flight-test maturation.
 
 <p align="center">
-  <img src="../assets/programme-support/dubai-airshow-programme-support.webp" alt="Authentic period Super Mushshak programme-support photograph from Dubai Airshow context" width="84%">
+  <img src="../assets/programme-support/usafa-dubai-airshow.jpg" alt="Authentic period Super Mushshak programme-support photograph from Dubai Airshow context" width="84%">
 </p>
 
 **International programme support / display context.** Authentic period project photograph from Dubai Airshow activity. It supports the programme-facing narrative and does not by itself establish a technical-performance result.

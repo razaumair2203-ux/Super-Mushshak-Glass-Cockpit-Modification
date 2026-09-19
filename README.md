@@ -6,7 +6,7 @@
   <img src="assets/dynon-skyview-installed-prototype.jpg" alt="Installed Dynon SkyView Super Mushshak glass-cockpit prototype" width="100%">
 </p>
 
-<p align="center"><sub><b>Authentic project photograph.</b> Installed Dynon SkyView prototype. Photographs in this repository are used as evidence at the point where they support the engineering narrative; composite photo boards are intentionally avoided.</sub></p>
+<p align="center"><sub><b>Authentic project photograph.</b> Installed Dynon SkyView prototype. Recruiter-facing photo boards below combine original project photographs only; the underlying photographs remain individually available and are not synthetically recreated.</sub></p>
 
 ## Executive snapshot
 
@@ -22,6 +22,27 @@
 I led systems engineering for the Super Mushshak glass-cockpit retrofit across **architecture, interfaces, physical/electrical integration, configuration control, verification, troubleshooting, OEM coordination and international customer evaluation**. The modification replaced/reworked the aircraft sensing chain, introduced a **complete modification wiring harness**, integrated modern display and navigation/communication equipment, and matured the aircraft through installed ground and flight testing. My programme role also extended into **in-country Qatar customer-evaluation support and Dubai Airshow display activity**, taking the engineering work into an international customer-facing environment.
 
 The programme developed two principal prototype paths: **Dynon SkyView** and **Garmin G900X**. A project comparison deck also contains **Garmin G3X** candidate material; that remains trade-study evidence and is kept separate from the G900X prototype identity.
+
+### Programme evidence at a glance
+
+<table>
+<tr>
+<td width="50%"><img src="assets/dynon-skyview-flight-test.jpg" alt="Original in-flight Dynon glass-cockpit photograph"></td>
+<td width="50%"><img src="assets/flight-test/cockpit-overview-inflight.jpg" alt="Original cockpit overview photograph from a project flight-test sortie"></td>
+</tr>
+<tr>
+<td><sub><b>Installed avionics in flight.</b> Dynon glass-cockpit configuration operating on the aircraft during flight-test activity.</sub></td>
+<td><sub><b>Cockpit / sortie context.</b> Wider in-flight view from the period test programme showing the installed cockpit in its operational environment.</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/flight-test/aerial-terrain-context.jpg" alt="Original aerial terrain photograph taken during a project sortie"></td>
+<td width="50%"><img src="assets/international-customer-evaluation.jpg" alt="Original international customer-evaluation project photograph"></td>
+</tr>
+<tr>
+<td><sub><b>Real flight-test environment.</b> Original aerial photography from programme sorties; precise route/location is not identified publicly.</sub></td>
+<td><sub><b>International programme support.</b> Original project imagery from the customer-facing evaluation phase.</sub></td>
+</tr>
+</table>
 
 ![Programme scale](assets/programme-impact.svg)
 
@@ -69,10 +90,20 @@ The project record shows an installed-aircraft engineering loop:
 
 **observe → isolate interface / configuration → engineer with OEM → implement hardware / configuration action → restore settings / data → re-test / re-flight**
 
-<p align="center">
-  <img src="assets/flight-test/sortie-cockpit-external-view.jpg" alt="Authentic in-flight sortie photograph showing cockpit and external flight environment" width="86%">
-</p>
-<p align="center"><sub><b>Installed-aircraft sortie evidence.</b> Original period flight-test photography showing the aircraft operating in its real flight environment. The image is used for sortie context only; it is not treated as proof of a specific verification result.</sub></p>
+<table>
+<tr>
+<td width="33%"><img src="assets/flight-test/sortie-cockpit-external-view.jpg" alt="Original cockpit and external-environment photograph from flight test"></td>
+<td width="33%"><img src="assets/flight-test/sortie-river-transit.jpg" alt="Original aerial route photograph from flight test"></td>
+<td width="33%"><img src="assets/flight-test/aerial-cloud-conditions.jpg" alt="Original cloud and visibility photograph from flight test"></td>
+</tr>
+<tr>
+<td><sub><b>Cockpit + environment.</b> Installed-aircraft sortie context.</sub></td>
+<td><sub><b>Route environment.</b> Period aerial flight-test photography.</sub></td>
+<td><sub><b>Visibility conditions.</b> Real atmospheric conditions encountered during programme flying.</sub></td>
+</tr>
+</table>
+
+<p align="center"><sub><b>Flight-test evidence board.</b> All three panels are original period project photographs assembled for recruiter-facing scanning; the board itself adds no synthetic scene content and does not imply a specific verification result.</sub></p>
 
 ![Traceability matrix](assets/traceability-matrix.svg)
 
@@ -136,7 +167,7 @@ The next stage is an executable Super Mushshak digital twin using releasable eng
 
 ## Public-release scope
 
-Detailed wiring, pin-level interconnects, proprietary installation drawings, private correspondence, personal data and restricted material are intentionally omitted. Published aircraft and cockpit photographs are **original project images**; processing is limited to crop, resize, exposure/contrast correction, sharpening and narrowly targeted privacy/security redaction. **No synthetic aircraft or cockpit imagery is used.**
+Detailed wiring, pin-level interconnects, proprietary installation drawings, private correspondence, personal data and restricted material are intentionally omitted. Published aircraft and cockpit photographs are **original project images**; processing is limited to crop, resize, exposure/contrast correction, sharpening and narrowly targeted privacy/security redaction. Recruiter-facing collages/photo boards may assemble several original photographs into one visual narrative, but do not synthesize or replace aircraft, cockpit equipment, people or test scenes. **No synthetic aircraft or cockpit imagery is used.**
 
 ## Technical record
 

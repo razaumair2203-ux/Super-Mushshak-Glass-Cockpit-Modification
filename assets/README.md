@@ -4,11 +4,11 @@
 
 | File | What it shows | Allowed processing |
 |---|---|---|
-| `dynon-skyview-installed-prototype.jpg` | installed Dynon SkyView prototype cockpit | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
-| `dynon-skyview-flight-test.jpg` | installed Dynon cockpit operating in flight | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
-| `international-customer-evaluation.jpg` | international customer-evaluation-period project context | crop/resize, exposure/contrast, sharpening, privacy/security redaction |
+| `dynon-skyview-installed-prototype.jpg` | installed Dynon SkyView prototype cockpit | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
+| `dynon-skyview-flight-test.jpg` | installed Dynon cockpit operating in flight | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
+| `international-customer-evaluation.jpg` | international customer-evaluation-period project context | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
 
-**Image integrity rule:** aircraft, cockpit, people, displays and test scenes remain original. No generative replacement is permitted.
+**Image integrity rule:** aircraft, cockpit, people, displays and test scenes remain original. Do not crop or zoom source photographs. No generative replacement is permitted. No new collage is created; only composite boards explicitly supplied and approved by the programme lead may be published.
 
 The main [README](../README.md) and [Project Media Gallery](../docs/media-gallery.md) use only repository-local project imagery. Public third-party images are source-linked rather than hot-linked into recruiter-facing pages.
 

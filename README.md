@@ -10,6 +10,12 @@
   <img src="assets/recruiter/hero-flight-test-evidence.jpg" alt="Flight-test evidence and visual asset overview built from authentic period project imagery" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/qatar-customer-evaluation-ground.jpg" alt="Original QAEF ground customer-evaluation photograph from the Super Mushshak programme" width="88%">
+</p>
+
+<p align="center"><sub><b>QAEF ground-evaluation context.</b> Original period photograph from the Qatar customer-evaluation phase, showing the aircraft in the customer-facing operational environment.</sub></p>
+
 ## Executive snapshot
 
 <table>

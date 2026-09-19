@@ -23,8 +23,8 @@ This register controls claim-to-source traceability for the public engineering p
 | E-17 | 2016 Nigeria commercial estimate | Public programme | later programme | estimated US$10.2M value for ten-aircraft Nigerian order | public commercial-context source |
 | E-18 | 2016 Türkiye commercial report | Public programme | later programme | approximately US$50M reported for the 52-aircraft Türkiye agreement | public commercial-context source |
 | E-19 | Original test-engineer in-flight photograph | Direct project | flight/test context | participation / flight-test context | release candidate; no technical result inferred |
-| E-20 | Original cockpit-in-flight project photograph | Direct project | Dynon flight/test context | visible installed-aircraft / sortie context | **published — privacy/security reviewed**; configuration claim only if visible |
-| E-21 | Original aerial test-flight photograph | Direct project | flight/test context | period flight/test / operational-environment context | **published — privacy/security reviewed**; not configuration proof |
+| E-20 | Selected original cockpit-in-flight project photographs | Direct project | Dynon flight/test context | visible installed-aircraft / cockpit / sortie context | **published — privacy/security reviewed**; configuration claim only where visible |
+| E-21 | Selected original aerial test-flight photographs | Direct project | flight/test context | terrain, route, cloud/visibility and broader period flight-test / operational-environment context | **published — privacy/security reviewed**; not configuration proof |
 | E-22 | Retired external operator-image reference | Retired | none | no current technical claim | not embedded; retained ID only for history stability |
 | E-23 | Period first-modification completion report | Direct project, non-public source | baseline / architecture | legacy-system characterisation; electrical/mechanical/cabling design problem; architecture-option analysis | high-level facts only; source not published |
 | E-24 | Retrofit scope statement supplied by programme lead | Programme-lead statement | programme / Dynon scope | sensor-suite replacement and complete modification wiring-harness change as executed scope | programme-lead scope statement; controlled implementation detail omitted |
@@ -44,6 +44,6 @@ This register controls claim-to-source traceability for the public engineering p
 
 Do not publish controlled markings/details, wiring routes, connectors or pin data, controlled drawings/acceptance procedures, private correspondence/personal data, unnecessary exact equipment locations, private customer information or proprietary implementation detail.
 
-Photographic processing is limited to crop, resize, exposure/contrast correction, sharpening and narrowly targeted redaction. No synthetic visual replacement is permitted.
+Photographic processing is limited to crop, resize, exposure/contrast correction, sharpening and narrowly targeted redaction. Recruiter-facing collages/photo boards may combine original photographs as a layout treatment. No synthetic aircraft, cockpit, people or test-scene replacement is permitted.
 
 Machine-readable mirror: [model/evidence.csv](../model/evidence.csv).

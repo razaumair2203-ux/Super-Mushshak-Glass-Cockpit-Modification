@@ -6,14 +6,14 @@
 |---|---|---|
 | `dynon-skyview-installed-prototype.jpg` | installed Dynon SkyView prototype cockpit | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
 | `dynon-skyview-flight-test.jpg` | installed Dynon cockpit operating in flight | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
-| `international-customer-evaluation.jpg` | international customer-evaluation-period project context | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
+| `qatar-customer-evaluation-ground.jpg` | QAEF / Qatar customer-evaluation ground context | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
 | `flight-test/lead-systems-engineer-flight-test.jpg` | programme lead during flight-test activity | original full-frame image; no crop or zoom |
 | `flight-test/dynon-hmi-pfd-closeup.jpg` | Dynon HMI / PFD evidence | original full-frame image; no crop or zoom |
 | `flight-test/cockpit-stack-integration.jpg` | cockpit / centre-stack integration | original full-frame image; no crop or zoom |
 | `flight-test/nav-com-interface.jpg` | navigation / communication interface evidence | original full-frame image; no crop or zoom |
 | `programme-support/usafa-dubai-airshow.jpg` | Dubai Airshow programme-support context with USAFA counterpart | original full-frame image; no crop or zoom |
 
-**Image integrity rule:**** aircraft, cockpit, people, displays and test scenes remain original. Do not crop or zoom source photographs. No generative replacement is permitted. No new collage is created; only composite boards explicitly supplied and approved by the programme lead may be published.
+**Image integrity rule:** aircraft, cockpit, people, displays and test scenes remain original. Do not crop or zoom source photographs. No generative replacement is permitted. No new collage is created; only composite boards explicitly supplied and approved by the programme lead may be published.
 
 ## Programme-lead-approved composite boards
 

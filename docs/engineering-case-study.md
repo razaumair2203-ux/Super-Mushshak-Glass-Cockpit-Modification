@@ -102,6 +102,12 @@ The public project record captures the observation and investigation path; detai
 
 ## Flight-test and customer-evaluation loop
 
+<p align="center">
+  <img src="../assets/flight-test/sortie-cockpit-external-view.jpg" alt="Original cockpit and external-environment photograph from a project flight-test sortie" width="90%">
+</p>
+
+*Authentic period sortie evidence. It establishes real installed-aircraft flight-test context; configuration-specific technical conclusions remain tied to the written verification record.*
+
 The project progressed from installed prototype operation to continued flight feedback, performance testing and customer evaluation.
 
 A later high-rate-manoeuvre/spin-related ADAHRS observation received an OEM functional explanation. The repository records the observation and explanation but does not invent a final acceptance disposition.

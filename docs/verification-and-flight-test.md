@@ -59,6 +59,22 @@ This is an aircraft-level verification example because it crosses subsystem boun
 
 The public release does **not** include detailed final corrective-action closure material, so the repository does not speculate beyond the published evidence.
 
+## Sortie and operational-environment evidence
+
+<p align="center">
+  <img src="../assets/flight-test/sortie-cockpit-external-view.jpg" alt="Authentic cockpit and external-environment photograph from a project sortie" width="90%">
+</p>
+
+*Original period flight-test photograph. It supports installed-aircraft sortie context and the reality of the flight-test environment; it is not used to infer a particular verification result.*
+
+<p align="center">
+  <img src="../assets/flight-test/sortie-river-transit.jpg" alt="Authentic aerial photograph taken during a project sortie" width="90%">
+</p>
+
+*Original aerial sortie photograph. It supports period flight/test context only. The public caption intentionally does not identify the precise route or location.*
+
+These images are placed here because this is where they support the engineering narrative. They are not combined into a decorative montage and are not used as substitutes for verification records.
+
 ## Customer evaluation
 
 By 12 November 2012, status correspondence records **10 evaluation sorties**, including a night-flying mission. Separate correspondence during the evaluation describes repeated daily flying.

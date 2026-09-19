@@ -12,9 +12,9 @@ A period status record documents **10 evaluation sorties by 12 November 2012**, 
 
 *International programme-support context. Authentic period photograph from Dubai Airshow activity, retained to document the customer-facing/display phase of the programme. It does not establish a technical performance result by itself.*
 
-![Customer-evaluation project photograph](../assets/international-customer-evaluation.jpg)
+![QAEF ground customer-evaluation photograph](../assets/qatar-customer-evaluation-ground.jpg)
 
-*Project photograph from the customer-evaluation period.*
+*Original QAEF ground-evaluation photograph from the Qatar customer-evaluation period.*
 
 ## Lead Systems Engineer contribution
 

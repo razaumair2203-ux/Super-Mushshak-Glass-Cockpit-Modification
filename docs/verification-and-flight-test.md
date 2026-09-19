@@ -45,6 +45,12 @@ Project exchanges include installed-aircraft work involving navigation-data / av
 
 Exact pins, connector data and harness routes are deliberately omitted.
 
+<p align="center">
+  <img src="../assets/flight-test/dynon-hmi-pfd-closeup.jpg" alt="Original Dynon PFD close-up from programme flight-test activity" width="92%">
+</p>
+
+*Full-frame original HMI evidence from the installed Dynon configuration.*
+
 ## Performance testing and ADAHRS behaviour
 
 Ahead of customer deployment, the aircraft was undergoing performance testing. During later evaluation, a high-rate-manoeuvre/spin-related attitude-recovery / compare behaviour was raised with the OEM.
@@ -60,7 +66,7 @@ This is an aircraft-level verification example because it crosses subsystem boun
 The public release does **not** include detailed final corrective-action closure material, so the repository does not speculate beyond the published evidence.
 
 <p align="center">
-  <img src="../assets/flight-test/flight-test-evidence-visual-plan.webp" alt="Programme-lead-approved flight-test evidence board assembled from authentic period Super Mushshak imagery" width="100%">
+  <img src="../assets/recruiter/hero-flight-test-evidence.jpg" alt="Programme-lead-approved flight-test evidence board assembled from authentic period Super Mushshak imagery" width="100%">
 </p>
 
 *Programme-lead-approved flight-test evidence board. It organizes authentic period cockpit, sortie/environment and programme-support imagery for recruiter-facing review. The board is a visual navigation/credibility aid; configuration-specific verification claims remain tied to the records and individual source photographs below.*
@@ -84,12 +90,6 @@ The public release does **not** include detailed final corrective-action closure
 </p>
 
 *Original atmospheric / visibility context from programme flying.*
-
-<p align="center">
-  <img src="../assets/flight-test/sortie-cockpit-external-view.jpg" alt="Authentic cockpit and external-environment photograph from a project sortie" width="90%">
-</p>
-
-*Original period flight-test photograph. It supports installed-aircraft sortie context and the reality of the flight-test environment; it is not used to infer a particular verification result.*
 
 <p align="center">
   <img src="../assets/flight-test/sortie-river-transit.jpg" alt="Authentic aerial photograph taken during a project sortie" width="90%">

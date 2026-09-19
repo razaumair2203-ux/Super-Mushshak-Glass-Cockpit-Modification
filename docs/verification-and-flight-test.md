@@ -103,7 +103,7 @@ The photographs above are retained as individual direct visual evidence and plac
 
 By 12 November 2012, status correspondence records **10 evaluation sorties**, including a night-flying mission. Separate correspondence during the evaluation describes repeated daily flying.
 
-![Customer-evaluation ground photograph](../assets/international-customer-evaluation.jpg)
+![QAEF ground customer-evaluation photograph](../assets/qatar-customer-evaluation-ground.jpg)
 
 *Authentic project photograph used as evaluation context. It does not prove a performance result by itself.*
 

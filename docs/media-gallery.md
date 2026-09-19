@@ -94,10 +94,10 @@ The retrofit combined displays, revised sensing, NAV/COM and retained-avionics i
 ## International customer evaluation
 
 <p align="center">
-  <img src="../assets/international-customer-evaluation.jpg" alt="Super Mushshak project aircraft during international customer evaluation" width="88%">
+  <img src="../assets/qatar-customer-evaluation-ground.jpg" alt="Super Mushshak project aircraft during international customer evaluation" width="88%">
 </p>
 
-**International customer evaluation.** Project aircraft operating in the customer-facing phase that followed prototype integration and flight-test maturation.
+**QAEF ground customer-evaluation context.** Original period project photograph from the Qatar evaluation phase, retained prominently because it documents the transition from prototype flight test into customer-facing evaluation.
 
 <p align="center">
   <img src="../assets/programme-support/usafa-dubai-airshow.jpg" alt="Authentic period Super Mushshak programme-support photograph from Dubai Airshow context" width="84%">

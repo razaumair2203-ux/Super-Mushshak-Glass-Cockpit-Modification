@@ -19,6 +19,12 @@
 </tr>
 </table>
 
+<p align="center">
+  <img src="assets/recruiter/super-mushshak-retrofit-evidence-board.webp" alt="Programme-lead-approved Super Mushshak retrofit evidence board using authentic project imagery" width="100%">
+</p>
+
+<p align="center"><sub><b>Programme-lead-approved evidence board.</b> Recruiter-facing composition built from authentic period project imagery to summarize installed avionics, flight-test engineering and international programme support. The individually retained source photographs remain the evidence of record.</sub></p>
+
 I led systems engineering for the Super Mushshak glass-cockpit retrofit across **architecture, interfaces, physical/electrical integration, configuration control, verification, troubleshooting, OEM coordination and international customer evaluation**. The modification replaced/reworked the aircraft sensing chain, introduced a **complete modification wiring harness**, integrated modern display and navigation/communication equipment, and matured the aircraft through installed ground and flight testing. My programme role also extended into **in-country Qatar customer-evaluation support and Dubai Airshow display activity**, taking the engineering work into an international customer-facing environment.
 
 The programme developed two principal prototype paths: **Dynon SkyView** and **Garmin G900X**. A project comparison deck also contains **Garmin G3X** candidate material; that remains trade-study evidence and is kept separate from the G900X prototype identity.
@@ -92,9 +98,9 @@ The machine-readable model in [model/](model/README.md) links requirements, func
 The engineering programme progressed through prototype development, flight test, customer evaluation and public display activity. Public reporting subsequently shows the glass-cockpit Super Mushshak product line scaling into a multi-country export programme.
 
 <p align="center">
-  <img src="assets/international-customer-evaluation.jpg" alt="Authentic project photograph from international customer-evaluation activity" width="82%">
+  <img src="assets/programme-support/dubai-airshow-programme-support.webp" alt="Authentic period Super Mushshak programme-support photograph from Dubai Airshow context" width="82%">
 </p>
-<p align="center"><sub><b>International evaluation context.</b> Original project photograph retained here because it supports the customer-facing programme phase described in this section.</sub></p>
+<p align="center"><sub><b>International programme support.</b> Authentic period photograph from Dubai Airshow context, supporting the customer-facing display/programme-support phase described here. It is context evidence, not a technical-performance result.</sub></p>
 
 | Customer / operator | Publicly reported quantity | Public evidence |
 |---|---:|---|

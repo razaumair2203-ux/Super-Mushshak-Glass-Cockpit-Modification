@@ -16,7 +16,7 @@ This register controls claim-to-source traceability for the public engineering p
 | E-10 | G950 customer-focused technical presentation | Project / vendor presentation | CFG-G1 | G950 functions, dual-display architecture and evaluation concepts | summary only; source not republished |
 | E-11 | 2013 G900X configuration-mode correspondence | Direct project | CFG-G1 | G900X track identity and configuration-control discussion | claim summary only |
 | E-12 | 2014 Dynon equipment/package follow-up | Direct project | Dynon follow-on | continued configuration/equipment definition | claim summary only |
-| E-13 | Original customer-evaluation ground photograph | Direct project | CFG-D3 context | aircraft/customer-evaluation period context | privacy/security-reviewed project image published |
+| E-13 | Original QAEF ground customer-evaluation photograph | Direct project | CFG-D3 / Qatar evaluation context | aircraft/customer-evaluation period context and customer-facing programme phase | original full-frame project image published |
 | E-14 | Original public-event programme photograph | Direct project | programme context | display/support context only | source retained; not required for technical claims |
 | E-15 | Original in-flight Dynon display photograph | Direct project | Dynon installed aircraft | installed-aircraft PFD / synthetic-vision operation visible in image | privacy/security-reviewed project image published |
 | E-16 | 2016–2017 contract/delivery reporting | Public programme | later programme | four new-customer contracts totalling 80 aircraft; Nigeria delivery explicitly glass-cockpit equipped | public links |

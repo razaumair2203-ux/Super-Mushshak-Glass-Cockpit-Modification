@@ -1,0 +1,55 @@
+{
+  "schema": "super-mushshak-approved-visual-provenance.v1",
+  "recorded": "2026-09-19",
+  "rule": "Programme-lead-approved supplied imagery only. Publication processing is non-generative and does not crop, zoom, add, remove or replace aircraft, cockpit equipment, people or test scenes.",
+  "assets": [
+    {
+      "repository_path": "assets/recruiter/super-mushshak-retrofit-evidence-board.webp",
+      "source_upload": "ChatGPT Image Sep 19, 2026, 06_31_19 AM (1).png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "source_sha256": "66a08583b72ec98b9b87cd9fac03112fa3b60f3382f894f991a6362112139c00",
+      "publication_dimensions": [
+        1000,
+        563
+      ],
+      "publication_sha256": "de0549bed4c71620456971b6d4fe5cfde58dc4731bebc349fe389e38dddbd0f4",
+      "processing": "Proportional resize and WebP publication encoding only.",
+      "classification": "programme-lead-approved composite board"
+    },
+    {
+      "repository_path": "assets/flight-test/flight-test-evidence-visual-plan.webp",
+      "source_upload": "ChatGPT Image Sep 19, 2026, 06_31_19 AM (2).png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "source_sha256": "a0cdc7ba0aa5d0c3e9d9b5fcd27b8bc33d01ce96a3c0267a504a42aa86654ec1",
+      "publication_dimensions": [
+        1000,
+        563
+      ],
+      "publication_sha256": "0f7bfd2331e8e4cda334bb66c9e8745986adfc70cceb2ffac9ade61d13af3102",
+      "processing": "Proportional resize and WebP publication encoding only.",
+      "classification": "programme-lead-approved composite board"
+    },
+    {
+      "repository_path": "assets/programme-support/dubai-airshow-programme-support.webp",
+      "source_upload": "651159616_10164954381745407_8324216239365701163_n.jpg",
+      "source_dimensions": [
+        960,
+        720
+      ],
+      "source_sha256": "11572002a6757f1fe8da88db6d072c59e4fccbe76448f45ecfcbf1dc4836129d",
+      "publication_dimensions": [
+        900,
+        675
+      ],
+      "publication_sha256": "bae5ec7151cf5decf8612a42cf9700630ffad12c809cce836e75f255195c951b",
+      "processing": "Proportional resize and WebP publication encoding only; source had no EXIF metadata.",
+      "classification": "authentic period programme-support photograph"
+    }
+  ]
+}

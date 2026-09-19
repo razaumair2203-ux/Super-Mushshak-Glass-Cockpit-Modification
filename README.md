@@ -3,10 +3,12 @@
 **International aircraft-modernisation case study · Lead Systems Engineer · avionics integration · prototype development · ground/flight V&V · customer evaluation · configuration control · product-line scale · digital-twin continuation**
 
 <p align="center">
-  <img src="assets/dynon-skyview-installed-prototype.jpg" alt="Installed Dynon SkyView Super Mushshak glass-cockpit prototype" width="100%">
+  <img src="assets/recruiter/hero-super-mushshak-retrofit.jpg" alt="Super Mushshak glass-cockpit retrofit programme overview built from authentic period project imagery" width="100%">
 </p>
 
-<p align="center"><sub><b>Authentic project photograph.</b> Installed Dynon SkyView prototype. Original project photographs are placed individually where they support the engineering narrative; only user-approved composite boards are retained as composite visuals.</sub></p>
+<p align="center">
+  <img src="assets/recruiter/hero-flight-test-evidence.jpg" alt="Flight-test evidence and visual asset overview built from authentic period project imagery" width="100%">
+</p>
 
 ## Executive snapshot
 
@@ -18,12 +20,6 @@
 <td align="center"><b>Ground + flight V&amp;V</b><br><sub>discrepancy isolation · OEM action · re-test</sub></td>
 </tr>
 </table>
-
-<p align="center">
-  <img src="assets/recruiter/super-mushshak-retrofit-evidence-board.webp" alt="Programme-lead-approved Super Mushshak retrofit evidence board using authentic project imagery" width="100%">
-</p>
-
-<p align="center"><sub><b>Programme-lead-approved evidence board.</b> Recruiter-facing composition built from authentic period project imagery to summarize installed avionics, flight-test engineering and international programme support. The individually retained source photographs remain the evidence of record.</sub></p>
 
 I led systems engineering for the Super Mushshak glass-cockpit retrofit across **architecture, interfaces, physical/electrical integration, configuration control, verification, troubleshooting, OEM coordination and international customer evaluation**. The modification replaced/reworked the aircraft sensing chain, introduced a **complete modification wiring harness**, integrated modern display and navigation/communication equipment, and matured the aircraft through installed ground and flight testing. My programme role also extended into **in-country Qatar customer-evaluation support and Dubai Airshow display activity**, taking the engineering work into an international customer-facing environment.
 
@@ -84,7 +80,7 @@ The project record shows an installed-aircraft engineering loop:
 **observe → isolate interface / configuration → engineer with OEM → implement hardware / configuration action → restore settings / data → re-test / re-flight**
 
 <p align="center">
-  <img src="assets/flight-test/sortie-cockpit-external-view.jpg" alt="Original cockpit and external-environment photograph from flight test" width="92%">
+  <img src="assets/flight-test/cockpit-overview-inflight.jpg" alt="Original full-frame cockpit overview from flight test" width="92%">
 </p>
 
 <p align="center"><sub><b>Installed-aircraft sortie context.</b> Original period photograph showing the aircraft operating in the real flight-test environment.</sub></p>
@@ -98,7 +94,7 @@ The machine-readable model in [model/](model/README.md) links requirements, func
 The engineering programme progressed through prototype development, flight test, customer evaluation and public display activity. Public reporting subsequently shows the glass-cockpit Super Mushshak product line scaling into a multi-country export programme.
 
 <p align="center">
-  <img src="assets/programme-support/dubai-airshow-programme-support.webp" alt="Authentic period Super Mushshak programme-support photograph from Dubai Airshow context" width="82%">
+  <img src="assets/programme-support/usafa-dubai-airshow.jpg" alt="Original Dubai Airshow programme-support photograph with USAFA counterpart" width="82%">
 </p>
 <p align="center"><sub><b>International programme support.</b> Authentic period photograph from Dubai Airshow context, supporting the customer-facing display/programme-support phase described here. It is context evidence, not a technical-performance result.</sub></p>
 

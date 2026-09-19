@@ -6,16 +6,7 @@
   <img src="assets/dynon-skyview-installed-prototype.jpg" alt="Installed Dynon SkyView Super Mushshak glass-cockpit prototype" width="100%">
 </p>
 
-<table>
-<tr>
-<td width="50%"><img src="assets/dynon-skyview-flight-test.jpg" alt="Dynon SkyView cockpit operating during flight test"></td>
-<td width="50%"><img src="assets/international-customer-evaluation.jpg" alt="Super Mushshak project aircraft during international customer evaluation"></td>
-</tr>
-<tr>
-<td><sub><b>Installed-aircraft flight test.</b> The integrated cockpit was exercised as an aircraft system, with configuration-specific observations feeding engineering and OEM action.</sub></td>
-<td><sub><b>International customer evaluation.</b> The programme progressed beyond laboratory integration into customer-facing aircraft evaluation and product maturity.</sub></td>
-</tr>
-</table>
+<p align="center"><sub><b>Authentic project photograph.</b> Installed Dynon SkyView prototype. Photographs in this repository are used as evidence at the point where they support the engineering narrative; composite photo boards are intentionally avoided.</sub></p>
 
 ## Executive snapshot
 
@@ -78,6 +69,11 @@ The project record shows an installed-aircraft engineering loop:
 
 **observe → isolate interface / configuration → engineer with OEM → implement hardware / configuration action → restore settings / data → re-test / re-flight**
 
+<p align="center">
+  <img src="assets/flight-test/sortie-cockpit-external-view.jpg" alt="Authentic in-flight sortie photograph showing cockpit and external flight environment" width="86%">
+</p>
+<p align="center"><sub><b>Installed-aircraft sortie evidence.</b> Original period flight-test photography showing the aircraft operating in its real flight environment. The image is used for sortie context only; it is not treated as proof of a specific verification result.</sub></p>
+
 ![Traceability matrix](assets/traceability-matrix.svg)
 
 The machine-readable model in [model/](model/README.md) links requirements, functions, interfaces, configurations, verification records, issues, risks, decisions and supporting evidence.
@@ -85,6 +81,11 @@ The machine-readable model in [model/](model/README.md) links requirements, func
 ## International product-line outcome
 
 The engineering programme progressed through prototype development, flight test, customer evaluation and public display activity. Public reporting subsequently shows the glass-cockpit Super Mushshak product line scaling into a multi-country export programme.
+
+<p align="center">
+  <img src="assets/international-customer-evaluation.jpg" alt="Authentic project photograph from international customer-evaluation activity" width="82%">
+</p>
+<p align="center"><sub><b>International evaluation context.</b> Original project photograph retained here because it supports the customer-facing programme phase described in this section.</sub></p>
 
 | Customer / operator | Publicly reported quantity | Public evidence |
 |---|---:|---|

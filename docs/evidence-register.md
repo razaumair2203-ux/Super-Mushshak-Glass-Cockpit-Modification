@@ -44,6 +44,6 @@ This register controls claim-to-source traceability for the public engineering p
 
 Do not publish controlled markings/details, wiring routes, connectors or pin data, controlled drawings/acceptance procedures, private correspondence/personal data, unnecessary exact equipment locations, private customer information or proprietary implementation detail.
 
-Photographic processing is limited to crop, resize, exposure/contrast correction, sharpening and narrowly targeted redaction. Recruiter-facing collages/photo boards may combine original photographs as a layout treatment. No synthetic aircraft, cockpit, people or test-scene replacement is permitted.
+Photographs are not cropped or zoomed for presentation. Processing is limited to non-generative image-quality improvement such as exposure/contrast correction, sharpening, metadata removal and strictly necessary privacy/security treatment. No new collage is created from source photographs; only composite boards explicitly supplied and approved by the programme lead may be published. No synthetic aircraft, cockpit, people or test-scene replacement is permitted.
 
 Machine-readable mirror: [model/evidence.csv](../model/evidence.csv).

@@ -1,8 +1,8 @@
 # Flight-Test Photography
 
-These files are **original period project photographs** used as recruiter-facing evidence. They are not AI-generated or synthetically reconstructed. Selected originals may also be arranged together in recruiter-facing collages/photo boards; that changes layout only and does not alter the underlying aircraft, cockpit, people, or test scene.
+These files are **original period project photographs** used as recruiter-facing evidence. They are not AI-generated or synthetically reconstructed. They are presented individually without crop or zoom. No new collage is created from these source photographs; only composite boards explicitly supplied and approved by the programme lead may be published.
 
-Public-release processing is limited to crop, resize, JPEG recompression, light exposure/contrast adjustment, sharpening where needed, metadata removal, and narrowly targeted privacy/security treatment. Captions deliberately avoid precise sortie locations.
+Public-release processing is limited to non-generative image-quality improvement such as light exposure/contrast adjustment, sharpening where needed, metadata removal and strictly necessary privacy/security treatment.
 
 | Published asset | Original source | Public claim boundary |
 |---|---|---|

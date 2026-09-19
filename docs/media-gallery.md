@@ -8,6 +8,20 @@ The gallery uses **individual original photographs in context**, not newly assem
 
 The aerial album records the **real sortie environment, changing visibility, terrain, route context, and cockpit operation**. Selected photographs are placed individually where they support the engineering story.
 
+## Programme-lead-approved evidence boards
+
+<p align="center">
+  <img src="../assets/recruiter/super-mushshak-retrofit-evidence-board.webp" alt="Approved recruiter-facing Super Mushshak retrofit evidence board" width="100%">
+</p>
+
+**Recruiter-facing programme overview.** This approved board assembles authentic period project imagery with explanatory labels for rapid scanning. It does not replace the individual photographs or the configuration-specific engineering record.
+
+<p align="center">
+  <img src="../assets/flight-test/flight-test-evidence-visual-plan.webp" alt="Approved flight-test evidence and visual asset board" width="100%">
+</p>
+
+**Flight-test visual evidence plan.** This approved board organizes authentic cockpit, sortie/environment and programme-support imagery. Individual images remain the evidentiary source for the claims they can support.
+
 <p align="center">
   <img src="../assets/dynon-skyview-installed-prototype.jpg" alt="Installed Dynon SkyView Super Mushshak prototype cockpit" width="100%">
 </p>
@@ -62,6 +76,12 @@ The retrofit combined displays, revised sensing, NAV/COM and retained-avionics i
 </p>
 
 **International customer evaluation.** Project aircraft operating in the customer-facing phase that followed prototype integration and flight-test maturation.
+
+<p align="center">
+  <img src="../assets/programme-support/dubai-airshow-programme-support.webp" alt="Authentic period Super Mushshak programme-support photograph from Dubai Airshow context" width="84%">
+</p>
+
+**International programme support / display context.** Authentic period project photograph from Dubai Airshow activity. It supports the programme-facing narrative and does not by itself establish a technical-performance result.
 
 ![Programme scale](../assets/programme-impact.svg)
 

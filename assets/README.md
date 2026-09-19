@@ -7,18 +7,22 @@
 | `dynon-skyview-installed-prototype.jpg` | installed Dynon SkyView prototype cockpit | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
 | `dynon-skyview-flight-test.jpg` | installed Dynon cockpit operating in flight | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
 | `international-customer-evaluation.jpg` | international customer-evaluation-period project context | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
-| `programme-support/dubai-airshow-programme-support.webp` | authentic period programme-support photograph from Dubai Airshow context | proportional resize + WebP publication encoding only; no crop, zoom, scene insertion/removal or generative editing |
+| `flight-test/lead-systems-engineer-flight-test.jpg` | programme lead during flight-test activity | original full-frame image; no crop or zoom |
+| `flight-test/dynon-hmi-pfd-closeup.jpg` | Dynon HMI / PFD evidence | original full-frame image; no crop or zoom |
+| `flight-test/cockpit-stack-integration.jpg` | cockpit / centre-stack integration | original full-frame image; no crop or zoom |
+| `flight-test/nav-com-interface.jpg` | navigation / communication interface evidence | original full-frame image; no crop or zoom |
+| `programme-support/usafa-dubai-airshow.jpg` | Dubai Airshow programme-support context with USAFA counterpart | original full-frame image; no crop or zoom |
 
-**Image integrity rule:** aircraft, cockpit, people, displays and test scenes remain original. Do not crop or zoom source photographs. No generative replacement is permitted. No new collage is created; only composite boards explicitly supplied and approved by the programme lead may be published.
+**Image integrity rule:**** aircraft, cockpit, people, displays and test scenes remain original. Do not crop or zoom source photographs. No generative replacement is permitted. No new collage is created; only composite boards explicitly supplied and approved by the programme lead may be published.
 
 ## Programme-lead-approved composite boards
 
 | File | Purpose | Publication handling |
 |---|---|---|
-| `recruiter/super-mushshak-retrofit-evidence-board.webp` | recruiter-facing overview of installed avionics, flight-test engineering and programme support | supplied/approved composite; proportionally resized to 1000×563 and WebP encoded; no content/scene elements added or removed |
-| `flight-test/flight-test-evidence-visual-plan.webp` | visual index of cockpit, sortie/environment and programme-support evidence | supplied/approved composite; proportionally resized to 1000×563 and WebP encoded; no content/scene elements added or removed |
+| `recruiter/hero-super-mushshak-retrofit.jpg` | front-page programme overview | supplied/approved composition; preserved at full frame |
+| `recruiter/hero-flight-test-evidence.jpg` | front-page flight-test / visual-evidence overview | supplied/approved composition; preserved at full frame |
 
-The boards are **presentation compositions**, not substitutes for their underlying photographs or configuration-specific verification records. Their provenance and publication hashes are recorded in [approved-visual-provenance.json](approved-visual-provenance.json).
+The boards are presentation compositions approved for recruiter-facing use. No additional collage is generated from the source photographs.
 
 The main [README](../README.md) and [Project Media Gallery](../docs/media-gallery.md) use only repository-local project imagery. Public third-party images are source-linked rather than hot-linked into recruiter-facing pages.
 

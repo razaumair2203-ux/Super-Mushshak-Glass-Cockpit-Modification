@@ -19,6 +19,12 @@ I served as **Lead Systems Engineer** for the retrofit, with responsibility span
 - OEM technical coordination;
 - customer-evaluation support, including Qatar evaluation activity and Dubai Airshow programme support.
 
+<p align="center">
+  <img src="../assets/flight-test/lead-systems-engineer-flight-test.jpg" alt="Original in-flight photograph of the Lead Systems Engineer during programme flight-test activity" width="58%">
+</p>
+
+*Original period photograph documenting direct flight-test participation in the retrofit programme.*
+
 The role scope is cross-linked to **E-25** and the relevant project evidence in the machine-readable model; configuration-specific technical claims continue to retain their own evidence links.
 
 ## Context and functional architecture
@@ -103,7 +109,7 @@ The public project record captures the observation and investigation path; detai
 ## Flight-test and customer-evaluation loop
 
 <p align="center">
-  <img src="../assets/flight-test/sortie-cockpit-external-view.jpg" alt="Original cockpit and external-environment photograph from a project flight-test sortie" width="90%">
+  <img src="../assets/flight-test/cockpit-overview-inflight.jpg" alt="Original full-frame cockpit photograph from a project flight-test sortie" width="90%">
 </p>
 
 *Authentic period sortie evidence. It establishes real installed-aircraft flight-test context; configuration-specific technical conclusions remain tied to the written verification record.*

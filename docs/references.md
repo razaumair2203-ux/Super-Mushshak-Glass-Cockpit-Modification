@@ -103,7 +103,7 @@ Copyrighted operator/news photographs without a reusable licence remain source-l
 
 The public repository excludes security markings, private correspondence, personal data, proprietary drawings, detailed connector/pin data, exact harness routes and sensitive installation detail.
 
-Project photographs remain full-frame; resizing, non-generative quality improvement and necessary privacy redaction are permitted. Aircraft, cockpit equipment, people and test scenes are not replaced with synthetic or generatively produced imagery.
+No new presentation cropping is introduced; existing publication derivatives are identified in the visual provenance manifest. Resizing, non-generative quality improvement and necessary privacy redaction are permitted. Aircraft, cockpit equipment, people and test scenes are not replaced with synthetic or generatively produced imagery.
 
 ## Supplied source identification
 

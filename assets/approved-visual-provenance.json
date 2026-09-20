@@ -1,7 +1,7 @@
 {
   "schema": "super-mushshak-visual-provenance.v2",
   "reviewed": "2026-09-20",
-  "rule": "No generated scene content. Source photographs remain full-frame. Source identification by visual inspection is distinguished from byte identity; publication hashes identify actual current files.",
+  "rule": "No generated scene content or new presentation crop. Existing publication derivatives are retained and identified; hashes describe current publication bytes.",
   "assets": [
     {
       "repository_path": "assets/dynon-skyview-flight-test.jpg",
@@ -17,7 +17,9 @@
       "processing": "Existing publication derivative retained; original source visually compared on 20 September 2026.",
       "source_locator": "Glass Cockpit Comparison, slide 7 (installed Dynon photograph)",
       "publication_sha256": "802a0b967662ed9b3aa9a14140e44b648a12b00b355ad38d90e16ee3c9c77c52",
-      "classification": "Original project photograph; privacy masks explicitly identified where applied"
+      "classification": "Original project photograph; privacy masks explicitly identified where applied",
+      "source_sha256": "7b72f6b60d695c3a7ed8df6a5e7b01e55a414236d28ce3b7cd301a8d1d8dd213",
+      "source_matching": "Visually matched to slide 7 of the supplied comparison deck. Retains an earlier crop and central-panel privacy blur; original standalone camera file unavailable."
     },
     {
       "repository_path": "assets/flight-test/aerial-cloud-conditions.jpg",
@@ -178,7 +180,9 @@
       "processing": "Existing publication derivative retained; original source visually compared on 20 September 2026.",
       "source_locator": "Supplied original 471520729_10162885872565407_2551801835854641674_n.jpg; Qatar context is programme-lead attribution",
       "publication_sha256": "c8353629101771347a77d544e938bd44c0167191271d5ef30f885067e9f0c35c",
-      "classification": "Original project photograph; privacy masks explicitly identified where applied"
+      "classification": "Original project photograph; privacy masks explicitly identified where applied",
+      "source_sha256": "4d38f7027880659706501916c06d17d513400625aabe5adcdda67dca5a117194",
+      "source_matching": "Visually matched to supplied original photograph. Retains an earlier crop and privacy blurs."
     }
   ]
 }

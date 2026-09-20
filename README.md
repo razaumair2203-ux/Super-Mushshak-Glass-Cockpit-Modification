@@ -107,7 +107,7 @@ The next stage is an executable Super Mushshak digital twin using releasable eng
 
 ## Public-release scope
 
-Detailed wiring, pin-level interconnects, proprietary installation drawings, private correspondence, personal data and restricted material are intentionally omitted. Published aircraft and cockpit photographs are **original project images**. They are not cropped or zoomed for presentation; any processing is limited to non-generative image-quality improvement such as exposure/contrast correction, sharpening, metadata removal and strictly necessary privacy/security treatment. No new collage is created from the source photographs. **No synthetic aircraft or cockpit imagery is used.**
+Detailed wiring, pin-level interconnects, proprietary installation drawings, private correspondence, personal data and restricted material are intentionally omitted. Published aircraft and cockpit photographs are **original project images**. No new presentation crop or zoom is introduced; existing publication derivatives are identified in [visual provenance](assets/approved-visual-provenance.json); any processing is limited to non-generative image-quality improvement such as exposure/contrast correction, sharpening, metadata removal and strictly necessary privacy/security treatment. No new collage is created from the source photographs. **No synthetic aircraft or cockpit imagery is used.**
 
 ## Technical record
 

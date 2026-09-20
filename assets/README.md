@@ -13,7 +13,7 @@
 | `flight-test/nav-com-interface.jpg` | navigation / communication interface evidence | original full-frame image; no crop or zoom |
 | `programme-support/usafa-dubai-airshow.jpg` | Dubai Airshow programme-support context with a visiting counterpart | original full-frame image; no crop or zoom |
 
-**Image integrity rule:** aircraft, cockpit, people, displays and test scenes remain original. Do not crop or zoom source photographs. No generative replacement is permitted.
+**Image integrity rule:** do not create a new presentation crop or generative replacement. Existing publication derivatives, including earlier crops/privacy treatment, are identified in [the provenance manifest](approved-visual-provenance.json).
 
 The main [README](../README.md) and [Project Media Gallery](../docs/media-gallery.md) use only repository-local project imagery. Public third-party images are source-linked rather than hot-linked into recruiter-facing pages.
 

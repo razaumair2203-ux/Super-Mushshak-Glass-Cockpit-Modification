@@ -103,4 +103,8 @@ Copyrighted operator/news photographs without a reusable licence remain source-l
 
 The public repository excludes security markings, private correspondence, personal data, proprietary drawings, detailed connector/pin data, exact harness routes and sensitive installation detail.
 
-Project photographs may be cropped, resized, enhanced and redacted where required. Aircraft, cockpit equipment, people and test scenes are not replaced with synthetic or generatively produced imagery.
+Project photographs remain full-frame; resizing, non-generative quality improvement and necessary privacy redaction are permitted. Aircraft, cockpit equipment, people and test scenes are not replaced with synthetic or generatively produced imagery.
+
+## Supplied source identification
+
+The supplied `Glass Cockpit Comparison` presentation compares Dynon SkyView with **Garmin G3X**. It does not identify the separate G900X prototype as G3X. The supplied Garmin excerpt is labelled Revision F in its filename, but its visible page footers read **Revision E**, document 190-00719-00. Citations to this excerpt identify the document and visible sections; the filename alone does not establish the revision. OEM block diagrams describe a generic product architecture, not the aircraft's as-installed wiring.

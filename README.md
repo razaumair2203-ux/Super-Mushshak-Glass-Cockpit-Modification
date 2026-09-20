@@ -1,14 +1,12 @@
 # Super Mushshak Glass-Cockpit Retrofit
 
-**Lead Systems Engineer · aircraft-level avionics integration · prototype ground/flight verification · customer evaluation**
+**Muhammad Umair Raza · Lead Systems Engineer · aircraft-level avionics integration and prototype verification**
 
-I led systems integration for the historical glass-cockpit retrofit, connecting sensing, avionics, the modification harness and aircraft interfaces through test, troubleshooting and OEM coordination. This case supports lead/principal systems-integration and technical-programme roles.
+A historical aerospace case study supporting lead/principal systems-integration and technical programme roles. The engineering problem was to integrate modern displays, revised sensing and a complete modification harness into an existing trainer aircraft, then resolve installed-aircraft behaviour through ground and flight testing.
 
-**Start here:** [Engineering decisions and test record](docs/engineering-case-study.md) · [Verification and limits](docs/assurance-closure-summary.md) · [Original photographs](docs/media-gallery.md) · [Current digital thread](docs/mbse-digital-thread.md).
+[Engineering case](docs/engineering-case-study.md) · [Verification and open dispositions](docs/assurance-closure-summary.md) · [Original photographs](docs/media-gallery.md) · [Digital model](model/README.md) · [Contact / evidence requests](docs/evidence-register.md#request-a-technical-review)
 
-**Ownership:** aircraft modification was multidisciplinary team delivery. My role and full sensor/harness scope are retrospective programme-lead statements ([E-24/E-25](docs/evidence-register.md)); period photographs and technical records support configuration-specific activity. Later exports are wider programme outcomes. The current CSV model and diagrams are retrospective work; an executable digital twin remains planned.
-
-[Applied AI & autonomous systems portfolio](https://github.com/razaumair2203-ux/applied-ai-portfolio) · [Contact / request a releasable technical review](https://www.linkedin.com/in/mumairaza/)
+[Applied AI & autonomous systems portfolio](https://github.com/razaumair2203-ux/applied-ai-portfolio)
 
 ## Executive snapshot
 
@@ -21,19 +19,17 @@ I led systems integration for the historical glass-cockpit retrofit, connecting 
 </tr>
 </table>
 
-The modification replaced/reworked the aircraft sensing chain, introduced a **complete modification wiring harness**, integrated modern display and navigation/communication equipment, and matured the aircraft through installed ground and flight testing. My programme role also extended into **in-country Qatar customer-evaluation support and Dubai Airshow display activity**, taking the engineering work into an international customer-facing environment.
+I led systems engineering for the Super Mushshak glass-cockpit retrofit across **architecture, interfaces, physical/electrical integration, configuration control, verification, troubleshooting, OEM coordination and international customer evaluation**. The modification replaced/reworked the aircraft sensing chain, introduced a **complete modification wiring harness**, integrated modern display and navigation/communication equipment, and matured the aircraft through installed ground and flight testing. My programme role also extended into **in-country Qatar customer-evaluation support and Dubai Airshow display activity**, taking the engineering work into an international customer-facing environment.
 
 The programme developed two principal prototype paths: **Dynon SkyView** and **Garmin G900X**. A project comparison deck also contains **Garmin G3X** candidate material; that remains trade-study evidence and is kept separate from the G900X prototype identity.
 
-### Programme evidence at a glance
+**Contribution boundary:** I led systems integration, test/troubleshooting and OEM coordination. Fabrication, installation, flight operations and customer evaluation were multidisciplinary programme work. My role and harness/sensor scope are programme-lead statements [E-24/E-25](docs/evidence-register.md); later aircraft sales are wider programme outcomes.
 
-<p align="center">
-  <img src="assets/dynon-skyview-flight-test.jpg" alt="Original in-flight Dynon glass-cockpit photograph" width="92%">
-</p>
+![Installed Dynon SkyView cockpit](assets/dynon-skyview-installed-prototype.jpg)
 
-<p align="center"><sub><b>Installed avionics in flight.</b> Original project photograph showing the Dynon glass-cockpit configuration operating on the aircraft during flight-test activity.</sub></p>
+*Original project photograph of the installed Dynon SkyView cockpit. It supports configuration and installation context; it does not establish certification or the closure of every test discrepancy.*
 
-![Programme scale](assets/programme-impact.svg)
+**Historical work and current modelling:** the retrofit and prototype flight work are historical. The CSV model and systems diagrams are current retrospective engineering representations. An executable aircraft digital twin remains future work.
 
 ## Engineering flow
 
@@ -45,12 +41,9 @@ This is the level at which the work was executed: the **aircraft was the system 
 
 ## Aircraft-level architecture
 
-![System context](assets/system-context.svg)
+The integration boundary includes flight and engine sensing, displays, NAV/COM and audio, aircraft power/protection, retained avionics, configuration data and maintainability. Dynon and Garmin paths remain separate.
 
-
-[Functional architecture](docs/system-context-and-functions.md) · [Configuration evolution](docs/configuration-management.md)
-
-The diagrams are current systems-engineering representations of the executed programme. They communicate architecture, interface ownership, configuration discipline and V&amp;V structure while keeping controlled installation detail, pin-level interconnects and proprietary drawings outside the public repository.
+[Architecture and trade study](docs/architecture-trade-study.md) · [System context and functions](docs/system-context-and-functions.md) · [Interface control](docs/interface-control.md)
 
 ## Prototype identity & configuration control
 
@@ -79,26 +72,15 @@ The project record shows an installed-aircraft engineering loop:
 
 <p align="center"><sub><b>Installed-aircraft sortie context.</b> Original period photograph showing the aircraft operating in the real flight-test environment.</sub></p>
 
+![Traceability matrix](assets/traceability-matrix.svg)
 
 The machine-readable model in [model/](model/README.md) links requirements, functions, interfaces, configurations, verification records, issues, risks, decisions and supporting evidence.
 
 ## International product-line outcome
 
-The engineering programme progressed through prototype development, flight test, customer evaluation and public display activity. Public reporting subsequently shows the glass-cockpit Super Mushshak product line scaling into a multi-country export programme.
+The prototype work included Qatar customer-evaluation support and Dubai Airshow display activity. Later public reports record **80 aircraft across four customer orders**: Qatar 8, Nigeria 10, Türkiye 52 and Azerbaijan 10. Those orders provide programme context, not a personal revenue result or evidence that every export aircraft used the same configuration.
 
-| Customer / operator | Publicly reported quantity | Public evidence |
-|---|---:|---|
-| **Qatar** | 8 | [APP contract report](https://www.app.com.pk/national/pakistan-inks-accord-to-supply-8-mushshak-aircraft-to-qatar/) |
-| **Nigeria** | 10 | [APP delivery report](https://www.app.com.pk/national/pakistan-supplies-four-super-mushshak-to-naf/) |
-| **Türkiye** | 52 | [APP contract report](https://www.app.com.pk/national/pakistan-to-supply-52-trainer-aircraft-to-turkey/) |
-| **Azerbaijan** | 10 | [APP sale report](https://www.app.com.pk/national/pakistan-signs-agreement-with-azerbaijan-for-sale-of-10-super-mushshak-aircraft/) |
-| **2016–2017 new-customer sequence** | **80** | customer totals above |
-
-Specialist reporting also states that the two-display glass-cockpit Super Mushshak appeared publicly at **Dubai Airshow 2011**, with Dynon and Garmin versions available, and that by 2024 **more than 100 Super Mushshaks had been upgraded or sold with new avionics since 2016**. See [Independent Public Evidence](docs/public-operator-evidence.md).
-
-### Programme-value context
-
-Reported commercial values and their limitations are kept in the [public-source context note](docs/programme-value-context.md). They are not personal revenue, retrofit-only value or evidence that prototype work alone caused subsequent orders.
+[Independent public sources](docs/public-operator-evidence.md) · [Customer-evaluation record](docs/field-evaluation-and-programme-context.md) · [Historical commercial source context](docs/programme-value-context.md)
 
 ## Why this project matters
 
@@ -113,19 +95,19 @@ Reported commercial values and their limitations are kept in the [public-source 
 | **Customer-facing delivery** | international evaluation / demonstration context |
 | **Product lifecycle** | supportability, spares/repair logic and digital-thread continuation |
 
-## Historical evidence and current digital engineering
+## Current digital thread and future digital twin
 
 ![Digital twin roadmap](assets/digital-twin-roadmap.svg)
 
-The programme is now being carried forward into a **digital-engineering / digital-twin initiative**. Original project evidence and engineering knowledge are structured as:
+The current **retrospective digital-engineering model** links historical evidence. Executable digital-twin behaviour is proposed and has not been validated. Original project evidence and engineering knowledge are structured as:
 
 **claims → requirements → functions → interfaces → configurations → verification → issues / risks → decisions**
 
-The proposed next stage is an executable Super Mushshak digital twin using releasable engineering data for interface behaviour, failure-state logic, maintenance / health state, data replay and verification scenarios.
+The next stage is an executable Super Mushshak digital twin using releasable engineering data for interface behaviour, failure-state logic, maintenance / health state, data replay and verification scenarios.
 
 ## Public-release scope
 
-Detailed wiring, pin-level interconnects, proprietary installation drawings, private correspondence, personal data and restricted material are intentionally omitted. Published aircraft and cockpit photographs are **original project images**. They are not cropped or zoomed for presentation; any processing is limited to non-generative image-quality improvement such as exposure/contrast correction, sharpening, metadata removal and strictly necessary privacy/security treatment.  **No synthetic aircraft or cockpit imagery is used.**
+Detailed wiring, pin-level interconnects, proprietary installation drawings, private correspondence, personal data and restricted material are intentionally omitted. Published aircraft and cockpit photographs are **original project images**. They are not cropped or zoomed for presentation; any processing is limited to non-generative image-quality improvement such as exposure/contrast correction, sharpening, metadata removal and strictly necessary privacy/security treatment. No new collage is created from the source photographs. **No synthetic aircraft or cockpit imagery is used.**
 
 ## Technical record
 

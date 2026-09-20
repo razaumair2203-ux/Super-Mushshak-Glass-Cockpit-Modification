@@ -8,7 +8,7 @@ Checks:
 4. typed-link source/target IDs resolve;
 5. local Markdown links and image paths resolve;
 6. external embedded images are rejected so recruiter-facing visuals remain repository-local;
-7. weak salvage/reconstruction language is rejected from recruiter-facing Markdown/SVG assets.
+7. internal planning language, provenance paths/hashes and SVG XML are checked.
 
 Uses Python standard library only.
 """
@@ -45,12 +45,8 @@ MARKDOWN_IMAGE_RE = re.compile(r"!\[[^\]]*\]\((https?://[^)]+)\)", re.IGNORECASE
 HTML_SRC_RE = re.compile(r"<img\s+[^>]*src=[\"']([^\"']+)[\"']", re.IGNORECASE)
 
 BANNED_PUBLIC_PHRASES = {
-    "surviving project record",
-    # Retrospective reconstruction is a necessary maturity qualifier.
-    "public-safe",
-    "partially reconstructed",
-    "not reconstructed",
-    "hallucination",
+    "recommended insertion order",
+    "visual asset plan",
 }
 
 
@@ -227,6 +223,10 @@ def check_visual_provenance(errors: list[str]) -> None:
             fail(errors, f"Missing provenance asset: {path}")
         elif hashlib.sha256(path.read_bytes()).hexdigest() != item["publication_sha256"]:
             fail(errors, f"Publication hash mismatch: {path}")
+    registered = {item["repository_path"] for item in manifest["assets"]}
+    for path in (ROOT / "assets").rglob("*.jpg"):
+        if path.relative_to(ROOT).as_posix() not in registered:
+            fail(errors, f"Unregistered photograph: {path}")
     for path in (ROOT / "assets").glob("*.svg"):
         try:
             ET.parse(path)

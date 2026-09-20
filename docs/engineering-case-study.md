@@ -27,6 +27,10 @@ I served as **Lead Systems Engineer** for the retrofit, with responsibility span
 
 The role scope is cross-linked to **E-25** and the relevant project evidence in the machine-readable model; configuration-specific technical claims continue to retain their own evidence links.
 
+## Historical evidence and current representation
+
+The aircraft work is historical; the model IDs, requirement structure and diagrams are a current retrospective reconstruction. They are not original-era MBSE artefacts or a validated executable twin. [Verification limits](assurance-closure-summary.md) distinguish observed operation, re-test and unresolved public dispositions.
+
 ## Context and functional architecture
 
 ![System context](../assets/system-context.svg)

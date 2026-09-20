@@ -4,7 +4,7 @@ The photographs below are **original project imagery**. They establish three thi
 
 ## Visual-selection rule
 
-The gallery uses **individual original photographs in context**, not newly assembled collages.  Original photographs are shown without crop or zoom.
+The gallery uses **individual original photographs in context**, not newly assembled collages.  No new presentation crops are introduced; existing derivatives and privacy treatments are recorded in [visual provenance](../assets/approved-visual-provenance.json).
 
 The aerial album records the **real sortie environment, changing visibility, terrain, route context, and cockpit operation**. Selected photographs are placed individually where they support the engineering story.
 
@@ -122,6 +122,6 @@ For a transparent public estimate of programme scale, see [Public Programme-Valu
 
 ## Image policy
 
-Project photographs are published **without crop or zoom**. Any processing is limited to non-generative image-quality improvement such as exposure/contrast correction, sharpening, metadata removal and strictly necessary privacy/security treatment. Aircraft, cockpit equipment, people and test scenes are not synthetically replaced.
+Project photographs retain their existing publication framing; this revision introduces **no new crop or zoom**. Any processing is limited to non-generative image-quality improvement such as exposure/contrast correction, sharpening, metadata removal and strictly necessary privacy/security treatment. Aircraft, cockpit equipment, people and test scenes are not synthetically replaced.
 
 No new collage is created from the source photographs. Only composite boards explicitly supplied and approved by the programme lead are used as composite visuals. The wider period album is curated rather than bulk-published, and provenance for published sortie images is recorded in [assets/flight-test/README.md](../assets/flight-test/README.md).

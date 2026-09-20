@@ -4,9 +4,9 @@
 
 | File | What it shows | Allowed processing |
 |---|---|---|
-| `dynon-skyview-installed-prototype.jpg` | installed Dynon SkyView prototype cockpit | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
+| `dynon-skyview-installed-prototype.jpg` | installed Dynon SkyView prototype cockpit | retained publication derivative with earlier crop/privacy treatment; source match in provenance manifest |
 | `dynon-skyview-flight-test.jpg` | installed Dynon cockpit operating in flight | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
-| `qatar-customer-evaluation-ground.jpg` | QAEF / Qatar customer-evaluation ground context | exposure/contrast, sharpening, metadata removal, strictly necessary privacy/security treatment; no crop or zoom |
+| `qatar-customer-evaluation-ground.jpg` | QAEF / Qatar customer-evaluation ground context | retained publication derivative with earlier crop/privacy treatment; source match in provenance manifest |
 | `flight-test/lead-systems-engineer-flight-test.jpg` | programme lead during flight-test activity | original full-frame image; no crop or zoom |
 | `flight-test/dynon-hmi-pfd-closeup.jpg` | Dynon HMI / PFD evidence | original full-frame image; no crop or zoom |
 | `flight-test/cockpit-stack-integration.jpg` | cockpit / centre-stack integration | original full-frame image; no crop or zoom |

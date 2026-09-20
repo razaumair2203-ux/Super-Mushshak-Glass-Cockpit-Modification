@@ -24,8 +24,9 @@
       ],
       "classification": "historical project photograph",
       "processing_this_review": "none",
-      "source": "Retained project photograph at repository commit 3c48e858362fe7f57dbc1d3bde8fe7fb1f05e2ac; see docs/evidence-register.md",
-      "source_matching": "Original-byte source mapping not recovered in this review; existing publication provenance retained."
+      "source": "03-Glass-Cockpit-Comparison-1-.ppt / slide 7 (Cockpit \u2014 Dynon Skyview)",
+      "source_matching": "Visually matched to the installed-cockpit photograph in supplied comparison deck; published version retains earlier crop and central-panel privacy blur. Original standalone camera file not available.",
+      "source_sha256": "7b72f6b60d695c3a7ed8df6a5e7b01e55a414236d28ce3b7cd301a8d1d8dd213"
     },
     {
       "repository_path": "assets/flight-test/aerial-cloud-conditions.jpg",
@@ -144,8 +145,9 @@
       ],
       "classification": "historical project photograph",
       "processing_this_review": "none",
-      "source": "Retained project photograph at repository commit 3c48e858362fe7f57dbc1d3bde8fe7fb1f05e2ac; see docs/evidence-register.md",
-      "source_matching": "Original-byte source mapping not recovered in this review; existing publication provenance retained."
+      "source": "02-471520729_10162885872565407_2551801835854641674_n.jpg",
+      "source_matching": "Visually matched to supplied original photograph; published version retains its earlier crop and privacy blurs.",
+      "source_sha256": "4d38f7027880659706501916c06d17d513400625aabe5adcdda67dca5a117194"
     }
   ]
 }

@@ -59,3 +59,7 @@ The trade material does not support a single universal “winner” across every
 > **aircraft-level interface burden, supportability, acceptance fit and configuration control can be as important as headline avionics capability.**
 
 The structured decision and configuration objects are in [model](../model/README.md).
+
+## Supplied source identification
+
+The supplied comparison presentation was inspected across all 16 slides. Slides 3, 5, 8 and 9 explicitly identify Garmin G3X; slide 7 contains the installed Dynon cockpit image. It does not establish a G900X installation. The supplied Garmin excerpt's filename says Revision F, but its printed pages identify Revision E. Reference claims follow the document content, not the filename. The excerpt supports generic G900X/G950 architecture only.

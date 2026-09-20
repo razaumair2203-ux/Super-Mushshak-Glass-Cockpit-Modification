@@ -52,4 +52,4 @@ The public release does not publish detailed closure records for:
 - exact historical software/database/LRU baselines that remain outside public release;
 - certification/type-acceptance status beyond what identified sources support.
 
-These are not weaknesses hidden from view; they are controlled gaps in the assurance case.
+These remain evidence gaps in the public assurance case; withholding a record does not establish that the missing result was successful.

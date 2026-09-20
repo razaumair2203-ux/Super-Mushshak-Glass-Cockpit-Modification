@@ -11,18 +11,9 @@
 | `flight-test/dynon-hmi-pfd-closeup.jpg` | Dynon HMI / PFD evidence | original full-frame image; no crop or zoom |
 | `flight-test/cockpit-stack-integration.jpg` | cockpit / centre-stack integration | original full-frame image; no crop or zoom |
 | `flight-test/nav-com-interface.jpg` | navigation / communication interface evidence | original full-frame image; no crop or zoom |
-| `programme-support/usafa-dubai-airshow.jpg` | Dubai Airshow programme-support context with USAFA counterpart | original full-frame image; no crop or zoom |
+| `programme-support/usafa-dubai-airshow.jpg` | Dubai Airshow programme-support context with a visiting counterpart | original full-frame image; no crop or zoom |
 
-**Image integrity rule:** aircraft, cockpit, people, displays and test scenes remain original. Do not crop or zoom source photographs. No generative replacement is permitted. No new collage is created; only composite boards explicitly supplied and approved by the programme lead may be published.
-
-## Programme-lead-approved composite boards
-
-| File | Purpose | Publication handling |
-|---|---|---|
-| `recruiter/hero-super-mushshak-retrofit.jpg` | front-page programme overview | supplied/approved composition; preserved at full frame |
-| `recruiter/hero-flight-test-evidence.jpg` | front-page flight-test / visual-evidence overview | supplied/approved composition; preserved at full frame |
-
-The boards are presentation compositions approved for recruiter-facing use. No additional collage is generated from the source photographs.
+**Image integrity rule:** aircraft, cockpit, people, displays and test scenes remain original. Do not crop or zoom source photographs. No generative replacement is permitted.
 
 The main [README](../README.md) and [Project Media Gallery](../docs/media-gallery.md) use only repository-local project imagery. Public third-party images are source-linked rather than hot-linked into recruiter-facing pages.
 
@@ -30,7 +21,7 @@ The main [README](../README.md) and [Project Media Gallery](../docs/media-galler
 
 | File | Purpose |
 |---|---|
-| `programme-impact.svg` | programme role, public export scale and transparent value benchmark |
+| `programme-impact.svg` | programme role, public export scale and later reported customer count |
 | `system-context.svg` | aircraft/system boundary and external actors |
 | `functional-decomposition.svg` | aircraft-level functional hierarchy |
 | `systems-engineering-lifecycle.svg` | engineering lifecycle / V-model |

@@ -104,7 +104,7 @@ Hardware, software/settings and databases therefore form part of the **as-tested
 
 The record includes NAV interface work, retained-avionics questions and later cross-domain observations in which a radio-transmit action coincided with engine-indication fluctuation.
 
-The public project record captures the observation and investigation path; detailed final corrective-action material is outside the published repository.
+The public project record captures the observation and investigation path; the public record does not establish the final corrective action.
 
 ## Flight-test and customer-evaluation loop
 

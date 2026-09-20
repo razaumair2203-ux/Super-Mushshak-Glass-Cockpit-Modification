@@ -5,8 +5,8 @@
 .card{fill:#ffffff;stroke:#cbd5e1;stroke-width:2}.blue{fill:#eff6ff;stroke:#315b8c;stroke-width:2.5}.green{fill:#f0fdf4;stroke:#3f7c52;stroke-width:2.5}.violet{fill:#f5f3ff;stroke:#6554a1;stroke-width:2.5}.amber{fill:#fffbeb;stroke:#a96b13;stroke-width:2.5}.foot{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
 </style>
 <rect width="1440" height="620" fill="white"/>
-<text x="40" y="58" class="title">Programme Scale — Engineering Role to International Product Outcome</text>
-<text x="40" y="91" class="sub">Project evidence is shown separately from later public market outcome; commercial figures below use only external public benchmarks.</text>
+<text x="40" y="58" class="title">Engineering Role and Later Programme Scale</text>
+<text x="40" y="91" class="sub">Project evidence is shown separately from later public market outcome; later customer counts come from public reporting.</text>
 
 <rect x="40" y="145" width="315" height="250" rx="18" class="blue"/>
 <text x="197" y="210" text-anchor="middle" class="k">Lead</text>
@@ -27,13 +27,13 @@
 <text x="867" y="330" text-anchor="middle" class="t">2016–2017 new-customer sequence</text>
 
 <rect x="1045" y="145" width="355" height="250" rx="18" class="amber"/>
-<text x="1222" y="210" text-anchor="middle" class="k">≈ US$78M</text>
-<text x="1222" y="252" text-anchor="middle" class="h">aircraft-value benchmark</text>
-<text x="1222" y="300" text-anchor="middle" class="t">80-aircraft scale equivalent from</text>
-<text x="1222" y="330" text-anchor="middle" class="t">two public 2016 value anchors</text>
+<text x="1222" y="210" text-anchor="middle" class="k">4 customers</text>
+<text x="1222" y="252" text-anchor="middle" class="h">later export sequence</text>
+<text x="1222" y="300" text-anchor="middle" class="t">Reported contracts in 2016–2017</text>
+<text x="1222" y="330" text-anchor="middle" class="t">Product-line outcome, not personal sales</text>
 
 <rect x="110" y="455" width="1220" height="110" rx="14" class="foot"/>
-<text x="720" y="492" text-anchor="middle" class="h">Support-package context</text>
-<text x="720" y="526" text-anchor="middle" class="t">Public reports also document operational training / technical support in Nigeria and Azerbaijan, plus simulator and engine-support activity around the Türkiye programme.</text>
-<text x="720" y="552" text-anchor="middle" class="sm">The ≈US$78M figure is a transparent scale-equivalent benchmark from public Nigeria + Türkiye values, not confidential contract revenue or profit.</text>
+<text x="720" y="492" text-anchor="middle" class="h">Evidence boundary</text>
+<text x="720" y="526" text-anchor="middle" class="t">Prototype engineering and later sales are separate claims; the public record does not assign individual sales causation.</text>
+<text x="720" y="552" text-anchor="middle" class="sm">Sources: docs/public-operator-evidence.md. Role: programme-lead statement E-25; two paths: configuration register.</text>
 </svg>

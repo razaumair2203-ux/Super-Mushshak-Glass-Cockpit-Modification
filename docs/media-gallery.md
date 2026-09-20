@@ -4,23 +4,11 @@ The photographs below are **original project imagery**. They establish three thi
 
 ## Visual-selection rule
 
-The gallery uses **individual original photographs in context**, not newly assembled collages. The only composite visuals permitted are programme boards explicitly supplied and approved by the programme lead. Original photographs are shown without crop or zoom.
+The gallery uses **individual original photographs in context**, not newly assembled collages.  Original photographs are shown without crop or zoom.
 
 The aerial album records the **real sortie environment, changing visibility, terrain, route context, and cockpit operation**. Selected photographs are placed individually where they support the engineering story.
 
-## Programme-lead-approved evidence boards
-
-<p align="center">
-  <img src="../assets/recruiter/hero-super-mushshak-retrofit.jpg" alt="Approved recruiter-facing Super Mushshak retrofit evidence board" width="100%">
-</p>
-
-**Recruiter-facing programme overview.** This approved board assembles authentic period project imagery with explanatory labels for rapid scanning. It does not replace the individual photographs or the configuration-specific engineering record.
-
-<p align="center">
-  <img src="../assets/recruiter/hero-flight-test-evidence.jpg" alt="Approved flight-test evidence and visual asset board" width="100%">
-</p>
-
-**Flight-test visual evidence plan.** This approved board organizes authentic cockpit, sortie/environment and programme-support imagery. Individual images remain the evidentiary source for the claims they can support.
+## Installed prototype
 
 <p align="center">
   <img src="../assets/dynon-skyview-installed-prototype.jpg" alt="Installed Dynon SkyView Super Mushshak prototype cockpit" width="100%">
@@ -106,6 +94,8 @@ The retrofit combined displays, revised sensing, NAV/COM and retained-avionics i
 **International programme support / display context.** Authentic period project photograph from Dubai Airshow activity. It supports the programme-facing narrative and does not by itself establish a technical-performance result.
 
 ![Programme scale](../assets/programme-impact.svg)
+
+Privacy masks cover selected insignia, name/event identifiers and navigation-map detail. Frames and remaining scene content are unchanged. [File provenance and hashes](../assets/approved-visual-provenance.json).
 
 ## What the images establish
 

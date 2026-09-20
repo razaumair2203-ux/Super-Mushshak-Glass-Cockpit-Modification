@@ -7,7 +7,7 @@ Project status and test records show the Dynon-configured aircraft progressing f
 A period status record documents **10 evaluation sorties by 12 November 2012**, including a night-flying mission. Engineering exchanges from the same phase record continuing configuration observations and OEM feedback during customer flying.
 
 <p align="center">
-  <img src="../assets/programme-support/usafa-dubai-airshow.jpg" alt="Original Dubai Airshow programme-support photograph with USAFA counterpart" width="84%">
+  <img src="../assets/programme-support/usafa-dubai-airshow.jpg" alt="Original Dubai Airshow programme-support photograph with a visiting counterpart" width="84%">
 </p>
 
 *International programme-support context. Authentic period photograph from Dubai Airshow activity, retained to document the customer-facing/display phase of the programme. It does not establish a technical performance result by itself.*

@@ -1,20 +1,14 @@
 # Super Mushshak Glass-Cockpit Retrofit
 
-**International aircraft-modernisation case study · Lead Systems Engineer · avionics integration · prototype development · ground/flight V&V · customer evaluation · configuration control · product-line scale · digital-twin continuation**
+**Lead Systems Engineer · aircraft-level avionics integration · prototype ground/flight verification · customer evaluation**
 
-<p align="center">
-  <img src="assets/recruiter/hero-super-mushshak-retrofit.jpg" alt="Super Mushshak glass-cockpit retrofit programme overview built from authentic period project imagery" width="100%">
-</p>
+I led systems integration for the historical glass-cockpit retrofit, connecting sensing, avionics, the modification harness and aircraft interfaces through test, troubleshooting and OEM coordination. This case supports lead/principal systems-integration and technical-programme roles.
 
-<p align="center">
-  <img src="assets/recruiter/hero-flight-test-evidence.jpg" alt="Flight-test evidence and visual asset overview built from authentic period project imagery" width="100%">
-</p>
+**Start here:** [Engineering decisions and test record](docs/engineering-case-study.md) · [Verification and limits](docs/assurance-closure-summary.md) · [Original photographs](docs/media-gallery.md) · [Current digital thread](docs/mbse-digital-thread.md).
 
-<p align="center">
-  <img src="assets/qatar-customer-evaluation-ground.jpg" alt="Original QAEF ground customer-evaluation photograph from the Super Mushshak programme" width="88%">
-</p>
+**Ownership:** aircraft modification was multidisciplinary team delivery. My role and full sensor/harness scope are retrospective programme-lead statements ([E-24/E-25](docs/evidence-register.md)); period photographs and technical records support configuration-specific activity. Later exports are wider programme outcomes. The current CSV model and diagrams are retrospective work; an executable digital twin remains planned.
 
-<p align="center"><sub><b>QAEF ground-evaluation context.</b> Original period photograph from the Qatar customer-evaluation phase, showing the aircraft in the customer-facing operational environment.</sub></p>
+[Applied AI & autonomous systems portfolio](https://github.com/razaumair2203-ux/applied-ai-portfolio) · [Contact / request a releasable technical review](https://www.linkedin.com/in/mumairaza/)
 
 ## Executive snapshot
 
@@ -27,7 +21,7 @@
 </tr>
 </table>
 
-I led systems engineering for the Super Mushshak glass-cockpit retrofit across **architecture, interfaces, physical/electrical integration, configuration control, verification, troubleshooting, OEM coordination and international customer evaluation**. The modification replaced/reworked the aircraft sensing chain, introduced a **complete modification wiring harness**, integrated modern display and navigation/communication equipment, and matured the aircraft through installed ground and flight testing. My programme role also extended into **in-country Qatar customer-evaluation support and Dubai Airshow display activity**, taking the engineering work into an international customer-facing environment.
+The modification replaced/reworked the aircraft sensing chain, introduced a **complete modification wiring harness**, integrated modern display and navigation/communication equipment, and matured the aircraft through installed ground and flight testing. My programme role also extended into **in-country Qatar customer-evaluation support and Dubai Airshow display activity**, taking the engineering work into an international customer-facing environment.
 
 The programme developed two principal prototype paths: **Dynon SkyView** and **Garmin G900X**. A project comparison deck also contains **Garmin G3X** candidate material; that remains trade-study evidence and is kept separate from the G900X prototype identity.
 
@@ -53,14 +47,8 @@ This is the level at which the work was executed: the **aircraft was the system 
 
 ![System context](assets/system-context.svg)
 
-![Functional decomposition](assets/functional-decomposition.svg)
 
-<table>
-<tr>
-<td width="50%"><img src="assets/mbse-system-architecture.svg" alt="Logical aircraft-level system architecture"></td>
-<td width="50%"><img src="assets/configuration-evolution.svg" alt="Prototype and configuration evolution"></td>
-</tr>
-</table>
+[Functional architecture](docs/system-context-and-functions.md) · [Configuration evolution](docs/configuration-management.md)
 
 The diagrams are current systems-engineering representations of the executed programme. They communicate architecture, interface ownership, configuration discipline and V&amp;V structure while keeping controlled installation detail, pin-level interconnects and proprietary drawings outside the public repository.
 
@@ -91,18 +79,12 @@ The project record shows an installed-aircraft engineering loop:
 
 <p align="center"><sub><b>Installed-aircraft sortie context.</b> Original period photograph showing the aircraft operating in the real flight-test environment.</sub></p>
 
-![Traceability matrix](assets/traceability-matrix.svg)
 
 The machine-readable model in [model/](model/README.md) links requirements, functions, interfaces, configurations, verification records, issues, risks, decisions and supporting evidence.
 
 ## International product-line outcome
 
 The engineering programme progressed through prototype development, flight test, customer evaluation and public display activity. Public reporting subsequently shows the glass-cockpit Super Mushshak product line scaling into a multi-country export programme.
-
-<p align="center">
-  <img src="assets/programme-support/usafa-dubai-airshow.jpg" alt="Original Dubai Airshow programme-support photograph with USAFA counterpart" width="82%">
-</p>
-<p align="center"><sub><b>International programme support.</b> Authentic period photograph from Dubai Airshow context, supporting the customer-facing display/programme-support phase described here. It is context evidence, not a technical-performance result.</sub></p>
 
 | Customer / operator | Publicly reported quantity | Public evidence |
 |---|---:|---|
@@ -114,19 +96,9 @@ The engineering programme progressed through prototype development, flight test,
 
 Specialist reporting also states that the two-display glass-cockpit Super Mushshak appeared publicly at **Dubai Airshow 2011**, with Dynon and Garmin versions available, and that by 2024 **more than 100 Super Mushshaks had been upgraded or sold with new avionics since 2016**. See [Independent Public Evidence](docs/public-operator-evidence.md).
 
-### Public programme-value context
+### Programme-value context
 
-A 2016 [Business Recorder report](https://www.brecorder.com/news/4454451/pakistan-to-supply-52-trainer-aircraft-to-turkey-20161124106085) placed the **52-aircraft Türkiye programme at around US$50M**. That implies a public scale benchmark of about **US$0.962M per aircraft**.
-
-Applied only as a transparent scale reference to the 80-aircraft sequence above:
-
-**80 × (US$50M / 52) ≈ US$76.9M → ≈ US$78M aircraft-value equivalent**
-
-Public sources also document **operational training and technical support** in the Nigeria and Azerbaijan packages, plus simulator and engine-support activity around the Türkiye programme. Because those support values are not publicly standardized, they are not presented as actual contract totals. An illustrative 10–30% support sensitivity around the weighted public benchmark places the campaign at roughly **US$85–101M**.
-
-> **Portfolio interpretation:** the engineering work shown here sat on a product path that progressed from prototype integration and flight test into an internationally fielded aircraft family operating at substantial programme scale. Commercial figures are public-market context, not confidential contract disclosure or individual revenue attribution.
-
-Full assumptions and arithmetic: [Public Programme-Value Context](docs/programme-value-context.md).
+Reported commercial values and their limitations are kept in the [public-source context note](docs/programme-value-context.md). They are not personal revenue, retrofit-only value or evidence that prototype work alone caused subsequent orders.
 
 ## Why this project matters
 
@@ -141,7 +113,7 @@ Full assumptions and arithmetic: [Public Programme-Value Context](docs/programme
 | **Customer-facing delivery** | international evaluation / demonstration context |
 | **Product lifecycle** | supportability, spares/repair logic and digital-thread continuation |
 
-## Digital thread → digital twin
+## Historical evidence and current digital engineering
 
 ![Digital twin roadmap](assets/digital-twin-roadmap.svg)
 
@@ -149,11 +121,11 @@ The programme is now being carried forward into a **digital-engineering / digita
 
 **claims → requirements → functions → interfaces → configurations → verification → issues / risks → decisions**
 
-The next stage is an executable Super Mushshak digital twin using releasable engineering data for interface behaviour, failure-state logic, maintenance / health state, data replay and verification scenarios.
+The proposed next stage is an executable Super Mushshak digital twin using releasable engineering data for interface behaviour, failure-state logic, maintenance / health state, data replay and verification scenarios.
 
 ## Public-release scope
 
-Detailed wiring, pin-level interconnects, proprietary installation drawings, private correspondence, personal data and restricted material are intentionally omitted. Published aircraft and cockpit photographs are **original project images**. They are not cropped or zoomed for presentation; any processing is limited to non-generative image-quality improvement such as exposure/contrast correction, sharpening, metadata removal and strictly necessary privacy/security treatment. No new collage is created from the source photographs. Only composite boards explicitly approved by the programme lead are used as composite visuals. **No synthetic aircraft or cockpit imagery is used.**
+Detailed wiring, pin-level interconnects, proprietary installation drawings, private correspondence, personal data and restricted material are intentionally omitted. Published aircraft and cockpit photographs are **original project images**. They are not cropped or zoomed for presentation; any processing is limited to non-generative image-quality improvement such as exposure/contrast correction, sharpening, metadata removal and strictly necessary privacy/security treatment.  **No synthetic aircraft or cockpit imagery is used.**
 
 ## Technical record
 

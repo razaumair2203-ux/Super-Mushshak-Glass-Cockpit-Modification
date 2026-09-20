@@ -65,11 +65,8 @@ This is an aircraft-level verification example because it crosses subsystem boun
 
 The public release does **not** include detailed final corrective-action closure material, so the repository does not speculate beyond the published evidence.
 
-<p align="center">
-  <img src="../assets/recruiter/hero-flight-test-evidence.jpg" alt="Programme-lead-approved flight-test evidence board assembled from authentic period Super Mushshak imagery" width="100%">
-</p>
 
-*Programme-lead-approved flight-test evidence board. It organizes authentic period cockpit, sortie/environment and programme-support imagery for recruiter-facing review. The board is a visual navigation/credibility aid; configuration-specific verification claims remain tied to the records and individual source photographs below.*
+
 
 ## Sortie and operational-environment evidence
 

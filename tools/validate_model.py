@@ -46,11 +46,10 @@ HTML_SRC_RE = re.compile(r"<img\s+[^>]*src=[\"']([^\"']+)[\"']", re.IGNORECASE)
 
 BANNED_PUBLIC_PHRASES = {
     "surviving project record",
-    "retrospective",
+    # Retrospective reconstruction is a necessary maturity qualifier.
     "public-safe",
     "partially reconstructed",
     "not reconstructed",
-    "reconstruction",
     "hallucination",
 }
 
@@ -217,8 +216,27 @@ def check_portfolio_language(errors: list[str]) -> None:
                 )
 
 
+def check_visual_provenance(errors: list[str]) -> None:
+    import hashlib
+    import json
+    import xml.etree.ElementTree as ET
+    manifest = json.loads((ROOT / "assets/approved-visual-provenance.json").read_text())
+    for item in manifest["assets"]:
+        path = ROOT / item["repository_path"]
+        if not path.is_file():
+            fail(errors, f"Missing provenance asset: {path}")
+        elif hashlib.sha256(path.read_bytes()).hexdigest() != item["publication_sha256"]:
+            fail(errors, f"Publication hash mismatch: {path}")
+    for path in (ROOT / "assets").glob("*.svg"):
+        try:
+            ET.parse(path)
+        except ET.ParseError as exc:
+            fail(errors, f"Invalid SVG XML: {path}: {exc}")
+
+
 def main() -> int:
     errors: list[str] = []
+    check_visual_provenance(errors)
     all_ids = check_model(errors)
     check_markdown(errors)
     check_portfolio_language(errors)

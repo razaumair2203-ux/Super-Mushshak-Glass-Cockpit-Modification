@@ -22,13 +22,9 @@ Specialist reporting adds configuration and longitudinal context:
 
 ## Public programme-value benchmark
 
-Two 2016 public value anchors are closely aligned: [Defense News](https://www.defensenews.com/global/mideast-africa/2016/07/01/nigeria-to-acquire-super-mushshak-aircraft-from-pakistan/) reported **US$10.2M allocated for 10 Nigerian aircraft**, while [Business Recorder](https://www.brecorder.com/news/4454451/pakistan-to-supply-52-trainer-aircraft-to-turkey-20161124106085) reported **around US$50M for 52 Türkiye aircraft**. These imply roughly **US$0.96M–1.02M per aircraft**.
+Two contemporary reports provide separate programme-value context: [Defense News](https://www.defensenews.com/global/mideast-africa/2016/07/01/nigeria-to-acquire-super-mushshak-aircraft-from-pakistan/) reported **US$10.2M allocated for 10 Nigerian aircraft**, while [Business Recorder](https://www.brecorder.com/news/4454451/pakistan-to-supply-52-trainer-aircraft-to-turkey-20161124106085) reported **around US$50M for 52 Türkiye aircraft**. Package scope and realised revenue are not verified here; these figures do not establish an 80-aircraft campaign value or an individual's commercial contribution.
 
-At the 80-aircraft scale above, the two anchors imply **US$76.9M–81.6M**, with a weighted benchmark of approximately **US$77.7M**.
-
-Public reports also document training, technical support, simulator and engine-support elements across these programmes. Since their values are not consistently disclosed, they are treated as an explicit sensitivity rather than as known contract revenue. A 10–30% illustrative support uplift around the weighted benchmark produces a campaign-scale range of roughly **US$85.4M–101.0M**.
-
-See [Public Programme-Value Context](programme-value-context.md) for the assumptions and arithmetic.
+See [Public Programme-Value Context](programme-value-context.md) for the source boundaries.
 
 ## Relation to this portfolio
 
@@ -40,5 +36,5 @@ See also:
 
 - [Project media gallery](media-gallery.md)
 - [Customer evaluation and programme context](field-evaluation-and-programme-context.md)
-- [Programme-value methodology](programme-value-context.md)
+- [Programme-value sources](programme-value-context.md)
 - [Sources](references.md)

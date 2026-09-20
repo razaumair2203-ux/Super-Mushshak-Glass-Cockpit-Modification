@@ -160,7 +160,7 @@ Public reporting documents a four-customer 2016–2017 export sequence totalling
 
 Independent configuration reporting identifies **Dynon** on Nigeria and **Garmin 950** on Qatar and Türkiye.
 
-Public commercial reporting places the Nigeria order at an estimated **US$10.2M** and the Türkiye agreement at approximately **US$50M**. Those two values alone exceed **US$60M**; no value is invented for Qatar or Azerbaijan.
+Public commercial reporting places the Nigeria order at an estimated **US$10.2M** and the Türkiye agreement at approximately **US$50M**. They are separate contemporary reports with unverified package scope and realised revenue, not a combined programme valuation or an individual commercial outcome.
 
 This places the retrofit on a commercially significant international product path. Later reporting extends that trajectory further: Times Aerospace reported in 2024 that more than 100 Super Mushshaks had been upgraded or sold with new avionics since 2016.
 

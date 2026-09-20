@@ -33,9 +33,11 @@ Applying the two public unit-value anchors to an 80-aircraft campaign gives:
 - Nigeria anchor: **80 × US$1.020M ≈ US$81.6M**
 - weighted two-anchor benchmark: **80 × US$0.971M ≈ US$77.7M**
 
-The repository therefore uses **≈US$78M** as a conservative aircraft-value scale benchmark.
+The arithmetic yields **≈US$78M** as an illustrative scale equivalent. It is not a conservative lower bound, an aircraft-only price or observed revenue: the two reported package scopes are not normalized.
 
-## Support-package sensitivity
+## Illustrative support-package sensitivity
+
+These percentages are scenario assumptions, not measured support costs. The source amounts may already include some support, so adding an uplift can double count it. The resulting range must not be presented as a revenue estimate or personal achievement.
 
 Public reporting confirms that programme value was not limited to aircraft:
 

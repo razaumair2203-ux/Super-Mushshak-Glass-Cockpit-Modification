@@ -47,3 +47,7 @@ Do not publish controlled markings/details, wiring routes, connectors or pin dat
 Photographs are not cropped or zoomed for presentation. Processing is limited to non-generative image-quality improvement such as exposure/contrast correction, sharpening, metadata removal and strictly necessary privacy/security treatment. No new collage is created from source photographs; only composite boards explicitly supplied and approved by the programme lead may be published. No synthetic aircraft, cockpit, people or test-scene replacement is permitted.
 
 Machine-readable mirror: [model/evidence.csv](../model/evidence.csv).
+
+## Request a technical review
+
+Contact [Muhammad Umair Raza on LinkedIn](https://www.linkedin.com/in/mumairaza/) and identify the evidence IDs or engineering topic you want to discuss, your role/organisation and preferred format. A review can use the public model, a discussion or a releasable technical summary. Availability depends on disclosure permission; controlled drawings, private correspondence and original acceptance records are not automatically shared.

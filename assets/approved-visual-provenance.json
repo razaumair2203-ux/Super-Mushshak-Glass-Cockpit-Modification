@@ -1,55 +1,151 @@
 {
-  "schema": "super-mushshak-approved-visual-provenance.v1",
-  "recorded": "2026-09-19",
-  "rule": "Programme-lead-approved supplied imagery only. Publication processing is non-generative and does not crop, zoom, add, remove or replace aircraft, cockpit equipment, people or test scenes.",
+  "schema": "super-mushshak-visual-provenance.v2",
+  "recorded": "2026-09-20",
+  "rule": "Source attribution is distinct from validation of a technical result. Public JPEG hashes describe current bytes. Raw source files remain outside this repository.",
   "assets": [
     {
-      "repository_path": "assets/recruiter/super-mushshak-retrofit-evidence-board.webp",
-      "source_upload": "ChatGPT Image Sep 19, 2026, 06_31_19 AM (1).png",
-      "source_dimensions": [
-        1672,
-        941
-      ],
-      "source_sha256": "66a08583b72ec98b9b87cd9fac03112fa3b60f3382f894f991a6362112139c00",
+      "repository_path": "assets/dynon-skyview-flight-test.jpg",
+      "publication_sha256": "dcc09c453598dbedc46b4d1d869f314368a532eda9b8044c7b29de7633b99ff9",
       "publication_dimensions": [
         1000,
-        563
+        750
       ],
-      "publication_sha256": "de0549bed4c71620456971b6d4fe5cfde58dc4731bebc349fe389e38dddbd0f4",
-      "processing": "Proportional resize and WebP publication encoding only.",
-      "classification": "programme-lead-approved composite board"
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "period test-flight album / 10150168045060407.jpg",
+      "source_sha256": "ad31826c1511cf47ccf30abd5cf7bca4dafc18d1db98c22f737d317e0b8472c5"
     },
     {
-      "repository_path": "assets/flight-test/flight-test-evidence-visual-plan.webp",
-      "source_upload": "ChatGPT Image Sep 19, 2026, 06_31_19 AM (2).png",
-      "source_dimensions": [
-        1672,
-        941
-      ],
-      "source_sha256": "a0cdc7ba0aa5d0c3e9d9b5fcd27b8bc33d01ce96a3c0267a504a42aa86654ec1",
+      "repository_path": "assets/dynon-skyview-installed-prototype.jpg",
+      "publication_sha256": "802a0b967662ed9b3aa9a14140e44b648a12b00b355ad38d90e16ee3c9c77c52",
       "publication_dimensions": [
         1000,
-        563
+        579
       ],
-      "publication_sha256": "0f7bfd2331e8e4cda334bb66c9e8745986adfc70cceb2ffac9ade61d13af3102",
-      "processing": "Proportional resize and WebP publication encoding only.",
-      "classification": "programme-lead-approved composite board"
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "Retained project photograph at repository commit 3c48e858362fe7f57dbc1d3bde8fe7fb1f05e2ac; see docs/evidence-register.md",
+      "source_matching": "Original-byte source mapping not recovered in this review; existing publication provenance retained."
     },
     {
-      "repository_path": "assets/programme-support/dubai-airshow-programme-support.webp",
-      "source_upload": "651159616_10164954381745407_8324216239365701163_n.jpg",
-      "source_dimensions": [
+      "repository_path": "assets/flight-test/aerial-cloud-conditions.jpg",
+      "publication_sha256": "0bb944f9d513c09fe647a8d423c3a22c09cd172633b057cb378a4d31fc066702",
+      "publication_dimensions": [
+        2048,
+        1536
+      ],
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "period test-flight album / 10151226091450407.jpg",
+      "source_sha256": "0bb944f9d513c09fe647a8d423c3a22c09cd172633b057cb378a4d31fc066702"
+    },
+    {
+      "repository_path": "assets/flight-test/aerial-terrain-context.jpg",
+      "publication_sha256": "5e8f887d6314b94b1f9362e41ee12e63ba3c6e6798f04ba259b56022d7e0ce3d",
+      "publication_dimensions": [
+        720,
+        540
+      ],
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "period test-flight album / 10150104728595407.jpg",
+      "source_sha256": "5e8f887d6314b94b1f9362e41ee12e63ba3c6e6798f04ba259b56022d7e0ce3d"
+    },
+    {
+      "repository_path": "assets/flight-test/cockpit-overview-inflight.jpg",
+      "publication_sha256": "4f1645c109e4f17fe692172af82968d81f17906d3cd59ee9351a53d5d0257c6e",
+      "publication_dimensions": [
+        2048,
+        1536
+      ],
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "period test-flight album / 10151226088515407.jpg",
+      "source_sha256": "4f1645c109e4f17fe692172af82968d81f17906d3cd59ee9351a53d5d0257c6e"
+    },
+    {
+      "repository_path": "assets/flight-test/cockpit-stack-integration.jpg",
+      "publication_sha256": "0b456b6bf7245d1c70826cdc2042fe254ba64148b827cc1f4b2b2db44f322e69",
+      "publication_dimensions": [
+        720,
+        400
+      ],
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "period test-flight album / 10150104744155407.jpg",
+      "source_sha256": "0b456b6bf7245d1c70826cdc2042fe254ba64148b827cc1f4b2b2db44f322e69"
+    },
+    {
+      "repository_path": "assets/flight-test/dynon-hmi-pfd-closeup.jpg",
+      "publication_sha256": "098d5aa130ad4b3d55ebab3ef48de7b89a7175d5d0ce7b2498da1cd5912ff0d7",
+      "publication_dimensions": [
+        2048,
+        1536
+      ],
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "period test-flight album / 10150104728730407.jpg",
+      "source_sha256": "098d5aa130ad4b3d55ebab3ef48de7b89a7175d5d0ce7b2498da1cd5912ff0d7"
+    },
+    {
+      "repository_path": "assets/flight-test/lead-systems-engineer-flight-test.jpg",
+      "publication_sha256": "3732e8109d72d4120dcbf69dce431fde0db1e99c108fcaf7951b994f958ded43",
+      "publication_dimensions": [
+        1536,
+        2048
+      ],
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "period test-flight album / 10150104729195407.jpg",
+      "source_sha256": "3732e8109d72d4120dcbf69dce431fde0db1e99c108fcaf7951b994f958ded43"
+    },
+    {
+      "repository_path": "assets/flight-test/nav-com-interface.jpg",
+      "publication_sha256": "ad43e7e6cb80b690b9378bae63ca4a779849f389b0cce2590adddc4f691d5b57",
+      "publication_dimensions": [
+        720,
+        540
+      ],
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "period test-flight album / 10150104743080407.jpg",
+      "source_sha256": "ad43e7e6cb80b690b9378bae63ca4a779849f389b0cce2590adddc4f691d5b57"
+    },
+    {
+      "repository_path": "assets/flight-test/sortie-river-transit.jpg",
+      "publication_sha256": "ace0bf0637663c2989c6199f13134aff5bf9275b4a151ae3ae25cd6bad0f4d29",
+      "publication_dimensions": [
+        2048,
+        1536
+      ],
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "period test-flight album / 10150105257610407.jpg",
+      "source_sha256": "ace0bf0637663c2989c6199f13134aff5bf9275b4a151ae3ae25cd6bad0f4d29"
+    },
+    {
+      "repository_path": "assets/programme-support/usafa-dubai-airshow.jpg",
+      "publication_sha256": "11572002a6757f1fe8da88db6d072c59e4fccbe76448f45ecfcbf1dc4836129d",
+      "publication_dimensions": [
         960,
         720
       ],
-      "source_sha256": "11572002a6757f1fe8da88db6d072c59e4fccbe76448f45ecfcbf1dc4836129d",
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "01-651159616_10164954381745407_8324216239365701163_n-1-.jpg",
+      "source_sha256": "11572002a6757f1fe8da88db6d072c59e4fccbe76448f45ecfcbf1dc4836129d"
+    },
+    {
+      "repository_path": "assets/qatar-customer-evaluation-ground.jpg",
+      "publication_sha256": "c8353629101771347a77d544e938bd44c0167191271d5ef30f885067e9f0c35c",
       "publication_dimensions": [
-        900,
-        675
+        955,
+        730
       ],
-      "publication_sha256": "bae5ec7151cf5decf8612a42cf9700630ffad12c809cce836e75f255195c951b",
-      "processing": "Proportional resize and WebP publication encoding only; source had no EXIF metadata.",
-      "classification": "authentic period programme-support photograph"
+      "classification": "historical project photograph",
+      "processing_this_review": "none",
+      "source": "Retained project photograph at repository commit 3c48e858362fe7f57dbc1d3bde8fe7fb1f05e2ac; see docs/evidence-register.md",
+      "source_matching": "Original-byte source mapping not recovered in this review; existing publication provenance retained."
     }
   ]
 }

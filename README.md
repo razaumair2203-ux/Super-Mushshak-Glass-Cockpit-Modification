@@ -1,20 +1,10 @@
 # Super Mushshak Glass-Cockpit Retrofit
 
-**International aircraft-modernisation case study · Lead Systems Engineer · avionics integration · prototype development · ground/flight V&V · customer evaluation · configuration control · product-line scale · digital-twin continuation**
+**Muhammad Umair Raza · Lead Systems Engineer · aircraft-level avionics integration and prototype verification**
 
-<p align="center">
-  <img src="assets/recruiter/hero-super-mushshak-retrofit.jpg" alt="Super Mushshak glass-cockpit retrofit programme overview built from authentic period project imagery" width="100%">
-</p>
+A historical aerospace case study supporting lead/principal systems-integration and technical programme roles. The engineering problem was to integrate modern displays, revised sensing and a complete modification harness into an existing trainer aircraft, then resolve installed-aircraft behaviour through ground and flight testing.
 
-<p align="center">
-  <img src="assets/recruiter/hero-flight-test-evidence.jpg" alt="Flight-test evidence and visual asset overview built from authentic period project imagery" width="100%">
-</p>
-
-<p align="center">
-  <img src="assets/qatar-customer-evaluation-ground.jpg" alt="Original QAEF ground customer-evaluation photograph from the Super Mushshak programme" width="88%">
-</p>
-
-<p align="center"><sub><b>QAEF ground-evaluation context.</b> Original period photograph from the Qatar customer-evaluation phase, showing the aircraft in the customer-facing operational environment.</sub></p>
+[Engineering case](docs/engineering-case-study.md) · [Verification and open dispositions](docs/assurance-closure-summary.md) · [Original photographs](docs/media-gallery.md) · [Digital model](model/README.md) · [Contact / evidence requests](docs/evidence-register.md#request-a-technical-review)
 
 ## Executive snapshot
 
@@ -31,15 +21,13 @@ I led systems engineering for the Super Mushshak glass-cockpit retrofit across *
 
 The programme developed two principal prototype paths: **Dynon SkyView** and **Garmin G900X**. A project comparison deck also contains **Garmin G3X** candidate material; that remains trade-study evidence and is kept separate from the G900X prototype identity.
 
-### Programme evidence at a glance
+**Contribution boundary:** I led systems integration, test/troubleshooting and OEM coordination. Fabrication, installation, flight operations and customer evaluation were multidisciplinary programme work. My role and harness/sensor scope are programme-lead statements [E-24/E-25](docs/evidence-register.md); later aircraft sales are wider programme outcomes.
 
-<p align="center">
-  <img src="assets/dynon-skyview-flight-test.jpg" alt="Original in-flight Dynon glass-cockpit photograph" width="92%">
-</p>
+![Installed Dynon SkyView cockpit](assets/dynon-skyview-installed-prototype.jpg)
 
-<p align="center"><sub><b>Installed avionics in flight.</b> Original project photograph showing the Dynon glass-cockpit configuration operating on the aircraft during flight-test activity.</sub></p>
+*Original project photograph of the installed Dynon SkyView cockpit. It supports configuration and installation context; it does not establish certification or the closure of every test discrepancy.*
 
-![Programme scale](assets/programme-impact.svg)
+**Historical work and current modelling:** the retrofit and prototype flight work are historical. The CSV model and systems diagrams are current retrospective engineering representations. An executable aircraft digital twin remains future work.
 
 ## Engineering flow
 
@@ -51,18 +39,9 @@ This is the level at which the work was executed: the **aircraft was the system 
 
 ## Aircraft-level architecture
 
-![System context](assets/system-context.svg)
+The integration boundary includes flight and engine sensing, displays, NAV/COM and audio, aircraft power/protection, retained avionics, configuration data and maintainability. Dynon and Garmin paths remain separate.
 
-![Functional decomposition](assets/functional-decomposition.svg)
-
-<table>
-<tr>
-<td width="50%"><img src="assets/mbse-system-architecture.svg" alt="Logical aircraft-level system architecture"></td>
-<td width="50%"><img src="assets/configuration-evolution.svg" alt="Prototype and configuration evolution"></td>
-</tr>
-</table>
-
-The diagrams are current systems-engineering representations of the executed programme. They communicate architecture, interface ownership, configuration discipline and V&amp;V structure while keeping controlled installation detail, pin-level interconnects and proprietary drawings outside the public repository.
+[Architecture and trade study](docs/architecture-trade-study.md) · [System context and functions](docs/system-context-and-functions.md) · [Interface control](docs/interface-control.md)
 
 ## Prototype identity & configuration control
 
@@ -97,36 +76,9 @@ The machine-readable model in [model/](model/README.md) links requirements, func
 
 ## International product-line outcome
 
-The engineering programme progressed through prototype development, flight test, customer evaluation and public display activity. Public reporting subsequently shows the glass-cockpit Super Mushshak product line scaling into a multi-country export programme.
+The prototype work included Qatar customer-evaluation support and Dubai Airshow display activity. Later public reports record **80 aircraft across four customer orders**: Qatar 8, Nigeria 10, Türkiye 52 and Azerbaijan 10. Those orders provide programme context, not a personal revenue result or evidence that every export aircraft used the same configuration.
 
-<p align="center">
-  <img src="assets/programme-support/usafa-dubai-airshow.jpg" alt="Original Dubai Airshow programme-support photograph with USAFA counterpart" width="82%">
-</p>
-<p align="center"><sub><b>International programme support.</b> Authentic period photograph from Dubai Airshow context, supporting the customer-facing display/programme-support phase described here. It is context evidence, not a technical-performance result.</sub></p>
-
-| Customer / operator | Publicly reported quantity | Public evidence |
-|---|---:|---|
-| **Qatar** | 8 | [APP contract report](https://www.app.com.pk/national/pakistan-inks-accord-to-supply-8-mushshak-aircraft-to-qatar/) |
-| **Nigeria** | 10 | [APP delivery report](https://www.app.com.pk/national/pakistan-supplies-four-super-mushshak-to-naf/) |
-| **Türkiye** | 52 | [APP contract report](https://www.app.com.pk/national/pakistan-to-supply-52-trainer-aircraft-to-turkey/) |
-| **Azerbaijan** | 10 | [APP sale report](https://www.app.com.pk/national/pakistan-signs-agreement-with-azerbaijan-for-sale-of-10-super-mushshak-aircraft/) |
-| **2016–2017 new-customer sequence** | **80** | customer totals above |
-
-Specialist reporting also states that the two-display glass-cockpit Super Mushshak appeared publicly at **Dubai Airshow 2011**, with Dynon and Garmin versions available, and that by 2024 **more than 100 Super Mushshaks had been upgraded or sold with new avionics since 2016**. See [Independent Public Evidence](docs/public-operator-evidence.md).
-
-### Public programme-value context
-
-A 2016 [Business Recorder report](https://www.brecorder.com/news/4454451/pakistan-to-supply-52-trainer-aircraft-to-turkey-20161124106085) placed the **52-aircraft Türkiye programme at around US$50M**. That implies a public scale benchmark of about **US$0.962M per aircraft**.
-
-Applied only as a transparent scale reference to the 80-aircraft sequence above:
-
-**80 × (US$50M / 52) ≈ US$76.9M → ≈ US$78M aircraft-value equivalent**
-
-Public sources also document **operational training and technical support** in the Nigeria and Azerbaijan packages, plus simulator and engine-support activity around the Türkiye programme. Because those support values are not publicly standardized, they are not presented as actual contract totals. An illustrative 10–30% support sensitivity around the weighted public benchmark places the campaign at roughly **US$85–101M**.
-
-> **Portfolio interpretation:** the engineering work shown here sat on a product path that progressed from prototype integration and flight test into an internationally fielded aircraft family operating at substantial programme scale. Commercial figures are public-market context, not confidential contract disclosure or individual revenue attribution.
-
-Full assumptions and arithmetic: [Public Programme-Value Context](docs/programme-value-context.md).
+[Independent public sources](docs/public-operator-evidence.md) · [Customer-evaluation record](docs/field-evaluation-and-programme-context.md) · [Historical commercial context and assumptions](docs/programme-value-context.md)
 
 ## Why this project matters
 
@@ -141,11 +93,11 @@ Full assumptions and arithmetic: [Public Programme-Value Context](docs/programme
 | **Customer-facing delivery** | international evaluation / demonstration context |
 | **Product lifecycle** | supportability, spares/repair logic and digital-thread continuation |
 
-## Digital thread → digital twin
+## Current digital thread and future digital twin
 
 ![Digital twin roadmap](assets/digital-twin-roadmap.svg)
 
-The programme is now being carried forward into a **digital-engineering / digital-twin initiative**. Original project evidence and engineering knowledge are structured as:
+The current **retrospective digital-engineering model** links historical evidence. Executable digital-twin behaviour is proposed and has not been validated. Original project evidence and engineering knowledge are structured as:
 
 **claims → requirements → functions → interfaces → configurations → verification → issues / risks → decisions**
 

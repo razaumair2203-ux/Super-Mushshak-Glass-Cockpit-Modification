@@ -8,7 +8,7 @@ Checks:
 4. typed-link source/target IDs resolve;
 5. local Markdown links and image paths resolve;
 6. external embedded images are rejected so recruiter-facing visuals remain repository-local;
-7. weak salvage/reconstruction language is rejected from recruiter-facing Markdown/SVG assets.
+7. internal planning copy is rejected from public Markdown/SVG assets.
 
 Uses Python standard library only.
 """
@@ -16,6 +16,8 @@ Uses Python standard library only.
 from __future__ import annotations
 
 import csv
+import json
+import hashlib
 import re
 import sys
 from pathlib import Path
@@ -45,13 +47,8 @@ MARKDOWN_IMAGE_RE = re.compile(r"!\[[^\]]*\]\((https?://[^)]+)\)", re.IGNORECASE
 HTML_SRC_RE = re.compile(r"<img\s+[^>]*src=[\"']([^\"']+)[\"']", re.IGNORECASE)
 
 BANNED_PUBLIC_PHRASES = {
-    "surviving project record",
-    "retrospective",
-    "public-safe",
-    "partially reconstructed",
-    "not reconstructed",
-    "reconstruction",
-    "hallucination",
+    "recommended insertion order",
+    "visual asset plan",
 }
 
 
@@ -198,7 +195,7 @@ def check_markdown(errors: list[str]) -> None:
 
 
 def check_portfolio_language(errors: list[str]) -> None:
-    """Keep recruiter-facing narrative authoritative and programme-oriented."""
+    """Keep internal planning instructions out of the public narrative."""
     candidates = [ROOT / "README.md"]
     candidates += sorted((ROOT / "docs").glob("*.md"))
     candidates += sorted((ROOT / "assets").glob("*.md"))
@@ -222,6 +219,19 @@ def main() -> int:
     all_ids = check_model(errors)
     check_markdown(errors)
     check_portfolio_language(errors)
+    manifest = json.loads((ROOT / "assets/approved-visual-provenance.json").read_text())
+    registered = set()
+    for record in manifest["assets"]:
+        rel = record["repository_path"]
+        registered.add(rel)
+        path = ROOT / rel
+        if not path.is_file():
+            fail(errors, f"Missing provenance asset: {rel}")
+        elif hashlib.sha256(path.read_bytes()).hexdigest() != record["publication_sha256"]:
+            fail(errors, f"Publication hash mismatch: {rel}")
+    for path in (ROOT / "assets").rglob("*.jpg"):
+        if path.relative_to(ROOT).as_posix() not in registered:
+            fail(errors, f"Unregistered photograph: {path.relative_to(ROOT)}")
 
     if errors:
         print("QUALITY GATE: FAIL")

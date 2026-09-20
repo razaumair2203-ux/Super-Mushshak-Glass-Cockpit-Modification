@@ -15,17 +15,6 @@
 
 **Image integrity rule:** aircraft, cockpit, people, displays and test scenes remain original. Do not crop or zoom source photographs. No generative replacement is permitted. No new collage is created; only composite boards explicitly supplied and approved by the programme lead may be published.
 
-## Programme-lead-approved composite boards
-
-| File | Purpose | Publication handling |
-|---|---|---|
-| `recruiter/hero-super-mushshak-retrofit.jpg` | front-page programme overview | supplied/approved composition; preserved at full frame |
-| `recruiter/hero-flight-test-evidence.jpg` | front-page flight-test / visual-evidence overview | supplied/approved composition; preserved at full frame |
-
-The boards are presentation compositions approved for recruiter-facing use. No additional collage is generated from the source photographs.
-
-The main [README](../README.md) and [Project Media Gallery](../docs/media-gallery.md) use only repository-local project imagery. Public third-party images are source-linked rather than hot-linked into recruiter-facing pages.
-
 ## Systems-engineering visuals
 
 | File | Purpose |
@@ -37,8 +26,8 @@ The main [README](../README.md) and [Project Media Gallery](../docs/media-galler
 | `mbse-system-architecture.svg` | public-release logical architecture |
 | `mbse-verification-thread.svg` | verification and discrepancy-closure flow |
 | `configuration-evolution.svg` | prototype/configuration separation |
-| `traceability-matrix.svg` | recruiter-facing traceability slice |
+| `traceability-matrix.svg` | traceability slice |
 | `programme-context.svg` | prototype-to-international-product-line progression |
 | `digital-twin-roadmap.svg` | project evidence → digital thread → executable twin |
 
-The diagrams are current systems-engineering representations of the executed retrofit programme. They remain at architecture/interface level; controlled installation detail is outside the public release.
+The diagrams are current retrospective systems-engineering representations of the executed retrofit programme. They remain at architecture/interface level; controlled installation detail is outside the public release.
